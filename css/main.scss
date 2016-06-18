@@ -6,6 +6,7 @@
 // Import partials from `sass_dir` (defaults to `_sass`)
 // Includes Bourbon, Neat, and Bitters (thanks, thoughtbot!)
 @import
+  "bootstrap",
   "bourbon/bourbon",
   "base/base",
   "neat/neat",

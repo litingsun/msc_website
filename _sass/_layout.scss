@@ -9,6 +9,7 @@ $b2: 768px;
 $tablet: $b2;
 $b1: 960px;
 $desktop: $b1;
+$spacing-unit: 30px;
 
 /*
 *	Globals
@@ -434,18 +435,24 @@ pre code.hljs {
 *Team page
 */
 
-.staff-images {
-  @include flex;
+.img-scaled-wh {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.person-images {
+  @include box;
   justify-content: space-around;
   &:last-of-type {
     margin-bottom: $spacing-unit;
   }
 }
 
-.staff-member {
+.person-member {
   text-align: center;
   padding: 30px 30px 5px;
-  .staff-image {
+  .person-image {
     width: 200px;
     height: 200px;
     overflow: hidden;
@@ -456,7 +463,7 @@ pre code.hljs {
       background-color: white;
     }
   }
-  .staff-description {
+  .person-description {
     width: 200px;
     p {
       margin-bottom: 0;
@@ -464,14 +471,14 @@ pre code.hljs {
   }
 }
 
-.team {
+.people {
   .sub-heading {
     text-align: center;
     // padding-top: 25px;
   }
 }
 
-.staff-email {
+.person-email {
   text-align: center;
   font-size: 14px;
   font-style: italic;
@@ -480,4 +487,3 @@ pre code.hljs {
   padding-top: $spacing-unit;
   padding-bottom: $spacing-unit;
 }
-
