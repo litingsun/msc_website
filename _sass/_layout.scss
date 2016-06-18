@@ -429,3 +429,55 @@ pre code.hljs {
 		}
 	}
 }
+
+/**
+*Team page
+*/
+
+.staff-images {
+  @include flex;
+  justify-content: space-around;
+  &:last-of-type {
+    margin-bottom: $spacing-unit;
+  }
+}
+
+.staff-member {
+  text-align: center;
+  padding: 30px 30px 5px;
+  .staff-image {
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    background-color: #E6E6E6;
+    margin: 0 auto 10px;
+    img {
+      @extend .img-scaled-wh;
+      background-color: white;
+    }
+  }
+  .staff-description {
+    width: 200px;
+    p {
+      margin-bottom: 0;
+    }
+  }
+}
+
+.team {
+  .sub-heading {
+    text-align: center;
+    // padding-top: 25px;
+  }
+}
+
+.staff-email {
+  text-align: center;
+  font-size: 14px;
+  font-style: italic;
+  text-decoration: none;
+  opacity: .54;
+  padding-top: $spacing-unit;
+  padding-bottom: $spacing-unit;
+}
+
