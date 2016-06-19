@@ -453,8 +453,22 @@ pre code.hljs {
   text-align: center;
   padding: 30px 30px 5px;
   .person-image {
-    width: 200px;
-    height: 200px;
+    width:200px;
+	height:220px;
+	img:last-child{display:none};
+	overflow: hidden;
+	background-color: #E6E6E6;
+	margin:0 auto 10px;
+	img {
+       @extend .img-scaled-wh;
+       background-color: white;
+     }   
+   }
+   .person-image:hover {
+	width:200px;
+	height:220px;    
+	img:first-child{display:none};
+	img:last-child{display:inline-block};
     overflow: hidden;
     background-color: #E6E6E6;
     margin: 0 auto 10px;
@@ -465,8 +479,12 @@ pre code.hljs {
   }
   .person-description {
     width: 200px;
+    .person-name {
+    	font-size: 15px;
+    }
     p {
-      margin-bottom: 0;
+      margin-bottom: -2px;
+      font-size: 11px
     }
   }
 }
