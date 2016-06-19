@@ -12,16 +12,19 @@
     </a>
     <nav role="navigation">
       <ul id="js-navigation-menu" class="navigation-menu show">
-        <li class="nav-link"><a href="{{ "/about" | prepend: site.baseurl }}">About</a>
+        <li class="nav-link"><a href="{{ "/research" | prepend: site.baseurl }}">Research</a>
         <li class="dropdown nav-link">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">People<span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a href="#">Professor</a></li>
-            <li><a href="#">Students</a></li>
-            <li><a href="#">Alumni</a></li>
-            <li><a href="#">Visitors</a></li>
+            <li><a href="{{ "/people/professor" | prepend: site.baseurl }}">Professor</a></li>
+            <li><a href="{{ "/people/students" | prepend: site.baseurl }}">Students</a></li>
+            <li><a href="{{ "/people/alumni"| prepend: site.baseurl }}">Alumni</a></li>
+            <li><a href="{{ "/people/visitors" | prepend: site.baseurl }}">Visitors</a></li>
           </ul>
         </li>
+        <li class="nav-link"><a href="{{ "/news" | prepend: site.baseurl }}">News</a>
+        <li class="nav-link"><a href="{{ "/contact-us" | prepend: site.baseurl }}">Contact Us</a>
+        <li class="nav-link"><a href="{{ "/misc" | prepend: site.baseurl }}">Miscellaneous</a>
       </ul>
     </nav>
   </div>
