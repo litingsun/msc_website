@@ -1,0 +1,12 @@
+---
+layout: post
+title:  "Happy 70th Professor Tomizuka"
+date:   2016-04-02 08:43:59
+author: Dennis Wai
+---
+
+Tomi family congregated at China Village today to celebrate the 70th birthday for our advisor, Professor Tomizuka! Friends, families, and lab alumni from around the Bay Area enjoyed celebrating with Professor Tomizuka and each other over never-ending food. Thank you everyone for coming!
+
+<a href="{{ site.baseurl }}/assets/professor70.jpg" data-lightbox="professor70" data-title="Tomi Family at 2016">
+  <img src="{{ site.baseurl }}/assets/professor70_small.jpg" title="Tomi Family at 2016">
+</a>
