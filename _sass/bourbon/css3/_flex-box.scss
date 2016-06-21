@@ -93,7 +93,7 @@
 // 2009 - box-flex (integer)
 // 2011 - flex (decimal | width decimal)
 // 2012 - flex (integer integer width)
-@mixin flex($value) {
+/*@mixin flex($value) {
 
   // Grab flex-grow for older browsers.
   $flex-grow: nth($value, 1);
@@ -103,7 +103,7 @@
 
   // 2011 (IE 10), 2012
   @include prefixer(flex, $value, webkit moz ms spec);
-}
+}*/
 
 // 2009 - box-orient ( horizontal | vertical | inline-axis | block-axis)
 //      - box-direction (normal | reverse)

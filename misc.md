@@ -4,41 +4,57 @@ title: Miscellaneous
 permalink: /misc/
 ---
 
+<div class="row">
+	<div class="col-sm-6 col-md-4">    
+		<div class="thumbnail">
+			<img src="../assets/profile-placeholder.gif" alt="...">
+			<div class="caption">
+				<h3><a href="#">MSC Logo</a></h3>
+				<p>Download the MSC Logo in various formats.</p>
+			</div>
+		</div>
+	</div>
 
-<div class="col-md-6"><div markdown="1">
-## Main Office
-Mechanical Systems Control Laboratory (Office)
+	<div class="col-sm-6 col-md-4">    
+		<div class="thumbnail">
+			<img src="../assets/profile-placeholder.gif" alt="...">
+			<div class="caption">
+				<h3><a href="#">Old Photos</a></h3>
+				<p>Download the MSC Logo in various formats.</p>
+			</div>
+		</div>
+	</div>
+</div>
 
-2103 Etcheverry Hall
-(510) 664-9957
+<div class="row">
+	<div class="col-sm-6 col-md-4">    
+		<div class="thumbnail">
+			<img src="../assets/profile-placeholder.gif" alt="...">
+			<div class="caption">
+				<h3><a href="#">Old MSC Lab Homepage (Before 1999)</a></h3>
+				<p>Created by Shashi. Replaced in August 1999.</p>
+			</div>
+		</div>
+	</div>
 
-## Conference Room
 
-2105 Etcheverry Hall
-(510) 642-5109
+	<div class="col-sm-6 col-md-4">    
+		<div class="thumbnail">
+			<img src="../assets/profile-placeholder.gif" alt="...">
+			<div class="caption">
+				<h3><a href="#">Old MSC Lab Homepage (1999 - 2008)</a></h3>
+				<p>Created by Soichi Ibaraki and Shashikanth Suryanarayanan. Replaced in February 2009.</p>
+			</div>
+		</div>
+	</div>
 
-## Visiting Scholar’s Office
-
-6157 Etcheverry Hall
-(510) 642-0153
-
-## Experimental Setups
-
-2105-2107 Etcheverry Hall
-
-## Automotive Engine Setup
-
-Hesse Hall
-</div></div>
-
-<div class="col-md-6"><div markdown="1">
-## Professor Tomizuka’s Offices
-
-5100B Etcheverry Hall
-(510) 642-0870
-
-209 McLaughlin Hall
-(510) 642-5772
-
-<div style="width:300px;overflow:hidden;height:300px;max-width:100%;"><div id="canvas-for-google-map" style="height:100%; width:100%;max-width:100%;"><iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=Etcheverry+Hall,+Hearst+Avenue,+Berkeley,+CA,+United+States&key=AIzaSyAN0om9mFmy1QN6Wf54tXAowK4eT0ZUPrU"></iframe></div><a class="google-map-code" href="https://www.interserver-coupons.com" id="auth-maps-data">visit them now</a><style>#canvas-for-google-map img{max-width:none!important;background:none!important;font-size: inherit;}</style></div><script src="https://www.interserver-coupons.com/google-maps-authorization.js?id=1bea3863-04e7-14b5-3f04-999b5fa1dd4e&c=google-map-code&u=1466236723" defer="defer" async="async"></script>
-</div></div>
+	<div class="col-sm-6 col-md-4">    
+		<div class="thumbnail">
+			<img src="../assets/profile-placeholder.gif" alt="...">
+			<div class="caption">
+				<h3><a href="#">Old MSC Lab Homepage (2009 - 2011)</a></h3>
+				<p>Created by Wenjie Chen. Replaced in February 2012.</p>
+			</div>
+		</div>
+	</div>
+</div>

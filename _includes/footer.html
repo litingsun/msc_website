@@ -8,11 +8,10 @@
       
       <p><strong>Site Map</strong></p>
       <ul class="pages">
-        {% for page in site.pages %}
-        {% if page.title and page.main_nav != false %}
-          <li class="nav-link"><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
-        {% endif %}
-        {% endfor %}
+        <li class="nav-link"><a href="{{ "/news" | prepend: site.baseurl }}">News</a>
+        <li class="nav-link"><a href="{{site.baseurl}}">Home</a>
+        <li class="nav-link"><a href="{{ "/professor" | prepend: site.baseurl }}">Professor</a>
+        <li class="nav-link"><a href="{{ "/research" | prepend: site.baseurl }}">Research</a>        
       </ul>
     </div>
 
@@ -20,29 +19,17 @@
 
       <p><strong>Contact</strong></p>
       <ul class="social-media-list">
+        <li class="nav-link"><a href="{{ "/contact-us" | prepend: site.baseurl }}">Directions</a>        
         <li>
           <a href="mailto:{{ site.email }}">
             <i class="fa fa-envelope-o"></i>
-            <span class="username">{{ site.email }}</span>
+            Webmaster
           </a>
-        </li>
-
-        {% for social in site.social %}
-          {% if social.url != null %}
-          <li>
-            <a href="{{ social.url }}" title="{{ social.desc }}">
-              <i class="fa fa-{{ social.icon }}"></i>
-              <span class="username">{% if social.username %}{{ social.username }}{% else %}{{ social.name }}{% endif %}</span>
-            </a>
-          </li>
-          {% endif %}
-        {% endfor %}
-
+        </li>        
       </ul>
     </div>
 
     <div class="site-signature">
-      <p class="rss-subscribe text"><strong>Subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></strong></p>
       <p class="text">{{ site.description }}</p>
     </div>
 

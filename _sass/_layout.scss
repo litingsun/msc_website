@@ -442,7 +442,7 @@ pre code.hljs {
 }
 
 .person-images {
-  @include box;
+  @include flex;
   justify-content: space-around;
   &:last-of-type {
     margin-bottom: $spacing-unit;
@@ -451,7 +451,7 @@ pre code.hljs {
 
 .person-member {
   text-align: center;
-  padding: 30px 30px 5px;
+  padding: 30px 10px 5px;
   .person-image {
     width:200px;
 	height:220px;
@@ -462,8 +462,8 @@ pre code.hljs {
 	img {
        @extend .img-scaled-wh;
        background-color: white;
-     }   
-   }
+	}   
+  }	
    .person-image:hover {
 	width:200px;
 	height:220px;    
