@@ -13,7 +13,6 @@ title: Mechanical Systems Control Lab
 subtitle: "The MSC Lab focuses on designing and developing control strategies for mechanical systems. We are part of the Mechanical Engineering Department at UC Berkeley."
 email: dwai213@berkeley.edu
 name: Dennis Wai
-description: Design inspired by
 # Base URL of site (i.e. /blog). It should always start with a slash,
 # and never end with a slash. Set it to a blank value if hosting at the
 # root of your server.
@@ -25,8 +24,8 @@ host: 0.0.0.0
 
 # Build settings
 markdown: kramdown
-paginate: 5
-paginate_path: "/page:num/"
+paginate: 3
+paginate_path: "/news/page:num/"
 inter_post_navigation: false
 highlightjs_theme: "monokai_sublime"
 

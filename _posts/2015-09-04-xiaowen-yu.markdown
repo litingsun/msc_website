@@ -9,6 +9,6 @@ The lab celebrated the beginning of the new academic year as well as Xiaowen Yu 
 
 
 
-<a href="{{ site.baseurl }}/assets/2015Sushi.jpg" data-lightbox="2015Sushi" data-title="Sushi Party to celebrate quals">
-  <img src="{{ site.baseurl }}/assets/2015Sushi_small.jpg" title="Sushi Party to celebrate quals">
+<a href="{{ site.baseurl }}/assets/images/posts/2015Sushi.jpg" data-lightbox="2015Sushi" data-title="Sushi Party to celebrate quals">
+  <img src="{{ site.baseurl }}/assets/images/posts/2015Sushi.jpg" title="Sushi Party to celebrate quals">
 </a>

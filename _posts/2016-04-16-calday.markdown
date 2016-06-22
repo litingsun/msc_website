@@ -7,7 +7,7 @@ author: Dennis Wai
 
 We welcomed many visitors to our new extended lab space on Cal Day! (Photo credits: Chen-Yu Chan)
 
-<a href="{{ site.baseurl }}/assets/calday.jpg" data-lightbox="calday" data-title="Cal Day 2016 Crew">
-  <img src="{{ site.baseurl }}/assets/calday.jpg" title="Cal Day 2016 Crew">
+<a href="{{ site.baseurl }}/assets/images/posts/2016CalDay.jpg" data-lightbox="calday" data-title="Cal Day 2016 Crew">
+  <img src="{{ site.baseurl }}/assets/images/posts/2016CalDay.jpg" title="Cal Day 2016 Crew">
 </a>
 

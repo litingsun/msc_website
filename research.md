@@ -6,7 +6,19 @@ permalink: /research/
 
 ## Robotics
 
+[Intelligent Control of Robotic Manipulators]({{ "/research/intelligent-manipulation" | prepend: site.baseurl }})
+
 ## Human Mechatronics
+
+[Mechatronics for Human Assistance]({{ "/research/mechatronics-human-assistance" | prepend: site.baseurl }})
+
+[Exoskeleton Design & Control for BMI Study]({{ "/research/exoskeleton-BMI" | prepend: site.baseurl }})
+
+## Precision Motion Control
+
+## Hard Disk Drive Control
+
+## Automotive Control
 
 <!-- <p>The purpose of this HTML is to help determine what default settings are with Bitters and to make sure that all possible HTML Elements are included in this HTML so as to not miss any possible Elements when designing a site.</p>
 
