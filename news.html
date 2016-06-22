@@ -6,5 +6,8 @@ permalink: /news/
 
 {% for post in site.posts %}  
     <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+    <section class="post-excerpt" itemprop="description">
+      <p>{{ post.content | strip_html | truncatewords: 50 }}</p>
+    </section>
     <p><small><strong>{{ post.date | date: "%B %e, %Y" }}</strong> </small></p>      
 {% endfor %}  
