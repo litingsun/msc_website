@@ -6,8 +6,7 @@ permalink: /contact-us/
 
 
 <div class="col-md-6"><div markdown="1">
-## Main Office
-Mechanical Systems Control Laboratory (Office)
+## Mechanical Systems Control Laboratory (Office)
 
 2103 Etcheverry Hall
 (510) 664-9957
