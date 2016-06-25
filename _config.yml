@@ -26,7 +26,7 @@ host: 0.0.0.0
 markdown: kramdown
 paginate: 3
 paginate_path: "/news/page:num/"
-inter_post_navigation: false
+inter_post_navigation: true
 highlightjs_theme: "monokai_sublime"
 
 # Archive settings (see https://github.com/jekyll/jekyll-archives/)

@@ -125,7 +125,7 @@ permalink: /misc/
 	<div class="col-md-12">
 
 	<div class="col-md-4">
-		<img class="misc-style" src="../old1/old1.jpg" alt="...">
+		<img class="misc-style" src="{{site.baseurl}}/assets/images/old1.jpg" alt="...">
 	</div>
 
 	<div class="col-md-8">
@@ -142,7 +142,7 @@ permalink: /misc/
 	<div class="col-md-12">
 
 	<div class="col-md-4">
-		<img class="misc-style" src="../old2/old2.jpg" alt="...">
+		<img class="misc-style" src="{{site.baseurl}}/assets/images/old2.jpg" alt="...">
 	</div>
 
 	<div class="col-md-8">
@@ -159,7 +159,7 @@ permalink: /misc/
 	<div class="col-md-12">
 
 	<div class="col-md-4">
-		<img class="misc-style" src="../old3/old3.jpg" alt="...">
+		<img class="misc-style" src="{{site.baseurl}}/assets/images//old3.jpg" alt="...">
 	</div>
 
 	<div class="col-md-8">
@@ -176,7 +176,7 @@ permalink: /misc/
 	<div class="col-md-12">
 
 	<div class="col-md-4">
-		<img class="misc-style" src="../old4/old4.jpg" alt="...">
+		<img class="misc-style" src="{{site.baseurl}}/assets/images/old4.jpg" alt="...">
 	</div>
 
 	<div class="col-md-8">

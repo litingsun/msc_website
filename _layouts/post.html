@@ -33,19 +33,19 @@ layout: default
   {{ content }}
 </article>
 
-{% if site.jekyll-archives %}
+<!-- {% if site.jekyll-archives %}
 {% if page.tags.size > 0 %}
 <section class="tags">
   <strong>Tags:</strong> {% for tag in page.tags %}<a href="{{ site.baseurl }}/tag/{{ tag }}">{{ tag }}</a>{% if forloop.last == false %},&nbsp;{% endif %}{% endfor %}
 </section>
 {% endif %}
-{% endif %}
+{% endif %} -->
 
-<section class="rss">
+<!-- <section class="rss">
   <p class="rss-subscribe text"><strong>Subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></strong></p>
-</section>
+</section> -->
 
-<section class="share">
+<!-- <section class="share">
   <span>Share: </span>
   {% for social in site.social %}
     {% capture full_url %}{{ site.url }}{{ site.baseurl }}{{ page.url }}{% endcapture %}
@@ -85,7 +85,7 @@ layout: default
       </a>
     {% endif %}
   {% endfor %}
-</section>
+</section> -->
 {% if site.inter_post_navigation == true %}
 	<section class="post-navigation">
 		<span class="prev-post">
@@ -113,7 +113,7 @@ layout: default
 	</section>
 {% endif %}
 
-{% if site.disqus_shortname %}
+<!-- {% if site.disqus_shortname %}
 {% unless page.disqus_disabled %}
 <section class="disqus">
   <div id="disqus_thread"></div>
@@ -131,7 +131,7 @@ layout: default
   <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
 </section>
 {% endunless %}
-{% endif %}
+{% endif %} -->
 
 </div>
 </div>
