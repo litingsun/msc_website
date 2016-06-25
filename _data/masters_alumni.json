@@ -1,0 +1,50 @@
+[{  
+    "date":"Spring 2013",
+    "students":[  
+      {  
+        "name":"Niki, Hiroshi",
+        "title":"Central Japan Railway Company",
+        "image":"Hiroshi",
+        "email":"hiroshi.niki@berkeley.edu",
+        "company":"http://english.jr-central.co.jp/index.html"
+      }
+    ]
+  },
+  {  
+    "date":"Fall 2012",
+    "students":[  
+      {  
+        "name":"Abdul-hadi, Omar",
+        "title":"",
+        "image":"Omar",
+        "email":"omarabdalhadi@gmail.com"
+      }
+    ]
+  },
+  {  
+    "date":"Spring 2011",
+    "students":[  
+      {  
+        "name":"Suzuki, Kengo",
+        "title":"",
+        "image":"nophoto",
+        "email":"kengoscal@gmail.com"
+      }
+    ]
+  },
+  {  
+    "date":"Fall 2008 - Spring 2009",
+    "students":[  
+      {  
+        "name":"Kitsukawa, James",
+        "title":"",
+        "image":"nophoto"
+      },
+      {  
+        "name":"Yeh, William",
+        "title":"",
+        "image":"nophoto"
+      }
+    ]
+  }
+]

@@ -6,32 +6,32 @@ permalink: /contact-us/
 
 
 <div class="col-md-6"><div markdown="1">
-## Mechanical Systems Control Laboratory (Office)
+### MSC Laboratory (Office)
 
 2103 Etcheverry Hall
 (510) 664-9957
 
-## Conference Room
+### Conference Room
 
 2105 Etcheverry Hall
 (510) 642-5109
 
-## Visiting Scholar’s Office
+### Visiting Scholar’s Office
 
 6157 Etcheverry Hall
 (510) 642-0153
 
-## Experimental Setups
+### Experimental Setups
 
 2105-2107 Etcheverry Hall
 
-## Automotive Engine Setup
+### Automotive Engine Setup
 
 Hesse Hall
 </div></div>
 
 <div class="col-md-6"><div markdown="1">
-## Professor Tomizuka’s Offices
+### Professor Tomizuka’s Offices
 
 5100B Etcheverry Hall
 (510) 642-0870

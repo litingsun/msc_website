@@ -5,7 +5,7 @@ permalink: /people/professor
 ---
 
 <div class="col-md-6">
-<img src="../assets/images/people/tomizuka.jpg" alt="Professor Tomizuka">
+<img src="../assets/images/people/tomizuka_sm.jpg" alt="Professor Tomizuka">
 </div>
 
 <div class="col-md-6"><div markdown="1">

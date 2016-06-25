@@ -196,7 +196,11 @@ pre code.hljs {
 */
 .page-content {
 	.wrapper {
-		@include outer-container;
+		@include outer-container();
+		padding: 1em;
+	}
+	.wrapper-wide {
+		@include outer-container(64em);
 		padding: 1em;
 	}
 	/*
