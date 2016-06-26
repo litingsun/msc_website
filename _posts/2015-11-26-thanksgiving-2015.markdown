@@ -1,0 +1,13 @@
+---
+layout: post
+title: Thanksgiving 2015
+date: '2015-11-26T10:00:00+00:00'
+permalink: thanksgiving-2016
+author: Dennis Wai
+---
+
+The MSC Lab celebrated Thanksgiving at Prof. Tomizuka's house!
+
+<a href="{{ site.baseurl }}/assets/images/posts/2015thanksgiving.jpg" data-lightbox="2015thanksgiving" data-title="Group photo at 2015 Thanksgiving party">
+  <img src="{{ site.baseurl }}/assets/images/posts/2015thanksgiving.jpg" title="Wang Zining talking about his work">
+</a>

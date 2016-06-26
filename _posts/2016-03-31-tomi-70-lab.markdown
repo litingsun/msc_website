@@ -1,0 +1,13 @@
+---
+layout: post
+title: Tomi 70th Pre-Birthday
+date: '2016-03-31T10:00:00+00:00'
+permalink: tomi-70-lab
+author: Dennis Wai
+---
+
+Under the organization of Miwako-sensei, Professor Tomizuka and various lab members convened in 2013 Etcheverry to celebrate Professor's birthday over cake and sushi! Happy Birthday Professor!
+
+<a href="{{ site.baseurl }}/assets/images/posts/professor70-lab.jpg" data-lightbox="professor70" data-title="Professor Tomizuka's 70th Birthday Party">
+  <img src="{{ site.baseurl }}/assets/images/posts/professor70-lab.jpg" title="Professor Tomizuka's 70th Birthday Party at Etcheverry">
+</a>

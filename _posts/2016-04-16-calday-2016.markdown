@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Cal Day 2016
-date: '2016-04-16T01:00:00+00:00'
+date: '2016-04-16T10:00:00+00:00'
 permalink: calday-2016
 author: Dennis Wai
 ---
@@ -10,6 +10,21 @@ We welcomed many visitors to our new extended lab space on Cal Day!
 
 (Photo credits: Chen-Yu Chan) 
 
+<div class="col-md-6">
 <a href="{{ site.baseurl }}/assets/images/posts/2016CalDay.jpg" data-lightbox="calday" data-title="Cal Day 2016 Crew">
   <img src="{{ site.baseurl }}/assets/images/posts/2016CalDay.jpg" title="Cal Day 2016 Crew">
 </a>
+<hr>
+<a href="{{ site.baseurl }}/assets/images/posts/2016CalDay3.jpg" data-lightbox="calday" data-title="Daisuke demoing his project">
+  <img src="{{ site.baseurl }}/assets/images/posts/2016CalDay3.jpg" title="Daisuke demoing his project">
+</a>
+</div>
+<div class="col-md-6">
+<a href="{{ site.baseurl }}/assets/images/posts/2016CalDay2.jpg" data-lightbox="calday" data-title="An attractive billboard for our lab">
+  <img src="{{ site.baseurl }}/assets/images/posts/2016CalDay2.jpg" title="An attractive billboard for our lab">
+</a>
+<hr>
+<a href="{{ site.baseurl }}/assets/images/posts/2016CalDay4.jpg" data-lightbox="calday" data-title="Wang Zining talking about his work">
+  <img src="{{ site.baseurl }}/assets/images/posts/2016CalDay4.jpg" title="Wang Zining talking about his work">
+</a>
+</div>
