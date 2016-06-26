@@ -18,7 +18,7 @@ name: Dennis Wai
 # root of your server.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://msc.berkeley.edu" # the base hostname & protocol for your site
-cover: "/assets/header_image.jpg"
+cover: "/assets/images/header_image.jpg"
 logo: "/assets/logos/msclogo_2dc.jpg"
 host: 0.0.0.0
 
