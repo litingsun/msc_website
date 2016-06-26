@@ -1,0 +1,15 @@
+---
+layout: post
+title: Cal Day 2016
+date: '2016-04-16T01:00:00+00:00'
+permalink: calday-2016
+author: Dennis Wai
+---
+
+We welcomed many visitors to our new extended lab space on Cal Day!
+
+(Photo credits: Chen-Yu Chan) 
+
+<a href="{{ site.baseurl }}/assets/images/posts/2016CalDay.jpg" data-lightbox="calday" data-title="Cal Day 2016 Crew">
+  <img src="{{ site.baseurl }}/assets/images/posts/2016CalDay.jpg" title="Cal Day 2016 Crew">
+</a>

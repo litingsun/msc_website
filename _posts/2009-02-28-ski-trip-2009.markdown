@@ -1,0 +1,14 @@
+---
+layout: post
+title: Ski Trip 2019
+date: '2009-02-28T01:00:00+00:00'
+permalink: ski-trip-2009
+author: Raechel Tan
+---
+<p>MSC Lab Group had a wonderful ski trip in Alpine Meadows, Lake Tahoe.</p>
+<p class="indent"><a href="{{ site.baseurl }}/assets/images/posts/2009skigroup1.jpg"><img alt=
+"2009 ski group 1" border="0" src=
+"{{ site.baseurl }}/assets/images/posts/2009skigroup1.jpg"></a></p>
+<p class="indent"><a href="{{ site.baseurl }}/assets/images/posts/2009skigroup2.jpg"><img alt=
+"2009 ski group 2" border="0" src=
+"{{ site.baseurl }}/assets/images/posts/2009skigroup2.jpg"></a></p>

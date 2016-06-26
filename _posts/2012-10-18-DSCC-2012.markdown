@@ -1,0 +1,15 @@
+---
+layout: post
+title: DSCC 2012
+date:   2012-10-18 08:43:59
+permalink: dscc-2012
+author: Raechel Tan
+---
+
+The Tomi "family" at
+<a href= "http://mne.psu.edu/dscc2012/" target="_new">DSCC 2012</a>.
+
+<a href="{{ site.baseurl }}/assets/images/posts/DSCC2012.jpg"><img alt=
+"tomi family" border="0" src="{{ site.baseurl }}/assets/images/posts/DSCC2012.jpg"></a>
+
+<p>(Pictured from left to right. Back row: George T. C. Chiu, Matthew Brown, Yizhou Wang, Huei Peng, Jonathan Asensio, Yu Sakon, Ahmed El-Shaer, Tony Phillips. Front row: Tsu-Chin Tsao, Xu Chen, Roberto Horowitz, Wenlong Zhang, Masayoshi Tomizuka, Lucy Pao, Wenjie Chen, Bin Yao.)</p>

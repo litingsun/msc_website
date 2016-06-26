@@ -1,0 +1,8 @@
+---
+layout: post
+title: Graduation 2010
+date: '2010-05-16T01:00:00+00:00'
+permalink: graduation-2010
+author: Raechel Tan
+---
+<p>Congratulations to the new Doctors from the MSC Lab: <strong>Guoyuan Wu</strong> and <strong>Haifei Cheng</strong>.</p><p>Also congratulations to <strong>Pedro Reynoso Mora</strong> and <strong>Xu Chen</strong> for their completion of the Masters program.</p><p class="indent"><a href="{{ site.baseurl }}/assets/images/posts/2010Graduation.jpg" ><img src="{{ site.baseurl }}/assets/images/posts/2010GraduationS.jpg" alt="2010 graduation" border="0"></a></p>

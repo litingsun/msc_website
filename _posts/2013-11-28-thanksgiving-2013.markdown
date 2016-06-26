@@ -1,0 +1,8 @@
+---
+layout: post
+title: Thanksgiving 2013
+date: '2013-11-28T01:00:00+00:00'
+permalink: thanksgiving-2013
+author: Raechel Tan
+---
+<p>The MSC Lab celebrated Thanksgiving at Prof. Tomizuka's house.</p><p class="indent"><a href="{{ site.baseurl }}/assets/images/posts/2013Thanksgiving.jpg" ><img src="{{ site.baseurl }}/assets/images/posts/2013Thanksgiving.jpg" alt="Thanksgiving 2013" border="0"></a></p>

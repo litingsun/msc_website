@@ -1,0 +1,8 @@
+---
+layout: post
+title: DSCC 2013
+date: '2013-10-28T01:00:00+00:00'
+permalink: dscc-2013
+author: Raechel Tan
+---
+<p>The Tomi "family" at <a href="http://dsc-conference.org/DSCC/2013/" target="_new">DSCC 2013</a>. (Photo credits: Kan Kanjanapas)</p><p class="indent"><a href="{{ site.baseurl }}/assets/images/posts/DSCC2013_1.jpg" ><img src="{{ site.baseurl }}/assets/images/posts/DSCC2013_1.jpg" alt="DSCC 2013 1" border="0"></a></p><p>(Pictured from left to right. Front row: Bin Yao, Xu Chen, Wenlong Zhang, Masayoshi Tomizuka, Tsu-Chin Tsao, Kan Kanjanapas, Cong Wang. Back row: Soo Jeon, Yizhou Wang, Atsushi Oshima, George T.-C. Chiu, Huei Peng.)</p>
