@@ -22,7 +22,6 @@ Congratulations to the new Doctors from the MSC Lab: __Chung Yen Lin__ , **Junka
 <a href="{{ site.baseurl }}/assets/images/posts/2016Graduation4.jpg" data-lightbox="2016Graduation" data-title="Congratulations!">
   <img src="{{ site.baseurl }}/assets/images/posts/2016Graduation4.jpg" title=" "></a>
 </div>
-
 <div class="col-md-6">
 <a href="{{ site.baseurl }}/assets/images/posts/2016Graduation3.jpg" data-lightbox="2016Graduation" data-title="Ta dah!">
   <img src="{{ site.baseurl }}/assets/images/posts/2016Graduation3.jpg" title=" "></a>
