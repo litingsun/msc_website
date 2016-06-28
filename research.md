@@ -6,7 +6,7 @@ permalink: /research/
 
 <div class="addendum"> 
 <div markdown="1">
-To learn more about the research done at MSC, you can download a [research booklet here]({ site.baseurl }}/assets/files/MSC_research_2013.pdf).
+To learn more about the research done at MSC, you can download a [research booklet here]({{ site.baseurl }}/assets/files/MSC_research_2013.pdf).
 </div>
 </div>
 
