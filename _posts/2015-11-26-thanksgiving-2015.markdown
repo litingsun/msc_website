@@ -8,6 +8,6 @@ author: Dennis Wai
 
 The MSC Lab celebrated Thanksgiving at Prof. Tomizuka's house!
 
-<a href="{{ site.baseurl }}/assets/images/posts/2015thanksgiving.jpg" data-lightbox="2015thanksgiving" data-title="Group photo at 2015 Thanksgiving party">
-  <img src="{{ site.baseurl }}/assets/images/posts/2015thanksgiving.jpg" title="Wang Zining talking about his work">
+<a href="{{ site.baseurl }}/assets/images/posts/2015Thanksgiving.jpg" data-lightbox="2015thanksgiving" data-title="Group photo at 2015 Thanksgiving party">
+  <img src="{{ site.baseurl }}/assets/images/posts/2015Thanksgiving.jpg" title="Wang Zining talking about his work">
 </a>
