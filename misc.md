@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: page-wide
 title: Miscellaneous
 permalink: /misc/
 ---
