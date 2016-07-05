@@ -2,7 +2,7 @@
 layout: post
 title: Sayonara Wang Cong
 date: '2015-08-13T01:00:00+00:00'
-permalink: sayonara-wang-cong
+permalink: /news/sayonara-wang-cong
 author: Raechel Tan
 ---
 

@@ -2,7 +2,7 @@
 layout: post
 title: Tomi 65th Birthday
 date: '2011-03-31T01:00:00+00:00'
-permalink: tomi-65
+permalink: /news/tomi-65
 author: Raechel Tan
 ---
 <p>The MSC Lab celebrates Professor Tomizuka's 65th Birthday today! O-tanjoubi omedetou gozaimasu!</p><p class="indent"><a href="{{ site.baseurl }}/assets/images/posts/2011ProfBdayL.jpg" ><img src="{{ site.baseurl }}/assets/images/posts/2011ProfBday.jpg" alt="Prof. Tomizuka's birthday" border="0"></a></p>

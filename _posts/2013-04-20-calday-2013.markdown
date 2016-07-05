@@ -2,7 +2,7 @@
 layout: post
 title: Cal Day 2013
 date: '2013-04-20T01:00:00+00:00'
-permalink: calday-2013
+permalink: /news/calday-2013
 author: Raechel Tan
 ---
 <p>The MSC Lab welcomed many visitors on Cal Day! (Photo credits: Chen-Yu Chan)</p><p class="indent"><a href="{{ site.baseurl }}/assets/images/posts/2013CalDay.jpg" ><img src="{{ site.baseurl }}/assets/images/posts/2013CalDay.jpg" alt="2013 cal day" border="0"></a></p>

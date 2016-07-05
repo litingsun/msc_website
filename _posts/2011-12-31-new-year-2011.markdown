@@ -2,7 +2,7 @@
 layout: post
 title: Happy New Year 2011
 date: '2011-12-31T01:00:00+00:00'
-permalink: new-year-2011
+permalink: /news/new-year-2011
 author: Raechel Tan
 ---
 <p>The MSC Lab wraps up 2011 with a New Year's Eve party at Professor Tomizuka's house.</p><p class="indent"><a href="{{ site.baseurl }}/assets/images/posts/2012NewYear.jpg" ><img src="{{ site.baseurl }}/assets/images/posts/2012NewYear.jpg" alt="NYE party" border="0"></a></p>

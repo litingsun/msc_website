@@ -2,7 +2,7 @@
 layout: post
 title: Cal Day 2015
 date: '2015-04-18T01:00:00+00:00'
-permalink: calday-2015
+permalink: /news/calday-2015
 author: Raechel Tan
 ---
 <p>We welcomed many visitors to our new lab space on Cal Day! (Photo credits: Chen-Yu Chan and Chung-Yen Lin)</p><p class="indent"><a href="{{ site.baseurl }}/assets/images/posts/2015CalDay.jpg" ><img src="{{ site.baseurl }}/assets/images/posts/2015CalDay.jpg" alt="2015 Cal Day"></a></p>

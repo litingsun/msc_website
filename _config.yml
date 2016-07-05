@@ -25,7 +25,7 @@ host: 0.0.0.0
 # Build settings
 markdown: kramdown
 paginate: 3
-paginate_path: "/page:num/"
+paginate_path: "/news/page:num/"
 inter_post_navigation: true
 highlightjs_theme: "monokai_sublime"
 

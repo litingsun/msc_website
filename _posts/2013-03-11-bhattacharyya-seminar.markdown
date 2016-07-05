@@ -2,7 +2,7 @@
 layout: post
 title: Prof. Bhattacharyya PID Controls Seminar
 date: '2013-03-11T01:00:00+00:00'
-permalink: bhattacharyya-seminar
+permalink: /news/bhattacharyya-seminar
 author: Raechel Tan
 ---
 Prof. Bhattacharyya begins his four-part seminar on PID control today. 

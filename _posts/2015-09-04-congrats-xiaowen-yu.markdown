@@ -2,7 +2,7 @@
 layout: post
 title: Congratulations Xiaowen and Yu!
 date: '2015-09-04T01:00:00+00:00'
-permalink: congrats-xiaowen-yu
+permalink: /news/congrats-xiaowen-yu
 author: Dennis Wai
 ---
 
