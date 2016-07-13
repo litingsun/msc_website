@@ -8,7 +8,7 @@ author: Dennis Wai
 
 Congratulations to the new Doctors from the MSC Lab: __Chung Yen Lin__ , **Junkai Lu** , **Minghui Zhang** and **Raechel Tan**. Also congratulations to **Tang Te** for his completion of the Masters program.
 
-(Photo credits: Chung-Yen Lin, Hao Yu, and Daisuke Kaneishi) 
+(Photo credits: Chung-Yen Lin, Hao Yu, and Daisuke Kaneishi)
 
 <div class="col-md-12">
 <a href="{{ site.baseurl }}/assets/images/posts/2016Graduation.jpg" data-lightbox="2016Graduation" data-title="Group photo along with the graduates">

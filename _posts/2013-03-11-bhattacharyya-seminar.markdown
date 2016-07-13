@@ -5,7 +5,7 @@ date: '2013-03-11T01:00:00+00:00'
 permalink: /news/bhattacharyya-seminar
 author: Raechel Tan
 ---
-Prof. Bhattacharyya begins his four-part seminar on PID control today. 
+Prof. Bhattacharyya begins his four-part seminar on PID control today.
 The details of his seminar series is below:
 
 ## A Short Course on Modern PID Control
