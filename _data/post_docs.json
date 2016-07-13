@@ -1,8 +1,11 @@
-[  
-   {  
-      "name":"Kim, Seonghan",
-      "title":"Automotive Control Systems",
-      "image":"Seonghan",
-      "email":"seonghan8@gmail.com"
-   }
-]
+[
+] // This is the JSON to fill out
+
+// [ //this is an example json entry for a post doc, don't delete
+//    {
+//       "name":"Kim, Seonghan",
+//       "title":"Automotive Control Systems",
+//       "image":"Seonghan",
+//       "email":"seonghan8@gmail.com"
+//    }
+// ]

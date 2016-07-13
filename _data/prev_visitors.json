@@ -1,12 +1,18 @@
-[  
-  {  
+[
+  {
+    "name":"Kim, Seonghan",
+    "title":"Automotive Control Systems",
+    "image":"Seonghan",
+    "email":"seonghan8@gmail.com"
+  },
+  {
     "name":"Heyraud, Mathias",
     "title":"Swiss Federal Institute of Technology, Lausanne ",
     "image":"Mathias",
     "email":"mathias.heyraud@gmail.com",
     "company":"http://www.epfl.ch/"
   },
-  {  
+  {
     "name":"Meyer, Daniel",
     "title":"TU München",
     "image":"dmeyer",
@@ -14,77 +20,77 @@
     "homepage":"http://www.lfe.mw.tum.de/en/author/meyer/",
     "company":"http://www.lfe.mw.tum.de/en/"
   },
-  {  
+  {
     "name":"Zhang, Jianfu",
     "title":"Tsinghua University",
     "image":"Jianfu",
     "email":"zhjf@tsinghua.edu.cn",
     "company":"http://www.tsinghua.edu.cn/"
   },
-  {  
+  {
     "name":"Ogawa, Hironori",
     "title":"NSK Ltd., Japan ",
     "image":"Hironori",
     "email":"hiro@ogawa.40sec.net",
     "company":"http://www.nsk.com/"
   },
-  {  
+  {
     "name":"Song, Pan",
     "title":"Jilin University",
     "image":"PanSong",
     "email":"songpan14@gmail.com",
     "company":"http://www.jlu.edu.cn/"
   },
-  {  
+  {
     "name":"Mori, Shigeyuki",
     "title":"Mitsubishi Heavy Industries",
     "image":"Shige",
     "email":"shige.mori88@gmail.com",
     "company":"http://www.mhi.co.jp/en/index.html"
   },
-  {  
+  {
     "name":"Saito, Shunta",
     "title":"Keio University",
     "image":"Shunta",
     "email":"shunta.saito@gmail.com",
     "company":"http://www.keio.ac.jp/"
   },
-  {  
+  {
     "name":"Wang, Zhenwei",
     "title":"University of Electronic Science and Technology of China",
     "image":"Zhenwei",
     "email":"wangjanvey@163.com",
     "company":"http://www.uestc.edu.cn/"
   },
-  {  
+  {
     "name":"Tan, Yan Zhi",
     "title":"National University of Singapore",
     "image":"YanZhi",
     "email":"yanzhi@nus.edu.sg",
     "company":"http://www.nus.edu.sg/"
   },
-  {  
+  {
     "name":"Cheng, Ngo Hin",
     "title":"Eindhoven University of Technology",
     "image":"NgoHin",
     "email":"n.h.cheng@student.tue.nl",
     "company":"http://www.tue.nl/"
   },
-  {  
+  {
     "name":"Wang, Di",
     "title":"University of Science and Technology Beijing",
     "image":"WangDi",
     "email":"wangdi_1982@163.com",
     "company":"http://en.ustb.edu.cn/"
   },
-  {  
+  {
     "name":"Solanes, Ernesto",
     "title":"Institute of Design & Manufacturing",
     "image":"Ernesto",
     "email":"esolanes@idf.upv.es",
     "company":"http://www.institutoidf.com/index.php/en/"
   },
-  {  
+  {
     "name":"Kim, Wonhee",
     "title":"Hanyang University ",
     "image":"Wonhee",
@@ -92,21 +98,21 @@
     "homepage":"https://wonheekim.wordpress.com/",
     "company":"http://www.hanyang.ac.kr/english/"
   },
-  {  
+  {
     "name":"Nakajima, Shuro",
     "title":"Chiba Institute of Technology",
     "image":"Shuro",
     "email":"shuro.nakajima@berkeley.edu",
     "company":"http://www.it-chiba.ac.jp/english/"
   },
-  {  
+  {
     "name":"Zong, Changfu",
     "title":"Jilin University",
     "image":"Zong",
     "email":"zong.changfu@gmail.com",
     "company":"http://www.jlu.edu.cn/"
   },
-  {  
+  {
     "name":"Nadai, Laszlo",
     "title":"Obuda University ",
     "image":"Nadai",
@@ -114,62 +120,62 @@
     "homepage":"http://www.mendeley.com/profiles/laszlo-nadai/",
     "company":"http://uni-obuda.hu/"
   },
-  {  
+  {
     "name":"Kumazawa, Noriyoshi",
     "title":"Kagoshima University ",
     "image":"Kumazawa",
     "email":"kumazawa@mech.kagoshima-u.ac.jp",
     "company":"http://kokusai.kuas.kagoshima-u.ac.jp/kucip/"
   },
-  {  
+  {
     "name":"Sakon, Yu",
     "title":"Komatsu Ltd., Japan",
     "image":"Yu",
     "email":"yu_sakon@me.berkeley.edu",
     "company":"http://www.komatsu.com/"
   },
-  {  
+  {
     "name":"Oshima, Atsushi",
     "title":"NSK Ltd., Japan",
     "image":"Atsushi",
     "email":"atsuoshi508@gmail.com",
     "company":"http://www.nsk.com/"
   },
-  {  
+  {
     "name":"Morimitsu, Hidetaka",
     "title":"Keio University ",
     "image":"Mori",
     "email":"mori@katsura.sd.keio.ac.jp",
     "company":"http://www.keio.ac.jp/"
   },
-  {  
+  {
     "name":"Yeh, Yi-Liang",
     "title":"National Taiwan University",
     "image":"Yiliang",
     "email":"b92502052@ntu.edu.tw",
     "company":"http://www.ntu.edu.tw/engv4/"
   },
-  {  
+  {
     "name":"Bruning, Fabien",
     "title":"Eindhoven University of Technology ",
     "image":"Fabien",
     "email":"fabienbruning@me.com",
     "company":"http://www.tue.nl/"
   },
-  {  
+  {
     "name":"Youn, Iljoong",
     "title":"Gyeongsang National University",
     "image":"Youn",
     "email":"iyoun21@me.berkeley.edu",
     "company":"http://eng.gnu.ac.kr/main/"
   },
-  {  
+  {
     "name":"Chong, Shen",
     "title":"Email | Homepage | Company",
     "image":"ChongShen",
     "email":"shenchong86@yahoo.com.cn"
   },
-  {  
+  {
     "name":"Yang, Shih-Hung",
     "title":"National Chiao Tung University",
     "image":"SteveYang",
@@ -177,28 +183,28 @@
     "homepage":"https://sites.google.com/site/steveshyang/",
     "company":"http://www.nctu.edu.tw/english/"
   },
-  {  
+  {
     "name":"Kai, Yoshihiro",
     "title":"Tokai University ",
     "image":"Kai",
     "email":"kai@tokai.ac.jp",
     "company":"http://www.u-tokai.ac.jp/"
   },
-  {  
+  {
     "name":"Cheng, Kuo-Hsiang",
     "title":"Industrial Technology Research Institute, Taiwan",
     "image":"Kuo-Hsiang",
     "email":"khcheng670714@gmail.com",
     "company":"http://www.itri.org.tw/"
   },
-  {  
+  {
     "name":"Liao, Fucheng",
     "title":"Univ. of Science and Technology Beijing",
     "image":"Liao",
     "email":"fcliao@ustb.edu.cn",
     "company":"http://www.ustb.edu.cn/"
   },
-  {  
+  {
     "name":"Lee, Yun Jung",
     "title":"Kyungpook National University",
     "image":"YunJung",
@@ -206,348 +212,348 @@
     "homepage":"http://irl.knu.ac.kr/",
     "company":"http://www2.knu.ac.kr/"
   },
-  {  
+  {
     "name":"Nishinakamura, Kenichi",
     "title":"Japan Patent Office, Japan",
     "image":"nophoto",
     "email":"k.nishinakamura@me.berkeley.edu",
     "company":"http://www.jpo.go.jp/index.htm"
   },
-  {  
+  {
     "name":"Tao, Pey Yuen",
     "title":"SIMTech, A*Star, Singapore",
     "image":"nophoto",
     "email":"pytao@SIMTech.a-star.edu.sg",
     "company":"http://www.simtech.a-star.edu.sg/"
   },
-  {  
+  {
     "name":"Choi, Yongjoon",
     "title":"POSCO, Korea",
     "image":"Yongjoon",
     "email":"dydwns0815@gmail.com",
     "company":"http://www.posco.co.kr/homepage/docs/eng2/jsp/s91a0010001i.jsp"
   },
-  {  
+  {
     "name":"Hayashi, Ryuzo",
     "title":"Tokyo University of Science",
     "image":"Ryuzo",
     "email":"hayashi@rs.tus.ac.jp",
     "company":"http://www.tus.ac.jp/en/"
   },
-  {  
+  {
     "name":"Yun, Dae-Kyu",
     "title":"Hyundai Heavy Industry, Korea",
     "image":"nophoto",
     "email":"eorbking@naver.com",
     "company":"http://english.hhi.co.kr/"
   },
-  {  
+  {
     "name":"Jung, Seul",
     "title":"Chungnam National University",
     "image":"SJung",
     "email":"jungs@cnu.ac.kr",
     "company":"http://plus.cnu.ac.kr/english/index.jsp"
   },
-  {  
+  {
     "name":"Salt-Llobregat, Julian",
     "title":"Polytechnic Univ. at Valencia",
     "image":"nophoto",
     "email":"julian@isa.upv.es",
     "company":"http://www.upv.es/entidades/DISA/index-en.html"
   },
-  {  
+  {
     "name":"Asensio, Jonathan",
     "title":"Polytechnic Univ. of Valencia",
     "image":"nophoto",
     "email":"jonathan.asensio@gmail.com",
     "company":"http://www.upv.es/index-en.html"
   },
-  {  
+  {
     "name":"Wu, Zheming",
     "title":"Tsinghua University, China",
     "image":"Zheming",
     "email":"wuzheming@gmail.com",
     "company":"http://me.tsinghua.edu.cn/english/index.php3"
   },
-  {  
+  {
     "name":"Voncken, Jacqueline",
     "title":"Eindhoven University of Technology",
     "image":"Jacqueline",
     "email":"j.m.r.voncken@student.tue.nl",
     "company":"http://www.tue.nl/"
   },
-  {  
+  {
     "name":"Kikken, Edward",
     "title":"Eindhoven University of Technology",
     "image":"nophoto",
     "email":"e.j.g.j.kikken@student.tue.nl",
     "company":"http://www.tue.nl/"
   },
-  {  
+  {
     "name":"Naka, Atsuki",
     "title":"Nippon Steel Corp., Japan",
     "image":"nophoto",
     "email":"naka@me.berkeley.edu",
     "company":"http://www.nsc.co.jp/en/index.html"
   },
-  {  
+  {
     "name":"Garcia, Miguel Lagullon",
     "title":"Polytechnic University of Valencia",
     "image":"nophoto",
     "email":"mlagullon@gmail.com",
     "company":"http://www.tecnitramo.es/"
   },
-  {  
+  {
     "name":"Zou, Jianxiao",
     "title":"Univ. of Electronic Science and Technology of China",
     "image":"nophoto",
     "email":"jxzou@uestc.edu.cn",
     "company":"http://www.uestc.edu.cn/web3/"
   },
-  {  
+  {
     "name":"Jacobs, Ric",
     "title":"Eindhoven University of Technology",
     "image":"nophoto",
     "email":"H.C.M.Jacobs@student.tue.nl",
     "company":"http://w3.wtb.tue.nl/en/"
   },
-  {  
+  {
     "name":"Altgassen, Daniel",
     "title":"University of Technology Eindhoven",
     "image":"nophoto",
     "email":"d.altgassen@student.tue.nl",
     "company":"http://w3.wtb.tue.nl/en/"
   },
-  {  
+  {
     "name":"Dielissen, Freek",
     "title":"University of Technology Eindhoven",
     "image":"nophoto",
     "email":"f.f.a.dielissen@student.tue.nl",
     "company":"http://w3.wtb.tue.nl/en/"
   },
-  {  
+  {
     "name":"Sugita, Sumio",
     "title":"NSK Ltd., Japan",
     "image":"nophoto",
     "email":"sugita_sumio@yahoo.co.jp",
     "company":"http://www.jp.nsk.com/jp/"
   },
-  {  
+  {
     "name":"Lai, Chow Yin",
     "title":"National Univ. of Singapore",
     "image":"nophoto",
     "email":"chowyin@me.berkeley.edu",
     "company":"http://nus.edu.sg/"
   },
-  {  
+  {
     "name":"Chen, Renwen",
     "title":"Nanjing Univ. of Aeronautics & Astronautics",
     "image":"nophoto",
     "email":"rwchen@nuaa.edu.cn",
     "company":"http://www.nuaa.edu.cn/"
   },
-  {  
+  {
     "name":"Li, Guang",
     "title":"Tsinghua University",
     "image":"nophoto",
     "email":"liguang@berkeley.edu",
     "company":"http://www.tsinghua.edu.cn/eng/index.jsp"
   },
-  {  
+  {
     "name":"Zhang, Jiaqi",
     "title":"Tongji University",
     "image":"nophoto",
     "email":"zhangjiaqiok@gmail.com",
     "company":"http://www.tongji.edu.cn/english/"
   },
-  {  
+  {
     "name":"Iwase, Masami",
     "title":"Tokyo Denki University",
     "image":"nophoto",
     "email":"iwase@fr.dendai.ac.jp",
     "company":"http://atom.dendai.ac.jp/info_e/"
   },
-  {  
+  {
     "name":"Lunenburg, Janno",
     "title":"Eindhoven University of Technology",
     "image":"nophoto",
     "email":"j.j.m.lunenburg@student.tue.nl",
     "company":"http://www.tue.nl/"
   },
-  {  
+  {
     "name":"Chen, Qijun",
     "title":"Tongji University",
     "image":"nophoto",
     "email":"qjchen@mail.tongji.edu.cn",
     "company":"http://www.tongji.edu.cn/english/"
   },
-  {  
+  {
     "name":"Matzuda, Yasuyuki",
     "title":"NSK Ltd., Japan",
     "image":"nophoto",
     "email":"yasuyuki_matsuda@sbcglobal.net",
     "company":"http://www.jp.nsk.com/jp/"
   },
-  {  
+  {
     "name":"Günthner, Wolfgang",
     "title":"Email | Homepage | Company",
     "image":"nophoto",
     "email":"guenth@me.berkeley.edu"
   },
-  {  
+  {
     "name":"Ha, Cheolkeun",
     "title":"University of Ulsan",
     "image":"nophoto",
     "email":"cha@mail.ulsan.ac.kr",
     "company":"http://www.ulsan.ac.kr/eng/index.aspx"
   },
-  {  
+  {
     "name":"Kim, Jung-Kwan",
     "title":"Pusan University",
     "image":"nophoto",
     "email":"jgdkim@calmail.berkeley.edu",
     "company":"http://www.pusan.ac.kr/ENG_PNU/01_main/main.asp"
   },
-  {  
+  {
     "name":"Chung, Chung Choo",
     "title":"Hanyang University",
     "image":"nophoto",
     "email":"cchung@hanyang.ac.kr",
     "company":"http://www.hanyang.ac.kr/english/"
   },
-  {  
+  {
     "name":"Lemo, Bijoux",
     "title":"TU Darmstadt",
     "image":"nophoto",
     "email":"bijouxl@yahoo.de",
     "company":"http://www.tu-darmstadt.de/index.en.html"
   },
-  {  
+  {
     "name":"Matsuda, Takuro",
     "title":"Tokyo Institute of Technology",
     "image":"nophoto",
     "email":"matsuda@berkeley.edu",
     "company":"http://www.titech.ac.jp/"
   },
-  {  
+  {
     "name":"Spitznagel, Martin",
     "title":"Swiss Federal Institute of Technology (ETH Zurich)",
     "image":"nophoto",
     "email":"mfs@student.ethz.ch",
     "company":"http://www.ethz.ch/index_EN"
   },
-  {  
+  {
     "name":"Ikeda, Hidehiro",
     "title":"Yonago National College of Technology",
     "image":"nophoto",
     "email":"ikeda@yonago-k.ac.jp"
   },
-  {  
+  {
     "name":"Nelles, Oliver",
     "title":"Darmstadt University of Technology",
     "image":"nophoto",
     "email":"oliver.nelles@gmx.de",
     "company":"http://www.tu-darmstadt.de/Welcome.en.html"
   },
-  {  
+  {
     "name":"Egermeier, Hans",
     "title":"Technical University of Munich",
     "image":"nophoto",
     "email":"egermeie@mechatro2.me.berkeley.edu",
     "company":"http://www.tu-muenchen.de/HOME-PAGE_e.html"
   },
-  {  
+  {
     "name":"Suzuki, Tatsuya",
     "title":"Nagoya University",
     "image":"nophoto",
     "email":"suzuki@okuma.nuee.nagoya-u.ac.jp",
     "company":"http://www.nagoya-u.ac.jp/"
   },
-  {  
+  {
     "name":"Yamaura, Hiroshi",
     "title":"Tokyo Institute of Technology",
     "image":"nophoto",
     "email":"yamaura@mechatro2.ME.Berkeley.EDU%3E",
     "company":"http://www.titech.ac.jp/"
   },
-  {  
+  {
     "name":"Prokop, Guenther",
     "title":"Technical University of Munich",
     "image":"nophoto",
     "email":"prokop@mechatro2.me.berkeley.edu",
     "company":"http://www.tu-muenchen.de/HOME-PAGE_e.html"
   },
-  {  
+  {
     "name":"Bonnay, Frederic",
     "title":"Renault, France",
     "image":"nophoto",
     "email":"bonnayfr@mechatro2.me.berkeley.edu",
     "company":"http://www.renault.com/"
   },
-  {  
+  {
     "name":"Hara, Susumu",
     "title":"Toyota Tech. Inst.",
     "image":"nophoto",
     "email":"haras@toyota-ti.ac.jp",
     "company":"http://www.toyota-ti.ac.jp/E-V/index_e.html"
   },
-  {  
+  {
     "name":"Hara, Takeyori",
     "title":"Fujitsu, Ltd., Japan",
     "image":"nophoto",
     "email":"takeyori@lab.file.cs.fujitsu.co.jp",
     "company":"http://www.fujitsu.co.jp/index-e.html"
   },
-  {  
+  {
     "name":"Nakano, Kazushi",
     "title":"University of Electro-Communications",
     "image":"nophoto",
     "email":"nakano@ee.uec.ac.jp",
     "company":"http://www.uec.ac.jp/index-e.html"
   },
-  {  
+  {
     "name":"Inoue, Kenji",
     "title":"Osaka University",
     "image":"nophoto",
     "email":"kenji@mech.eng.osaka-u.ac.jp",
     "company":"http://www.osaka-u.ac.jp/english/index.html"
   },
-  {  
+  {
     "name":"Sasanoi, Yutaka",
     "title":"NSK, Japan",
     "image":"nophoto",
     "email":"sasanoi@ov.nsk.com",
     "company":"http://www.nsk.co.jp/"
   },
-  {  
+  {
     "name":"Fujiyama, Koji",
     "title":"SANYO Electric Co., Japan",
     "image":"nophoto",
     "email":"fujiyama@hr.hm.rd.sanyo.co.jp",
     "company":"http://www.sanyo.co.jp/index_e.html"
   },
-  {  
+  {
     "name":"Fujino, Atsuya",
     "title":"Hitachi, Ltd., Japan",
     "image":"nophoto",
     "email":"at-fujino@em.mito.hitachi.co.jp",
     "company":"http://www.hitachi.com/"
   },
-  {  
+  {
     "name":"Ishikawa, Jun",
     "title":"NEC, Japan",
     "image":"nophoto",
     "email":"ishikawa@vfdc.cl.nec.co.jp",
     "company":"http://www.nec.co.jp/"
   },
-  {  
+  {
     "name":"Iwasaki, Takashi",
     "title":"Toyota, Japan",
     "image":"nophoto",
     "email":"iwasaki@hcmail.dn.toyota.co.jp",
     "company":"http://www.toyota.com/"
   },
-  {  
+  {
     "name":"Kurono, Shigeru",
     "title":"Kyushu Sangyo University",
     "image":"nophoto",
