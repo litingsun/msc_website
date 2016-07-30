@@ -11,16 +11,16 @@ permalink: /people/alumni
   </div>
 
   <a name="phd"></a><h2 class="sub-heading"> PhD Students </h2>
-  {% for year in site.data.phd_alumni %}  
+  {% for year in site.data.phd_alumni %}
   <h3 class="sub-heading">{{year.date}}</h3>
   <div class="person-images">
-    
-    {% for student in year.students %}  
+
+    {% for student in year.students %}
       <div class="person-member">
         <div class="person-image">
           {% if student.image == 'nophoto' %}
             <img src="../assets/images/profile-placeholder.gif" alt="">
-            <img src="../assets/images/profile-placeholder.gif" alt="">            
+            <img src="../assets/images/profile-placeholder.gif" alt="">
           {% else %}
             <img src="../assets/images/people/{{ student.image }}.jpg" alt="">
             <img src="../assets/images/people/{{ student.image }}1.jpg" alt="">
@@ -47,23 +47,23 @@ permalink: /people/alumni
         </div>
       </div>
     {% endfor %}
-
   </div>
+  <br>
   {% endfor %}
 
 <hr>
 
   <a name="ms"></a><h2 class="sub-heading"> MS Students </h2>
-  {% for year in site.data.masters_alumni %}  
+  {% for year in site.data.masters_alumni %}
   <h3 class="sub-heading">{{year.date}}</h3>
   <div class="person-images">
-    
-    {% for student in year.students %}  
+
+    {% for student in year.students %}
       <div class="person-member">
         <div class="person-image">
           {% if student.image == 'nophoto' %}
             <img src="../assets/images/profile-placeholder.gif" alt="">
-            <img src="../assets/images/profile-placeholder.gif" alt="">            
+            <img src="../assets/images/profile-placeholder.gif" alt="">
           {% else %}
             <img src="../assets/images/people/{{ student.image }}.jpg" alt="">
             <img src="../assets/images/people/{{ student.image }}1.jpg" alt="">
@@ -92,6 +92,7 @@ permalink: /people/alumni
     {% endfor %}
 
   </div>
+  <br>
   {% endfor %}
 
 </div>

@@ -7,14 +7,22 @@ layout: default
   <div class="scrim {% if site.cover %}has-cover{% endif %}">
     <header class="site-header">
       <h1 class="title">{{ site.title }}</h1>
-      <p class="subtitle">
+<!--       <p class="subtitle">
       The MSC Lab focuses on designing and developing control strategies for mechanical systems. We are part of the Mechanical Engineering Department at UC Berkeley
-      </p>
+      </p> -->
     </header>
   </div>
 </div>
 
 <div class="wrapper">
+
+<h1>About Us</h1>
+The MSC Lab focuses on designing and developing control strategies for mechanical systems. We are part of the Mechanical Engineering Department at UC Berkeley.
+
+For more information, please see our <a href="{{ "/research" | prepend: site.baseurl }}">research page</a> or download our <a href="{{ "/assets/files/MSC_research_2013.pdf" | prepend: site.baseurl }}">research booklet</a> .
+
+<br><br>
+
 <h1>Latest News</h1>
 <ul class="post-list">
   {% for post in paginator.posts %}
