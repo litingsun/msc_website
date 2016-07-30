@@ -44,14 +44,14 @@ p {
 
 a {
   color: $action-color;
-  text-decoration: none;
+  text-decoration: underline;
   // transition: color 0.1s linear;
 
   &:active,
   &:focus,
   &:hover {
-    color: darken($action-color, 10%);
-    text-decoration: underline;
+    color: darken($action-color, 50%);
+    text-decoration: none;
   }
 
   &:active,
