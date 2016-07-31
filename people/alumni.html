@@ -6,13 +6,37 @@ permalink: /people/alumni
 
 <div class="people">
   <div class="sub-heading">
-    <a href="#phd">PhD Students</a> | <a href="#ms">MS Students</a>
+
+    <!-- PhD Scrollable Button -->
+    <div class="btn-group">
+      <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        PhD Students <span class="caret"></span>
+      </button>
+      <ul class="dropdown-menu scrollable-menu">
+        {% for year in site.data.phd_alumni %}
+          <li><a href="#phd_{{year.date}}">{{year.date}}</a></li>
+        {% endfor %}
+      </ul>
+    </div> |
+
+    <!-- MS Scrollable Button -->
+    <div class="btn-group">
+      <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        MS Students <span class="caret"></span>
+      </button>
+      <ul class="dropdown-menu  scrollable-menu">
+        {% for year in site.data.masters_alumni %}
+          <li><a href="#ms_{{year.date}}">{{year.date}}</a></li>
+        {% endfor %}
+      </ul>
+    </div>
+
     <div class="addendum"> Not a complete list, please contact the webmaster if you want to be added</div>
   </div>
 
-  <a name="phd"></a><h2 class="sub-heading"> PhD Students </h2>
+  <h2 class="sub-heading"> PhD Students </h2>
   {% for year in site.data.phd_alumni %}
-  <h3 class="sub-heading">{{year.date}}</h3>
+  <a name="phd_{{year.date}}"></a><h3 class="sub-heading">{{year.date}}</h3>
   <div class="person-images">
 
     {% for student in year.students %}
@@ -53,9 +77,9 @@ permalink: /people/alumni
 
 <hr>
 
-  <a name="ms"></a><h2 class="sub-heading"> MS Students </h2>
+  <h2 class="sub-heading"> MS Students </h2>
   {% for year in site.data.masters_alumni %}
-  <h3 class="sub-heading">{{year.date}}</h3>
+  <a name="ms_{{year.date}}"></a><h3 class="sub-heading">{{year.date}}</h3>
   <div class="person-images">
 
     {% for student in year.students %}

@@ -531,3 +531,10 @@ pre code.hljs {
 	text-align: center;
 
 }
+
+
+.scrollable-menu {
+    height: auto;
+    max-height: 160px;
+    overflow-x: hidden;
+}
