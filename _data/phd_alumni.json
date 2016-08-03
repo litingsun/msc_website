@@ -1,21 +1,21 @@
-[ 
+[
   {
     "date":"Spring 2016",
     "students":[
-      {  
+      {
         "name":"Lin, Chung-Yen",
         "title":"Apple",
         "image":"Chung-Yen",
         "email":"chung_yen@berkeley.edu",
         "company":"https://www.apple.com"
       },
-      {  
+      {
         "name":"Lu, Junkai",
         "title":"Human Mechatronics",
         "image":"Junkai",
         "email":"junkai.lu@berkeley.edu"
       },
-      {  
+      {
         "name":"Matthew, Robert",
         "title":"Post Doc, UC Berkeley",
         "image":"Robert",
@@ -23,32 +23,32 @@
         "homepage":"http://www.robertpetermatthew.com/",
         "company":"http://tele-immersion.citris-uc.org/"
       },
-      {  
+      {
         "name":"Tan, Raechel",
         "title":"Automotive Engine Control",
         "image":"Raechel",
         "email":"tanraechel@berkeley.edu",
         "homepage":"https://www.ocf.berkeley.edu/~raechel/"
       },
-      {  
+      {
         "name":"Zheng, Minghui",
         "title":"Disk Drive Control",
         "image":"Minghui",
         "email":"minghuizheng@berkeley.edu"
       }
     ]
-  }, 
-  {  
+  },
+  {
     "date":"Spring 2015",
-    "students":[  
-      {  
+    "students":[
+      {
         "name":"Zhang, Wenlong",
         "title":"Professor, Arizona State University",
         "image":"Wenlong",
         "email":"wlzhang@berkeley.edu",
         "company":"http://www.asu.edu/"
       },
-      {  
+      {
         "name":"Wang, Yizhou",
         "title":"Baidu USA",
         "image":"Yizhou",
@@ -58,17 +58,17 @@
       }
     ]
   },
-  {  
+  {
     "date":"Fall 2014",
-    "students":[  
-      {  
+    "students":[
+      {
         "name":"Tsai, Chi-Shen",
         "title":"Tai Ing Industry Co. Ltd.",
         "image":"Chi-Shen",
         "email":"cs.tsai@taiing.net",
         "company":"http://www.taiing.com.tw/"
       },
-      {  
+      {
         "name":"Wang, Cong",
         "title":"Professor, New Jersey Institute of Technology",
         "image":"WangCong",
@@ -77,10 +77,10 @@
       }
     ]
   },
-  {  
+  {
     "date":"Spring 2014",
-    "students":[  
-      {  
+    "students":[
+      {
         "name":"Kanjanapas, Kan",
         "title":"Apple Inc.",
         "image":"Oak",
@@ -89,17 +89,17 @@
       }
     ]
   },
-  {  
+  {
     "date":"Fall 2013",
-    "students":[  
-      {  
+    "students":[
+      {
         "name":"Chan, Michael",
         "title":"Space Exploration Technologies Corp.",
         "image":"Mike",
         "email":"michael.l.g.chan@gmail.com",
         "company":"http://www.spacex.com/"
       },
-      {  
+      {
         "name":"Chen, Xu",
         "title":"Professor, University of Connecticut",
         "image":"Chenxu",
@@ -107,7 +107,7 @@
         "homepage":"http://www.engr.uconn.edu/~xchen/",
         "company":"http://www.uconn.edu/"
       },
-      {  
+      {
         "name":"Reynoso, Pedro",
         "title":"Nikon, USA",
         "image":"nophoto",
@@ -116,10 +116,10 @@
       }
     ]
   },
-  {  
+  {
     "date":"Spring 2013",
-    "students":[  
-      {  
+    "students":[
+      {
         "name":"Chang-Siu, Evan",
         "title":"Professor, California Maritime Academy",
         "image":"Evan",
@@ -129,10 +129,10 @@
       }
     ]
   },
-  {  
+  {
     "date":"Fall 2012",
-    "students":[  
-      {  
+    "students":[
+      {
         "name":"Chen, Wenjie",
         "title":"FANUC Corporation",
         "image":"Wenjie",
@@ -142,10 +142,10 @@
       }
     ]
   },
-  {  
+  {
     "date":"Spring 2012",
-    "students":[  
-      {  
+    "students":[
+      {
         "name":"Kim, Sanggyum",
         "title":"Applied Materials",
         "image":"Sanggyum",
@@ -154,10 +154,10 @@
       }
     ]
   },
-  {  
+  {
     "date":"Spring 2011",
-    "students":[  
-      {  
+    "students":[
+      {
         "name":"Bae, Joonbum",
         "title":"Professor, UNIST",
         "image":"JB",
@@ -165,40 +165,41 @@
         "homepage":"http://jbbae.info/",
         "company":"http://www.unist.ac.kr/"
       },
-      {  
+      {
         "name":"Dong, Nancy Feng Dan",
         "title":"Covidien",
         "image":"Nancy",
         "email":"nancydong@cal.berkeley.edu",
         "company":"http://www.covidien.com/covidien/pages.aspx?page=Home"
       },
-      {  
+      {
         "name":"Yu, Shuwen",
         "title":"Areva Solar",
         "image":"nophoto",
         "email":"emmayu@berkeley.edu",
         "company":"http://www.areva.com/EN/solar-220/areva-solar.html"
       },
-      {  
+      {
         "name":"Stearns, Hoday",
         "title":"Panasonic, Japan",
         "image":"nophoto",
         "email":"hodayx@uclink.berkeley.edu",
+        "homepage":"http://www.hodaystearns.com/",
         "company":"http://www.panasonic.com/"
       }
     ]
   },
-  {  
+  {
     "date":"Fall 2010",
-    "students":[  
-      {  
+    "students":[
+      {
         "name":"Cheng, Haifei",
         "title":"Western Digital",
         "image":"Haifei",
         "email":"haifei@me.berkeley.edu",
         "company":"http://www.wdc.com/en/"
       },
-      {  
+      {
         "name":"Fan, Xuan",
         "title":"KLA-Tencor",
         "image":"nophoto",
@@ -207,24 +208,24 @@
       }
     ]
   },
-  {  
+  {
     "date":"Fall 2009 - Spring 2010",
-    "students":[  
-      {  
+    "students":[
+      {
         "name":"Fine, Benjamin",
         "title":"Sandia National Labs",
         "image":"nophoto",
         "email":"benjamin.t.fine@gmail.com",
         "company":"http://www.sandia.gov/"
       },
-      {  
+      {
         "name":"Nagata, Takashi",
         "title":"Nikon, USA",
         "image":"nophoto",
         "email":"taka_me@me.berkeley.edu",
         "company":"http://www.nikonusa.com/"
       },
-      {  
+      {
         "name":"Kong, Kyoungchul",
         "title":"Professor, Sogang University",
         "image":"KC",
@@ -232,21 +233,21 @@
         "homepage":"http://www.kckong.info/",
         "company":"http://www.sogang.ac.kr/english/"
       },
-      {  
+      {
         "name":"Zheng, Qixing",
         "title":"Western Digital",
         "image":"Steve",
         "email":"qiz@berkeley.edu",
         "company":"http://www.wdc.com/en/"
       },
-      {  
+      {
         "name":"Han, Chenghuei",
         "title":"Cymer, Inc.",
         "image":"Nora",
         "email":"norahann@berkeley.edu",
         "company":"http://www.cymer.com/index.cfm"
       },
-      {  
+      {
         "name":"Wu, Guoyuan",
         "title":"Post-Doc, UC Riverside",
         "image":"nophoto",
@@ -255,31 +256,31 @@
       }
     ]
   },
-  {  
+  {
     "date":"Fall 2008 - Spring 2009",
-    "students":[  
-      {  
+    "students":[
+      {
         "name":"Wang, Chun-Chih",
         "title":"FormFactor, Inc.",
         "image":"nophoto",
         "email":"ccwang@me.berkeley.edu",
         "company":"http://www.formfactor.com/"
       },
-      {  
+      {
         "name":"Wu, Shang-Chen",
         "title":"Western Digital",
         "image":"nophoto",
         "email":"scwu@me.berkeley.edu",
         "company":"http://www.wdc.com/en/"
       },
-      {  
+      {
         "name":"El-Shaer, Ahmed Hamdy",
         "title":"Samsung",
         "image":"Ahmed",
         "email":"aheshaer@gmail.com",
         "company":"http://www.sisa.samsung.com/"
       },
-      {  
+      {
         "name":"Shi, Mingyu",
         "title":"Standard & Poor's",
         "image":"nophoto",
@@ -287,14 +288,14 @@
         "homepage":"http://www.me.berkeley.edu/~mingyu",
         "company":"http://www.standardandpoors.com/"
       },
-      {  
+      {
         "name":"Inaba, Kiyonori",
         "title":"FANUC Ltd, Japan",
         "image":"nophoto",
         "email":"KIYONORI@UA.AIRNET.NE.JP",
         "company":"http://www.fanuc.co.jp/eindex.htm"
       },
-      {  
+      {
         "name":"Mishra, Sandipan",
         "title":"Professor, Rensselaer Polytechnic Institute",
         "image":"Sandi",
@@ -304,24 +305,24 @@
       }
     ]
   },
-  {  
+  {
     "date":"Fall 2007 - Spring 2008",
-    "students":[  
-      {  
+    "students":[
+      {
         "name":"Koo, Shiang-Lung",
         "title":"Nikon, USA",
         "image":"nophoto",
         "email":"slk@uclink.berkeley.edu",
         "company":"http://www.nikonusa.com/"
       },
-      {  
+      {
         "name":"Yang, Li",
         "title":"America On Line",
         "image":"nophoto",
         "email":"yangli928@hotmail.com",
         "company":"http://www.aol.com/"
       },
-      {  
+      {
         "name":"Jeon, Soo",
         "title":"Professor, University of Waterloo",
         "image":"Soo",
@@ -331,17 +332,17 @@
       }
     ]
   },
-  {  
+  {
     "date":"Fall 2006 - Spring 2007",
-    "students":[  
-      {  
+    "students":[
+      {
         "name":"Hsiao, Te-Sheng",
         "title":"Professor, National Chiao-Tung Univ.",
         "image":"nophoto",
         "homepage":"http://avir.cn.nctu.edu.tw/",
         "company":"http://www.nctu.edu.tw/english/index.php"
       },
-      {  
+      {
         "name":"Kim, Hyun-sug",
         "title":"Korea",
         "image":"nophoto",
@@ -349,16 +350,16 @@
       }
     ]
   },
-  {  
+  {
     "date":"Fall 2004 - Spring 2005",
-    "students":[  
-      {  
+    "students":[
+      {
         "name":"Huang, Jihua",
         "title":"General Motors",
         "image":"nophoto",
         "company":"http://www.gm.com/"
       },
-      {  
+      {
         "name":"Hur, Hwan",
         "title":"Hyundai Motor Co. Korea",
         "image":"nophoto",
@@ -367,23 +368,23 @@
       }
     ]
   },
-  {  
+  {
     "date":"Fall 2003 - Spring 2004",
-    "students":[  
-      {  
+    "students":[
+      {
         "name":"Ding, Jiagen",
         "title":"GE Research Center",
         "image":"nophoto",
         "email":"ding@research.ge.com",
         "company":"http://www.ge.com/research/"
       },
-      {  
+      {
         "name":"Lu, Guang",
         "title":"Professor, Tulane University",
         "image":"nophoto",
         "company":"http://www.tulane.edu/"
       },
-      {  
+      {
         "name":"Dominguez, Hector",
         "title":"ADEPT",
         "image":"nophoto",
@@ -391,17 +392,17 @@
       }
     ]
   },
-  {  
+  {
     "date":"Fall 2002 - Spring 2003",
-    "students":[  
-      {  
+    "students":[
+      {
         "name":"Lee, Dong-Jun",
         "title":"Samsung",
         "image":"nophoto",
         "email":"d.junlee@gmail.com",
         "company":"http://www.sisa.samsung.com/"
       },
-      {  
+      {
         "name":"Suryanarayanan, Shashikanth",
         "title":"Professor, Indian Institute of Technology, Bombay",
         "image":"nophoto",
@@ -411,10 +412,10 @@
       }
     ]
   },
-  {  
+  {
     "date":"Fall 2001 - Spring 2002",
-    "students":[  
-      {  
+    "students":[
+      {
         "name":"Budiman, Erwin Satrya",
         "title":"Abbott Diabetes Care",
         "image":"nophoto",
@@ -423,10 +424,10 @@
       }
     ]
   },
-  {  
+  {
     "date":"Fall 2000 - Spring 2001",
-    "students":[  
-      {  
+    "students":[
+      {
         "name":"Ibaraki, Soichi",
         "title":"Professor, Kyoto University",
         "image":"nophoto",
@@ -434,14 +435,14 @@
         "homepage":"http://mmc.me.kyoto-u.ac.jp/ibaraki/",
         "company":"http://www.kyoto-u.ac.jp/en"
       },
-      {  
+      {
         "name":"Wang, Jeng-Yu",
         "title":"Western Digital",
         "image":"nophoto",
         "email":"jengyu@yahoo.com",
         "company":"http://www.wdc.com/en/"
       },
-      {  
+      {
         "name":"Yi, Li",
         "title":"Western Digital",
         "image":"nophoto",
@@ -450,10 +451,10 @@
       }
     ]
   },
-  {  
+  {
     "date":"Fall 1999 - Spring 2000",
-    "students":[  
-      {  
+    "students":[
+      {
         "name":"Feng, Kai-Ten",
         "title":"Professor, National Chiao Tung University",
         "image":"nophoto",
@@ -461,7 +462,7 @@
         "homepage":"http://mint.cm.nctu.edu.tw/",
         "company":"http://www.nctu.edu.tw/english/index.php"
       },
-      {  
+      {
         "name":"Smith, Craig",
         "title":"Western Digital",
         "image":"nophoto",
@@ -470,24 +471,24 @@
       }
     ]
   },
-  {  
+  {
     "date":"Fall 1997 - Spring 1998",
-    "students":[  
-      {  
+    "students":[
+      {
         "name":"Almajed, Mohammed",
         "title":"College of Excellence",
         "image":"MA",
         "email":"mohammedalmajed@icloud.com",
         "company":"http://coe.com.sa/"
       },
-      {  
+      {
         "name":"Hingwe, Pushkar",
         "title":"Intuitive Surgicals Inc.",
         "image":"nophoto",
         "email":"pushkar@cal.berkeley.edu",
         "company":"http://www.intuitivesurgical.com/index.aspx"
       },
-      {  
+      {
         "name":"Niu, Weiguang",
         "title":"Broadcom Inc.",
         "image":"nophoto",
@@ -496,23 +497,23 @@
       }
     ]
   },
-  {  
+  {
     "date":"Fall 1996 - Spring 1997",
-    "students":[  
-      {  
+    "students":[
+      {
         "name":"Chen, Chieh",
         "title":"Maven Systems",
         "image":"nophoto",
         "email":"jay.c.chen@gmail.com"
       },
-      {  
+      {
         "name":"White, Matthew",
         "title":"Hitachi Global Storage",
         "image":"nophoto",
         "email":"Matthew.White@hitachigst.com",
         "company":"http://www.hitachigst.com/"
       },
-      {  
+      {
         "name":"Saraf, Sujit",
         "title":"Lockheed Martin",
         "image":"nophoto",
@@ -520,7 +521,7 @@
         "homepage":"http://www.sujitsaraf.com/",
         "company":"http://www.lockheedmartin.com/"
       },
-      {  
+      {
         "name":"Lee, Hyeongcheol",
         "title":"Professor, Hanyang University",
         "image":"Hclee",
@@ -530,17 +531,17 @@
       }
     ]
   },
-  {  
+  {
     "date":"Fall 1995 - Spring 1996",
-    "students":[  
-      {  
+    "students":[
+      {
         "name":"Phillips, Anthony",
         "title":"Ford Motor Company",
         "image":"Phillips",
         "email":"aphilli8@ford.com",
         "company":"http://www.ford.com/"
       },
-      {  
+      {
         "name":"Yao, Bin",
         "title":"Professor, Purdue University",
         "image":"Yao",
@@ -548,7 +549,7 @@
         "homepage":"https://engineering.purdue.edu/~byao/",
         "company":"http://www.purdue.edu/"
       },
-      {  
+      {
         "name":"Bickel, Robert",
         "title":"The Legal Aid Society, NY",
         "image":"nophoto",
@@ -557,17 +558,17 @@
       }
     ]
   },
-  {  
+  {
     "date":"Fall 1993 - Spring 1994",
-    "students":[  
-      {  
+    "students":[
+      {
         "name":"Gross, Eric",
         "title":"Xerox Innovation Group",
         "image":"nophoto",
         "email":"Eric.Gross@xerox.com",
         "company":"http://www.xerox.com/innovation/index.shtml"
       },
-      {  
+      {
         "name":"Kachroo, Pushkin",
         "title":"Professor, Univ. of Nevada, Las Vegas",
         "image":"nophoto",
@@ -575,7 +576,7 @@
         "homepage":"http://faculty.unlv.edu/pushkin/",
         "company":"http://www.unlv.edu/"
       },
-      {  
+      {
         "name":"Chiu, George",
         "title":"Professor, Purdue University",
         "image":"Chiu",
@@ -583,21 +584,21 @@
         "homepage":"https://engineering.purdue.edu/~gchiu/",
         "company":"http://www.purdue.edu/"
       },
-      {  
+      {
         "name":"Patwardhan, Satyajit",
         "title":"Stanford Linear Accelerator Center",
         "image":"nophoto",
         "email":"satyajit@engineeralum.berkeley.edu",
         "company":"http://www.slac.stanford.edu/"
       },
-      {  
+      {
         "name":"Yao, Wei",
         "title":"Apple Inc.",
         "image":"nophoto",
         "email":"wyao@apple.com",
         "company":"http://www.apple.com/"
       },
-      {  
+      {
         "name":"Kempf, Carl",
         "title":"Iris AO, Inc.",
         "image":"nophoto",
@@ -606,10 +607,10 @@
       }
     ]
   },
-  {  
+  {
     "date":"Fall 1991 - Spring 1992",
-    "students":[  
-      {  
+    "students":[
+      {
         "name":"Peng, Huei",
         "title":"Professor, University of Michigan",
         "image":"Huei",
@@ -619,10 +620,10 @@
       }
     ]
   },
-  {  
+  {
     "date":"Fall 1990 - Spring 1991",
-    "students":[  
-      {  
+    "students":[
+      {
         "name":"Hu, Jwu-Sheng",
         "title":"Professor, National Chiao Tung University",
         "image":"Jshu",
@@ -630,7 +631,7 @@
         "homepage":"http://xlab.cn.nctu.edu.tw/",
         "company":"http://www.nctu.edu.tw/english/index.php"
       },
-      {  
+      {
         "name":"Langari, Reza",
         "title":"Professor, Texas A&M University",
         "image":"Langari",
@@ -640,10 +641,10 @@
       }
     ]
   },
-  {  
+  {
     "date":"Fall 1988 - Spring 1989",
-    "students":[  
-      {  
+    "students":[
+      {
         "name":"Chen, Min-Shin",
         "title":"Professor, National Taiwan University",
         "image":"nophoto",
@@ -653,10 +654,10 @@
       }
     ]
   },
-  {  
+  {
     "date":"Fall 1983 - Spring 1984",
-    "students":[  
-      {  
+    "students":[
+      {
         "name":"Horowitz, Roberto",
         "title":"Professor, UC Berkeley",
         "image":"Horowitz",
@@ -666,10 +667,10 @@
       }
     ]
   },
-  {  
+  {
     "date":"Fall 1977 - Spring 1978",
-    "students":[  
-      {  
+    "students":[
+      {
         "name":"Gunawardena, D.R.",
         "title":"Professor, Case Western Reserve University",
         "image":"Shanti",
