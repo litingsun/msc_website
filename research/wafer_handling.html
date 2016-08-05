@@ -1,0 +1,116 @@
+---
+layout: page
+title: Control of Vacuum Wafer Handling Robot
+permalink: /research/wafer_handling
+---
+
+<div id="content">
+	<div id="sidebar">
+		<div class="sidebarbox">
+			<h3>Contents:</h3>
+			<ul class="sidemenu">
+				<li>
+					<a href="#motivation">Motivation and Approach</a>
+				</li>
+				<li>
+					<a href="#results">Main Results</a>
+				</li>
+				<li>
+					<a href="#pub">Recent Key Publications</a>
+				</li>
+				<li>
+					<a href="#researchers">Researchers</a>
+				</li>
+				<li>
+					<a href="#sponsor">Sponsor</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<h3 id="motivation">Motivation and Approach</h3>
+	<p>Wafer handling robots are used to transport wafers inside the vacuum
+	environment of IC<br>
+	fabrication tools. Major concerns for the robot performance are:</p>
+	<ol class="listparagraph">
+		<li>Speed and acceleration: Fast motion is desired to reduce production time,
+		however, the wafer is placed on the end-effector of the robot without any
+		fixture. Friction is the only force preventing sliding so acceleration has to
+		be limited to avoid sliding.</li>
+		<li>Accuracy of tracking and positioning: the reference trajectory is
+		designed to be smooth to avoid sliding. It is important to reduce tracking
+		error to ensure the smoothness of the motion.</li>
+		<li>Vibration and oscillation may cause the sliding of wafers, which
+		generates contaminating particles and even leads to wafer tip-over.</li>
+	</ol>
+	<table border="0" cellpadding="0" cellspacing="10" width="100%">
+		<tr>
+			<td align="center" width="37%"><img alt="IC fab tool" height="200" src=
+			"../assets/images/research/AMAT_ICFabTools.jpg" width="318"></td>
+			<td align="center" width="33%"><img alt="AMAT robot with IC fab tool"
+			height="200" src="../assets/images/research/AMAT_robot%20in%20the%20IC%20fab%20tool.png" width=
+			"276"></td>
+			<td align="center" width="30%"><img alt="AMAT robot" height="200" src=
+			"../assets/images/research/AMAT_wafer%20robot.png" width="255"></td>
+		</tr>
+		<tr>
+			<td align="center">An IC fabrication tool</td>
+			<td align="center" colspan="2">The wafer handling robot inside an IC
+			fabrication tool</td>
+		</tr>
+	</table>
+	<p>&nbsp;</p>
+	<p>Our research aims at improving the robot control performance in above
+	aspects. Meanwhile, the robustness, ease of implementation, and ease of tuning
+	shall also be fully considered. Major approaches include:</p>
+	<ol class="listparagraph">
+		<li>Model-based dynamics compensation.</li>
+		<li>Controller tuning using distributed auxiliary sensing.</li>
+		<li>Disturbance compensation based on adaptive modeling and
+		identication.</li>
+	</ol>
+	<p>&nbsp;</p>
+	<h3 id="results">Main Results</h3>
+	<p>With the proposed approaches, the reference trajectory can be optimized for
+	maximum smoothness, and the following error is signicantly reduced by
+	model-based dynamics and disturbance compensation.</p>
+	<p align="center"><img alt="AMAT control effect" height="217" src=
+	"../assets/images/research/AMAT_ControlEffect.png" width="700"></p>
+	<p>&nbsp;</p>
+	<h3 id="pub">Recent Key Publications</h3>
+	<ol>
+		<li>X. Yu, C. Wang, Y. Zhao, and M. Tomizuka, &quot;Dynamics Modeling and
+		Identication of a Dual-blade Wafer Handing Robot,&quot; in <em>Proceedings of
+		the Sixth ASME Dynamic Systems and Control Conference (DSCC)</em>, 2013</li>
+		<li>C. Wang, X. Yu, and M. Tomizuka, &quot;Fast Modeling and Identication of
+		Robot Dynamics using the Lasso,&quot; in <em>Proceedings of the Sixth ASME
+		Dynamic Systems and Control Conference (DSCC)</em>, 2013</li>
+	</ol>
+	<p>&nbsp;</p>
+	<h3 id="researchers">Researchers</h3>
+	<table border="0" cellpadding="0" cellspacing="0" class="researchers" width=
+	"100%">
+		<tr>
+			<td width="31%">Cong Wang (graduated)</td>
+			<td width="38%">Graduate student</td>
+			<td width="15%">
+				<a href="mailto:wangcong@berkeley.edu" target="_new">Email</a>
+			</td>
+			<td width="16%">&nbsp;</td>
+		</tr>
+		<tr>
+			<td>Xiaowen Yu</td>
+			<td>Graduate student</td>
+			<td>
+				<a href="mailto:aliceyu@berkeley.edu" target="_new">Email</a>
+			</td>
+			<td>&nbsp;</td>
+		</tr>
+	</table>
+	<p>&nbsp;</p>
+	<h3 id="sponsor">Sponsor</h3>
+	<p><a href="http://www.appliedmaterials.com/" target="_new">Applied Materials,
+	Inc.</a></p>
+</div>
+<div class="clear">
+	&nbsp;
+</div>

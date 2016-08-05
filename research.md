@@ -14,19 +14,32 @@ To learn more about the research done at MSC, you can download a [research bookl
 
 [Intelligent Control of Robotic Manipulators]({{ "/research/intelligent-manipulation" | prepend: site.baseurl }})
 
+[Control of Vacuum Wafer Handling Robot]({{ "/research/wafer_handling" | prepend: site.baseurl }})
+
 ## Human Mechatronics
+
+[Individualized Assistive Device for Rehabilitation and Augmentation]({{ "/research/Individual-Device" | prepend: site.baseurl }})
 
 [Mechatronics for Human Assistance]({{ "/research/mechatronics-human-assistance" | prepend: site.baseurl }})
 
 [Exoskeleton Design & Control for BMI Study]({{ "/research/exoskeleton-BMI" | prepend: site.baseurl }})
 
-[Individualized Assistive Device for Rehabilitation and Augmentation]({{ "/research/Individual-Device" | prepend: site.baseurl }})
+[Variable Stiffness Actuators (VSAs)]({{ "/research/vsa" | prepend: site.baseurl }})
 
 ## Precision Motion Control
+[MEMS Gyroscope Calibration for Satellite Attitude Determination Systems]({{ "/research/satellite" | prepend: site.baseurl }})
+
+[Control of High-Performance Wafer Scanning Systems]({{ "/research/wafer" | prepend: site.baseurl }})
 
 ## Hard Disk Drive Control
+[Hard Disk Drive Control]({{ "/research/disk" | prepend: site.baseurl }})
+
+* [Adaptive Vibration Rejection]({{ "/research/vibration" | prepend: site.baseurl }})
+* [Spiral Servowriting]({{ "/research/spiral-servo" | prepend: site.baseurl }})
+* [Self Servowriting]({{ "/research/self-servo" | prepend: site.baseurl }})
 
 ## Automotive Control
+[Turbocharged Spark-Ignition Engine Control]({{ "/research/turbocharged" | prepend: site.baseurl}})
 
 <!-- <p>The purpose of this HTML is to help determine what default settings are with Bitters and to make sure that all possible HTML Elements are included in this HTML so as to not miss any possible Elements when designing a site.</p>
 

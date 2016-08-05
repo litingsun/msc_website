@@ -1,0 +1,84 @@
+---
+layout: page
+title: Adaptive Vibration Rejection
+permalink: /research/vibration
+---
+<div id="content">
+    <div id="sidebar">
+        <div class="sidebarbox">
+            <h3>Jump to:</h3>
+            <ul class="sidemenu">
+                <li>
+                    <a href="#audio">Adaptive Audio-Vibration Rejection</a>
+                </li>
+                <li>
+                    <a href="#multiple">Adaptive Compensation for Multiple Narrow-Band
+                    Disturbances</a>
+                </li>
+                <li>
+                    <a href="#pub">Related Publications</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <h3 id="audio">Adaptive Audio-Vibration Rejection</h3>
+    <p>With the ever increasing demand of HDD applications in multimedia
+    environments, external vibrations generated from sounds and environments are
+    becoming a dominating source of the position error signal (PES) in various HDD
+    products. These audio vibrations from, e.g., the computer/TV speakers,
+    contaminate the HDD servo performance by introducing strong and wide peaks to
+    the PES spectrum. Such band-limited disturbances (disturbances whose spectrum
+    are largely contained in multiple narrow or wide bands) differ in products and
+    can additionally be time dependent. This research aims at designing an
+    adaptive feedback control algorithm (without using additional sensors) for
+    audio-vibration compensation.</p>
+    <p>&nbsp;</p>
+    <h3 id="multiple">Adaptive Compensation for Multiple Narrow-Band
+    Disturbances</h3>
+    <p>Narrow-band disturbances show up as spikes in the PES spectrum (see one
+    example in Fig. 1). The sources of the narrow-band disturbances in HDD include
+    track eccentricity (or repeatable runout), disk modes, and external
+    vibrations. Since the frequencies of the narrow-band disturbances are often
+    unknown, adaptive control is required for effective rejection of the
+    disturbances. We have developed indirect and direct adaptive control schemes
+    to compensate for single and multiple narrow-band disturbances to improve the
+    servo performance in track following.</p>
+    <p align="center"><img alt="PES" height="374" src="../assets/images/research/PES.png" width="500"><br>
+    Figure 1: A typical frequency spectrum of the Position Error Signal</p>
+    <p>Advantages of the proposed compensation include:</p>
+    <ul>
+        <li>it requires the minimal amount of adaptation parameters</li>
+        <li>it optimally rejects multiple spectral peaks</li>
+        <li>it is a flexible loop-shaping tool that maintain the achieved baseline
+        servo performance and can reject vibrations much at frequencies higher than
+        the bandwidth of the servo loop</li>
+    </ul>
+    <p>The deterministic case of the algorithm has also been successfully verified
+    via experiments on a laboratory setup of an industrial wafer-stage system and
+    a variable-gear-ratio based electrical power steering system.</p>
+    <p>&nbsp;</p>
+    <h3 id="pub">Related Publications</h3>
+    <ol>
+        <li>X. Chen and M. Tomizuka, “An Indirect Adaptive Approach to Reject
+        Multiple Narrow-Band Disturbances in Hard Disk Drives,” in Proceedings of the
+        2010 IFAC Symposium on Mechatronic Systems, Cambridge, MA, Sept. 13-Sept. 15,
+        2010, pp. 44-49.</li>
+        <li>X. Chen and M. Tomizuka, “Unknown Multiple Narrow-Band Disturbance
+        Rejection in Hard Disk Drives–an Adaptive Notch Filter and Perfect
+        Disturbance Observer Approach,” in Proceedings of the 2010 ASME Dynamic
+        Systems and Control Conference, Cambridge, MA, Sept. 13-Sept. 15, 2010,
+        Vol.1, pp. 963-970.</li>
+        <li>X. Chen and M. Tomizuka, “A Minimum Parameter Adaptive Approach for
+        Rejecting Multiple Narrow-Band Disturbances With Application to Hard Disk
+        Drives,” IEEE Transactions on Control Systems Technology, vol. 20, no. 2, pp.
+        408-415, Mar. 2012.</li>
+        <li>X. Chen and M. Tomizuka, “Optimal Plant Shaping for High Bandwidth
+        Disturbance Rejection in Discrete Disturbance Observers,” in Proceedings of
+        the 2010 American Control Conference, Baltimore, MD, Jun. 30-Jul. 02, 2010,
+        pp. 2641-2646.</li>
+        <li>X. Chen and M. Tomizuka, “A Structure for all Stabilizing Controllers and
+        its Applications to Narrow-band Disturbance Rejection in Hard Disk Drives,”
+        in 21th ASME Annual Conference on Information Storage &amp; Processing
+        Systems 2011, SE-A5.</li>
+    </ol>
+</div>

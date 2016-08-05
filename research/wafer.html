@@ -1,0 +1,130 @@
+---
+layout: page
+title: Control of High-Performance Wafer Scanning Systems
+permalink: /research/wafer
+---
+<div id="content">
+  <div id="sidebar">
+    <div class="sidebarbox">
+      <h3><a href="../../research.html">Research</a></h3>
+      <ul class="sidemenu">
+        <li>
+          <a href="#overview">Overview</a>
+        </li>
+        <li>
+          <a href="#setup">Experimental Setup</a>
+        </li>
+        <li>
+          <a href="#topics">Research Topics</a>
+        </li>
+        <li>
+          <a href="#researchers">Researchers</a>
+        </li>
+        <li>
+          <a href="#sponsors">Sponsors</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <h3 id="overview">Overview</h3>
+  <p>Photolithography is a critical step in the manufacture of integrated
+  circuits (ICs). In the process of photolithography, a pattern is transferred
+  from a photomask (reticle) to a chemical photoresist coating a silicon wafer
+  by shining a light source through the pattern. The pattern is later engraved
+  into the resist through chemical etching. This process is repeated to create
+  the circuit layer by layer.</p>
+  <p>In order to achieve small feature sizes for ICs, it is important to have
+  high precision control of the wafer stage. This research focuses on improving
+  the mechanical performance of the wafer stage through developing innovative
+  control strategies, modeling methods, and metrology solutions.</p>
+  <p>&nbsp;</p>
+  <h3 id="setup">Experimental Setup</h3>
+  <p>A single-axis wafer scanner setup is available at our lab for experiments.
+  The system consists of a stage and counter mass, both driven by linear
+  permanent magnet motors (LPMM). The stage is mounted on air-bearings,
+  resulting in extremely low friction. The system is equipped with sensors such
+  as encoder, accelerometers, and a laser interferometry system.</p>
+  <p align="center"><img alt="wafer stage" height="320" src="../assets/images/research/waferstage.jpg"
+  width="400"></p>
+  <p>The system is controlled by a combination of LabVIEW Real-Time and FPGA.
+  The FPGA interfaces with the stage actuators and measurement systems and
+  provides accurate timing for Real-Time control. The Real-Time system runs the
+  stage control algorithms and data logging operations. The LabVIEW development
+  environment enables users to quickly design, implement and analyze control
+  strategies.</p>
+  <p>&nbsp;</p>
+  <h3 id="topics">Research Topics</h3>
+  <p><strong>Input Shaping</strong></p>
+  <p>Small positioning errors, suppression of vibration, and small settling
+  times are some performance requirements for the wafer stage. This research
+  investigates the use of input shaping techniques to reduce residual vibration
+  while preserving fast settling time. Methods such as low-pass filtering,
+  jerk-limited profiles, and input shaping will be applied. Mixed time-frequency
+  constrained optimization techniques will be used to generate trajectories with
+  minimum settling time, and limited frequency bandwidth to prevent residual
+  vibrations.</p>
+  <p><strong>Force Ripple Compensation</strong></p>
+  <p>Linear permanent magnet motors have found widespread application in
+  precision positioning. However, the force ripples which are caused by
+  irregular magnetic field and varience of winding self-inductance between the
+  premanent magnets and the translator can cause significant tracking errors. A
+  composite controller is proposed which consists of PID feedback controller and
+  an adaptive feedforward compensator.</p>
+  <p><strong>Iterative Learning Control</strong></p>
+  <p>Considering the repetitive nature of scanning, ILC has been used
+  extensively for improving trajectory tracking and repetitive disturbance
+  rejection in wafer scanners. ILC uses information from previous trials of a
+  process to reject periodic disturbances iteratively. We implemented a simple
+  P-type ILC algorithm for wafer stage control. It is especially attractive
+  because of its simple design and implementation.</p>
+  <p><strong>Automatic Tuning Techniques</strong></p>
+  <p>Every wafer stage has slightly different plant and disturbance model
+  characteristics, necessitating fine-tuning of controllers for each wafer
+  stage. One of our research aims is to develop techniques to automate the
+  iterative process of controller tuning. Iterative Feedback Tuning (IFT) is
+  being investigated as a method for tuning. The automation of controller tuning
+  will simplify the installation of new machines in the future.</p>
+  <p><strong>Two-axis Synchronization</strong></p>
+  <p>In modern wafer scanner setups, both the wafer and reticle are scanned in
+  opposite directions to increase the scanning resolution. The movement of the
+  wafer and reticle stages must be synchronized to avoid alignment errors. Areas
+  of investigation include modeling the cross-coupling between the stages,
+  synchronization, and MIMO control.</p>
+  <p>&nbsp;</p>
+  <h3 id="researchers">Researchers</h3>
+  <table border="0" cellpadding="0" cellspacing="0" width="100%">
+    <tr>
+      <td width="40%">
+        <p>Chen, Xu (graduated)<br>
+        Sun, Liting<br>
+        <br>
+        Yu, Shuwen (graduated)<br>
+        Stearns, Hoday (graduated)<br>
+        Mishra, Sandipan (graduated)<br>
+        Fine, Benjamin (graduated)<br>
+        Yeh, William (graduated)</p>
+      </td>
+      <td width="10%">
+        <p><a href="mailto:maxchen@berkeley.edu" target="_new">Email</a><br>
+        <a href="mailto:litingm@gmail.com" target="_new">Email</a><br>
+        <br>
+        <a href="mailto:emmayu@berkeley.edu" target="_new">Email</a><br>
+        <a href="mailto:hodayx@uclink.berkeley.edu" target="_new">Email</a><br>
+        <a href="mailto:sandipan@me.berkeley.edu" target="_new">Email</a><br>
+        <a href="mailto:benjamin.t.fine@gmail.com" target="_new">Email</a><br>
+        <a href="mailto:wyeh47@gmail.com" target="_new">Email</a></p>
+      </td>
+      <td width="50%">
+        <p>&nbsp;</p>
+      </td>
+    </tr>
+  </table>
+  <p>&nbsp;</p>
+  <h3 id="sponsors">Sponsors</h3>
+  <p><a href="http://www.nikon.com/" target="_new">Nikon, Ltd.</a><br>
+  <a href="http://www.home.agilent.com/" target="_new">Agilent
+  Technologies</a></p>
+</div>
+<div class="clear">
+  &nbsp;
+</div>

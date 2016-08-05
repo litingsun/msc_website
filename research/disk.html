@@ -1,0 +1,55 @@
+---
+layout: page
+title: Hard Disk Drive Control
+permalink: /research/disk
+---
+
+
+<div id="content">
+          <div id="sidebar">
+      <div class="sidebarbox">
+               <h3>Jump to:</h3>
+        <ul class="sidemenu">
+          <li><a href="#overview">Overview</a></li>
+                    <li><a href="#topics">Research Topics</a></li>
+                    <li><a href="#pub">Related Publications</a></li>
+                    <li><a href="#researchers">Researchers</a></li>
+        </ul>
+      </div>
+      </div>
+      <h3 id="overview">Overview</h3>
+      <p>Bits of information are stored on and retrieved from computer disk drives using a magnetic read/write head. This information is arranged on concentric tracks, nominally circular in shape. Positioning the read/write head over the appropriate track is a control problem, which has a significant impact on the performance of the drive.</p>
+      <p>Servowriting is a manufacturing process where the data tracks and servo sectors are defined on the disk platters by creating the servo patterns so that the HDD servo system can later use them to identify the tracks and servo sectors, and to measure the relative position of the read head to the track centerline, i.e., the Position Error Signal (PES). The HDD servomechanism generates the position feedback signal by using the servo patterns as reference, which are written on the disks when no reference is present on the disks or inside the HDD. There are several conventional mechanisms used to provide the reference while the servo writing is performed. The common one is to externally write the position (servo burst) and timing (synchronization mark) information onto the disk surface by means of a costly laser-guided push-pin mechanism which can accurately move the HDD actuator arm so that the write head is positioned on the desired tracks.</p>
+      <p>Normal operation of a disk drive will require access to many different tracks. The faster the read/write head can be moved between tracks, the faster information can be stored or retrieved. There are economic and physical constraints on this task. The fast transition between data tracks is usually called &quot;seeking.&quot;</p>
+      <p>The sensitivity of the position of the read/write head to external disturbances is also an important consideration in the design of controllers for disk drive servos. As computer disk drives become more mobile in laptop or handheld applications, new bumps and vibrations become common disturbances which must not affect the positioning control of the read/write head. Maintaining the read/write head over a particular data track is usually called &quot;following.&quot;</p>
+      <p>The designed controller needs to address the concerns of servo writing, seeking and following for the final disk drive performance to be both fast and reliable. Work in this lab deals with the analysis of and design of controllers for disk drives.</p>
+<p>&nbsp;</p>
+          <h3 id="topics">Research Topics</h3>
+          <p><a href="{{ "/research/vibration" | prepend: site.baseurl }}">Adaptive Vibration Rejection</a><br />
+            <a href="{{ "/research/spiral-servo" | prepend: site.baseurl }}">Spiral Servowriting</a><br />
+          <a href="{{ "/research/self-servo" | prepend: site.baseurl }}">Self Servowriting</a></p>
+<p>&nbsp;</p>
+          <h3 id="pub">Related Publications</h3>
+          <p>Please refer to the <a href="../publications/papers_disk.html">publication list</a> and <a href="http://me.berkeley.edu/~maxchen/" target="_new">Xu Chen's personal webpage</a> for related publications.</p>
+<p>&nbsp;</p>
+          <h3 id="researchers">Researchers</h3>
+          <table width="100%" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td width="40%"><p>Chen, Xu<br />
+                Zheng, Minghui<br />
+                <br />
+                Dong, Feng Dan (graduated)<br />
+                Zheng, Qixing (graduated)
+              </p></td>
+              <td width="10%"><p><a href="mailto:maxchen@me.berkeley.edu" target="_new">Email</a><br />
+                <a href="mailto:minghuizheng@berkeley.edu" target="_new">Email</a><br />
+                <br />
+                <a href="mailto:nancy@me.berkeley.edu" target="_new">Email</a><br />
+                <a href="mailto:qiz@me.berkeley.edu" target="_new">Email</a><br />
+              </p></td>
+              <td width="50%" valign="top"><p><a href="http://www.engr.uconn.edu/~xchen/" target="_new">Homepage</a></p></td>
+            </tr>
+          </table>
+    </div>
+    <div class="clear">&nbsp;</div>
+  </div>

@@ -1,0 +1,80 @@
+---
+layout: page
+title: Self Servowriting
+permalink: /research/self-servo
+---
+<div id="content">
+    <div id="sidebar">
+        <div class="sidebarbox">
+            <h3>Jump to:</h3>
+            <ul class="sidemenu">
+                <li>
+                    <a href="#overview">Overview</a>
+                </li>
+                <li>
+                    <a href="#pub">Related Publications</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <h2></h2>
+    <h3 id="audio">Overview</h3>
+    <p>The conventional servo writing methods have some disadvantages. They need
+    expensive external devices for positioning of the write head to write the
+    servo patterns and require clean room environment not to contaminate the disk
+    drive interior. Furthermore, frequent calibrations may be required. They face
+    increasingly difficult challenges as the move towards ever increasing Track
+    Per Inch (TPI) continues in the industry. These challenges come from different
+    factors. Firstly, conventional servo writing requires several revolutions of
+    the spindle to create one servo track. Therefore, the total time required to
+    servo write an HDD increases proportionately with increasing number of tracks
+    per surface. Because of this decrease in the throughput of servo writing, more
+    servo writers are required to meet the production target. This in turn,
+    requires more floor space in clean room. Secondly, for drives of smaller form
+    factors, the jigs and fixtures for servo writing become smaller. It is
+    challenging to design the pushpin mechanism that is small and yet sufficiently
+    stiff.</p>
+    <p>The demand for higher throughput without increasing the production cost and
+    process time was primary motivation for developing an alternative method of
+    writing servo patterns called Self ServoWriting (SSW) which can be performed
+    in an area outside expensive clean room as this method does not require any
+    opening on the HDD's enclosure. SSW has been attractive in HDD industries
+    because it not only potentially saves in the cost and time of mass
+    manufacturing, but also effectively maintains the servo writing quality. SSW
+    regenerates timing (tangential) and position (radial) information from the
+    previously written track using the existing GMR head of the HDD itself. Hence,
+    the external servo writers are no longer needed and servo writing does not
+    have to be processed in the clean-room environment.</p>
+    <p>The servo system in SSW involves two control loops: position control loop
+    timing control loop. In the position control loop, a Voice Coil Motor (VCM) is
+    controlled to maintain the heads over the target track centerline during the
+    reading and writing operations. And in the timing control loop, a Phase Lock
+    Loop (PLL) is generally used to generate the servo writing clock signal.
+    Therefore, there are two critical control objectives in SSW process with
+    desired accuracy:</p>
+    <p class="indent">1. All the servo tracks must be perfectly concentric. If not
+    so, the data tracks will be squeezed, resulting in loss of off-track read
+    margin or AC track squeeze. In the position control loop,the position of the
+    write head with respect to the track centerline is controlled by controlling
+    the VCM. Any disturbance and eccentricity present during this process will
+    appear as written-in Repeatable Run-Out (RRO) for the head positioning
+    servomechanism of HDD. This written-in RRO increases TMR that must be
+    compensated for by the servomechanism of an operational HDD. Naturally, the
+    requirements on the accuracy in positioning the write head is more stringent
+    in SSW than in HDD servo system.</p>
+    <p class="indent">2. The servo sectors of any track must be written perfectly
+    radially aligned (radially coherent) with those in the adjacent tracks. If not
+    so, reading of servo data will be degraded or corrupted. In the SSW process,
+    this is done by controlling a Phase Lock Loop (PLL) to generate the clock
+    signal to write the timing marks in the servo patterns. The misalignment
+    between the written timing marks and the desired timing marks can be measured
+    by timing jitter. Excessive timing jitter causes distortion in read back
+    signal and warping of the servo sectors.</p>
+    <p>&nbsp;</p>
+    <h3 id="pub">Related Publications</h3>
+    <ol>
+        <li>F. Dong and M. Tomizuka, &quot;An Iterative Learning Control design for
+        Self-Servowriting in Hard Disk Drives Using L1 Optimal Control,&quot;
+        American Control Conference, 2009.</li>
+    </ol>
+</div>

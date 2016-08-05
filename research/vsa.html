@@ -1,0 +1,135 @@
+---
+layout: page
+title: Variable Stiffness Actuators (VSAs)
+permalink: /research/vsa
+---
+
+<div id="content">
+	<div id="sidebar">
+		<div class="sidebarbox">
+			<h3>Contents:</h3>
+			<ul class="sidemenu">
+				<li>
+					<a href="#intro">Introduction</a>
+				</li>
+				<li>
+					<a href="#setup">Experimental Setup</a>
+				</li>
+				<li>
+					<a href="#design">A Proposed VSA Design</a>
+				</li>
+				<li>
+					<a href="#control">Control Strategy</a>
+				</li>
+				<li>
+					<a href="#app">Potential Applications</a>
+				</li>
+				<li>
+					<a href="#researchers">Researchers</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<h2></h2>
+	<h3 id="intro">Introduction</h3>
+	<p>As robotic devices are becoming more ubiquitous in the modern world,
+	human-robot interaction is becoming a necessity. Human muscle’s natural
+	stiffness varies in different task scenarios. This biological feature
+	motivates the development of a compliant actuator with adjustable stiness to
+	ensure the safety and comfort of human users while maintaining performance. In
+	other words, Variable Stiffness Actuators (VSAs) and the corresponding
+	intelligent control are desired to provide the flexibility by changing their
+	compliance to suit the variable tasks given.</p>
+	<p>&nbsp;</p>
+	<h3 id="setup">Experimental Setup</h3>
+	<p>To perform this research, we have constructed a test rig capable of
+	accurately measuring the position and torque of a VSA device. Using this setup
+	we can test both the static and dynamic properties of such devices. The test
+	device itself comprises of a set of standardized mounting brackets, to which
+	high resolution optical indexing encoders are mounted. Motor control and data
+	acquisition are performed using a real-time operating system.</p>
+	<p align="center"><img alt="VSA test rig" width="300px" src=
+	"../assets/images/research/VSA_experiment_setup.png"></p>
+	<p align="center">Test rig for VSA position and torque measurements</p>
+	<p>&nbsp;</p>
+	<h3 id="design">A Proposed VSA Design</h3>
+	<p>One of the designs we are currently investigating uses a variable length
+	fulcrum to change the effective stiness of two linear springs. By varying the
+	positions of these two springs, the eective rotational joint stiness of the
+	series elastic actuator can be changed continuously allowing for the dynamic
+	properties to be tuned to suit the desired application.</p>
+	<table border="0" width="100%">
+		<tr>
+			<td align="center" width="36%"><img alt="VSA concept" src=
+			"../assets/images/research/VSA_concept.png" ></td>
+			<td align="center" width="64%"><img alt="VSA prototype" src=
+			"../assets/images/research/VSA_prototype.png" ></td>
+		</tr>
+	</table>
+	<p align="center">Proposed VSA concept design</p>
+	<p>&nbsp;</p>
+	<h3 id="control">Control Strategy</h3>
+	<p>We are currently investigating a hybrid system control strategy that ts the
+	inherent characteristics of such devices and applications involving the
+	stiness changes. In a hybrid framework, the dynamics of each mode will be
+	characterized for each task segmentation and a set of dierent controllers will
+	be synthesized to provide optimal performance. By varying actuator stiness,
+	the system dynamics can be altered at a mechanical level, requiring the hybrid
+	feedforward/feedback controllers with adaptation capabilities to be properly
+	realized and switched for each segment.</p>
+	<p>&nbsp;</p>
+	<h3 id="app">Potential Applications</h3>
+	<p>By varying the stiffness of an actuator, we are able to protect both the
+	actuator and interfacing devices by allowing for exibility in their movements.
+	This can be of use in human assistive devices where it is important to not
+	apply impulse loads to the user. These devices can also be used to tune the
+	resonance of a device which stores /dissipates energy.</p>
+	<p>&nbsp;</p>
+	<h3 id="researchers">Researchers</h3>
+	<table border="0" cellpadding="0" cellspacing="0" class="researchers" width=
+	"100%">
+		<tr>
+			<td width="31%">Robert Matthew</td>
+			<td width="38%">Graduate Student</td>
+			<td width="15%">
+				<a href="mailto:tpwt@eecs.berkeley.edu" target="_new">Email</a>
+			</td>
+			<td width="16%">
+				<a href="http://www.robertpetermatthew.com/" target="_new">Homepage</a>
+			</td>
+		</tr>
+		<tr>
+			<td>Changliu Liu</td>
+			<td>Graduate Student</td>
+			<td>
+				<a href="mailto:changliuliu@berkeley.edu" target="_new">Email</a>
+			</td>
+			<td>&nbsp;</td>
+		</tr>
+		<tr>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+		</tr>
+		<tr>
+			<td><strong>Recent graduates:</strong></td>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+		</tr>
+		<tr>
+			<td>Wenjie Chen</td>
+			<td>FANUC Corporation</td>
+			<td>
+				<a href="mailto:wjchen@berkeley.edu" target="_new">Email</a>
+			</td>
+			<td>
+				<a href="http://msc.berkeley.edu/wjchen/" target="_new">Homepage</a>
+			</td>
+		</tr>
+	</table>
+</div>
+<div class="clear">
+	&nbsp;
+</div>
