@@ -4,7 +4,7 @@ title: Research
 permalink: /research/
 ---
 
-<div class="addendum"> 
+<div class="addendum">
 <div markdown="1">
 To learn more about the research done at MSC, you can download a [research booklet here]({{ site.baseurl }}/assets/files/MSC_research_2013.pdf).
 </div>
@@ -19,6 +19,8 @@ To learn more about the research done at MSC, you can download a [research bookl
 [Mechatronics for Human Assistance]({{ "/research/mechatronics-human-assistance" | prepend: site.baseurl }})
 
 [Exoskeleton Design & Control for BMI Study]({{ "/research/exoskeleton-BMI" | prepend: site.baseurl }})
+
+[Individualized Assistive Device for Rehabilitation and Augmentation]({{ "/research/Individual-Device" | prepend: site.baseurl }})
 
 ## Precision Motion Control
 
