@@ -1,112 +1,118 @@
-[  
-   {  
+[
+   {
       "name":"Chan, Chen-Yu",
       "title":"Human Mechatronics",
       "image":"Chen-Yu",
       "email":"chanchenyu@berkeley.edu",
       "homepage":"http://xlab.cn.nctu.edu.tw/cychan/"
    },
-   {  
+   {
       "name":"Chen, Jianyu",
       "title":"Automotive Control",
       "image":"Jianyu",
       "email":"jianyuchen@berkeley.edu"
    },
-   {  
+   {
       "name":"Fan, Yongxiang",
       "title":"Robotics",
       "image":"Yongxiang",
       "email":"yongxiang_fan@berkeley.edu"
    },
-   {  
+   {
       "name":"Haninger, Kevin",
       "title":"Human Mechatronics",
       "image":"Kevin",
       "email":"khaninger@gmail.com",
       "homepage":"https://sites.google.com/site/khaninger/"
    },
-   {  
+   {
       "name":"Kaneishi, Daisuke",
       "title":" ",
       "image":"Daisuke",
       "email":"kaneishi@berkeley.edu",
       "homepage":"http://dai-chang.jimdo.com/"
    },
-   {  
+   {
       "name":"Li, Shuyang",
       "title":"Precision Motion Control",
       "image":"Shuyang",
       "email":"shuyangli@berkeley.edu"
    },
-   {  
+   {
       "name":"Lin, Hsien-Chung",
       "title":"Robotics",
       "image":"Hsien-Chung",
       "email":"hclin@berkeley.edu"
    },
-   {  
+   {
       "name":"Liu, Changliu",
       "title":"Robotics",
       "image":"Changliu",
       "email":"changliuliu@berkeley.edu",
       "homepage":"http://me.berkeley.edu/~cliu/"
    },
-   {  
+   {
       "name":"Peng, Cheng",
       "title":" ",
       "image":"Cheng",
       "email":"chengpeng2014@berkeley.edu"
    },
-   {  
+   {
       "name":"Shin, Kiwoo",
       "title":"Robotics ",
       "image":"Kiwoo",
       "email":"kiwoo.shin@berkeley.edu"
    },
-   {  
+   {
       "name":"Sun, Liting",
       "title":"Precision Motion Control ",
       "image":"Liting",
       "email":"litingm@gmail.com"
    },
-   {  
+   {
       "name":"Tang, Te",
       "title":"Robotics",
       "image":"Te",
       "email":"tetang@berkeley.edu"
    },
-   {  
+   {
       "name":"Wai, Dennis",
       "title":"Precision Motion Control",
       "image":"Dennis",
       "email":"dwai213@berkeley.edu",
       "homepage":"http://denniswai.com/"
    },
-   {  
+   {
       "name":"Wang, Zining",
       "title":"Robotics",
       "image":"Zining",
       "email":"wangzining@berkeley.edu"
    },
-   {  
+   {
       "name":"Yu, Xiaowen",
       "title":"Robotics",
       "image":"Alice",
       "email":"aliceyu@berkeley.edu"
    },
-   {  
+   {
       "name":"Zhan, Wei",
       "title":" ",
       "image":"WeiZhan",
       "email":"zhanwei0102@gmail.com"
    },
-   {  
+   {
+     "name":"Zheng, Minghui",
+     "title":"Disk Drive Control",
+     "image":"Minghui",
+     "email":"minghuizheng@berkeley.edu"
+   },
+   {
       "name":"Zhao, Yu",
       "title":"Robotics",
       "image":"YuZhao",
       "email":"yzhao334@berkeley.edu"
    },
-   {  
+   {
       "name":"Zhou, Shiying",
       "title":"Disk Drive Control",
       "image":"Shiying",
