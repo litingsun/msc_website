@@ -16,24 +16,24 @@ permalink: /research/Individual-Device
 
 ## Individualized Assistive Device for Rehabilitation and Augmentation
 
+
 <!-- Add your own introduction here -->
 
 ### <a name="id1"></a>Introduction
 
-It is important to develop assistive devices suited to user's abilities since there are individual differences in terms of muscle strength, and similarly, people with disability have different levels of residual strengths. We focus on design and control of individualized assistive devices for augmentation and rehabilitation, which enable users to increase muscle strength, work space of upper limbs, and other important factors to improve Activities of Daily Life (ADL). Our collaborator are researchers from Professor Ruzena Bajcsy's lab at UC Berkeley working on individualized human modeling. We are currently interested in 1) development of assistive devices with actuators except for electrical geared motors, and 2) control methods based on the user's intention in motion estimated from EMG and other human modeling parameters.
-
+It is important to develop assistive devices suited to usersf abilities since there are individual differences in terms of muscle strength, and similarly, people with disability have different levels of residual strengths. We focus on design and control of individualized assistive devices for augmentation and rehabilitation, which enable users to increase muscle strength, work space of upper limbs, and other important factors to improve Activities of Daily Life (ADL). A collaborator are researchers from the lab of Professor Ruzena Bajcsy at UC Berkeley working on individualized human modeling. We are currently interested in 1) development of assistive devices with actuators except for electrical geared motors, and 2) control methods based on userfs motion intention estimated from EMG and other human modeling parameters.
 
 <!-- just change profile-placeholder.gif with an image of your choice. Don't forget to send the webmaster your picture as well. Be sure to fill out the data-title and title field of this tag -->
 
 <div class="col-md-6">
-<a href="{{ site.baseurl }}/assets/images/research/APEX.gif" data-lightbox="Individual-Rehabilitation" data-title="APEX">
+<a href="{{ site.baseurl }}/assets/images/APEX.gif" data-lightbox="profile-placeholder" data-title="Example Image">
   <img src="{{ site.baseurl }}/assets/images/research/APEX.gif" title="Example Image">
 </a>
 <div class="image-caption">Overview of Active/Passive EXoskeleton (APEX)</div>
 </div>
 
 <div class="col-md-6">
-<a href="{{ site.baseurl }}/assets/images/research/mechanism.png" data-lightbox="Individual-Rehabilitation" data-title="Mechanism">
+<a href="{{ site.baseurl }}/assets/images/mechanism.gif" data-lightbox="profile-placeholder" data-title="Example Image">
   <img src="{{ site.baseurl }}/assets/images/research/mechanism.png" title="Example Image">
 </a>
 <div class="image-caption">Schematic of an Active/Passive actuator. Please check details in publication 1</div>
@@ -55,15 +55,13 @@ Loaded and Unloaded Condition for the Control of Assistive Devices, in 2016 Annu
 
 ### <a name="id3"></a>Researchers
 
+| Robert Peter Matthew | Graduate Student | [Email Link](tpwt@eecs.berkeley.edu) |
+
 | Daisuke Kaneishi | Graduate Student | [Email Link](kaneishi@berkeley.edu) |
-
-### <a name="id4"></a>Recent Graduates
-
-| Robert Peter Matthew |  UK | [Email Link](tpwt@eecs.berkeley.edu) |  |
 
 
 <!-- If you have any sponsors, you can just list them here -->
 
-### <a name="id5"></a>Sponsors
+### <a name="id4"></a>Sponsors
 
 * [National Science Foundation (NSF)](http://www.nsf.gov/)
