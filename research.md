@@ -12,7 +12,7 @@ To learn more about the research done at MSC, you can download a [research bookl
 
 ## Robotics
 
-[Intelligent Control of Robotic Manipulators]({{ "/research/intelligent-manipulation" | prepend: site.baseurl }})
+[Intelligent Control of Robotic Manipulators]({{ "/research/intelligent-manipulation.html" | prepend: site.baseurl }})
 
 [Control of Vacuum Wafer Handling Robot]({{ "/research/wafer_handling" | prepend: site.baseurl }})
 
@@ -40,6 +40,9 @@ To learn more about the research done at MSC, you can download a [research bookl
 
 ## Automotive Control
 [Turbocharged Spark-Ignition Engine Control]({{ "/research/turbocharged" | prepend: site.baseurl}})
+
+[Robustly-Safe Automated Driving (ROAD) System]({{ "/research/robustly-safe-automated-driving.html" | prepend: site.baseurl }})
+
 
 <!-- <p>The purpose of this HTML is to help determine what default settings are with Bitters and to make sure that all possible HTML Elements are included in this HTML so as to not miss any possible Elements when designing a site.</p>
 
