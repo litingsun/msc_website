@@ -26,15 +26,15 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
 <!-- just change profile-placeholder.gif with an image of your choice. Don't forget to send the webmaster your picture as well. Be sure to fill out the data-title and title field of this tag -->
 
 <div class="col-md-6">
-<a href="{{ site.baseurl }}/assets/images/profile-placeholder.gif" data-lightbox="profile-placeholder" data-title="Example Image">
-  <img src="{{ site.baseurl }}/assets/images/profile-placeholder.gif" title="Example Image">
+<a href="{{ site.baseurl }}/assets/images/research/profile-placeholder.gif" data-lightbox="profile-placeholder" data-title="Example Image">
+  <img src="{{ site.baseurl }}/assets/images/research/profile-placeholder.gif" title="Example Image">
 </a>
 <div class="image-caption">Caption 1</div>
 </div>
 
 <div class="col-md-6">
-<a href="{{ site.baseurl }}/assets/images/profile-placeholder.gif" data-lightbox="profile-placeholder" data-title="Example Image">
-  <img src="{{ site.baseurl }}/assets/images/profile-placeholder.gif" title="Example Image">
+<a href="{{ site.baseurl }}/assets/images/research/profile-placeholder.gif" data-lightbox="profile-placeholder" data-title="Example Image">
+  <img src="{{ site.baseurl }}/assets/images/research/profile-placeholder.gif" title="Example Image">
 </a>
 <div class="image-caption">Caption 2</div>
 </div>
