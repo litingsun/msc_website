@@ -2,7 +2,7 @@
 layout: post
 title: Tomi 70th Pre-Birthday
 date: '2016-03-31T10:00:00+00:00'
-permalink: /news/tomi-70-lab
+permalink: /news/tomi-70-lab.html
 author: Dennis Wai
 ---
 

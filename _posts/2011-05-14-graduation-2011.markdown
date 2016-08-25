@@ -2,7 +2,7 @@
 layout: post
 title: Graduation 2011
 date: '2011-05-14T01:00:00+00:00'
-permalink: /news/graduation-2011
+permalink: /news/graduation-2011.html
 author: Raechel Tan
 ---
 <p>Congratulations to the new Doctors from the MSC Lab: <strong>Joonbum Bae</strong>, <strong>Nancy Feng Dan Dong</strong>, <strong>Hoday Stearns</strong>, and <strong>Shuwen Yu</strong>.</p><p>Also congratulations to <strong>Kan Kanjanapas</strong> and <strong>Kengo Suzuki</strong> for their completion of the Masters program.</p><p class="indent"><a href="{{ site.baseurl }}/assets/images/posts/2011GraduationL.jpg" ><img src="{{ site.baseurl }}/assets/images/posts/2011Graduation.jpg" alt="2011 graduation" border="0"></a></p>

@@ -2,7 +2,7 @@
 layout: post
 title: Thanksgiving 2012
 date: '2012-11-22T01:00:00+00:00'
-permalink: /news/thanksgiving-2012
+permalink: /news/thanksgiving-2012.html
 author: Raechel Tan
 ---
 <p>The MSC Lab celebrates Thanksgiving at Prof. Tomizuka's house.</p><p class="indent"><a href="{{ site.baseurl }}/assets/images/posts/2012Thanksgiving.jpg" ><img src="{{ site.baseurl }}/assets/images/posts/2012Thanksgiving.jpg" alt="2012 thanksgiving" border="0"></a></p>

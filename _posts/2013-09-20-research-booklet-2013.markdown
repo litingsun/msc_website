@@ -2,7 +2,7 @@
 layout: post
 title: Research Booklet 2013
 date: '2013-09-20T01:00:00+00:00'
-permalink: /news/research-booklet-2013
+permalink: /news/research-booklet-2013.html
 author: Raechel Tan
 ---
 

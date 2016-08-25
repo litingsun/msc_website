@@ -2,7 +2,7 @@
 layout: post
 title: Ski Trip 2009
 date: '2009-02-28T01:00:00+00:00'
-permalink: /news/ski-trip-2009
+permalink: /news/ski-trip-2009.html
 author: Raechel Tan
 ---
 <p>MSC Lab Group had a wonderful ski trip in Alpine Meadows, Lake Tahoe.</p>

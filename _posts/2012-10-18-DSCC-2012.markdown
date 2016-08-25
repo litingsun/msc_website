@@ -2,7 +2,7 @@
 layout: post
 title: DSCC 2012
 date:   2012-10-18 08:43:59
-permalink: /news/dscc-2012
+permalink: /news/dscc-2012.html
 author: Raechel Tan
 ---
 

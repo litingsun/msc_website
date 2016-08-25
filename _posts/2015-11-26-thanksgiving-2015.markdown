@@ -2,7 +2,7 @@
 layout: post
 title: Thanksgiving 2015
 date: '2015-11-26T10:00:00+00:00'
-permalink: /news/thanksgiving-2016
+permalink: /news/thanksgiving-2016.html
 author: Dennis Wai
 ---
 

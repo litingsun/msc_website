@@ -2,7 +2,7 @@
 layout: post
 title: 3rd Place at Big Ideas
 date: '2012-05-01T01:00:00+00:00'
-permalink: /news/big-ideas-3rd-place
+permalink: /news/big-ideas-3rd-place.html
 author: Raechel Tan
 ---
 <p>Congratulations to the PikaPen team for winning 3rd place in the <a href="http://bigideas.berkeley.edu/contest/information-technology-for-society-competition" target="_new">Information Technology for Society</a> category of this year's <a href="http://bigideas.berkeley.edu/" target="_new">Big Ideas Competition</a>!</p><p>Please visit the following news outlets for more information:</p><ul>

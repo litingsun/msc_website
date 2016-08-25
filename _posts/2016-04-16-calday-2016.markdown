@@ -2,7 +2,7 @@
 layout: post
 title: Cal Day 2016
 date: '2016-04-16T10:00:00+00:00'
-permalink: /news/calday-2016
+permalink: /news/calday-2016.html
 author: Dennis Wai
 ---
 

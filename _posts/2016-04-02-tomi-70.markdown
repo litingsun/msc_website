@@ -2,7 +2,7 @@
 layout: post
 title: Tomi 70th Birthday
 date: '2016-04-02T10:00:00+00:00'
-permalink: /news/tomi-70
+permalink: /news/tomi-70.html
 author: Dennis Wai
 ---
 

@@ -2,7 +2,7 @@
 layout: post
 title: Cal Day 2010
 date: '2010-04-17T01:00:00+00:00'
-permalink: /news/calday-2010
+permalink: /news/calday-2010.html
 author: Raechel Tan
 ---
 <p>The 2011 Cal Day Open Lab in the MSC Lab.</p><p class="indent"><a href="{{ site.baseurl }}/assets/images/posts/2010CalDay.jpg" ><img src="{{ site.baseurl }}/assets/images/posts/2010CalDay.jpg" alt="2010 Cal Day" border="0"></a></p>
