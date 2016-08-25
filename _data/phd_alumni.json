@@ -21,6 +21,14 @@
         "image":"Raechel",
         "email":"tanraechel@berkeley.edu",
         "homepage":"https://www.ocf.berkeley.edu/~raechel/"
+      },
+      {
+      "name":"Matthew, Robert",
+      "title":"Post Doc, UC Berkeley",
+      "image":"Robert",
+      "email":"tpwt@eecs.berkeley.edu",
+      "homepage":"http://www.robertpetermatthew.com/",
+      "company":"http://tele-immersion.citris-uc.org/"
       }
     ]
   },

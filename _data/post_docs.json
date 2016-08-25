@@ -1,12 +1,4 @@
 [
-	{
-		"name":"Matthew, Robert",
-		"title":"Post Doc, UC Berkeley",
-		"image":"Robert",
-		"email":"tpwt@eecs.berkeley.edu",
-		"homepage":"http://www.robertpetermatthew.com/",
-		"company":"http://tele-immersion.citris-uc.org/"
-	},
 ] // This is the JSON to fill out
 
 // [ //this is an example json entry for a post doc, don't delete
