@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Professor Masayoshi Tomizuka
-permalink: /people/professor
+permalink: /people/tomizuka.html
 ---
 
 <div class="col-md-6">
