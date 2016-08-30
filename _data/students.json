@@ -83,6 +83,12 @@
       "email":"litingm@gmail.com"
    },
    {
+      "name":"Tang, Chen",
+      "title":"Automotive Control",
+      "image":"Chen",
+      "email":"chen_tang@berkeley.edu"
+   },
+   {
       "name":"Tang, Te",
       "title":"Robotics",
       "image":"Te",
@@ -100,6 +106,12 @@
       "title":"Robotics",
       "image":"Zining",
       "email":"wangzining@berkeley.edu"
+   },
+   {
+      "name":"Xu, Zhuo",
+      "title":"Robotics",
+      "image":"Zhuo",
+      "email":"zhuoxu@berkeley.edu"
    },
    {
       "name":"Yu, Xiaowen",
