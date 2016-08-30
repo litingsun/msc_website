@@ -7,6 +7,9 @@ gems:
 
 exclude:
   - "/vendor/"
+  - robots.txt
+  - README.md
+  - LICENSE.md
 
 # Site settings
 title: Mechanical Systems Control Lab
