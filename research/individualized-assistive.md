@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Individualized Assistive Device for Rehabilitation and Augmentation
-permalink: /research/Individual-Device
+permalink: /research/Individual-Device.html
 ---
 
 ### Contents:

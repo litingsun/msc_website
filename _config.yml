@@ -14,8 +14,8 @@ exclude:
 # Site settings
 title: Mechanical Systems Control Lab
 subtitle: "The MSC Lab focuses on designing and developing control strategies for mechanical systems. We are part of the Mechanical Engineering Department at UC Berkeley."
-email: dwai213@berkeley.edu
-name: Dennis Wai
+email: changliuliu@berkeley.edu
+name: Changliu Liu
 # Base URL of site (i.e. /blog). It should always start with a slash,
 # and never end with a slash. Set it to a blank value if hosting at the
 # root of your server.

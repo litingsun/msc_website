@@ -1,7 +1,7 @@
 ---
 layout: page-wide
 title: Students
-permalink: /people/students
+permalink: /people/students.html
 ---
 
 {% if site.data.post_docs.size >= 1 %}

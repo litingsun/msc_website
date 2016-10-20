@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Building Temperature Control
-permalink: /research/building-control
+permalink: /research/building-control.html
 ---
 
 ### Contents:

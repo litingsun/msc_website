@@ -18,10 +18,10 @@ If you have any questions about this privacy statement, the practices of this si
 
 ~~~
 Site administrator
-Dennis Wai
+Changliu Liu
 University of California, Berkeley
 Berkeley, California 94720
-dwai213[at]berkeley[dot]edu
+changliuliu[at]berkeley[dot]edu
 ~~~
 
 This site contains links to other independently run websites within the Berkeley network and to some sites outside the berkeley.edu domain. The managers of this site are not responsible for the privacy practices or the content of such websites.
