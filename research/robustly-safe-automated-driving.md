@@ -51,8 +51,11 @@ We propose a framework in designing the driving behavior for automated vehicles 
 
 
 ### <a name="id3"></a>Publications
+C. Liu, J. Chen, T. Nguyen, and M. Tomizuka, "The robustly-safe automated driving system for enhanced active safety", submitted to <i>SAE World Congress, 2017</i>.
 
- C. Liu, and M. Tomizuka, "[Enabling Safe Freeway Driving for Automated Vehicles](http://me.berkeley.edu/~cliu/files/acc16-2.pdf)", in <i>American Control Conference, 2016</i>. 
+J. Chen, C. Liu, and M. Tomizuka, "Ensuring safety, tracking accuracy and efficiency for autonomous driving on highway", submitted to <i>American Control Conference, 2017</i>.
+
+C. Liu, and M. Tomizuka, "[Enabling Safe Freeway Driving for Automated Vehicles](http://me.berkeley.edu/~cliu/files/acc16-2.pdf)", in <i>American Control Conference, 2016</i>. 
 
 
 <!-- If you have researchers you want to list here, then fill out their name and title etc -->
@@ -61,6 +64,7 @@ We propose a framework in designing the driving behavior for automated vehicles 
 
 | Changliu Liu | Graduate Student | [Email Link](mailto:changliuliu@berkeley.edu) | [Homepage](http://me.berkeley.edu/~cliu)	|
 | Jianyu Chen | Graduate Student | [Email Link](mailto:jianyuchen@berkeley.edu) |  	|
+| Chen Tang | Graduate Student | [Email Link](mailto:chen_tang@berkeley.edu)|  |
 
 
 
