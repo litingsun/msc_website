@@ -16,6 +16,10 @@ To learn more about the research done at MSC, you can download a [research bookl
 
 [Control of Vacuum Wafer Handling Robot]({{ "/research/wafer_handling.html" | prepend: site.baseurl }})
 
+## Autonomous Vehicles
+[Robustly-Safe Automated Driving (ROAD) System]({{ "/research/robustly-safe-automated-driving.html" | prepend: site.baseurl }})
+
+
 ## Human Mechatronics
 
 [Individualized Assistive Device for Rehabilitation and Augmentation]({{ "/research/Individual-Device.html" | prepend: site.baseurl }})
@@ -25,6 +29,9 @@ To learn more about the research done at MSC, you can download a [research bookl
 [Exoskeleton Design & Control for BMI Study]({{ "/research/exoskeleton-BMI.html" | prepend: site.baseurl }})
 
 [Variable Stiffness Actuators (VSAs)]({{ "/research/vsa.html" | prepend: site.baseurl }})
+
+## Building Control
+[Building Temperature Control]({{ "/research/building-control.html" | prepend: site.baseurl }})
 
 ## Precision Motion Control
 [MEMS Gyroscope Calibration for Satellite Attitude Determination Systems]({{ "/research/satellite.html" | prepend: site.baseurl }})
@@ -41,10 +48,9 @@ To learn more about the research done at MSC, you can download a [research bookl
 ## Automotive Control
 [Turbocharged Spark-Ignition Engine Control]({{ "/research/turbocharged.html" | prepend: site.baseurl}})
 
-[Robustly-Safe Automated Driving (ROAD) System]({{ "/research/robustly-safe-automated-driving.html" | prepend: site.baseurl }})
 
-## Building Control
-[Building Temperature Control]({{ "/research/building-control.html" | prepend: site.baseurl }})
+
+
 
 <!-- <p>The purpose of this HTML is to help determine what default settings are with Bitters and to make sure that all possible HTML Elements are included in this HTML so as to not miss any possible Elements when designing a site.</p>
 

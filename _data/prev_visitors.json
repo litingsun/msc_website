@@ -1,4 +1,26 @@
 [
+  {  
+    "name":"Ding, Dawei",
+    "title":"University of Science and Technology Beijing ",
+    "image":"Dawei",
+    "email":"daweiding@berkeley.edu",
+    "homepage":"http://saee.ustb.edu.cn/index.php?m=content&c=index&a=show&catid=103&id=135",
+    "company":"http://en.ustb.edu.cn/"
+  },
+  {  
+    "name":"Liu, Yahui",
+    "title":"Tsinghua University",
+    "image":"Yahui",
+    "email":"liuyahui@tsinghua.edu.cn",
+    "company":"http://www.tsinghua.edu.cn/"
+  },
+  {  
+    "name":"Gao, Fei",
+    "title":"Jilin University",
+    "image":"GaoFei",
+    "email":"gaofei123284123@163.com",
+    "company":"http://www.jlu.edu.cn/"
+  },
   {
     "name":"Kim, Seonghan",
     "title":"Dong A University",
