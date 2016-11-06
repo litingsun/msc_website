@@ -66,3 +66,35 @@ permalink: /people/students.html
     </div>
   </div>
 </div>
+
+{% if site.data.masters.size >= 1 %}
+<div class="people">
+    <h2 class="sub-heading">Master Students</h2>
+        <div class="container-fluid">
+        <div class="person-images">
+        {% for master in site.data.masters %}
+            <div class="person-member">
+            <div class="person-image">
+            <img src="../assets/images/people/{{ master.image }}.jpg" alt="">
+            <img src="../assets/images/people/{{ master.image }}1.jpg" alt="">
+            </div>
+            <div class="person-description">
+            <div class="person-name">{{ master.name }}</div>
+            <p>{{ master.title }}</p>
+            {% if master.email %}
+                <p><a href="mailto:{{ master.email }}" target="_new">Email</a> |
+            {% else %}
+                <p> Email |
+            {% endif %}
+            {% if master.homepage %}
+                <a href="{{ master.homepage }}" target="_new">Homepage</a></p>
+            {% else %}
+                Homepage </p>
+            {% endif %}
+            </div>
+            </div>
+        {% endfor %}
+        </div>
+    </div>
+</div>
+{% endif %}
