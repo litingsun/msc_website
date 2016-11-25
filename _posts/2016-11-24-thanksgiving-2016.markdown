@@ -1,0 +1,14 @@
+---
+layout: post
+title: Thanksgiving 2016
+date: '2016-11-24T10:00:00+00:00'
+permalink: /news/thanksgiving-2016.html
+author: Changliu Liu
+---
+
+The MSC Lab celebrated Thanksgiving at Prof. Tomizuka’s new house!
+
+
+<a href="{{ site.baseurl }}/assets/images/posts/2016Thanksgiving.jpg" data-lightbox="2016thanksgiving" data-title="Group photo at 2016 Thanksgiving party">
+  <img src="{{ site.baseurl }}/assets/images/posts/2016Thanksgiving.jpg" title="Group photo at 2016 Thanksgiving party">
+</a>
