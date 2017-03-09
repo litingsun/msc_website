@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: page-wide
 title: Intelligent Control of Robotic Manipulators
 permalink: /research/intelligent-manipulation.html
 ---
@@ -26,118 +26,230 @@ Designing high-performance, low-cost robot manipulators is one of the ultimate c
 
 <!-- just change profile-placeholder.gif with an image of your choice. Don't forget to send the webmaster your picture as well. Be sure to fill out the data-title and title field of this tag -->
 
-<div class="col-md-6">
-<ahref="{{ site.baseurl }}/assets/images/profile-placeholder.gif" data-lightbox="profile-placeholder" data-title="Example Image">
-  <img src="{{ site.baseurl }}/assets/images/profile-placeholder.gif" title="Example Image">
-
-
-</a>
-<div class="image-caption">FANUC Dual Robot Arm System (two 6-joint manipulator, force sensor, parallel gripper, MATLAB Simulink RealTime)</div>
-</div>
-
-<div class="col-md-6">
-<a href="{{ site.baseurl }}/assets/images/profile-placeholder.gif" data-lightbox="profile-placeholder" data-title="Example Image">
-  <img src="{{ site.baseurl }}/assets/images/profile-placeholder.gif" title="Example Image">
-
-</a>
-<div class="image-caption">FANUC Industrial Robot with Flexible Payload (controlled by MATLAB Simulink RealTime)</div>
-</div>
-
-<div class="col-md-6">
-<a href="{{ site.baseurl }}/assets/images/profile-placeholder.gif" data-lightbox="profile-placeholder" data-title="Example Image">
-  <img src="{{ site.baseurl }}/assets/images/profile-placeholder.gif" title="Example Image">
-</a>
-<div class="image-caption">Caption 2</div>
-</div>
-
-
-
-
-
-
 <!-- If you have any related work, then you can add them here. Be sure that you use this same template file to create those pages as well -->
 
 ### <a name="id2"></a>Research Topics
-
-
 <!-- Yu Zhao Edit -->
-1. Vibration Suppression
+<table style="position:relative;">
+<tr></tr><tr>
+<td>
+<div markdown="1">
+* <b>Topic 1. Vibration Suppression</b>
 
-Precise motion control is desired in a variety of industrial robot applications. In order to achieve precise and rapid rest-to-rest motion, the overshoot and the residual vibration caused by flexibility of robots[7] should be minimized. Comparing to feedback control, feedforward is prefered since it does not affect the stability of the existing well tuned robot controller. Input shaping is well known for its simplicity and effectiveness for vibration suppression. However, the time delay introduced by input shaping is not desired in industrial robot applications since such delay would reduce the efficiency of production line. To solve this problem, modified input shaping approaches are developed. The time delay introduced by conventional input shaping technique can be fully compensated in the proposed approach [8]. 
+Subtopic 1.1 Motion Control of Flexible Joint Robot
+| [Brief](javascript:showhide("vib1")) | [More](javascript:toAppear()) |
 
-<video width="100%" src="{{ site.baseurl }}/assets/images/research/robot/tobeUploadYZ.mp4" controls="controls" preload="auto"></video>
-<div class="image-caption">Zero Time Delay Input Shaping
+</div>
+<div id="vib1" style="display:none;">
+This work try to improve trajectory tracking accuracy of robots with flexible joints. A MATLAB/SimMechanics simulator for 6-joint robot is developed. Both rigid body robot dynamics and joint flexibility effects are modelled in this simulator. For very soft joint, the simulation shows accutate trajectory tracking can be achieved using multiple sliding surface control (MSSC) that takes advantage of the model of robot dynamics and sensing from actuator and robot joints/links.
 </div>
 
+</td>
+<td>
+<div style="position: relative; width: 100%; height: 0; padding-bottom: 56.3%;">
+<iframe style = "position: absolute; width: 100%; height: 100%; left: 0; top: 0;"
+  src="https://www.youtube.com/embed/CvkO7m-aVaU" frameborder="0" controls="controls" preload="auto"></iframe>
+</div>
+<!--<div class="image-caption">Zero Time Delay Input Shaping</div>-->
+</td>
 
+<tr>
+<td>
+<div markdown="1">
+* <b>Topic 1. Vibration Suppression</b>
+
+Subtopic 1.2 Vibration Suppression of Flexible End-Effector
+| [Brief](javascript:showhide("vib2")) | [More](javascript:toAppear()) |
+
+</div>
+<div id="vib2" style="display:none;">
+This work try to suppress vibration for robot with flexible payload / end-effector. The flexibility in flexible end-effector mainly comes from link flexibility. A modified input shaping technique, which is designed to work without slowing down the shaped motion, is implemented in this work. Acceleration at the end tip of payload shows the performance of the vibration suppression.
+</div>
+
+</td>
+<td>
+<img src="{{ site.baseurl }}/assets/images/research/robot/RobotVibrationSuppression.png" title="Example Image">
+<!--<div class="image-caption">Zero Time Delay Input Shaping</div>-->
+</td>
 
 <!-- Te, Hsien-Chung Edit -->
-2. Robot Skill Learning 
+<tr>
+<td>
+<div markdown="1">
+* <b>Topic 2. Robot Skill Learning</b>
 
-2.1 Remote Lead Through Teaching [1]
-Many production applications require both position and force control; however, tuning the position-force controller is nontrivial. To simplify this process, Remote Lead Through Teaching (RLTT) is proposed to robot learn some tasks from human knowledge and skill. To establish the human skill model, the demonstration data is firstly synchronized by dynamic time warping (DTW), then decomposed into several actions by a support vector machine (SVM) based classifier. Lastly, the learning controller is trained by the Gaussian mixture regression (GMR). The experimental validation is realized on FANUC LR Mate 200iD/7L in a peg-hole insertion task and a surface grinding task.
+Subtopic 2.1. Robot Learning from Human Demonstration with Remote Lead Through Teaching
+| [Brief](javascript:showhide("skill1")) | [More](javascript:toAppear()) |
+<div id="skill1" style="display: none;">
+Industrial robots are playing increasingly important roles in factories. Many production applications require both position and force control; however, tuning the position-force controller is nontrivial. To simplify this process, the learning from demonstration (LfD) is proposed to transfer the human skills directly into robot applications. However, the current teaching methods, such as direct demonstration, lead through teaching, and teleoperation, all have their own drawbacks. Hence, Remote Lead Through Teaching (RLTT) is proposed to robot learn some tasks from human knowledge and skill. To implement the human skill model, the demonstration data is firstly synchronized by dynamic time warping (DTW), then decomposed into several actions by a support vector machine (SVM) based classifier. Lastly, the learning controller is trained by the Gaussian mixture regression (GMR). The experimental validation is realized on FANUC LR Mate 200iD/7L in an H7/h7 peg-hole insertion task and a surface grinding task.
+</div>
+</div>
+</td>
 
-2.2 Learn Peg-Hole-Insertion from Human Demonstration
-Programming robotic assembly tasks usually requires delicate force tuning. In contrast, human may accomplish assembly tasks with much less time and fewer trials. It will be a great benefit if robots can learn the human inherent skill of force control and apply it autonomously. Recent works on Learning from Demonstration (LfD) have shown the possibility to teach robots by human demonstration. The basic idea is to collect the force and corrective velocity that human applies during assembly, and then use them to regress a proper gain for the robot admittance controller. However, many of the LfD methods are tested on collaborative robots with compliant joints and relatively large assembly clearance. For industrial robots, the non-backdrivable mechanism and strict tolerance requirement make the assembly tasks more challenging. We modified the original LfD to be suitable for industrial robots. A new demonstration tool is designed to acquire the human demonstration data. The force control gains are learned by Gaussian Mixture Regression (GMR) and the closed-loop stability is analysed. A series of peg-hole-insertion experiments with H7h7 tolerance on a FANUC manipulator validate the performance of the proposed learning method. [3]
+<td>
+<img width="60%" src="{{ site.baseurl }}/assets/images/research/robot/ECC.png" title="Example Image">
+</td>
 
-<video width="100%" src="{{ site.baseurl }}/assets/images/research/robot/tobeUpload1.mp4" controls="controls" preload="auto"></video>
-<div class="image-caption">Learn Peg-Hole-Insertion from Human Demonstration</div>
+<tr>
+<td>
+<div markdown="1">
+* <b>Topic 2. Robot Skill Learning</b>
 
-
-2.3 Autonomous Alignment of Peg and Hole for Robotic Assembly
-In the past years, many methods have been developed for robotic peg-hole-insertion to automate the assembly process. However, many of them are based on the assumption that the peg and hole are well aligned before insertion starts. In practice, if there is a large pose(position/orientation) misalignment, the peg and hole may suffer from a three-point contact condition where the traditional assembly methods cannot work. To deal with this problem, we proposes an autonomous alignment method by force/torque measurement before insertion phase. A three-point contact model is built up and the pose misalignment between the peg and hole is estimated by force and geometric analysis. With the estimated values, the robot can autonomously correct the misalignment before applying traditional assembly methods to perform insertions. A series of experiments on a FANUC industrial robot and a H7h7 tolerance peg-hole testbed validate the effectiveness of the proposed method. Experimental results show that the robot is able to perform peg-hole-insertion from three-point contact conditions with 96% success rate. [2]     
-
-
-<video width="100%" src="{{ site.baseurl }}/assets/images/research/robot/tobeUpload2.mp4" controls="controls" preload="auto"></video>
-<div class="image-caption">Autonomous Alignment of Peg and Hole for Robotic Assembly
+Subtopic 2.2. Learn Peg-Hole-Insertion from Human Demonstration
+| [Brief](javascript:showhide("skill2")) | [More](javascript:toAppear()) |
+<div id="skill2" style="display: none;">
+Programming robotic assembly tasks usually requires delicate force tuning. In contrast, human may accomplish assembly tasks with much less time and fewer trials. It will be a great benefit if robots can learn the human inherent skill of force control and apply it autonomously. Recent works on Learning from Demonstration (LfD) have shown the possibility to teach robots by human demonstration. The basic idea is to collect the force and corrective velocity that human applies during assembly, and then use them to regress a proper gain for the robot admittance controller. However, many of the LfD methods are tested on collaborative robots with compliant joints and relatively large assembly clearance. For industrial robots, the non-backdrivable mechanism and strict tolerance requirement make the assembly tasks more challenging. We modified the original LfD to be suitable for industrial robots. A new demonstration tool is designed to acquire the human demonstration data. The force control gains are learned by Gaussian Mixture Regression (GMR) and the closed-loop stability is analysed. A series of peg-hole-insertion experiments with H7h7 tolerance on a FANUC manipulator validate the performance of the proposed learning method.
+</div>
 </div>
 
-
-<video width="100%" src="https://www.youtube.com/watch?v=lqkp6g-RmxE" controls="controls" preload="auto"></video>
-<div class="image-caption">Autonomous Alignment of Peg and Hole for Robotic Assembly
+</td>
+<td>
+<div style="position: relative; width: 100%; height: 0; padding-bottom: 56.3%;">
+<iframe style = "position: absolute; width: 100%; height: 100%; left: 0; top: 0;"
+  src="https://www.youtube.com/embed/qNNLWfeePv4" frameborder="0" controls="controls" preload="auto"></iframe>
 </div>
+<!--<div class="image-caption">Learn Peg-Hole-Insertion from Human Demonstration</div>-->
+</td>
 
 
+<tr>
+<td>
+<div markdown="1">
+* <b>Topic 2. Robot Skill Learning</b>
 
+Subtopic 2.3. Autonomous Alignment of Peg and Hole for Robotic Assembly
+| [Brief](javascript:showhide("skill3")) | [More](javascript:toAppear()) |
+<div id="skill3" style="display: none;">
+In the past years, many methods have been developed for robotic peg-hole-insertion to automate the assembly process. However, many of them are based on the assumption that the peg and hole are well aligned before insertion starts. In practice, if there is a large pose(position/orientation) misalignment, the peg and hole may suffer from a three-point contact condition where the traditional assembly methods cannot work. To deal with this problem, we proposes an autonomous alignment method by force/torque measurement before insertion phase. A three-point contact model is built up and the pose misalignment between the peg and hole is estimated by force and geometric analysis. With the estimated values, the robot can autonomously correct the misalignment before applying traditional assembly methods to perform insertions. A series of experiments on a FANUC industrial robot and a H7h7 tolerance peg-hole testbed validate the effectiveness of the proposed method. Experimental results show that the robot is able to perform peg-hole-insertion from three-point contact conditions with 96% success rate. 
+</div> 
+</div>
+</td>
+
+<td>
+<div style="position: relative; width: 100%; height: 0; padding-bottom: 56.3%;">
+<iframe style = "position: absolute; width: 100%; height: 100%; left: 0; top: 0;"
+  src="https://www.youtube.com/embed/taZyWFny9xg" frameborder="0" controls="controls" preload="auto"></iframe>
+</div>
+<!--<div class="image-caption">Autonomous Alignment of Peg and Hole for Robotic Assembly</div>-->
+</td>
 
 <!-- Changliu, Yujiao Edit -->
+<tr>
+<td>
+<div markdown="1">
+* <b>Topic 3. Human Robot Collaboration</b>
 
-3. Human Robot Collaboration
--- Human Guidance Programming with Collision Avoidance [5]
-In Human Robot Collaboration (HRC), it is an important concern to ensure the safety of the human and the robot. In the human guidance programming scenario, the operator plans a collision-free path for the robot end-effector, but the robot body might collide with an obstacle while being guided by the operator. To solve this problem, we propose a novel on-line velocity based collision avoidance algorithm, and implement a real-time experiment on FANUC LR Mate 200 iD/7L.
+Subtopic 3.1. Human Guidance Programming with Collision Avoidance
+| [Brief](javascript:showhide("HRI1")) | [More](javascript:toAppear()) |
 
-
-
-
-<!-- Yongxiang Edit -->
-
-4. Visual Tracking
-
-Real-time object tracking for manipulators has been applied to industrial automation such as assembly and human robot collaboration. During the tracking process, the vision sensor is used as a feedback means to the robot controller. It means that the imperfect sensing and stability issues must be carefully considered. This paper deals with the modeling of sensor physics (e.g. limited sampling rate, irregular sampling time, packet loss, noise, and latency), and realizes a globally asymptotically stable tracking controller. First, a varying rate Kalman filter is applied to estimate the markers’ positions and the corresponding error covariances. Then, a maximum likelihood estimation problem is solved to estimate the transformation between the target frame and the world frame. In addition, a dynamic tracking controller is implemented to realize object tracking. The stability of the tracking controller under model uncertainties is also discussed. The proposed tracking algorithm is experimentally verified on an industrial robot. [6]
-
-
-<video width="100%" src="{{ site.baseurl }}/assets/images/research/robot/tracking_video.avi" controls="controls" preload="auto"></video>
-<div class="image-caption">Experiment video for object position and orientation tracking
+<div id="HRI1" style="display: none;">
+In the application of physical human-robot interaction (pHRI), the collaboration between human and robot can significantly improve the production efficiency through combination of the human's flexible intelligence and the robot's consistent performance. In this application, however, it is an important concern to ensure the safety of the human and the robot. In the human guidance programming scenario, the operator plans a collision-free path for the robot end-effector, but the robot body might collide with an obstacle while being guided by the operator. In this paper, a novel on-line velocity based collision avoidance algorithm is developed to solve the problem in this particular scenario. The proposed algorithm gives an explicit solution to deal with both collision avoidance and human guidance command at the same time, which provides the operator a better and safer lead through programming experience. The real-time experiment is performed on FANUC LR Mate 200iD/7L in three different obstacle scenarios.
+</div>
+</div>
+</td>
+<td>
+	
+<div style="position: relative; width: 100%; height: 0; padding-bottom: 56.3%;">
+<iframe style = "position: absolute; width: 100%; height: 100%; left: 0; top: 0;"
+  src="https://www.youtube.com/embed/lqkp6g-RmxE" frameborder="0" controls="controls" preload="auto"></iframe>
 </div>
 
+</td>
 
+<tr>
+<td>
+<div markdown="1">
+* <b>Topic 3. Human Robot Collaboration</b>
+
+Subtopic 3.2. Robot Safe Interaction System (RSIS)
+| [Brief](javascript:showhide("HRI2")) | [More](javascript:toAppear()) |
+
+<div id="HRI2" style="display: none;">
+The long-term goal of this project is to establish a set of design principles of robot safe interaction systems (RSIS) which includes robust perception algorithms for environment monitoring and control algorithms for safe human robot interactions (HRI) of the intelligent co-robots. The proposed RSIS will prevent or minimize occurrences of human-robot collision and robot-robot collision. These algorithms, if applied to current co-robots, will significantly increase the operational speed of robots for higher productivity without sacrificing safety. 
+</div>
+</div>
+</td>
+<td>
+<img src="{{ site.baseurl }}/assets/images/research/robot/collabration-HRI.jpg" title="Example Image">
+</td>
+
+<!-- Yongxiang Edit -->
+<tr>
+<td>
+<div markdown="1">
+* <b>Topic 4. Visual Tracking</b>  
+| [Brief](javascript:showhide("vis")) | [More]({{ "/research/object-pose-tracking.html" | prepend: site.baseurl }}) |
+
+</div>
+<div id="vis" style="display: none;">
+Real-time object tracking for manipulators has been broadly applied to industrial automation such as assembly and human robot collaboration. During the tracking process, the vision sensor is continuously treated as a feedback to the robot controller, which means the imperfect sensing and stability issues must be carefully considered. This paper deals with the sensing dynamics (i.e. limited sampling rate, irregular sampling time, packet loss, noise and latency), and realizes globally asymptotically stable tracking. First, an irregular time Kalman filter is employed to predict the states and covariances of feature points on the target, then the maximum likelihood technique is used to estimate the target pose from the distributions provided by the Kalman prediction. In addition, to realize object tracking, a dynamic tracking controller is presented and implemented. The stability of the system under model uncertainties is also discussed. The proposed tracking algorithm is verified in experiment.
+</div>
+</td>
+<td>
+<div style="position: relative; width: 100%; height: 0; padding-bottom: 56.3%;">
+<iframe style = "position: absolute; width: 100%; height: 100%; left: 0; top: 0;"
+  src="https://www.youtube.com/embed/XpAYE7X76Xg" frameborder="0" controls="controls" preload="auto"></iframe>
+</div>
+<!--<div class="image-caption">Experiment video for object position and orientation tracking</div>-->
+</td>
+
+
+<tr>
+<td>
+<div markdown="1">
+* <b>Topic 5. Dexterious Manipulation</b>  
+| [Brief](javascript:showhide("hand")) | [More]({{ "/research/finger_gaits_planning.html" | prepend: site.baseurl }}) |
+
+</div>
+<div id="hand" style="display: none;">
+Dexterous manipulation has broad applications in assembly lines, warehouses and agriculture. To perform large-scale manipulation tasks for various objects, a multi-fingered robotic hand sometimes has to sequentially adjust its grasping gestures, i.e. the finger gaits, to address the workspace limits and guarantee the object stability. However, realizing finger gaits planning in dexterous manipulation is challenging due to the complicated grasp quality metrics, uncertainties on object shapes and dynamics (mass and moment of inertia), and potential sliding under unknown contact dynamics. 
+In this project, a dual-stage optimization based planner is proposed to handle these challenges. In the first stage, a velocity-level finger gaits planner is introduced by combining grasp quality with hand kinematic limitations. The proposed finger gaits planner is computationally efficient and realize finger gaiting without object 3D shape information. 
+In the second stage, a robust manipulation controller using robust control and force optimization is proposed to address object dynamics uncertainties and external disturbances. The dual-stage planner is able to guarantee stability under potential sliding caused by unknown contact dynamics. Moreover, it does not require velocity measurement or expensive 3D/6D tactile sensors. Simulation results on Mujoco verify the proposed dual-stage optimization based planner. </div>
+</td>
+<td>
+<div style="position: relative; width: 100%; height: 0; padding-bottom: 56.3%;">
+<iframe style = "position: absolute; width: 100%; height: 100%; left: 0; top: 0;"
+  src="https://www.youtube.com/embed/T-qW1hhhvSc" frameborder="0" controls="controls" preload="auto"></iframe>
+</div>
+<!--<div class="image-caption">Experiment video for object position and orientation tracking</div>-->
+</td>
+
+
+<tr>
+<td>
+<div markdown="1">
+* <b>Topic 6. Learning Control for Task Specific Industrial Robots</b>  
+| [Brief](javascript:showhide("ILC")) | [More](javascript:toAppear()) |
+
+</div>
+<div id="ILC" style="display: none;">
+Iterative learning control (ILC) is a strategy that allows a control system to im- prove its performance by making use of the error signals collected from previous iterations. A prerequisite of using ILC is that the output reference has to be repetitive from trial to trial. A full run of ILC training (taking non-negligible time) is needed when there exist small changes in the reference signal. This paper introduces a new approach to extrapolate the converged ILC policies to previously unseen tracking problems. A time-frequency domain mapping is con- structed to approximate the ILC policy for a group of trajectories used in a par- ticular task, say spot welding. We also introduce the idea of feature-frequency space, where the ILC policies from different trajectories can be encoded into a single model. This model can generate a control policy that performs compara- bly to the ILC policy while having the advantage of not requiring a full training for a new trajectory. The proposed time-frequency domain feedforward learning (TFFL) method could achieve similar performance as the standard ILC.</div>
+</td>
+<td>
+<img width="70%" src="{{ site.baseurl }}/assets/images/research/robot/learningControlCYL.png" title="Example Image">
+
+<!--<div class="image-caption">Experiment video for object position and orientation tracking</div>-->
+</td>
+
+<table></table>
+
+<div markdown="1">
 
 ### <a name="pb"></a>Recent Publication
-H-C. Lin, T. Tang, Y. Fan, Y. Zhao, M. Tomizuka, and W. Chen, "[Robot Learning from Human Demonstration with Remote Lead through Teaching](http://ieeexplore.ieee.org/abstract/document/7810316/)," in <i>European Control Conference (ECC)</i>, 2016. (<b>Best Application Paper Finalist</b>)
 
-Te Tang, Hsien-Chung Lin, Yu Zhao, Wenjie Chen, and Masayoshi Tomizuka, "Autonomous Alignment of Peg and Hole by Force/Torque Measurement for Robotic Assembly," the 12th Conference on Automation Science and Engineering (CASE, ISAM 2016), Fort Worth, TX, USA, August 21-24, 2016. (Best Application Paper Finalist)
-
-Te Tang, Hsien-Chung Lin, Yu Zhao, Yongxiang Fan, Wenjie Chen, and Masayoshi Tomizuka, "Teach Industrial Robots Peg-Hole-Insertion by Human Demonstration," the 2016 IEEE/ASME International Conference on Advanced Intelligent Mechatronics (AIM), Banff, Alberta, Canada, July 12-15, 2016.
-
-Te Tang, Changliu Liu, Wenjie Chen, and Masayoshi Tomizuka, "Robotic Manipulation of Deformable Objects by Tangent Space Mapping and Non-Rigid Registration," the 2016 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), Deajeon, Korea, October 9-14, 2016.
-
-Hsien-Chung Lin, Yongxiang Fan, Te Tang, and Masayoshi Tomizuka, "Human Guidance Programming on a 6-DoF robot with Collision Avoidance," the 2016 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), Deajeon, Korea, October 9-14, 2016.
-
-Yongxiang Fan, Hsien-Chung Lin, Yu Zhao, Chung-Yen Lin, Te Tang, Masayoshi Tomizuka, and Wenjie Chen, "Object Position and Orientation Tracking for Manipulators Considering Unnegligible Sensor Physics," the 2016 International Symposium on Flexible Automation (ISFA), Cleveland, USA, August 1-3, 2016.
-
-Yu Zhao, Cong Wang, Xiaowen Yu, and Masayoshi Tomizuka, "Complete Dynamic Modelling of Flexible Joint Robots," the 2015 ASME Dynamic Systems and Control Conference (DSCC), Columbus, Ohio, USA, October 28-30, 2015.
-
-Yu Zhao, Wenjie Chen, Te Tang, and Masayoshi Tomizuka, "Zero Time Delay Input Shaping for Smooth Settling of Industrial Robots," the 12th Conference on Automation Science and Engineering (CASE, ISAM 2016), Fort Worth, TX, USA, August 21-24, 2016.
+| T. Tang, C. Liu, W. Chen and M. Tomizuka, "[Robotic manipulation of deformable objects by tangent space mapping and non-rigid registration](http://ieeexplore.ieee.org/document/7759418/)," <i>2016 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)</i>, 2016. |
+| H-C. Lin, Y. Fan, T. Tang, and M. Tomizuka, "[Human guidance programming on a 6-DoF robot with collision avoidance](http://ieeexplore.ieee.org/document/7759416/)," in <i>Intelligent Robots and Systems (IROS), 2016 IEEE/RSJ International Conference</i>. |
+| T. Tang, H-C. Lin, Y. Zhao, W. Chen and M. Tomizuka, "[Autonomous alignment of peg and hole by force/torque measurement for robotic assembly](http://ieeexplore.ieee.org/document/7743375/)," <i>2016 IEEE International Conference on Automation Science and Engineering (CASE)</i>, 2016. (<b>Best Application Paper Finalist</b>) |
+| T. Tang, H-C. Lin, Y. Zhao, Y. Fan, W. Chen and M. Tomizuka, "[Teach industrial robots peg-hole-insertion by human demonstration](http://ieeexplore.ieee.org/document/7576815/)," <i>2016 IEEE International Conference on Advanced Intelligent Mechatronics (AIM)</i>, 2016. |
+| H-C. Lin, T. Tang, Y. Fan, Y. Zhao, M. Tomizuka, and W. Chen, "[Robot Learning from Human Demonstration with Remote Lead through Teaching](http://ieeexplore.ieee.org/abstract/document/7810316/)," in <i>European Control Conference (ECC)</i>, 2016. |
+| C. Liu, and M. Tomizuka, "[Algorithmic safety measures for intelligent industrial co-robots](http://ieeexplore.ieee.org/abstract/document/7487476/)," in <i>IEEE International Conference on Robotics and Automation (ICRA), 2016. 
+| Y. Fan, H.-C. Lin, Y. Zhao, C.-Y. Lin, T. Tang, M. Tomizuka, and W. Chen, "Object position and orientation tracking for manipulators considering nonnegligible sensor physics," in  <i>Flexible Automation (ISFA), International Symposium on</i>. IEEE, 2016, pp. 450--457. |
+| Y. Fan, W. Gao, and M. Tomizuka, "Real-time finger gaits planning for dexterous manipulation," to appear in <i>The 20th World Congress of the International Federation of Automatic Control (IFAC)</i>, 2017. |
+| Y. Fan, L. Sun, M. Zheng, W. Gao, and M. Tomizuka, "Robust dexterous manipulation under object dynamics uncertainties,"  submitted to <i>IEEE International Conference on Advanced Intelligent Mechatronics (AIM)</i>, 2017. |
+| Y. Fan, T. Tang, H.-C. Lin, Y. Zhao, and M. Tomizuka, "Real-time robust finger gaits planning under object shape and dynamics uncertainties," submitted to <i>IEEE International Conference on Intelligent Robots and Systems (IROS)</i>, 2017. |
+| Y. Zhao, C. Wang, X. Yu, and M. Tomizuka, "[Complete Dynamic Modelling of Flexible Joint Robots](http://proceedings.asmedigitalcollection.asme.org/proceeding.aspx?articleid=2481910)," in <i>ASME Dynamic Systems and Control Conference (DSCC)</i>, 2015. |
+| Y. Zhao, W. Chen, T. Tang, and M. Tomizuka, "[Zero Time Delay Input Shaping for Smooth Settling of Industrial Robots](http://ieeexplore.ieee.org/abstract/document/7743459/)," in <i> IEEE International Conference on Automation Science and Engineering (CASE)</i>, 2016. |
+| C.-Y. Lin, W. Chen, and M. Tomizuka, "Learning Control for Task Specific Industrial Robots," in <i>IEEE Conference on Decision and Control (CDC)</i>, 2016. |
 
 
 <!-- If you have researchers you want to list here, then fill out their name and title etc -->
@@ -156,8 +268,8 @@ Yu Zhao, Wenjie Chen, Te Tang, and Masayoshi Tomizuka, "Zero Time Delay Input Sh
 
 | Chung-Yen Lin | Apple | [Email Link](mailto:chung_yen@berkeley.edu) | 	|
 | Cong Wang | NJIT | [Email Link](mailto:oski@berkeley.edy) |  |
-| Michael Chan | Space X | [Email Link]() | |
-| Pedro Reynoso | Nikon | [Email Link]() | |
+| Michael Chan | Space X | [Email Link](javascript:brokenlink()) | |
+| Pedro Reynoso | Nikon | [Email Link](javascript:brokenlink()) | |
 | Wenjie Chen | FANUC | [Email Link](mailto:Chin.Bunketsu@fanuc.co.jp) |   |
 
 <!-- If you have any sponsors, you can just list them here -->
@@ -165,3 +277,4 @@ Yu Zhao, Wenjie Chen, Te Tang, and Masayoshi Tomizuka, "Zero Time Delay Input Sh
 ### <a name="id5"></a>Sponsors
 
 * [FANUC](http://www.fanuc.co.jp/eindex.htm)
+</div>

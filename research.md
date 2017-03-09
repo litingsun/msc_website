@@ -14,21 +14,20 @@ To learn more about the research done at MSC, you can download a [research bookl
 
 [Intelligent Control of Robotic Manipulators]({{ "/research/intelligent-manipulation.html" | prepend: site.baseurl }})
 
-[Control of Vacuum Wafer Handling Robot]({{ "/research/wafer_handling.html" | prepend: site.baseurl }})
-
 ## Autonomous Vehicles
 [Robustly-Safe Automated Driving (ROAD) System]({{ "/research/robustly-safe-automated-driving.html" | prepend: site.baseurl }})
 
+[Planning with Social Interactions for Urban Autonomous Driving](javascript:toAppear())
+
+[3D Object Detection based on Lidar and Camera Fusion for Autonomous Driving](javascript:toAppear())
+
+[Generic Motion Generation and Cognition for Autonomous Driving](javascript:toAppear())
 
 ## Human Mechatronics
 
 [Individualized Assistive Device for Rehabilitation and Augmentation]({{ "/research/Individual-Device.html" | prepend: site.baseurl }})
 
 [Mechatronics for Human Assistance]({{ "/research/mechatronics-human-assistance.html" | prepend: site.baseurl }})
-
-[Exoskeleton Design & Control for BMI Study]({{ "/research/exoskeleton-BMI.html" | prepend: site.baseurl }})
-
-[Variable Stiffness Actuators (VSAs)]({{ "/research/vsa.html" | prepend: site.baseurl }})
 
 ## Building Control
 [Building Temperature Control]({{ "/research/building-control.html" | prepend: site.baseurl }})
@@ -38,6 +37,13 @@ To learn more about the research done at MSC, you can download a [research bookl
 
 [Control of High-Performance Wafer Scanning Systems]({{ "/research/wafer.html" | prepend: site.baseurl }})
 
+
+<button style="display: block; width: 100%;" data-toggle="collapse" data-target="#previous">Previous Projects</button>
+<!--## [Previous Projects](javascript:showhide("previous"))-->
+<div markdown="1" id="previous" class="collapse">
+## Automotive Control
+[Turbocharged Spark-Ignition Engine Control]({{ "/research/turbocharged.html" | prepend: site.baseurl}})
+
 ## Hard Disk Drive Control
 [Hard Disk Drive Control]({{ "/research/disk.html" | prepend: site.baseurl }})
 
@@ -45,11 +51,16 @@ To learn more about the research done at MSC, you can download a [research bookl
 * [Spiral Servowriting]({{ "/research/spiral-servo.html" | prepend: site.baseurl }})
 * [Self Servowriting]({{ "/research/self-servo.html" | prepend: site.baseurl }})
 
-## Automotive Control
-[Turbocharged Spark-Ignition Engine Control]({{ "/research/turbocharged.html" | prepend: site.baseurl}})
+## Human Mechatronics
 
+[Exoskeleton Design & Control for BMI Study]({{ "/research/exoskeleton-BMI.html" | prepend: site.baseurl }})
 
+[Variable Stiffness Actuators (VSAs)]({{ "/research/vsa.html" | prepend: site.baseurl }})
 
+## Robotics
+[Control of Vacuum Wafer Handling Robot]({{ "/research/wafer_handling.html" | prepend: site.baseurl }})
+
+</div>
 
 
 <!-- <p>The purpose of this HTML is to help determine what default settings are with Bitters and to make sure that all possible HTML Elements are included in this HTML so as to not miss any possible Elements when designing a site.</p>
