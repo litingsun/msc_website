@@ -48,7 +48,7 @@ This work try to improve trajectory tracking accuracy of robots with flexible jo
 <td>
 <div style="position: relative; width: 100%; height: 0; padding-bottom: 56.3%;">
 <iframe style = "position: absolute; width: 100%; height: 100%; left: 0; top: 0;"
-  src="https://www.youtube.com/embed/CvkO7m-aVaU" frameborder="0" controls="controls" preload="auto"></iframe>
+  src="https://www.youtube.com/embed/CvkO7m-aVaU" frameborder="0" controls="controls" preload="auto" allowfullscreen></iframe>
 </div>
 <!--<div class="image-caption">Zero Time Delay Input Shaping</div>-->
 </td>
@@ -106,7 +106,7 @@ Programming robotic assembly tasks usually requires delicate force tuning. In co
 <td>
 <div style="position: relative; width: 100%; height: 0; padding-bottom: 56.3%;">
 <iframe style = "position: absolute; width: 100%; height: 100%; left: 0; top: 0;"
-  src="https://www.youtube.com/embed/qNNLWfeePv4" frameborder="0" controls="controls" preload="auto"></iframe>
+  src="https://www.youtube.com/embed/qNNLWfeePv4" frameborder="0" controls="controls" preload="auto" allowfullscreen></iframe>
 </div>
 <!--<div class="image-caption">Learn Peg-Hole-Insertion from Human Demonstration</div>-->
 </td>
@@ -128,7 +128,7 @@ In the past years, many methods have been developed for robotic peg-hole-inserti
 <td>
 <div style="position: relative; width: 100%; height: 0; padding-bottom: 56.3%;">
 <iframe style = "position: absolute; width: 100%; height: 100%; left: 0; top: 0;"
-  src="https://www.youtube.com/embed/taZyWFny9xg" frameborder="0" controls="controls" preload="auto"></iframe>
+  src="https://www.youtube.com/embed/taZyWFny9xg" frameborder="0" controls="controls" preload="auto" allowfullscreen></iframe>
 </div>
 <!--<div class="image-caption">Autonomous Alignment of Peg and Hole for Robotic Assembly</div>-->
 </td>
@@ -151,7 +151,7 @@ In the application of physical human-robot interaction (pHRI), the collaboration
 	
 <div style="position: relative; width: 100%; height: 0; padding-bottom: 56.3%;">
 <iframe style = "position: absolute; width: 100%; height: 100%; left: 0; top: 0;"
-  src="https://www.youtube.com/embed/lqkp6g-RmxE" frameborder="0" controls="controls" preload="auto"></iframe>
+  src="https://www.youtube.com/embed/lqkp6g-RmxE" frameborder="0" controls="controls" preload="auto" allowfullscreen></iframe>
 </div>
 
 </td>
@@ -188,7 +188,7 @@ Real-time object tracking for manipulators has been broadly applied to industria
 <td>
 <div style="position: relative; width: 100%; height: 0; padding-bottom: 56.3%;">
 <iframe style = "position: absolute; width: 100%; height: 100%; left: 0; top: 0;"
-  src="https://www.youtube.com/embed/XpAYE7X76Xg" frameborder="0" controls="controls" preload="auto"></iframe>
+  src="https://www.youtube.com/embed/XpAYE7X76Xg" frameborder="0" controls="controls" preload="auto" allowfullscreen></iframe>
 </div>
 <!--<div class="image-caption">Experiment video for object position and orientation tracking</div>-->
 </td>
@@ -209,7 +209,7 @@ In the second stage, a robust manipulation controller using robust control and f
 <td>
 <div style="position: relative; width: 100%; height: 0; padding-bottom: 56.3%;">
 <iframe style = "position: absolute; width: 100%; height: 100%; left: 0; top: 0;"
-  src="https://www.youtube.com/embed/T-qW1hhhvSc" frameborder="0" controls="controls" preload="auto"></iframe>
+  src="https://www.youtube.com/embed/T-qW1hhhvSc" frameborder="0" controls="controls" preload="auto" allowfullscreen></iframe>
 </div>
 <!--<div class="image-caption">Experiment video for object position and orientation tracking</div>-->
 </td>
