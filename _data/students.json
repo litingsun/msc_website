@@ -127,7 +127,7 @@
    },
    {
       "name":"Zhan, Wei",
-      "title":" ",
+      "title":"Automotive Control",
       "image":"WeiZhan",
       "email":"zhanwei0102@gmail.com"
    },
@@ -141,7 +141,8 @@
       "name":"Zhao, Yu",
       "title":"Robotics",
       "image":"YuZhao",
-      "email":"yzhao334@berkeley.edu"
+      "email":"yzhao334@berkeley.edu",
+      "homepage":"https://yzhao334.github.io/"
    },
    {
       "name":"Zhou, Shiying",

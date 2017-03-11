@@ -34,41 +34,20 @@ Designing high-performance, low-cost robot manipulators is one of the ultimate c
 <tr></tr><tr>
 <td>
 <div markdown="1">
-* <b>Topic 1. Vibration Suppression</b>
-
-Subtopic 1.1 Motion Control of Flexible Joint Robot
-| [Brief](javascript:showhide("vib1")) | [More](javascript:toAppear()) |
+* <b>Topic 1. Vibration Control of Industrial Robot</b> <br>
+| [Brief](javascript:showhide("vib1")) | [More]({{ "/research/vibration-suppression.html" | prepend: site.baseurl }}) |
 
 </div>
 <div id="vib1" style="display:none;">
-This work try to improve trajectory tracking accuracy of robots with flexible joints. A MATLAB/SimMechanics simulator for 6-joint robot is developed. Both rigid body robot dynamics and joint flexibility effects are modelled in this simulator. For very soft joint, the simulation shows accutate trajectory tracking can be achieved using multiple sliding surface control (MSSC) that takes advantage of the model of robot dynamics and sensing from actuator and robot joints/links.
+Precise motion control is desired in a variety of industrial robot applications. In order to achieve precise and rapid rest-to-rest motion, the overshoot and the residual vibration caused by flexibility of robots should be minimized. To make robot motion more accurate, several research topics are introduced, including motion control of flexible joint robot, vibration suppression of flexible end-effector , and learning control for task specific industrial robots.
 </div>
 
 </td>
 <td>
 <div style="position: relative; width: 100%; height: 0; padding-bottom: 56.3%;">
 <iframe style = "position: absolute; width: 100%; height: 100%; left: 0; top: 0;"
-  src="https://www.youtube.com/embed/CvkO7m-aVaU" frameborder="0" controls="controls" preload="auto" allowfullscreen></iframe>
+  src="https://www.youtube.com/embed/OfwJjq4OWT4" frameborder="0" controls="controls" preload="auto" allowfullscreen></iframe>
 </div>
-<!--<div class="image-caption">Zero Time Delay Input Shaping</div>-->
-</td>
-
-<tr>
-<td>
-<div markdown="1">
-* <b>Topic 1. Vibration Suppression</b>
-
-Subtopic 1.2 Vibration Suppression of Flexible End-Effector
-| [Brief](javascript:showhide("vib2")) | [More](javascript:toAppear()) |
-
-</div>
-<div id="vib2" style="display:none;">
-This work try to suppress vibration for robot with flexible payload / end-effector. The flexibility in flexible end-effector mainly comes from link flexibility. A modified input shaping technique, which is designed to work without slowing down the shaped motion, is implemented in this work. Acceleration at the end tip of payload shows the performance of the vibration suppression.
-</div>
-
-</td>
-<td>
-<img src="{{ site.baseurl }}/assets/images/research/robot/RobotVibrationSuppression.png" title="Example Image">
 <!--<div class="image-caption">Zero Time Delay Input Shaping</div>-->
 </td>
 
@@ -87,7 +66,7 @@ Industrial robots are playing increasingly important roles in factories. Many pr
 </td>
 
 <td>
-<img width="60%" src="{{ site.baseurl }}/assets/images/research/robot/ECC.png" title="Example Image">
+<img style="width: 80%;"  src="{{ site.baseurl }}/assets/images/research/robot/ECC.png" title="Example Image">
 </td>
 
 <tr>
@@ -170,7 +149,29 @@ The long-term goal of this project is to establish a set of design principles of
 </div>
 </td>
 <td>
-<img src="{{ site.baseurl }}/assets/images/research/robot/collabration-HRI.jpg" title="Example Image">
+<img style="width: 100%;" src="{{ site.baseurl }}/assets/images/research/robot/collabration-HRI.jpg" title="Example Image">
+</td>
+
+<tr>
+<td>
+<div markdown="1">
+* <b>Topic 3. Human Robot Collaboration</b>
+
+Subtopic 3.3. Inference of Human Intention and Prediction of Human Motion
+| [Brief](javascript:showhide("HRI3")) | [More](javascript:toAppear()) |
+
+<div id="HRI3" style="display: none;">
+The biggest challenge in human-robot collaboration comes from human factors. Robots should understand the behavior of a human and predict the human’s motion in the future to generate safe and efficient motion to interact with the human. The goal of the project is to let robots know the intent of human and predict human motion in real time and thus making wise decision in collaboration with human. 
+</div>
+</div>
+</td>
+<td>
+	
+<div style="position: relative; width: 100%; height: 0; padding-bottom: 56.3%;">
+<iframe style = "position: absolute; width: 100%; height: 100%; left: 0; top: 0;"
+  src="https://www.youtube.com/embed/08eDPWC1G4M" frameborder="0" controls="controls" preload="auto" allowfullscreen></iframe>
+</div>
+
 </td>
 
 <!-- Yongxiang Edit -->
@@ -214,53 +215,52 @@ In the second stage, a robust manipulation controller using robust control and f
 <!--<div class="image-caption">Experiment video for object position and orientation tracking</div>-->
 </td>
 
-
-<tr>
-<td>
-<div markdown="1">
-* <b>Topic 6. Learning Control for Task Specific Industrial Robots</b>  
-| [Brief](javascript:showhide("ILC")) | [More](javascript:toAppear()) |
-
-</div>
-<div id="ILC" style="display: none;">
-Iterative learning control (ILC) is a strategy that allows a control system to im- prove its performance by making use of the error signals collected from previous iterations. A prerequisite of using ILC is that the output reference has to be repetitive from trial to trial. A full run of ILC training (taking non-negligible time) is needed when there exist small changes in the reference signal. This paper introduces a new approach to extrapolate the converged ILC policies to previously unseen tracking problems. A time-frequency domain mapping is con- structed to approximate the ILC policy for a group of trajectories used in a par- ticular task, say spot welding. We also introduce the idea of feature-frequency space, where the ILC policies from different trajectories can be encoded into a single model. This model can generate a control policy that performs compara- bly to the ILC policy while having the advantage of not requiring a full training for a new trajectory. The proposed time-frequency domain feedforward learning (TFFL) method could achieve similar performance as the standard ILC.</div>
-</td>
-<td>
-<img width="70%" src="{{ site.baseurl }}/assets/images/research/robot/learningControlCYL.png" title="Example Image">
-
-<!--<div class="image-caption">Experiment video for object position and orientation tracking</div>-->
-</td>
-
 <table></table>
 
 <div markdown="1">
 
 ### <a name="pb"></a>Recent Publication
 
+| H. Lin, C. Liu, T. Tang, and M. Tomizuka, "Fast Robot Motion Planning with Collision Avoidance and Temporal Optimization", submitted to <i>IEEE Robotics and Automation Letters</i>, 2017. |
+| Y. Fan, T. Tang, H.-C. Lin, Y. Zhao, and M. Tomizuka, "Real-time robust finger gaits planning under object shape and dynamics uncertainties," submitted to <i>IEEE International Conference on Intelligent Robots and Systems (IROS)</i>, 2017. |
+| Y. Fan, L. Sun, M. Zheng, W. Gao, and M. Tomizuka, "Robust dexterous manipulation under object dynamics uncertainties,"  submitted to <i>IEEE International Conference on Advanced Intelligent Mechatronics (AIM)</i>, 2017. |
+| Y. Fan, W. Gao, and M. Tomizuka, "Real-time finger gaits planning for dexterous manipulation," to appear in <i>The 20th World Congress of the International Federation of Automatic Control (IFAC)</i>, 2017. |
+| C. Liu, C. Lin, Y. Wang, and M. Tomizuka, "Convex feasible set algorithm for constrained trajectory smoothing", to appear in <i>American Control Conference</i>, 2017. |
+| C. Liu, and M. Tomizuka, "[Designing the robot behavior for safe human robot interactions](https://www.springerprofessional.de/en/designing-the-robot-behavior-for-safe-human-robot-interactions/12035766)", in <i>Trends in Control and Decision-Making for Human-Robot Collaboration Systems (Y. Wang and F. Zhang (Eds.))</i>. Springer, 2017. |
+| C.-Y. Lin, W. Chen, and M. Tomizuka, "[Learning Control for Task Specific Industrial Robots](http://ieeexplore.ieee.org/document/7799380/)," in <i>IEEE Conference on Decision and Control (CDC)</i>, 2016. |
 | T. Tang, C. Liu, W. Chen and M. Tomizuka, "[Robotic manipulation of deformable objects by tangent space mapping and non-rigid registration](http://ieeexplore.ieee.org/document/7759418/)," <i>2016 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)</i>, 2016. |
 | H-C. Lin, Y. Fan, T. Tang, and M. Tomizuka, "[Human guidance programming on a 6-DoF robot with collision avoidance](http://ieeexplore.ieee.org/document/7759416/)," in <i>Intelligent Robots and Systems (IROS), 2016 IEEE/RSJ International Conference</i>. |
+| C. Liu, and M. Tomizuka, "Geometric considerations on real time trajectory optimization for nonlinear systems", submitted to <i>Systems & Control Letters</i>, 2016. |
+| C. Liu, C. Lin, and M. Tomizuka, "The convex feasible set algorithm for real time optimization in motion planning", submitted to <i>SIAM Journal on Control and Optimization</i>, 2016. |
 | T. Tang, H-C. Lin, Y. Zhao, W. Chen and M. Tomizuka, "[Autonomous alignment of peg and hole by force/torque measurement for robotic assembly](http://ieeexplore.ieee.org/document/7743375/)," <i>2016 IEEE International Conference on Automation Science and Engineering (CASE)</i>, 2016. (<b>Best Application Paper Finalist</b>) |
+| Y. Zhao, W. Chen, T. Tang, and M. Tomizuka, "[Zero Time Delay Input Shaping for Smooth Settling of Industrial Robots](http://ieeexplore.ieee.org/abstract/document/7743459/)," in <i> IEEE International Conference on Automation Science and Engineering (CASE)</i>, 2016. |
 | T. Tang, H-C. Lin, Y. Zhao, Y. Fan, W. Chen and M. Tomizuka, "[Teach industrial robots peg-hole-insertion by human demonstration](http://ieeexplore.ieee.org/document/7576815/)," <i>2016 IEEE International Conference on Advanced Intelligent Mechatronics (AIM)</i>, 2016. |
 | H-C. Lin, T. Tang, Y. Fan, Y. Zhao, M. Tomizuka, and W. Chen, "[Robot Learning from Human Demonstration with Remote Lead through Teaching](http://ieeexplore.ieee.org/abstract/document/7810316/)," in <i>European Control Conference (ECC)</i>, 2016. |
-| C. Liu, and M. Tomizuka, "[Algorithmic safety measures for intelligent industrial co-robots](http://ieeexplore.ieee.org/abstract/document/7487476/)," in <i>IEEE International Conference on Robotics and Automation (ICRA), 2016. 
 | Y. Fan, H.-C. Lin, Y. Zhao, C.-Y. Lin, T. Tang, M. Tomizuka, and W. Chen, "Object position and orientation tracking for manipulators considering nonnegligible sensor physics," in  <i>Flexible Automation (ISFA), International Symposium on</i>. IEEE, 2016, pp. 450--457. |
-| Y. Fan, W. Gao, and M. Tomizuka, "Real-time finger gaits planning for dexterous manipulation," to appear in <i>The 20th World Congress of the International Federation of Automatic Control (IFAC)</i>, 2017. |
-| Y. Fan, L. Sun, M. Zheng, W. Gao, and M. Tomizuka, "Robust dexterous manipulation under object dynamics uncertainties,"  submitted to <i>IEEE International Conference on Advanced Intelligent Mechatronics (AIM)</i>, 2017. |
-| Y. Fan, T. Tang, H.-C. Lin, Y. Zhao, and M. Tomizuka, "Real-time robust finger gaits planning under object shape and dynamics uncertainties," submitted to <i>IEEE International Conference on Intelligent Robots and Systems (IROS)</i>, 2017. |
+| C. Liu, and M. Tomizuka, "[Algorithmic safety measures for intelligent industrial co-robots](http://ieeexplore.ieee.org/abstract/document/7487476/)," in <i>IEEE International Conference on Robotics and Automation (ICRA)</i>, 2016. |
+
+[Publications Before 2016](javascript:showhide("oldpub"))
+
+<div markdown="1" id="oldpub" style="display: none;">
 | Y. Zhao, C. Wang, X. Yu, and M. Tomizuka, "[Complete Dynamic Modelling of Flexible Joint Robots](http://proceedings.asmedigitalcollection.asme.org/proceeding.aspx?articleid=2481910)," in <i>ASME Dynamic Systems and Control Conference (DSCC)</i>, 2015. |
-| Y. Zhao, W. Chen, T. Tang, and M. Tomizuka, "[Zero Time Delay Input Shaping for Smooth Settling of Industrial Robots](http://ieeexplore.ieee.org/abstract/document/7743459/)," in <i> IEEE International Conference on Automation Science and Engineering (CASE)</i>, 2016. |
-| C.-Y. Lin, W. Chen, and M. Tomizuka, "Learning Control for Task Specific Industrial Robots," in <i>IEEE Conference on Decision and Control (CDC)</i>, 2016. |
+| C. Liu, and M. Tomizuka, "[Safe exploration: addressing various uncertainty levels in human robot interactions](http://ieeexplore.ieee.org/document/7170779/?arnumber=7170779)", in <i>American Control Conference</i>, 2015. |
+| C. Liu, and M. Tomizuka, "[Control in a safe set: addressing safety in human-robot interactions](http://proceedings.asmedigitalcollection.asme.org/proceeding.aspx?articleid=2086271)", in <i>Dynamic Systems and Control Conference</i>. ASME, 2014. <b>Best Student Paper Finalist</b>. |
+| C. Liu, and M. Tomizuka, "[Modeling and controller design of cooperative robots in workspace sharing human-robot assembly teams](http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6942738)", in <i>IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)</i>, 2014. |
+
+</div>
 
 
 <!-- If you have researchers you want to list here, then fill out their name and title etc -->
 
 ### <a name="id3"></a>Researchers
 
+<img src="{{ site.baseurl }}/assets/images/research/robot/FANUC Group.jpg" title="GroupPhoto">
+
 | Changliu Liu | Graduate Student | [Email Link](mailto:changliuliu@berkeley.edu) | [Homepage](http://www.me.berkeley.edu/~cliu/)	|
 | Te Tang | Graduate Student | [Email Link](mailto:tetang@berkeley.edu) | [Homepage](http://www.me.berkeley.edu/~tetang/)  	 |
-| Hsien-Chung Lin | Graduate Student | [Email Link](mailto:hclin@berkeley.edu)  | [Homepage](msc.berkeley.edu)	|
-| Yu Zhao | Graduate Student | [Email Link](mailto:yzhao334@berkeley.edu) | [Homepage](msc.berkeley.edu)	|
-| Yongxiang Fan | Graduate Student | [Email Link](mailto:yongxiang_fan@berkeley.edu)  | [Homepage](msc.berkeley.edu)	|
+| Hsien-Chung Lin | Graduate Student | [Email Link](mailto:hclin@berkeley.edu)  |	|
+| Yu Zhao | Graduate Student | [Email Link](mailto:yzhao334@berkeley.edu) | [Homepage](https://yzhao334.github.io/)	|
+| Yongxiang Fan | Graduate Student | [Email Link](mailto:yongxiang_fan@berkeley.edu)  | |
 | Yujiao Cheng | Graduate Student | [Email Link](mailto:yujiaocheng@berkeley.edu) | |
 
 
