@@ -46,12 +46,15 @@ We propose a framework in designing the driving behavior for automated vehicles 
 ### <a name="id2"></a>Demo Videos
 
 
-<video width="100%" src="{{ site.baseurl }}/assets/images/research/vehicle/Multi-vehicle-low.mp4" controls="controls" preload="auto"></video>
+<div style="position: relative; width: 100%; height: 0; padding-bottom: 56.3%;">
+<iframe style = "position: absolute; width: 100%; height: 100%; left: 0; top: 0;"
+  src="https://www.youtube.com/embed/e3EUHDAeTKs" frameborder="0" controls="controls" preload="auto" allowfullscreen></iframe>
+</div>
 <div class="image-caption">Maintaining High Speed in Slow Traffic with Active Safety Measure</div>
 
 
 ### <a name="id3"></a>Publications
-C. Liu, J. Chen, T. Nguyen, and M. Tomizuka, "The robustly-safe automated driving system for enhanced active safety", in <i>SAE World Congress, 2017</i>.
+C. Liu, J. Chen, T. Nguyen, and M. Tomizuka, "[The robustly-safe automated driving system for enhanced active safety](https://saemobilus.sae.org/content/2017-01-1406)", in <i>SAE World Congress, 2017</i>.
 
 C. Liu, and M. Tomizuka, "[Enabling Safe Freeway Driving for Automated Vehicles](http://me.berkeley.edu/~cliu/files/acc16-2.pdf)", in <i>American Control Conference, 2016</i>. 
 
@@ -63,7 +66,7 @@ C. Liu, and M. Tomizuka, "[Enabling Safe Freeway Driving for Automated Vehicles]
 | Changliu Liu | Graduate Student | [Email Link](mailto:changliuliu@berkeley.edu) | [Homepage](http://me.berkeley.edu/~cliu)	|
 | Jianyu Chen | Graduate Student | [Email Link](mailto:jianyuchen@berkeley.edu) |  	|
 | Chen Tang | Graduate Student | [Email Link](mailto:chen_tang@berkeley.edu)|  |
-
+| Long Xin | Visiting Student | [Email Link](mailto:long_xin@berkeley.edu)|  |
 
 
 <!-- If you have any sponsors, you can just list them here -->
