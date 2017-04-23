@@ -1,0 +1,30 @@
+---
+layout: post
+title: Cal Day 2017
+date: '2017-04-22T10:00:00+00:00'
+permalink: /news/calday-2017.html
+author: Changliu Liu
+---
+
+We welcomed many visitors on Cal Day!
+
+(Photo credits: Chen Tang)
+
+<div class="col-md-6">
+<a href="{{ site.baseurl }}/assets/images/posts/2017CalDay.jpg" data-lightbox="calday" data-title="Cal Day 2017 Crew">
+  <img src="{{ site.baseurl }}/assets/images/posts/2017CalDay.jpg" title="Cal Day 2017 Crew">
+</a>
+<hr>
+<a href="{{ site.baseurl }}/assets/images/posts/2017CalDay3.jpg" data-lightbox="calday" data-title="Hsien-Chung explaining industrial robot arm to kids">
+  <img src="{{ site.baseurl }}/assets/images/posts/2017CalDay3.jpg" title="Daisuke explaining industrial robot arm to kids">
+</a>
+</div>
+<div class="col-md-6">
+<a href="{{ site.baseurl }}/assets/images/posts/2017CalDay2.jpg" data-lightbox="calday" data-title="Visitors interested in our robot">
+  <img src="{{ site.baseurl }}/assets/images/posts/2017CalDay2.jpg" title="Visitors interested in our robot">
+</a>
+<hr>
+<a href="{{ site.baseurl }}/assets/images/posts/2017CalDay4.jpg" data-lightbox="calday" data-title="Te answering questions from kids">
+  <img src="{{ site.baseurl }}/assets/images/posts/2017CalDay4.jpg" title="Te answering questions from kids">
+</a>
+</div>
