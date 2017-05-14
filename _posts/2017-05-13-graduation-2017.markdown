@@ -1,0 +1,33 @@
+---
+layout: post
+title: Graduation 2017
+date: '2017-05-13T10:00:00+00:00'
+permalink: /news/graduation-2017.html
+author: Changliu Liu
+---
+
+Congratulations to the new Doctors from the MSC Lab: **Chen-Yu Chan** , **Kevin Haninger**, **Changliu Liu** , **Xiaowen Yu**, **Yu Zhao** and **Shiying Zhou**.
+
+(Photo credits: Chen Tang - Official MSC Photographer)
+
+<div class="col-md-12">
+<a href="{{ site.baseurl }}/assets/images/posts/2017Graduation.jpg" data-lightbox="2017Graduation" data-title="Group photo">
+	<img src="{{ site.baseurl }}/assets/images/posts/2017Graduation.jpg" title=" "></a>
+<hr>
+
+<div class="col-md-6">
+<a href="{{ site.baseurl }}/assets/images/posts/2017Graduation1.jpg" data-lightbox="2017Graduation" data-title="Jump High!">
+  <img src="{{ site.baseurl }}/assets/images/posts/2017Graduation1.jpg" title=" "></a>
+<hr>
+<a href="{{ site.baseurl }}/assets/images/posts/2017Graduation2.jpg" data-lightbox="2017Graduation" data-title="Two Bears!">
+  <img src="{{ site.baseurl }}/assets/images/posts/2017Graduation2.jpg" title=" "></a>
+</div>
+<div class="col-md-6">
+<a href="{{ site.baseurl }}/assets/images/posts/2017Graduation3.jpg" data-lightbox="2017Graduation" data-title="Graduation Cake">
+  <img src="{{ site.baseurl }}/assets/images/posts/2017Graduation3.jpg" title=" "></a>
+<hr>
+<a href="{{ site.baseurl }}/assets/images/posts/2017Graduation4.jpg" data-lightbox="2017Graduation" data-title="Graduation party at Professor Tomizuka's house">
+  <img src="{{ site.baseurl }}/assets/images/posts/2017Graduation4.jpg" title=" "></a>
+</div>
+
+</div>
