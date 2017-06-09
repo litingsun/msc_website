@@ -1,5 +1,35 @@
 [
   {
+    "date":"Spring 2017",
+    "students":[
+      {
+         "name":"Zheng, Minghui",
+         "title":"High-Precision Control",
+         "image":"Minghui",
+         "email":"minghuizheng@berkeley.edu"
+      },
+      {
+        "name":"Zhou, Shiying",
+        "title":"Disk Drive Control",
+        "image":"Shiying",
+        "email":"szhou17@berkeley.edu",
+        "homepage":"http://zhoushiying.com/"
+      }
+    ]
+  },
+  {
+    "date":"Fall 2016",
+    "students":[
+      {
+        "name":"Haninger, Kevin",
+        "title":"Human Mechatronics",
+        "image":"Kevin",
+        "email":"Kevin.Haninger@ipk.fraunhofer.de",
+        "homepage":"https://sites.google.com/site/khaninger/"
+      }
+    ]
+  },
+  {
     "date":"Spring 2016",
     "students":[
       {

@@ -25,13 +25,6 @@
       "email":"yongxiang_fan@berkeley.edu"
    },
    {
-      "name":"Haninger, Kevin",
-      "title":"Human Mechatronics",
-      "image":"Kevin",
-      "email":"khaninger@gmail.com",
-      "homepage":"https://sites.google.com/site/khaninger/"
-   },
-   {
       "name":"Hu, Yeping",
       "title":"Automotive Control",
       "image":"yeping",
@@ -132,23 +125,10 @@
       "email":"zhanwei0102@gmail.com"
    },
    {
-     "name":"Zheng, Minghui",
-     "title":"High-Precision Control",
-     "image":"Minghui",
-     "email":"minghuizheng@berkeley.edu"
-   },
-   {
       "name":"Zhao, Yu",
       "title":"Robotics",
       "image":"YuZhao",
       "email":"yzhao334@berkeley.edu",
       "homepage":"https://yzhao334.github.io/"
-   },
-   {
-      "name":"Zhou, Shiying",
-      "title":"Disk Drive Control",
-      "image":"Shiying",
-      "email":"szhou17@berkeley.edu",
-      "homepage":"http://zhoushiying.com/"
    }
 ]
