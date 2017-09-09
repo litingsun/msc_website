@@ -17,11 +17,13 @@ To learn more about the research done at MSC, you can download a [research bookl
 ## Autonomous Vehicles
 [Robustly-Safe Automated Driving (ROAD) System]({{ "/research/robustly-safe-automated-driving.html" | prepend: site.baseurl }})
 
-[Planning with Social Interactions for Urban Autonomous Driving](javascript:toAppear())
+[Fast Integrated Planning and Control based on Imitation Learning and Optimization]({{ "/research/autonomous_driving_via_imitation_learning.html" | prepend: site.baseurl }})
 
-[3D Object Detection based on Lidar and Camera Fusion for Autonomous Driving](javascript:toAppear())
+[Lidar and Camera Fusion for 3D Object Detection based on Deep Learning]({{ "/research/lidar-camera-fusion.html" | prepend: site.baseurl }})
 
-[Generic Motion Generation and Cognition for Autonomous Driving](javascript:toAppear())
+[Point-Cloud-Based Detection and Tracking]({{ "/research/detection-and-tracking.html" | prepend: site.baseurl }})
+
+[Vehicle Control and State Estimation]({{ "/research/vehicle-control.html" | prepend: site.baseurl }})
 
 ## Human Mechatronics
 
@@ -138,10 +140,10 @@ To learn more about the research done at MSC, you can download a [research bookl
 
     <p><label for="text_field">Text Field:</label>
       <input type="text" id="text_field" /></p>
-
+    
     <p><label for="text_area">Text Area:</label>
       <textarea id="text_area"></textarea></p>
-
+    
     <p><label for="select_element">Select Element:</label>
       <select name="select_element">
         <optgroup label="Option Group 1">
@@ -155,7 +157,7 @@ To learn more about the research done at MSC, you can download a [research bookl
           <option value="3">Option 3</option>
         </optgroup>
     </select></p>
-
+    
     <p><label for="radio_buttons">Radio Buttons:</label>
       <label>
         <input type="radio" class="radio" name="radio_button" value="radio_1" /> Radio 1
@@ -167,7 +169,7 @@ To learn more about the research done at MSC, you can download a [research bookl
         <input type="radio" class="radio" name="radio_button" value="radio_3" /> Radio 3
       </label>
     </p>
-
+    
     <p><label for="checkboxes">Checkboxes:</label>
       <label>
         <input type="checkbox" class="checkbox" name="checkboxes" value="check_1" /> Checkbox 1
@@ -179,11 +181,11 @@ To learn more about the research done at MSC, you can download a [research bookl
         <input type="checkbox" class="checkbox" name="checkboxes" value="check_3" /> Checkbox 3
       </label>
     </p>
-
+    
     <p><label for="password">Password:</label>
       <input type="password" class="password" name="password" />
     </p>
-
+    
     <p><label for="file">File Input:</label>
       <input type="file" class="file" name="file" />
     </p>
