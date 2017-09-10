@@ -28,8 +28,11 @@ In this independent project, clustering algorithms and L-shape fitting methods a
 
 ### <a name="id2"></a>Demo Videos
 
+<div style="position: relative; width: 100%; height: 0; padding-bottom: 56.3%;">
+<iframe style = "position: absolute; width: 100%; height: 100%; left: 0; top: 0;"
+  src="https://youtube.com/embed//6KXJHwFekE0?rel=0" frameborder="0" controls="controls" preload="auto" allowfullscreen></iframe>
+</div>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/6KXJHwFekE0?rel=0" frameborder="0" allowfullscreen></iframe>
 <div class="image-caption">Vehicle detection and tracking at an intersection based on point cloud from a 64-layer Lidar</div>
 
 

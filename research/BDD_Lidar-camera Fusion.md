@@ -28,8 +28,12 @@ In this project, our goal is to improve 3D object detection performance in drivi
 
 ### <a name="id2"></a>Videos
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/MMhQFThzHA4?rel=0" frameborder="0" allowfullscreen></iframe>
-<div class="image-caption">Point-cloud and corresponding image data collected with crowded pedestrains at a crosswalk</div>
+<div style="position: relative; width: 100%; height: 0; padding-bottom: 56.3%;">
+<iframe style = "position: absolute; width: 100%; height: 100%; left: 0; top: 0;"
+  src="https://youtube.com/embed/MMhQFThzHA4?rel=0" frameborder="0" controls="controls" preload="auto" allowfullscreen></iframe>
+</div>
+
+<div class="image-caption">Point-cloud and corresponding image data collected with crowded pedestrains at a crosswalkr</div>
 
 
 
