@@ -31,7 +31,7 @@ Typically, autonomous driving systems are partitioned into hierarhical structure
 
 To simultaneously address the above challenges, we propose a two-layer hierarchical structure that combines imitation learning (Policy Layer) and optimization-based (Execuation Layer) methods, as shown below.
 
- <img height="100px" src="{{ site.baseurl }}/assets/images/research/vehicle/overall_structure_v2.png" title="OverallStructure">
+ <img src="{{ site.baseurl }}/assets/images/research/vehicle/overall_structure_v2.png" title="OverallStructure">
 
 <div class="image-caption">The Hierarchical Structure of Learning-Optimization Based Autonomous Driving</div>
 
