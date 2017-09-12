@@ -8,7 +8,7 @@
    },
    {
       "name":"Chen, Jianyu",
-      "title":"Automotive Control",
+      "title":"Autonomous Driving",
       "image":"Jianyu",
       "email":"jianyuchen@berkeley.edu"
    },
@@ -26,7 +26,7 @@
    },
    {
       "name":"Hu, Yeping",
-      "title":"Automotive Control",
+      "title":"Autonomous Driving",
       "image":"yeping",
       "email":"yeping_hu@berkeley.edu",
    },
@@ -45,8 +45,15 @@
       "homepage":"http://dai-chang.jimdo.com/"
    },
    {
+      "name":"Leu, Jessica",
+      "title":"Robotics",
+      "image":"Jessica",
+      "email":"jess.leu24@berkeley.edu",
+      "homepage":
+   },
+   {
       "name":"Li, Jiachen",
-      "title":"Automotive Control",
+      "title":"Autonomous Driving",
       "image":"Jiachen",
       "email":"jiachen_li@berkeley.edu",
       "homepage":"https://www.linkedin.com/in/jiachen-li"
@@ -71,6 +78,13 @@
       "homepage":"http://me.berkeley.edu/~cliu/"
    },
    {
+      "name":"Ma, Hengbo",
+      "title":"Robotics",
+      "image":"Hengbo",
+      "email":"hengbo_ma@berkeley.edu",
+      "homepage":
+   },
+   {
       "name":"Peng, Cheng",
       "title":" ",
       "image":"Cheng",
@@ -90,7 +104,7 @@
    },
    {
       "name":"Tang, Chen",
-      "title":"Automotive Control",
+      "title":"Autonomous Driving",
       "image":"Chen",
       "email":"chen_tang@berkeley.edu"
    },
@@ -120,7 +134,7 @@
    },
    {
       "name":"Zhan, Wei",
-      "title":"Automotive Control",
+      "title":"Autonomous Driving",
       "image":"WeiZhan",
       "email":"zhanwei0102@gmail.com"
    },
