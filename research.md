@@ -15,15 +15,23 @@ To learn more about the research done at MSC, you can download a [research bookl
 [Intelligent Control of Robotic Manipulators]({{ "/research/intelligent-manipulation.html" | prepend: site.baseurl }})
 
 ## Autonomous Vehicles
+[Decision-Making and Planning under Uncertainties with Social Interactions]({{"/research/decision-making.html" | prepend: site.baseurl }})
+
 [Robustly-Safe Automated Driving (ROAD) System]({{ "/research/robustly-safe-automated-driving.html" | prepend: site.baseurl }})
 
-[Fast Integrated Planning and Control based on Imitation Learning and Optimization]({{ "/research/autonomous_driving_via_imitation_learning.html" | prepend: site.baseurl }})
+[Motion Generation and Cognition based on Deep Learning]({{ "/research/motion-generation.html" | prepend: site.baseurl }})
 
 [Lidar and Camera Fusion for 3D Object Detection based on Deep Learning]({{ "/research/lidar-camera-fusion.html" | prepend: site.baseurl }})
+
+[Fast Integrated Planning and Control based on Imitation Learning and Optimization]({{ "/research/autonomous_driving_via_imitation_learning.html" | prepend: site.baseurl }})
 
 [Point-Cloud-Based Detection and Tracking]({{ "/research/detection-and-tracking.html" | prepend: site.baseurl }})
 
 [Vehicle Control and State Estimation]({{ "/research/vehicle-control.html" | prepend: site.baseurl }})
+
+
+
+
 
 ## Human Mechatronics
 
