@@ -11,6 +11,7 @@ To learn more about the research done at MSC, you can download a [research bookl
 </div>
 
 ## Robotics
+[Safe and Efficient Robot Collaboration System]({{ "/research/serocs.html" | prepend: site.baseurl }})
 
 [Intelligent Control of Robotic Manipulators]({{ "/research/intelligent-manipulation.html" | prepend: site.baseurl }})
 
