@@ -24,8 +24,6 @@ To learn more about the research done at MSC, you can download a [research bookl
 
 [Lidar and Camera Fusion for 3D Object Detection based on Deep Learning]({{ "/research/lidar-camera-fusion.html" | prepend: site.baseurl }})
 
-[Fast Integrated Planning and Control based on Imitation Learning and Optimization]({{ "/research/autonomous_driving_via_imitation_learning.html" | prepend: site.baseurl }})
-
 [Point-Cloud-Based Detection and Tracking]({{ "/research/detection-and-tracking.html" | prepend: site.baseurl }})
 
 [Vehicle Control and State Estimation]({{ "/research/vehicle-control.html" | prepend: site.baseurl }})
