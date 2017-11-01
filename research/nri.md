@@ -7,6 +7,9 @@ permalink: /research/serocs.html
 ### Contents:
 
 * [Introduction](#id1)
+* [Testbeds](#id2)
+* [Videos](#id3)
+* [Publications](#id4)
 * [Sponsor](#id5)
 
 <!-- Title your work here -->
@@ -21,10 +24,30 @@ In factory automation, humans and robots comprise the two major work forces. Tra
 <img width = "60%" src="{{ site.baseurl }}/assets/images/research/nri/SERoCS.png" title="Architecture">
 <div class="image-caption">SERoCS Architecture</div>
 
+### <a name="id2"></a>Testbeds
 
-<!-- If you have researchers you want to list here, then fill out their name and title etc -->
+<table style="position:relative;">
+<tr></tr><tr>
+<td>
+<b>FANUC LR Mate Robot Arm</b> <br>
+<img width = "60%" src="{{ site.baseurl }}/assets/images/research/nri/Testbed_arm.pdf" title="Architecture">
 
-<!-- If you have any sponsors, you can just list them here -->
+</td>
+<td>
+<b>TurtleBot3 with Manipulator</b> <br>
+<img width = "60%" src="{{ site.baseurl }}/assets/images/research/nri/Testbed_mobile.jpeg" title="Architecture">
+
+</td></tr></table>
+
+
+### <a name="id3"></a>Videos
+<img width = "60%" src="{{ site.baseurl }}/assets/images/research/nri/T3.gif" title="Architecture">
+
+
+### <a name="id4"></a>Publications
+C. Liu, and M. Tomizuka, "Robot Safe Interaction System for Intelligent Industrial Co-Robots", submitted to <i>International Journal of Robotics Research</i>, 2017.
+
+
 
 ### <a name="id5"></a>Sponsor
 
