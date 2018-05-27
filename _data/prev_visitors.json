@@ -1,5 +1,34 @@
 [
   {  
+    "name":"Lee, Youngwoo",
+    "title":"Ulsan National Institute of Science Technology (UNIST)",
+    "image":"Youngwoo",
+    "email":"stork84.lee@gmail.com",
+  },
+  {  
+    "name":"Tornero, Josep",
+    "title":"Institute of Design & Manufacturing ",
+    "image":"JosepTornero",
+    "email":"jtornero@isa.upv.es",
+    "homepage":"../assets/files/Josep%20Tornero%20English%20CV.doc",
+    "company":"http://www.institutoidf.com/index.php/en/"
+  },
+  {  
+    "name":"Hidaka, Koichi",
+    "title":"Tokyo Denki University ",
+    "image":"Hidaka",
+    "email":"hidaka@cck.dendai.ac.jp",
+    "homepage":"http://www.control.ees.dendai.ac.jp/english/indexe.html",
+    "company":"http://web.dendai.ac.jp/"
+  },
+  {  
+    "name":"Tang, Tao",
+    "title":"Chinese Academy of Sciences ",
+    "image":"TaoTang",
+    "email":"tangtao24@163.com",
+    "company":"http://english.cas.cn/"
+  },
+  {  
     "name":"Ding, Dawei",
     "title":"University of Science and Technology Beijing ",
     "image":"Dawei",
