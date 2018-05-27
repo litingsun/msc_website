@@ -1,0 +1,15 @@
+---
+layout: post
+title: Cal Day 2018
+date: '2018-04-28T10:00:00+00:00'
+permalink: /news/calday-2018.html
+author: Liting Sun
+---
+
+We welcomed many visitors on Cal Day!
+
+(Photo credits: Chen Tang)
+
+<a href="{{ site.baseurl }}/assets/images/posts/2018Spring_CalDay.jpg" data-lightbox="calday" data-title="Cal Day 2018 Crew">
+  <img src="{{ site.baseurl }}/assets/images/posts/2018Spring_CalDay.jpg" title="Cal Day 2018 Crew">
+</a>
