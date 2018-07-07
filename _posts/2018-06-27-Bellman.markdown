@@ -1,0 +1,29 @@
+---
+layout: post
+title: Congratulations to Professor Tomizuka
+date: '2018-06-28T11:00:00+00:00'
+permalink: /news/Bellman-prize-Professor.html
+author: Liting Sun
+---
+
+Professor Tomizuka has received the [AACC Richard E. Bellman Heritage Award](http://a2c2.org/awards/richard-e-bellman-control-heritage-award) at the American Control Conference on June 28, 2018! Congratulations!
+
+The AACC Richard E. Bellman Heritage Award is the highest lifetime achievement award that can be bestowed upon a US control system engineer or scientist. This prize is given to recognition Professor Tomizuka's seminal and pioneering contributions to the theory and practice of mechatronic systems control.  
+
+<div class="col-md-12">
+<a href="{{ site.baseurl }}/assets/images/posts/2018_Bellman_3.jpg" data-lightbox="AACC Bellman" data-title="AACC Bellman Heritage Award">
+	<img src="{{ site.baseurl }}/assets/images/posts/2018_Bellman_3.jpg" title=" "></a>
+<hr>
+
+<div class="col-md-6">
+<a href="{{ site.baseurl }}/assets/images/posts/2018_Bellman_plaque.jpg" data-lightbox="AACC Bellman" data-title="Bellman Award Plaque">
+  <img src="{{ site.baseurl }}/assets/images/posts/2018_Bellman_plaque.jpg" title=" "></a>
+</div>
+
+<div class="col-md-6">
+
+<a href="{{ site.baseurl }}/assets/images/posts/2018_Bellman_2.jpg" data-lightbox="AACC Bellman" data-title="All awards">
+  <img src="{{ site.baseurl }}/assets/images/posts/2018_Bellman_2.jpg" title=" "></a>
+</div>
+
+</div>
