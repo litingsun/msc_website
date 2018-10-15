@@ -14,9 +14,6 @@ permalink: /research/autonomous_driving_via_imitation_learning.html
 
 <!-- Title your work here -->
 
-## Autonomous Driving Via Imitation Learning and Optimization
-
-
 <!-- Add your own introduction here -->
 
 ### <a name="id1"></a>Introduction
@@ -70,4 +67,4 @@ Moreover, to continuously improve the learning performance of the neural network
 
 ### <a name="id4"></a>Publications
 
-L. Sun, C. Peng, W. Zhan, and M. Tomizuka, "[A Fast Integrated Planning and Control Framework for Autonomous Driving](https://arxiv.org/pdf/1707.02515.pdf)", in <i>arxiv, July, 2017</i>.
+L. Sun, C. Peng, W. Zhan, and M. Tomizuka, "[A Fast Integrated Planning and Control Framework for Autonomous Driving](https://arxiv.org/pdf/1707.02515.pdf)", in proceedings of the 2018 Dynamic Systems and Control conference (DSCC2018), Sept 30 - Oct 03, Atlanta, 2018.

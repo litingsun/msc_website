@@ -11,46 +11,27 @@ To learn more about the research done at MSC, you can download a [research bookl
 </div>
 
 ## Robotics
-[Safe and Efficient Robot Collaboration System]({{ "/research/serocs.html" | prepend: site.baseurl }})
+* [Safe and Efficient Robot Collaboration System]({{ "/research/serocs.html" | prepend: site.baseurl }})
 
-[Intelligent Control of Robotic Manipulators]({{ "/research/intelligent-manipulation.html" | prepend: site.baseurl }})
+* [Intelligent Control of Robotic Manipulators]({{ "/research/intelligent-manipulation.html" | prepend: site.baseurl }})
 
-## Autonomous Vehicles
-[Decision-Making and Planning under Uncertainties with Social Interactions]({{"/research/decision-making.html" | prepend: site.baseurl }})
-
-[Robustly-Safe Automated Driving (ROAD) System]({{ "/research/robustly-safe-automated-driving.html" | prepend: site.baseurl }})
-
-[Autonomous Driving Via Imitation Learning and Optimization]({{ "/research/autonomous_driving_via_imitation_learning.html" | prepend: site.baseurl }})
-
-[Motion Generation and Cognition based on Deep Learning]({{ "/research/motion-generation.html" | prepend: site.baseurl }})
-
-[Lidar and Camera Fusion for 3D Object Detection based on Deep Learning]({{ "/research/lidar-camera-fusion.html" | prepend: site.baseurl }})
-
-[Point-Cloud-Based Detection and Tracking]({{ "/research/detection-and-tracking.html" | prepend: site.baseurl }})
-
-[Vehicle Control and State Estimation]({{ "/research/vehicle-control.html" | prepend: site.baseurl }})
-
-
-
-
+## [Autonomous Driving]({{"/research/autonomous-vehicle.html" | prepend: site.baseurl }})
+* Motion Planning and Control  
+* Decision-Making and Behavior Planning  
+* Prediction and Behavior Modeling  
+* Detection, Tracking, Localization and Mapping
 
 ## Human Mechatronics
 
-[Individualized Assistive Device for Rehabilitation and Augmentation]({{ "/research/Individual-Device.html" | prepend: site.baseurl }})
+* [Individualized Assistive Device for Rehabilitation and Augmentation]({{ "/research/Individual-Device.html" | prepend: site.baseurl }})
 
-[Mechatronics for Human Assistance]({{ "/research/mechatronics-human-assistance.html" | prepend: site.baseurl }})
+* [Mechatronics for Human Assistance]({{ "/research/mechatronics-human-assistance.html" | prepend: site.baseurl }})
 
-## Building Control
-[Building Temperature Control]({{ "/research/building-control.html" | prepend: site.baseurl }})
-
-## Precision Motion Control
-[MEMS Gyroscope Calibration for Satellite Attitude Determination Systems]({{ "/research/satellite.html" | prepend: site.baseurl }})
-
-[Control of High-Performance Wafer Scanning Systems]({{ "/research/wafer.html" | prepend: site.baseurl }})
 
 
 <button style="display: block; width: 100%;" data-toggle="collapse" data-target="#previous">Previous Projects</button>
 <!--## [Previous Projects](javascript:showhide("previous"))-->
+
 <div markdown="1" id="previous" class="collapse">
 ## Automotive Control
 [Turbocharged Spark-Ignition Engine Control]({{ "/research/turbocharged.html" | prepend: site.baseurl}})
@@ -71,10 +52,19 @@ To learn more about the research done at MSC, you can download a [research bookl
 ## Robotics
 [Control of Vacuum Wafer Handling Robot]({{ "/research/wafer_handling.html" | prepend: site.baseurl }})
 
-</div>
+## Building Control
 
+[Building Temperature Control]({{ "/research/building-control.html" | prepend: site.baseurl }})
+
+## Precision Motion Control
+
+[MEMS Gyroscope Calibration for Satellite Attitude Determination Systems]({{ "/research/satellite.html" | prepend: site.baseurl }})
+
+[Control of High-Performance Wafer Scanning Systems]({{ "/research/wafer.html" | prepend: site.baseurl }})</div>
 
 <!-- <p>The purpose of this HTML is to help determine what default settings are with Bitters and to make sure that all possible HTML Elements are included in this HTML so as to not miss any possible Elements when designing a site.</p>
+
+
 
 <hr>
 
@@ -146,7 +136,7 @@ To learn more about the research done at MSC, you can download a [research bookl
     <h2>Form Element</h2>
 
     <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nullam dignissim convallis est. Quisque aliquam. Donec faucibus. Nunc iaculis suscipit dui.</p>
-
+    
     <p><label for="text_field">Text Field:</label>
       <input type="text" id="text_field" /></p>
     

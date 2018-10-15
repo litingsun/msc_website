@@ -1,5 +1,17 @@
 [  
   {  
+    "name":"Weisong, Wen",
+    "title":"The Hongkong Polytechnic University",
+    "image":"Weisong",
+    "email":"weisong.wen@connect.polyu.hk",
+  },
+  {  
+    "name":"Di, Wang",
+    "title":"Xi'an Jiaotong University",
+    "image":"WangDi_Phd",
+    "email":"de2wang@stu.xjtu.edu.cn",
+  },
+  {  
     "name":"Okuda, Hiroyuki",
     "title":"Nagoya University",
     "image":"Okuda",

@@ -73,9 +73,9 @@ Industrial robots are playing increasingly important roles in factories. Many pr
 <td>
 <div markdown="1">
 * <b>Topic 2. Robot Skill Learning</b>
-
 Subtopic 2.2. Learn Peg-Hole-Insertion from Human Demonstration
 | [Brief](javascript:showhide("skill2")) | [More](javascript:toAppear()) |
+
 <div id="skill2" style="display: none;">
 Programming robotic assembly tasks usually requires delicate force tuning. In contrast, human may accomplish assembly tasks with much less time and fewer trials. It will be a great benefit if robots can learn the human inherent skill of force control and apply it autonomously. Recent works on Learning from Demonstration (LfD) have shown the possibility to teach robots by human demonstration. The basic idea is to collect the force and corrective velocity that human applies during assembly, and then use them to regress a proper gain for the robot admittance controller. However, many of the LfD methods are tested on collaborative robots with compliant joints and relatively large assembly clearance. For industrial robots, the non-backdrivable mechanism and strict tolerance requirement make the assembly tasks more challenging. We modified the original LfD to be suitable for industrial robots. A new demonstration tool is designed to acquire the human demonstration data. The force control gains are learned by Gaussian Mixture Regression (GMR) and the closed-loop stability is analysed. A series of peg-hole-insertion experiments with H7h7 tolerance on a FANUC manipulator validate the performance of the proposed learning method.
 </div>
@@ -95,9 +95,9 @@ Programming robotic assembly tasks usually requires delicate force tuning. In co
 <td>
 <div markdown="1">
 * <b>Topic 2. Robot Skill Learning</b>
-
 Subtopic 2.3. Autonomous Alignment of Peg and Hole for Robotic Assembly
 | [Brief](javascript:showhide("skill3")) | [More](javascript:toAppear()) |
+
 <div id="skill3" style="display: none;">
 In the past years, many methods have been developed for robotic peg-hole-insertion to automate the assembly process. However, many of them are based on the assumption that the peg and hole are well aligned before insertion starts. In practice, if there is a large pose(position/orientation) misalignment, the peg and hole may suffer from a three-point contact condition where the traditional assembly methods cannot work. To deal with this problem, we proposes an autonomous alignment method by force/torque measurement before insertion phase. A three-point contact model is built up and the pose misalignment between the peg and hole is estimated by force and geometric analysis. With the estimated values, the robot can autonomously correct the misalignment before applying traditional assembly methods to perform insertions. A series of experiments on a FANUC industrial robot and a H7h7 tolerance peg-hole testbed validate the effectiveness of the proposed method. Experimental results show that the robot is able to perform peg-hole-insertion from three-point contact conditions with 96% success rate. 
 </div> 
@@ -127,7 +127,7 @@ In the application of physical human-robot interaction (pHRI), the collaboration
 </div>
 </td>
 <td>
-	
+​	
 <div style="position: relative; width: 100%; height: 0; padding-bottom: 56.3%;">
 <iframe style = "position: absolute; width: 100%; height: 100%; left: 0; top: 0;"
   src="https://www.youtube.com/embed/lqkp6g-RmxE" frameborder="0" controls="controls" preload="auto" allowfullscreen></iframe>
@@ -166,7 +166,7 @@ The biggest challenge in human-robot collaboration comes from human factors. Rob
 </div>
 </td>
 <td>
-	
+​	
 <div style="position: relative; width: 100%; height: 0; padding-bottom: 56.3%;">
 <iframe style = "position: absolute; width: 100%; height: 100%; left: 0; top: 0;"
   src="https://www.youtube.com/embed/08eDPWC1G4M" frameborder="0" controls="controls" preload="auto" allowfullscreen></iframe>
