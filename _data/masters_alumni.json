@@ -1,4 +1,16 @@
-[{
+[
+  {
+    "date":"Fall 2018",
+    "students":[  
+      {
+      "name":"Wang, Taohan",
+      "title":"",
+      "image":"Taohan",
+      "email":"taohanwang@berkeley.edu"
+   }
+    ]
+  },
+  {
     "date":"Fall 2016",
     "students":[  
       {  

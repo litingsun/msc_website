@@ -1,4 +1,53 @@
-[
+[   
+  {
+    "date":"Fall 2018",
+    "students":[
+      {
+          "name":"Chan, Chen-Yu",
+          "title":"Human Mechatronics",
+          "image":"Chen-Yu",
+          "email":"chanchenyu@berkeley.edu",
+          "homepage":"http://xlab.cn.nctu.edu.tw/cychan/"
+       },
+       {
+          "name":"Lin, Hsien-Chung",
+          "title":"Robotics",
+          "image":"Hsien-Chung",
+          "email":"hclin@berkeley.edu"
+       },
+       {
+          "name":"Tang, Te",
+          "title":"Robotics",
+          "image":"Te",
+          "email":"tetang@berkeley.edu"
+       },
+       {
+          "name":"Yu, Xiaowen",
+          "title":"Robotics",
+          "image":"Alice",
+          "email":"aliceyu@berkeley.edu"
+        },
+       {
+          "name":"Zhao, Yu",
+          "title":"Robotics",
+          "image":"YuZhao",
+          "email":"yzhao334@berkeley.edu",
+          "homepage":"https://yzhao334.github.io/"
+       }
+    ]
+  },
+  {
+    "date":"Fall 2017",
+    "students":[   
+      {
+          "name":"Liu, Changliu",
+          "title":"Robotics",
+          "image":"Changliu",
+          "email":"changliuliu@berkeley.edu",
+          "homepage":"http://web.stanford.edu/~cliuliu/"
+      },
+    ]
+  },
   {
     "date":"Spring 2017",
     "students":[

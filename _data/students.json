@@ -1,12 +1,5 @@
 [
    {
-      "name":"Chan, Chen-Yu",
-      "title":"Human Mechatronics",
-      "image":"Chen-Yu",
-      "email":"chanchenyu@berkeley.edu",
-      "homepage":"http://xlab.cn.nctu.edu.tw/cychan/"
-   },
-   {
       "name":"Chen, Jianyu",
       "title":"Autonomous Driving",
       "image":"Jianyu",
@@ -25,6 +18,12 @@
       "email":"yongxiang_fan@berkeley.edu"
    },
    {
+      "name":"Gao, Huidong",
+      "title":"Robotics",
+      "image":"Huidong",
+      "email":"hgao9@berkeley.edu"
+   },
+   {
       "name":"Hu, Yeping",
       "title":"Autonomous Driving",
       "image":"yeping",
@@ -36,6 +35,12 @@
       "image":"yuchu",
       "email":"yuchu@berkeley.edu",
       "homepage":"https://sites.google.com/view/yuchu/",
+   },
+   {
+      "name":"Jin, Shiyu",
+      "title":"Robotics",
+      "image":"ShiyuJin",
+      "email":"jsy@berkeley.edu",
    },
    {
       "name":"Kaneishi, Daisuke",
@@ -65,19 +70,6 @@
       "email":"shuyangli@berkeley.edu"
    },
    {
-      "name":"Lin, Hsien-Chung",
-      "title":"Robotics",
-      "image":"Hsien-Chung",
-      "email":"hclin@berkeley.edu"
-   },
-   {
-      "name":"Liu, Changliu",
-      "title":"Robotics",
-      "image":"Changliu",
-      "email":"changliuliu@berkeley.edu",
-      "homepage":"http://me.berkeley.edu/~cliu/"
-   },
-   {
       "name":"Ma, Hengbo",
       "title":"Autonomous Driving",
       "image":"Hengbo",
@@ -97,6 +89,12 @@
       "email":"kiwoo.shin@berkeley.edu"
    },
    {
+      "name":"Sun, Lingfeng",
+      "title":"Autonomous Driving",
+      "image":"Lingfeng",
+      "email":"lingfengsun@berkeley.edu"
+   },
+   {
       "name":"Sun, Liting",
       "title":"Precision Motion Control ",
       "image":"Liting",
@@ -109,10 +107,11 @@
       "email":"chen_tang@berkeley.edu"
    },
    {
-      "name":"Tang, Te",
+      "name":"Wang, Changhao",
       "title":"Robotics",
-      "image":"Te",
-      "email":"tetang@berkeley.edu"
+      "image":"Changhao",
+      "email":"changhaowang@berkeley.edu",
+      "homepage":"https://www.linkedin.com/in/changhaowang0708/"
    },
    {
       "name":"Wang, Zining",
@@ -127,22 +126,28 @@
       "email":"zhuoxu@berkeley.edu"
    },
    {
-      "name":"Yu, Xiaowen",
-      "title":"Robotics",
-      "image":"Alice",
-      "email":"aliceyu@berkeley.edu"
-   },
-   {
       "name":"Zhan, Wei",
       "title":"Autonomous Driving",
       "image":"WeiZhan",
       "email":"zhanwei0102@gmail.com"
    },
    {
-      "name":"Zhao, Yu",
+      "name":"Zhang, Ge",
       "title":"Robotics",
-      "image":"YuZhao",
-      "email":"yzhao334@berkeley.edu",
-      "homepage":"https://yzhao334.github.io/"
+      "image":"Ge",
+      "email":"ge_zhang@berkeley.edu"
+   },
+   {
+      "name":"Zhou, Yiyang",
+      "title":"Autonomous Driving",
+      "image":"Yiyang",
+      "email":"yiyang.zhou@berkeley.edu",
+      "homepage":"https://www.linkedin.com/in/yiyang-zhou-67b47074/"
+   },
+   {
+      "name":"Zhu, Xinghao",
+      "title":"Robotics",
+      "image":"Xinghao",
+      "email":"zhuxh@berkeley.edu"
    }
 ]
