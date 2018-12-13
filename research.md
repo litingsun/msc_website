@@ -4,11 +4,8 @@ title: Research
 permalink: /research/
 ---
 
-<div class="addendum">
-<div markdown="1">
-To learn more about the research done at MSC, you can download a [research booklet here]({{ site.baseurl }}/assets/files/MSC_research_2013.pdf).
-</div>
-</div>
+
+
 
 ## Robotics
 * [Safe and Efficient Robot Collaboration System]({{ "/research/serocs.html" | prepend: site.baseurl }})
@@ -27,7 +24,11 @@ To learn more about the research done at MSC, you can download a [research bookl
 
 * [Mechatronics for Human Assistance]({{ "/research/mechatronics-human-assistance.html" | prepend: site.baseurl }})
 
-
+<div class="addendum">
+<div markdown="1">
+To learn more about the research done at MSC in the past, you can download a [research booklet here]({{ site.baseurl }}/assets/files/MSC_research_2013.pdf) or check the "Previous Porjects" below.
+</div>
+</div>
 
 <button style="display: block; width: 100%;" data-toggle="collapse" data-target="#previous">Previous Projects</button>
 <!--## [Previous Projects](javascript:showhide("previous"))-->
