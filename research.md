@@ -18,12 +18,6 @@ permalink: /research/
 * Prediction and Behavior Modeling  
 * Detection, Tracking, Localization and Mapping
 
-## Human Mechatronics
-
-* [Individualized Assistive Device for Rehabilitation and Augmentation]({{ "/research/Individual-Device.html" | prepend: site.baseurl }})
-
-* [Mechatronics for Human Assistance]({{ "/research/mechatronics-human-assistance.html" | prepend: site.baseurl }})
-
 <div class="addendum">
 <div markdown="1">
 To learn more about the research done at MSC in the past, you can download a [research booklet here]({{ site.baseurl }}/assets/files/MSC_research_2013.pdf) or check the "Previous Porjects" below.
@@ -49,6 +43,11 @@ To learn more about the research done at MSC in the past, you can download a [re
 [Exoskeleton Design & Control for BMI Study]({{ "/research/exoskeleton-BMI.html" | prepend: site.baseurl }})
 
 [Variable Stiffness Actuators (VSAs)]({{ "/research/vsa.html" | prepend: site.baseurl }})
+
+[Individualized Assistive Device for Rehabilitation and Augmentation]({{ "/research/Individual-Device.html" | prepend: site.baseurl }})
+
+[Mechatronics for Human Assistance]({{ "/research/mechatronics-human-assistance.html" | prepend: site.baseurl }})
+
 
 ## Robotics
 [Control of Vacuum Wafer Handling Robot]({{ "/research/wafer_handling.html" | prepend: site.baseurl }})

@@ -1,5 +1,13 @@
 [  
   {  
+    "name":"Maximilian Naumann",
+    "title":"Karlsruhe Institute of Technology",
+    "image":"naumann",
+    "email":"maximilian.naumann@kit.edu",
+    "homepage":"https://www.mrt.kit.edu/mitarbeiter_naumann.php",
+    "company":"https://www.fzi.de/mitarbeiter/naumann"
+  },
+  {  
     "name":"Weisong, Wen",
     "title":"The Hongkong Polytechnic University",
     "image":"Weisong",
