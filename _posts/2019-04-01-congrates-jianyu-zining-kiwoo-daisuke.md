@@ -7,4 +7,3 @@ author: Yujiao Cheng
 ---
 
 The lab celebrated <strong>Jianyu Chen</strong>, <strong>Zining Wang</strong>, <strong>Kiwoo Shin</strong>, and <strong>Daisuke Kaneishi's passing of qualifications exam with a sushi party! 
-
