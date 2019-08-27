@@ -1,5 +1,24 @@
 [   
   {
+    "date":"Fall 2019",
+    "students":[
+      {
+          "name":"Fan, Yongxiang",
+          "title":"Robotics",
+          "image":"Yongxiang",
+          "email":"yongxiang_fan@berkeley.edu",
+          "homepage":"https://scholar.google.com/citations?user=YAGWw68AAAAJ&hl=en"
+       },
+       {
+          "name":"Peng, Cheng",
+          "title":"",
+          "image":"Cheng",
+          "email":"chengpeng2014@berkeley.edu",
+          "homepage": "https://scholar.google.com/citations?user=BwvP52oAAAAJ&hl=en"
+       }
+    ]
+  },
+  {
     "date":"Fall 2018",
     "students":[
       {
