@@ -18,12 +18,6 @@
       "email":"samanfahandej@berkeley.edu" 
    },
    {
-      "name":"Fan, Yongxiang",
-      "title":"Robotics",
-      "image":"Yongxiang",
-      "email":"yongxiang_fan@berkeley.edu"
-   },
-   {
       "name":"Gao, Huidong",
       "title":"Robotics",
       "image":"Huidong",
@@ -34,19 +28,20 @@
       "title":"Autonomous Driving",
       "image":"yeping",
       "email":"yeping_hu@berkeley.edu",
+      "homepage":"https://yeping-hu.github.io"
    },
    {
       "name":"Huang, Yu-Chu",
       "title":"Sustainable Manufacturing",
       "image":"yuchu",
       "email":"yuchu@berkeley.edu",
-      "homepage":"https://sites.google.com/view/yuchu/",
+      "homepage":"https://sites.google.com/view/yuchu/"
    },
    {
       "name":"Jin, Shiyu",
       "title":"Robotics",
       "image":"ShiyuJin",
-      "email":"jsy@berkeley.edu",
+      "email":"jsy@berkeley.edu"
    },
    {
       "name":"Kaneishi, Daisuke",
@@ -59,8 +54,7 @@
       "name":"Leu, Jessica",
       "title":"Robotics",
       "image":"Jessica",
-      "email":"jess.leu24@berkeley.edu",
-      "homepage":
+      "email":"jess.leu24@berkeley.edu"
    },
    {
       "name":"Li, Jiachen",
@@ -68,6 +62,12 @@
       "image":"Jiachen",
       "email":"jiachen_li@berkeley.edu",
       "homepage":"https://jiachenli94.github.io/publication.html"
+   },
+   {
+      "name":"Li, Jinning",
+      "title":"Autonomous Driving",
+      "image":"Jinning",
+      "email":"jinning_li@berkeley.edu"
    },
    {
       "name":"Li, Shuyang",
@@ -79,14 +79,7 @@
       "name":"Ma, Hengbo",
       "title":"Autonomous Driving",
       "image":"Hengbo",
-      "email":"hengbo_ma@berkeley.edu",
-      "homepage":
-   },
-   {
-      "name":"Peng, Cheng",
-      "title":" ",
-      "image":"Cheng",
-      "email":"chengpeng2014@berkeley.edu"
+      "email":"hengbo_ma@berkeley.edu"
    },
    {
       "name":"Shin, Kiwoo",
@@ -124,6 +117,12 @@
       "title":"Robotics",
       "image":"Zining",
       "email":"wangzining@berkeley.edu"
+   },
+   {
+      "name":"Weaver, Catherine",
+      "title":"Autonomous Driving",
+      "image":"weaver",
+      "email":"catherine22@berkeley.edu"
    },
    {
       "name":"Xu, Zhuo",
