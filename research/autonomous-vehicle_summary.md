@@ -164,11 +164,23 @@ We are focused on LIDAR-Camera fusion for 3D object detection and tracking based
 
 ### <a name="id3"></a>Recent Publications
 
+C. Tang\*, Z. Xu\*, and M. Tomizuka, “Disturbance observer based tracking controller for neural network driving policy transfer,” submitted to IEEE Transaction on Intelligent Transportation System, 2019.
+
+C. Tang, J. Chen, and M. Tomizuka, “Adaptive probabilistic vehicle trajectory prediction through physically feasible Bayesian recurrent neural network,” in 2019 International Conference on Robotics and Automation (ICRA) pp. 3846–3852, IEEE, 2019.
+
+J. Li, W. Zhan, Y. Hu and M. Tomizuka, “[Generic Tracking and Prediction Framework and Its Application in Autonomous Driving](https://ieeexplore.ieee.org/document/8789525)”, IEEE Transactions on Intelligent Transportation Systems, early access, 2019.
+
+J. Li, H. Ma and M. Tomizuka, “[Conditional Generative Neural System for Probabilistic Trajectory Prediction](https://arxiv.org/abs/1905.01631)”, 2019 International Conference on Robotics and Automation (IROS), 2019.
+
+J. Li, H. Ma, W. Zhan and M. Tomizuka, “[Coordination and Trajectory Prediction for Vehicle Interactions via Bayesian Generative Modeling](https://ieeexplore.ieee.org/document/8813821)”, 2019 IEEE Intelligent Vehicles Sumposium (IV), 2019.
+
+H. Ma, J. Li, W. Zhan and M. Tomizuka, “[Wasserstein Generative Learning with Kinematic Constraints for Probabilistic Interactive Driving Behavior Prediction](https://ieeexplore.ieee.org/document/8813783)”, 2019 IEEE Intelligent Vehicles Sumposium (IV), 2019.
+
 J. Chen, W. Zhan, and M. Tomizuka, “Autonomous Driving Motion Planning with Constrained Iterative LQR”, submitted to *IEEE Transactions on Intelligent Vehicles*.
 
-J. Li, H. Ma and Masayoshi Tomizuka, "Interaction-aware Multi-agent Tracking and Probabilistic Behavior Prediction via Adversarial Learning", submitted to ICRA 2019. 
+J. Li, H. Ma and Masayoshi Tomizuka, "[Interaction-aware Multi-agent Tracking and Probabilistic Behavior Prediction via Adversarial Learning](https://ieeexplore.ieee.org/document/8793661)", 2019 International Conference on Robotics and Automation (ICRA), 2019.
 
-K. Shin, Y. P. Kwon and M.Tomizuka, "[RoarNet: A Robust 3D Object Detection based on RegiOn Approximation Refinement](https://arxiv.org/abs/1811.03818)", submitted on ICRA 2019
+K. Shin, Y. P. Kwon and M.Tomizuka, "[RoarNet: A Robust 3D Object Detection based on RegiOn Approximation Refinement](https://arxiv.org/abs/1811.03818)", submitted on ICRA 2019.
 
 C. Peng and M. Tomizuka, "[Bayesian Persuasive Driving](https://arxiv.org/abs/1809.09735)", submitted to <i>American Control Conference (ACC), 2019</i>.
 

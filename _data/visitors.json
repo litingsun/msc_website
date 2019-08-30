@@ -8,36 +8,10 @@
     "company":"https://www.fzi.de/mitarbeiter/naumann"
   },
   {  
-    "name":"Weisong, Wen",
-    "title":"The Hongkong Polytechnic University",
-    "image":"Weisong",
-    "email":"weisong.wen@connect.polyu.hk",
+    "name":"Kuang, Zhian",
+    "title":"Harbin Institute of Technology",
+    "image":"Zhian",
+    "email":"zhiankuang95@gmail.com",
+    "homepage": "https://zhiankuang.github.io/ZhianKuang/"
   },
-  {  
-    "name":"Di, Wang",
-    "title":"Xi'an Jiaotong University",
-    "image":"WangDi_Phd",
-    "email":"de2wang@stu.xjtu.edu.cn",
-  },
-  {  
-    "name":"Okuda, Hiroyuki",
-    "title":"Nagoya University",
-    "image":"Okuda",
-    "email":"h_okuda@nuem.nagoya-u.ac.jp",
-  },
-  {  
-    "name":"Xin, Long",
-    "title":"Tsinghua University ",
-    "image":"Xin",
-    "email":"xin-l13@mails.tsinghua.edu.cn",
-    "homepage":"http://166.111.51.109/thulab/labweb/index.html",
-    "company":"http://www.tsinghua.edu.cn/publish/newthuen/index.html"
-  },
-  {  
-    "name":"Mori, Kenji",
-    "title":"NSK Ltd., Japan ",
-    "image":"Kenji",
-    "email":"mken266@gmail.com",
-    "company":"http://www.nsk.com/"
-  }
 ]
