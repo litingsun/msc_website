@@ -1,5 +1,17 @@
 [
   {  
+    "name":"Wen, Weisong",
+    "title":"The Hongkong Polytechnic University",
+    "image":"Weisong",
+    "email":"weisong.wen@connect.polyu.hk",
+  },
+  {  
+    "name":"Wang, Di",
+    "title":"Xi'an Jiaotong University",
+    "image":"WangDi_Phd",
+    "email":"de2wang@stu.xjtu.edu.cn",
+  },
+  {  
     "name":"Li, Tianyi",
     "title":"Shanghai Jiao Tong University",
     "image":"tianyi",

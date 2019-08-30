@@ -61,7 +61,7 @@
       "title":"Autonomous Driving",
       "image":"Jiachen",
       "email":"jiachen_li@berkeley.edu",
-      "homepage":"https://jiachenli94.github.io/publication.html"
+      "homepage":"https://jiachenli94.github.io/index.html"
    },
    {
       "name":"Li, Jinning",
@@ -147,6 +147,12 @@
       "title":"Robotics",
       "image":"Ge",
       "email":"ge_zhang@berkeley.edu"
+   },
+   {
+      "name":"Zhang, Xiang",
+      "title":"Robotics",
+      "image":"Xiang",
+      "email":"xiang_zhang_98@berkeley.edu"
    },
    {
       "name":"Zhou, Yiyang",
