@@ -14,25 +14,4 @@
     "email":"zhiankuang95@gmail.com",
     "homepage": "https://zhiankuang.github.io/ZhianKuang/"
   },
-  {  
-    "name":"Okuda, Hiroyuki",
-    "title":"Nagoya University",
-    "image":"Okuda",
-    "email":"h_okuda@nuem.nagoya-u.ac.jp",
-  },
-  {  
-    "name":"Xin, Long",
-    "title":"Tsinghua University ",
-    "image":"Xin",
-    "email":"xin-l13@mails.tsinghua.edu.cn",
-    "homepage":"http://166.111.51.109/thulab/labweb/index.html",
-    "company":"http://www.tsinghua.edu.cn/publish/newthuen/index.html"
-  },
-  {  
-    "name":"Mori, Kenji",
-    "title":"NSK Ltd., Japan ",
-    "image":"Kenji",
-    "email":"mken266@gmail.com",
-    "company":"http://www.nsk.com/"
-  }
 ]
