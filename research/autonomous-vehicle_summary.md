@@ -72,7 +72,7 @@ Our lab is focused on proposing novel methodologies and building corresponding f
     3. [Deep Hierarchical Reinforcement Learning for Decision-Making and Planning]({{"/research/decision-hrl.html" | prepend: site.baseurl}})  
     4. [Interaction-and-Uncertainty-Aware Joint Decision-Making and Planning]({{"/research/decision-planning.html" | prepend: site.baseurl}})  
     5. [Baysian Persuasive Driving]({{"/research/bayesian-persuasive.html" | prepend: site.baseurl}})
-    6. [Inverse Reinforcement Learning for Social Interactions]({{"/research/social_interaction_IRL.html" | prepend: site.baseurl}}) 
+    6. [Inverse Reinforcement Learning for Social Interactions]({{"/research/social_interaction_IRL.html" | prepend: site.baseurl}})
 
 
 
