@@ -1,6 +1,13 @@
-[  
+[    
   {  
-    "name":"Maximilian Naumann",
+  "name":"Mori, Mayuko",
+  "title":"NSK Ltd.",
+  "image":"mayuko",
+  "email":"mayuko09262007@yahoo.co.jp",
+  "company":"http://www.nsk.com"
+},
+  {  
+    "name":"Naumann, Maximilian",
     "title":"Karlsruhe Institute of Technology",
     "image":"naumann",
     "email":"maximilian.naumann@kit.edu",
@@ -13,5 +20,5 @@
     "image":"Zhian",
     "email":"zhiankuang95@gmail.com",
     "homepage": "https://zhiankuang.github.io/ZhianKuang/"
-  },
+  }
 ]
