@@ -14,14 +14,14 @@ Professor Masayoshi Tomizuka was awarded the Soichiro Honda Medal at the AS
 <hr>
 
 <div class="col-md-6">
-<a href="{{ site.baseurl }}/assets/images/posts/2018_Bellman_plaque.jpg" data-lightbox="Soichiro Honda Medal" data-title="Soichiro Honda Medal">
-  <img src="{{ site.baseurl }}/assets/images/posts/2019_DSCC_2.jpg" title=" "></a>
+<a href="{{ site.baseurl }}/assets/images/posts/2019_DSCC_2.jpg" data-lightbox="Soichiro Honda Medal" data-title="Soichiro Honda Medal">
+  <img src="{{ site.baseurl }}/assets/images/posts/2019_DSCC_2.jpg" title=" " height = "270"></a>
 </div>
 
 <div class="col-md-6">
 
-<a href="{{ site.baseurl }}/assets/images/posts/2019_DSCC_3.jpg" data-lightbox="Soichiro Honda Medal" data-title="Soichiro Honda Medal">
-  <img src="{{ site.baseurl }}/assets/images/posts/2019_DSCC_3.jpg" title=" "></a>
+<a href="{{ site.baseurl }}/assets/images/posts/2019_DSCC_3.jpg" data-lightbox="Soichiro Honda Medal" data-title="Tomi Alumni Group">
+  <img src="{{ site.baseurl }}/assets/images/posts/2019_DSCC_3.jpg" title=" " height = "270"></a>
 </div>
 
 </div>
