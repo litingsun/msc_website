@@ -1,5 +1,11 @@
 [
   {  
+    "name":"Kodaira, Akio",
+    "title":"Tokyo Institute of Technology",
+    "image":"akio",
+    "email":"akio.kodaira@berkeley.edu",
+  },
+  {  
     "name":"Wen, Weisong",
     "title":"The Hongkong Polytechnic University",
     "image":"Weisong",
