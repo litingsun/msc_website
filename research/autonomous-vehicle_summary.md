@@ -232,12 +232,16 @@ W. Zhan, C. Liu, Ching-Yao Chan, and M. Tomizuka, “[A Non-Conservatively Defen
 
  Wei Zhan | Graduate Student | [Email Link](mailto:wzhan@berkeley.edu) | 
 
- Cheng Peng | Graduate Student | [Email Link](mailto:chengpeng2014@berkeley.edu) | 
-
 | Liting Sun | Graduate Student | [Email Link](mailto:litingsun@berkeley.edu) |
+
 | Jianyu Chen | Graduate Student | [Email Link](mailto:jianyuchen@berkeley.edu)  |
+
 | Zining Wang | Graduate Student | [Email Link](mailto:ziningwang@berkeley.edu) |
+ 
 | Kiwoo Shin | Graduate Student | [Email Link](mailto:kiwoo.shi@berkeley.edu)  | 
+
+| Saman Fahandezhsaadi | Graduate Student| [Email Link](samanfahandej@berkeley.edu) |
+
 | Jiachen Li | Graduate Student | [Email Link](mailto:jiachen_li@berkeley.edu)| 
 
 | Yeping Hu | Graduate Student | [Email Link](mailto:yeping_hu@berkeley.edu)|
@@ -256,6 +260,7 @@ W. Zhan, C. Liu, Ching-Yao Chan, and M. Tomizuka, “[A Non-Conservatively Defen
 
 | Changliu Liu | Carnegie Mellon University | 
 | Shiying Zhou | Waymo | 
+| Cheng Peng | Kodiak Robotics |
 
 **Visiting Researchers**
 
