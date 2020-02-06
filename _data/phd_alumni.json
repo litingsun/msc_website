@@ -23,7 +23,7 @@
       {
           "name":"Kaneishi, Daisuke",
           "title":"",
-          "image":"Daisuke",
+          "image":"daisuke",
           "email":"kaneishi@berkeley.edu",
           "homepage":"http://dai-chang.jimdo.com/"
       },
@@ -63,13 +63,13 @@
        {
           "name":"Lin, Hsien-Chung",
           "title":"FANUC Advanced Research Laboratory",
-          "image":"Hsien-Chung",
+          "image":"Hsien-chung",
           "email":"hclin@berkeley.edu"
        },
        {
           "name":"Tang, Te",
           "title":"FANUC Advanced Research Laboratory",
-          "image":"Te",
+          "image":"te",
           "email":"tetang@berkeley.edu"
        },
        {
@@ -94,7 +94,7 @@
       {
           "name":"Liu, Changliu",
           "title":"Professor, Carnegie Mellon University",
-          "image":"Changliu",
+          "image":"changliu",
           "email":"changliuliu@berkeley.edu",
           "homepage":"http://web.stanford.edu/~cliuliu/"
       },
@@ -106,13 +106,13 @@
       {
          "name":"Zheng, Minghui",
          "title":"Professor, University at Buffalo",
-         "image":"Minghui",
+         "image":"minghui",
          "email":"minghuizheng@berkeley.edu"
       },
       {
         "name":"Zhou, Shiying",
         "title":"Waymo",
-        "image":"Shiying",
+        "image":"shiying",
         "email":"Shiying.thu@gmail.com",
         "homepage":"http://zhoushiying.com/"
       }
@@ -144,13 +144,13 @@
       {
         "name":"Lu, Junkai",
         "title":"Intuitive Surgical",
-        "image":"Junkai",
+        "image":"junkai",
         "email":"junkai.lu@berkeley.edu"
       },
       {
         "name":"Tan, Raechel",
         "title":"Automotive Engine Control",
-        "image":"Raechel",
+        "image":"raechel",
         "email":"tanraechel@berkeley.edu",
         "homepage":"https://www.ocf.berkeley.edu/~raechel/"
       },
@@ -170,14 +170,14 @@
       {
         "name":"Zhang, Wenlong",
         "title":"Professor, Arizona State University",
-        "image":"Wenlong",
+        "image":"wenlong",
         "email":"wlzhang@berkeley.edu",
         "company":"http://www.asu.edu/"
       },
       {
         "name":"Wang, Yizhou",
         "title":"Nvidia",
-        "image":"Yizhou",
+        "image":"yizhou",
         "email":"yzhwang@berkeley.edu",
         "homepage":"http://www.me.berkeley.edu/~yzhwang/",
         "company":"http://usa.baidu.com/"
@@ -752,7 +752,7 @@
       {
         "name":"Hu, Jwu-Sheng",
         "title":"Professor, National Chiao Tung University",
-        "image":"Jshu",
+        "image":"jshu",
         "email":"jshu@cn.nctu.edu.tw",
         "homepage":"http://xlab.cn.nctu.edu.tw/",
         "company":"http://www.nctu.edu.tw/english/index.php"

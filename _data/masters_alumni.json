@@ -1,5 +1,16 @@
 [
   {
+    "date":"Fall 2019",
+    "students":[  
+      {
+        "name":"Xu, Ting",
+        "title":"Robotics",
+        "image":"Ting",
+        "email":"ting_xu@berkeley.edu"
+     },
+    ]
+  },
+  {
     "date":"Fall 2018",
     "students":[  
       {
