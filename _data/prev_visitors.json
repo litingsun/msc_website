@@ -1,5 +1,19 @@
 [
   {  
+    "name":"Onda, Moeko",
+    "title":"Tokai University",
+    "image":"Moeko",
+    "email":"moekoonda3055@gmail.com",
+  },
+  {  
+    "name":"Naumann, Maximilian",
+    "title":"Karlsruhe Institute of Technology",
+    "image":"naumann",
+    "email":"maximilian.naumann@kit.edu",
+    "homepage":"https://www.mrt.kit.edu/mitarbeiter_naumann.php",
+    "company":"https://www.fzi.de/mitarbeiter/naumann"
+  },
+  {  
     "name":"Kodaira, Akio",
     "title":"Tokyo Institute of Technology",
     "image":"akio",

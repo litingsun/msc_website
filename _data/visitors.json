@@ -1,25 +1,22 @@
-[    
+[
+  {  
+    "name":"Wang, Weixin",
+    "title":"Tsinghua University",
+    "image":"weixin",
+    "email":"stevenwang093@gmail.com",
+  }, 
+  {  
+    "name":"Zhu, Yaonan",
+    "title":"Nagoya University",
+    "image":"yaonan",
+    "email":"zhu@robo.mein.nagoya-u.ac.jp",
+  }, 
   {  
   "name":"Mori, Mayuko",
   "title":"NSK Ltd.",
   "image":"mayuko",
   "email":"mayuko09262007@yahoo.co.jp",
   "company":"http://www.nsk.com"
-},
-  {  
-    "name":"Naumann, Maximilian",
-    "title":"Karlsruhe Institute of Technology",
-    "image":"naumann",
-    "email":"maximilian.naumann@kit.edu",
-    "homepage":"https://www.mrt.kit.edu/mitarbeiter_naumann.php",
-    "company":"https://www.fzi.de/mitarbeiter/naumann"
-  },
-  {  
-    "name":"Onda, Moeko",
-    "title":"Tokai University",
-    "image":"Moeko",
-    "email":"moekoonda3055@gmail.com",
-    "company":"https://www.u-tokai.ac.jp"
   },
   {  
     "name":"Kuang, Zhian",

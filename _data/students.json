@@ -31,24 +31,10 @@
       "homepage":"https://yeping-hu.github.io"
    },
    {
-      "name":"Huang, Yu-Chu",
-      "title":"Sustainable Manufacturing",
-      "image":"yuchu",
-      "email":"yuchu@berkeley.edu",
-      "homepage":"https://sites.google.com/view/yuchu/"
-   },
-   {
       "name":"Jin, Shiyu",
       "title":"Robotics",
       "image":"ShiyuJin",
       "email":"jsy@berkeley.edu"
-   },
-   {
-      "name":"Kaneishi, Daisuke",
-      "title":" ",
-      "image":"Daisuke",
-      "email":"kaneishi@berkeley.edu",
-      "homepage":"http://dai-chang.jimdo.com/"
    },
    {
       "name":"Leu, Jessica",
@@ -71,12 +57,6 @@
       "email":"jinning_li@berkeley.edu"
    },
    {
-      "name":"Li, Shuyang",
-      "title":"Precision Motion Control",
-      "image":"Shuyang",
-      "email":"shuyangli@berkeley.edu"
-   },
-   {
       "name":"Ma, Hengbo",
       "title":"Autonomous Driving",
       "image":"Hengbo",
@@ -94,12 +74,7 @@
       "image":"Lingfeng",
       "email":"lingfengsun@berkeley.edu"
    },
-   {
-      "name":"Sun, Liting",
-      "title":"Precision Motion Control ",
-      "image":"Liting",
-      "email":"litingm@gmail.com"
-   },
+  
    {
       "name":"Tang, Chen",
       "title":"Autonomous Driving",
@@ -142,12 +117,6 @@
       "title":"Robotics",
       "image":"Wu-Te",
       "email":"wtyang@berkeley.edu"
-   },
-   {
-      "name":"Zhan, Wei",
-      "title":"Autonomous Driving",
-      "image":"WeiZhan",
-      "email":"zhanwei0102@gmail.com"
    },
    {
       "name":"Zhang, Ge",
