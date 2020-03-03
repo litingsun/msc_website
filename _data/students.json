@@ -18,6 +18,12 @@
       "email":"samanfahandej@berkeley.edu" 
    },
    {
+      "name":"Faulkner, Catherine",
+      "title":"Autonomous Driving",
+      "image":"catherine",
+      "email":"catherine22@berkeley.edu"
+   },
+   {
       "name":"Gao, Huidong",
       "title":"Robotics",
       "image":"Huidong",
@@ -93,12 +99,6 @@
       "title":"Robotics",
       "image":"Zining",
       "email":"wangzining@berkeley.edu"
-   },
-   {
-      "name":"Weaver, Catherine",
-      "title":"Autonomous Driving",
-      "image":"weaver",
-      "email":"catherine22@berkeley.edu"
    },
    {
       "name":"Wu, Zheng",
