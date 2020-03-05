@@ -1,4 +1,16 @@
 [
+    {
+        "name":"Zhan, Wei",
+        "title":"Autonomous Driving",
+        "image":"WeiZhan",
+        "email":"zhanwei0102@gmail.com"
+    },
+    {
+        "name":"Sun, Liting",
+        "title":"Robotics and Autonomous Driving",
+        "image":"Liting",
+        "email":"litingsun@berkeley.edu"
+    },
 ] // This is the JSON to fill out
 
 // [ //this is an example json entry for a post doc, don't delete

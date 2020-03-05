@@ -3,15 +3,47 @@
     "date":"Fall 2019",
     "students":[
       {
+          "name":"Li, Shuyang",
+          "title":"Precision Motion Control",
+          "image":"Shuyang",
+          "email":"shuyangli@berkeley.edu"
+      },
+      {
+          "name":"Zhan, Wei",
+          "title":"Postdoc, UC Berkeley",
+          "image":"WeiZhan",
+          "email":"zhanwei0102@gmail.com"
+      },
+      {
+          "name":"Sun, Liting",
+          "title":"Postdoc, UC Berkeley",
+          "image":"Liting",
+          "email":"litingm@gmail.com"
+      },
+      {
+          "name":"Kaneishi, Daisuke",
+          "title":"",
+          "image":"daisuke",
+          "email":"kaneishi@berkeley.edu",
+          "homepage":"http://dai-chang.jimdo.com/"
+      },
+      {
+          "name":"Huang, Yu-Chu",
+          "title":"Sustainable Manufacturing",
+          "image":"yuchu",
+          "email":"yuchu@berkeley.edu",
+          "homepage":"https://sites.google.com/view/yuchu/"
+      },
+      {
           "name":"Fan, Yongxiang",
-          "title":"Robotics",
+          "title":"FANUC Advanced Research Laboratory",
           "image":"Yongxiang",
           "email":"yongxiang_fan@berkeley.edu",
-          "homepage":"https://scholar.google.com/citations?user=YAGWw68AAAAJ&hl=en"
+          "homepage":"https://www.decf.berkeley.edu/~yongxiangfan/"
        },
        {
           "name":"Peng, Cheng",
-          "title":"",
+          "title":"Kodiak Robotics",
           "image":"Cheng",
           "email":"chengpeng2014@berkeley.edu",
           "homepage": "https://scholar.google.com/citations?user=BwvP52oAAAAJ&hl=en"
@@ -30,28 +62,29 @@
        },
        {
           "name":"Lin, Hsien-Chung",
-          "title":"Robotics",
-          "image":"Hsien-Chung",
+          "title":"FANUC Advanced Research Laboratory",
+          "image":"Hsien-chung",
           "email":"hclin@berkeley.edu"
        },
        {
           "name":"Tang, Te",
-          "title":"Robotics",
-          "image":"Te",
+          "title":"FANUC Advanced Research Laboratory",
+          "image":"te",
           "email":"tetang@berkeley.edu"
        },
        {
           "name":"Yu, Xiaowen",
-          "title":"Robotics",
+          "title":"Siemens USA",
           "image":"Alice",
           "email":"aliceyu@berkeley.edu"
         },
        {
           "name":"Zhao, Yu",
-          "title":"Robotics",
+          "title":"FANUC Advanced Research Laboratory",
           "image":"YuZhao",
           "email":"yzhao334@berkeley.edu",
-          "homepage":"https://yzhao334.github.io/"
+          "homepage":"https://yzhao334.github.io/",
+          "company":""
        }
     ]
   },
@@ -60,8 +93,8 @@
     "students":[   
       {
           "name":"Liu, Changliu",
-          "title":"Robotics",
-          "image":"Changliu",
+          "title":"Professor, Carnegie Mellon University",
+          "image":"changliu",
           "email":"changliuliu@berkeley.edu",
           "homepage":"http://web.stanford.edu/~cliuliu/"
       },
@@ -72,14 +105,14 @@
     "students":[
       {
          "name":"Zheng, Minghui",
-         "title":"High-Precision Control",
-         "image":"Minghui",
+         "title":"Professor, University at Buffalo",
+         "image":"minghui",
          "email":"minghuizheng@berkeley.edu"
       },
       {
         "name":"Zhou, Shiying",
-        "title":"Disk Drive Control",
-        "image":"Shiying",
+        "title":"Waymo",
+        "image":"shiying",
         "email":"Shiying.thu@gmail.com",
         "homepage":"http://zhoushiying.com/"
       }
@@ -103,27 +136,27 @@
     "students":[
       {
         "name":"Lin, Chung-Yen",
-        "title":"Apple",
+        "title":"Apple Inc.",
         "image":"Chung-Yen",
         "email":"chung_yen@berkeley.edu",
         "company":"https://www.apple.com"
       },
       {
         "name":"Lu, Junkai",
-        "title":"Human Mechatronics",
-        "image":"Junkai",
+        "title":"Intuitive Surgical",
+        "image":"junkai",
         "email":"junkai.lu@berkeley.edu"
       },
       {
         "name":"Tan, Raechel",
         "title":"Automotive Engine Control",
-        "image":"Raechel",
+        "image":"raechel",
         "email":"tanraechel@berkeley.edu",
         "homepage":"https://www.ocf.berkeley.edu/~raechel/"
       },
       {
       "name":"Matthew, Robert",
-      "title":"Post Doc, UC Berkeley",
+      "title":"Postdoc, UC Berkeley",
       "image":"Robert",
       "email":"tpwt@eecs.berkeley.edu",
       "homepage":"http://www.robertpetermatthew.com/",
@@ -137,14 +170,14 @@
       {
         "name":"Zhang, Wenlong",
         "title":"Professor, Arizona State University",
-        "image":"Wenlong",
+        "image":"wenlong",
         "email":"wlzhang@berkeley.edu",
         "company":"http://www.asu.edu/"
       },
       {
         "name":"Wang, Yizhou",
-        "title":"Baidu USA",
-        "image":"Yizhou",
+        "title":"Nvidia",
+        "image":"yizhou",
         "email":"yzhwang@berkeley.edu",
         "homepage":"http://www.me.berkeley.edu/~yzhwang/",
         "company":"http://usa.baidu.com/"
@@ -719,7 +752,7 @@
       {
         "name":"Hu, Jwu-Sheng",
         "title":"Professor, National Chiao Tung University",
-        "image":"Jshu",
+        "image":"jshu",
         "email":"jshu@cn.nctu.edu.tw",
         "homepage":"http://xlab.cn.nctu.edu.tw/",
         "company":"http://www.nctu.edu.tw/english/index.php"

@@ -18,6 +18,12 @@
       "email":"samanfahandej@berkeley.edu" 
    },
    {
+      "name":"Faulkner, Catherine",
+      "title":"Autonomous Driving",
+      "image":"catherine",
+      "email":"catherine22@berkeley.edu"
+   },
+   {
       "name":"Gao, Huidong",
       "title":"Robotics",
       "image":"Huidong",
@@ -31,30 +37,17 @@
       "homepage":"https://yeping-hu.github.io"
    },
    {
-      "name":"Huang, Yu-Chu",
-      "title":"Sustainable Manufacturing",
-      "image":"yuchu",
-      "email":"yuchu@berkeley.edu",
-      "homepage":"https://sites.google.com/view/yuchu/"
-   },
-   {
       "name":"Jin, Shiyu",
       "title":"Robotics",
       "image":"ShiyuJin",
       "email":"jsy@berkeley.edu"
    },
    {
-      "name":"Kaneishi, Daisuke",
-      "title":" ",
-      "image":"Daisuke",
-      "email":"kaneishi@berkeley.edu",
-      "homepage":"http://dai-chang.jimdo.com/"
-   },
-   {
       "name":"Leu, Jessica",
       "title":"Robotics",
-      "image":"Jessica",
-      "email":"jess.leu24@berkeley.edu"
+      "image":"jessica",
+      "email":"jess.leu24@berkeley.edu",
+      "homepage":"https://jessicaleu24.github.io/Home.html"
    },
    {
       "name":"Li, Jiachen",
@@ -68,12 +61,6 @@
       "title":"Autonomous Driving",
       "image":"Jinning",
       "email":"jinning_li@berkeley.edu"
-   },
-   {
-      "name":"Li, Shuyang",
-      "title":"Precision Motion Control",
-      "image":"Shuyang",
-      "email":"shuyangli@berkeley.edu"
    },
    {
       "name":"Ma, Hengbo",
@@ -92,12 +79,6 @@
       "title":"Autonomous Driving",
       "image":"Lingfeng",
       "email":"lingfengsun@berkeley.edu"
-   },
-   {
-      "name":"Sun, Liting",
-      "title":"Autonomous Driving and Robotics",
-      "image":"Liting",
-      "email":"litingsun@berkeley.edu"
    },
    {
       "name":"Tang, Chen",
@@ -119,12 +100,6 @@
       "email":"wangzining@berkeley.edu"
    },
    {
-      "name":"Weaver, Catherine",
-      "title":"Autonomous Driving",
-      "image":"weaver",
-      "email":"catherine22@berkeley.edu"
-   },
-   {
       "name":"Wu, Zheng",
       "title":"Robotics",
       "image":"Zheng",
@@ -141,12 +116,6 @@
       "title":"Robotics",
       "image":"Wu-Te",
       "email":"wtyang@berkeley.edu"
-   },
-   {
-      "name":"Zhan, Wei",
-      "title":"Autonomous Driving",
-      "image":"WeiZhan",
-      "email":"zhanwei0102@gmail.com"
    },
    {
       "name":"Zhang, Ge",
@@ -171,6 +140,7 @@
       "name":"Zhu, Xinghao",
       "title":"Robotics",
       "image":"Xinghao",
-      "email":"zhuxh@berkeley.edu"
+      "email":"zhuxh@berkeley.edu",
+      "homepage":"https://rolandzhu.github.io"
    }
 ]

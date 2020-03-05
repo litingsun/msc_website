@@ -1,4 +1,30 @@
 [
+  {
+    "name":"Nozomu, Ohashi",
+    "title":"Nagoya University",
+    "image":"ohashi",
+    "email":"ohashi@nagoya-u.jp",
+  },
+  {  
+    "name":"Onda, Moeko",
+    "title":"Tokai University",
+    "image":"Moeko",
+    "email":"moekoonda3055@gmail.com",
+  },
+  {  
+    "name":"Naumann, Maximilian",
+    "title":"Karlsruhe Institute of Technology",
+    "image":"naumann",
+    "email":"maximilian.naumann@kit.edu",
+    "homepage":"https://www.mrt.kit.edu/mitarbeiter_naumann.php",
+    "company":"https://www.fzi.de/mitarbeiter/naumann"
+  },
+  {  
+    "name":"Kodaira, Akio",
+    "title":"Tokyo Institute of Technology",
+    "image":"akio",
+    "email":"akio.kodaira@berkeley.edu",
+  },
   {  
     "name":"Wen, Weisong",
     "title":"The Hongkong Polytechnic University",
@@ -55,7 +81,7 @@
   {  
     "name":"Hidaka, Koichi",
     "title":"Tokyo Denki University ",
-    "image":"Hidaka",
+    "image":"hidaka",
     "email":"hidaka@cck.dendai.ac.jp",
     "homepage":"http://www.control.ees.dendai.ac.jp/english/indexe.html",
     "company":"http://web.dendai.ac.jp/"
@@ -63,14 +89,14 @@
   {  
     "name":"Tang, Tao",
     "title":"Chinese Academy of Sciences ",
-    "image":"TaoTang",
+    "image":"taotang",
     "email":"tangtao24@163.com",
     "company":"http://english.cas.cn/"
   },
   {  
     "name":"Ding, Dawei",
     "title":"University of Science and Technology Beijing ",
-    "image":"Dawei",
+    "image":"dawei",
     "email":"daweiding@berkeley.edu",
     "homepage":"http://saee.ustb.edu.cn/index.php?m=content&c=index&a=show&catid=103&id=135",
     "company":"http://en.ustb.edu.cn/"
@@ -78,7 +104,7 @@
   {  
     "name":"Liu, Yahui",
     "title":"Tsinghua University",
-    "image":"Yahui",
+    "image":"yahui",
     "email":"liuyahui@tsinghua.edu.cn",
     "company":"http://www.tsinghua.edu.cn/"
   },
@@ -99,7 +125,7 @@
   {
     "name":"Heyraud, Mathias",
     "title":"Swiss Federal Institute of Technology, Lausanne ",
-    "image":"Mathias",
+    "image":"mathias",
     "email":"mathias.heyraud@gmail.com",
     "company":"http://www.epfl.ch/"
   },
@@ -121,7 +147,7 @@
   {
     "name":"Ogawa, Hironori",
     "title":"NSK Ltd., Japan ",
-    "image":"Hironori",
+    "image":"hironori",
     "email":"hiro@ogawa.40sec.net",
     "company":"http://www.nsk.com/"
   },
@@ -206,7 +232,7 @@
   {
     "name":"Nadai, Laszlo",
     "title":"Obuda University ",
-    "image":"Nadai",
+    "image":"nadai",
     "email":"nadai@uni-obuda.hu",
     "homepage":"http://www.mendeley.com/profiles/laszlo-nadai/",
     "company":"http://uni-obuda.hu/"
@@ -214,7 +240,7 @@
   {
     "name":"Kumazawa, Noriyoshi",
     "title":"Kagoshima University ",
-    "image":"Kumazawa",
+    "image":"kumazawa",
     "email":"kumazawa@mech.kagoshima-u.ac.jp",
     "company":"http://kokusai.kuas.kagoshima-u.ac.jp/kucip/"
   },
@@ -242,7 +268,7 @@
   {
     "name":"Yeh, Yi-Liang",
     "title":"National Taiwan University",
-    "image":"Yiliang",
+    "image":"yiliang",
     "email":"b92502052@ntu.edu.tw",
     "company":"http://www.ntu.edu.tw/engv4/"
   },

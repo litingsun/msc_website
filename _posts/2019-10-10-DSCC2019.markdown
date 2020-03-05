@@ -1,0 +1,27 @@
+---
+layout: post
+title: Professor Masayoshi Tomizuka Receives Medal the Soichiro Honda Medal at ASME’s 2019 DSCC
+date: '2019-10-10T11:00:00+00:00'
+permalink: /news/Soichiro-Honda-Medal.html
+author: Changhao Wang
+---
+Professor Masayoshi Tomizuka was awarded the Soichiro Honda Medal at the ASME’s 2019 Dynamic Systems and Control Conference in Park City, Utah on October 10, 2019. American Society of Mechanical Engineers established the medal in 1982 to recognize an individual for an outstanding achievement or a series of significant engineering contributions in developing improvements in the field of personal transportation. Professor Tomizuka’s citation reads: for pioneering and sustained contributions in applying modern systems and control theory to the comprehensive analysis and control algorithm development of automated vehicle lateral guidance, which has inspired further developments in the field.
+
+
+<div class="col-md-12">
+<a href="{{ site.baseurl }}/assets/images/posts/2019_DSCC_1.jpg" data-lightbox="Soichiro Honda Medal" data-title="Soichiro Honda Medal">
+	<img src="{{ site.baseurl }}/assets/images/posts/2019_DSCC_1.jpg" title=" "></a>
+<hr>
+
+<div class="col-md-6">
+<a href="{{ site.baseurl }}/assets/images/posts/2019_DSCC_2.jpg" data-lightbox="Soichiro Honda Medal" data-title="Soichiro Honda Medal">
+  <img src="{{ site.baseurl }}/assets/images/posts/2019_DSCC_2.jpg" title=" " height = "270"></a>
+</div>
+
+<div class="col-md-6">
+
+<a href="{{ site.baseurl }}/assets/images/posts/2019_DSCC_3.jpg" data-lightbox="Soichiro Honda Medal" data-title="Tomi Alumni Group">
+  <img src="{{ site.baseurl }}/assets/images/posts/2019_DSCC_3.jpg" title=" " height = "270"></a>
+</div>
+
+</div>
