@@ -141,7 +141,7 @@ In T4, we proposed several metrics to evaluate each module and the co-robot syst
 <tr></tr><tr>
 <td>
 <b>FANUC LR Mate Robot Arm</b> <br>
-<img width = "60%" src="{{ site.baseurl }}/assets/images/research/nri/Testbed_arm.pdf" title="Architecture">
+<img width = "60%" src="{{ site.baseurl }}/assets/images/research/nri/Testbed_arm.jpeg" title="Architecture">
 
 </td>
 <td>
