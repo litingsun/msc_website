@@ -146,7 +146,7 @@ In T4, we proposed several metrics to evaluate each module and the co-robot syst
 </td>
 <td>
 <b>TurtleBot3 with Manipulator</b> <br>
-<img width = "60%" src="{{ site.baseurl }}/assets/images/research/nri/Testbed_mobile.jpeg" title="Architecture">
+<img width = "60%" src="{{ site.baseurl }}/assets/images/research/Testbed_mobile.jpeg" title="Architecture">
 
 </td></tr></table>
 
