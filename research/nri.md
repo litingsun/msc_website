@@ -89,8 +89,7 @@ Coming soon.
 </td>
 
 <!--3 JL Edit -->
-<table style="position:relative;">
-<tr></tr><tr>
+<tr>
 <td>
 <div markdown="1">
 * <b>Task 3. Safe and Efficient Motion Planning and Control in Real Time</b> <br>
@@ -111,11 +110,10 @@ Co-robots works in dynamic environments, where human worker and other robots mov
 </td>
 
 <!-- 4 JL Edit -->
-<table style="position:relative;">
-<tr></tr><tr>
+<tr>
 <td>
 <div markdown="1">
-* <b>* Task 4. Evaluation of the SERoCS by Analyses, Simulations and Experiments</b> <br>
+* <b>Task 4. Evaluation of the SERoCS by Analyses, Simulations and Experiments</b> <br>
 | [Brief](javascript:showhide("vib4")) | [More]({{ "/research/vibration-suppression.html" | prepend: site.baseurl }}) |
 
 </div>
@@ -132,9 +130,9 @@ In T4, we proposed several metrices to evaluate each module and the co-robot sys
 <!--<div class="image-caption">Zero Time Delay Input Shaping</div>-->
 </td>
 
-</table>
+<table></table>
 
-
+<div markdown="1">
 
 ### <a name="id4"></a>Videos
 <img width = "60%" src="{{ site.baseurl }}/assets/images/research/nri/T3.gif" title="Architecture">
@@ -154,8 +152,8 @@ recognition and trajectory prediction,” in <i>IEEE Robotics and Automation Let
 
 
 
-
-
+<!-- If you have any sponsors, you can just list them here -->
 ### <a name="id6"></a>Sponsor
 
 * [National Science Foundation](https://www.nsf.gov)
+</div>
