@@ -8,7 +8,6 @@ permalink: /research/serocs.html
 
 * [Introduction](#id1)
 * [Tasks](#id2)
-* [Testbeds](#id3)
 * [Videos](#id4)
 * [Publications](#id5)
 * [Sponsor](#id6)
@@ -23,7 +22,7 @@ In factory automation, humans and robots comprise the two major work forces. Tra
 There are three main modules in the SERoCS system.<br/>
 * Task 1. Environment Monitoring with Human Motion Prediction using camera captured signals<br/>
 * Task 2. Task Planning with Skill Library that enables to co-robots to deal with difficult tasks<br/>
-* Task 3. Safe and Efficient Motion Planning and Control in Real-Time.<br/>
+* Task 3. Safe and Efficient Motion Planning and Control in Real Time.<br/>
 
 
 We also want to evaluate the overall performance of our system and provide some guidance for module and system design principles, therefore we have:<br/>
@@ -44,7 +43,7 @@ We also want to evaluate the overall performance of our system and provide some 
 <td>
 <div markdown="1">
 * <b>Task 1. Environment Monitoring with Human Motion Prediction using camera captured signals</b> <br>
-| [Brief](javascript:showhide("vib1")) |
+| [Brief](javascript:showhide("vib1")) | [More]({{ "/research/vibration-suppression.html" | prepend: site.baseurl }}) |
 
 </div>
 <div id="vib1" style="display:none;">
@@ -67,13 +66,13 @@ Co-robots can better assist the human worker by reasoning and predicting the wor
 * <b>Task 2. Task Planning with Skill Library that enables to co-robots to deal with difficult tasks</b>
 
 Subtopic 2.1. Skill library for intelligent co-robots
-| [Brief](javascript:showhide("skill"))|
+| [Brief](javascript:showhide("skill")) | [More](javascript:toAppear()) |
 <div id="skill" style="display: none;">
-In task 2, we aim to expend the robot skill library. We teach the robot in many ways such as learning from human demonstration and analogy learning. The goal is to teach the robot skills and allow the robot to generalize the skill to similar applications.  
+In task 2, we aim to expend the robot skill library. We teach the robot in many ways such as learning from human demostration and analogy learning. The goal is to teach the robot skills and allow the robot to generalize the skill to similer applications.  
 </div>
 
 Subtopic 2.2. Task planning for intelligent co-robots
-| [Brief](javascript:showhide("task_plan")) |
+| [Brief](javascript:showhide("task_plan")) | [More](javascript:toAppear()) |
 <div id="task_plan" style="display: none;">
 Coming soon.
 </div>
@@ -95,18 +94,18 @@ Coming soon.
 <td>
 <div markdown="1">
 * <b>Task 3. Safe and Efficient Motion Planning and Control in Real Time</b> <br>
-| [Brief](javascript:showhide("vib3")) |
+| [Brief](javascript:showhide("vib3")) | [More]({{ "/research/vibration-suppression.html" | prepend: site.baseurl }}) |
 
 </div>
 <div id="vib3" style="display:none;">
-Co-robots works in dynamic environments, where human worker and other robots move around in the robot's workspace. A motion planning module that enables safe and efficient motion planning and control in real-time is a crucial part of realizing the SERoCS system. We build a module that takes in information and prediction results from T1, as well as the plan and skills from T2. Given the motion objective, the motion planning module makes the robot move safely and efficiently.
+Co-robots works in dynamic environments, where human worker and other robots move aroung in the robot's workspace. A motion planning module that enables safe and efficient motion planning and control in real time is a crutial part in realizing the SERoCS system. We build a module that takes in information and prediction result from T1, as well as the plan and skills from T2. Given the motion objective, the motion planning module makes the robot move safely and efficiently.
 </div>
 
 </td>
 <td>
 <div style="position: relative; width: 100%; height: 0; padding-bottom: 56.3%;">
 <iframe style = "position: absolute; width: 100%; height: 100%; left: 0; top: 0;"
-  src="https://www.youtube.com/embed/Ywwfg77dmB8" frameborder="0" controls="controls" preload="auto" allowfullscreen></iframe>
+  src="https://www.youtube.com/embed/4DlgnFjfwkY" frameborder="0" controls="controls" preload="auto" allowfullscreen></iframe>
 </div>
 <!--<div class="image-caption">Zero Time Delay Input Shaping</div>-->
 </td>
@@ -116,39 +115,25 @@ Co-robots works in dynamic environments, where human worker and other robots mov
 <tr></tr><tr>
 <td>
 <div markdown="1">
-* <b>* Task 4. Evaluation of the SERoCS by Analyses, Simulations, and Experiments</b> <br>
-| [Brief](javascript:showhide("vib4")) |
+* <b>* Task 4. Evaluation of the SERoCS by Analyses, Simulations and Experiments</b> <br>
+| [Brief](javascript:showhide("vib4")) | [More]({{ "/research/vibration-suppression.html" | prepend: site.baseurl }}) |
 
 </div>
 <div id="vib4" style="display:none;">
-In T4, we proposed several metrics to evaluate each module and the co-robot system. We also evaluate the system combining motion planning and different human motion prediction methods.
+In T4, we proposed several metrices to evaluate each module and the co-robot system. We also evaluate the system combining motion planning and different human motion prediction methods.
 </div>
 
 </td>
 <td>
 <div style="position: relative; width: 100%; height: 0; padding-bottom: 56.3%;">
 <iframe style = "position: absolute; width: 100%; height: 100%; left: 0; top: 0;"
-  src="https://www.youtube.com/embed/RFs9fatPLko" frameborder="0" controls="controls" preload="auto" allowfullscreen></iframe>
+  src="https://www.youtube.com/embed/4DlgnFjfwkY" frameborder="0" controls="controls" preload="auto" allowfullscreen></iframe>
 </div>
 <!--<div class="image-caption">Zero Time Delay Input Shaping</div>-->
 </td>
 
 </table>
 
-### <a name="id3"></a>Testbeds
-
-<table style="position:relative;">
-<tr></tr><tr>
-<td>
-<b>FANUC LR Mate Robot Arm</b> <br>
-<img width = "60%" src="{{ site.baseurl }}/assets/images/research/Testbed_arm.jpeg" title="Architecture">
-
-</td>
-<td>
-<b>TurtleBot3 with Manipulator</b> <br>
-<img width = "60%" src="{{ site.baseurl }}/assets/images/research/nri/Testbed_mobile.jpeg" title="Architecture">
-
-</td></tr></table>
 
 
 ### <a name="id4"></a>Videos
