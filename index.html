@@ -22,20 +22,56 @@ The MSC Lab focuses on designing and developing control strategies for mechanica
 For more information, please see our <a href="{{ "/research" | prepend: site.baseurl }}">research page</a> or download our <a href="{{ "/assets/files/MSC_research_2013.pdf" | prepend: site.baseurl }}">research booklet</a> .
 
 <br><br>
+<!-- Update Here !!! -->
+<h1>Research Update</h1>
+<ul class="post-list">
+<li>
+    <h4>
+    <a class="post-link" href="https://medium.com/@ourxxbluesky/urbanloco-a-new-challenge-for-urban-mapping-and-localization-200742ea7629">UrbanLoco: A New Challenge for Urban Mapping and Localization</a>
+    </h4>
+    <section class="post-meta">
+        <div class="post-date">March 29, 2020</div>
+    </section>
+  <section class="post-excerpt" itemprop="description">
+    <a href="{{ site.baseurl }}/assets/images/blog/2020_03_29_cover_urbanloco.png" data-lightbox="UrbanLoco" data-title="UrbanLoco">
+        <img src="{{ site.baseurl }}/assets/images/blog/2020_03_29_cover_urbanloco.png" title="UrbanLoco">
+    </a>
 
-<h1>Latest News</h1>
+  </section>
+</li>
+<hr>
+
+<!-- <li>
+    <h4>
+    <a class="post-link" href="https://medium.com/@ourxxbluesky/urbanloco-a-new-challenge-for-urban-mapping-and-localization-200742ea7629">UrbanLoco: A New Challenge for Urban Mapping and Localization</a>
+    </h4>
+  <section class="post-excerpt" itemprop="description">
+    <a href="{{ site.baseurl }}/assets/images/blog/2020_03_29_cover_urbanloco.png" data-lightbox="UrbanLoco" data-title="UrbanLoco">
+        <img src="{{ site.baseurl }}/assets/images/blog/2020_03_29_cover_urbanloco.png" title="UrbanLoco">
+      </a>
+  </section>
+  <section class="post-meta">
+    <div class="post-date">March 29, 2020</div>
+  </section>
+</li> -->
+
+
+</ul>
+
+<br><br>
+<h1>Recent Awards</h1>
 <ul class="post-list">
   {% for post in paginator.posts %}
   <li>
-    <h2>
+    <h4>
       <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-    </h2>
-    <section class="post-excerpt" itemprop="description">
+    </h4>
+    <!-- <section class="post-excerpt" itemprop="description">
       <p>{{ post.content}}</p>
-    </section>
-    <section class="post-meta">
+    </section> -->
+    <!-- <section class="post-meta">
       <div class="post-date">{{ post.date | date: "%B %d, %Y" }}</div>
-    </section>
+    </section> -->
   </li>
   {% if forloop.last == false %}
   <hr>

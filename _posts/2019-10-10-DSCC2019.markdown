@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Professor Masayoshi Tomizuka Receives Medal the Soichiro Honda Medal at ASME’s 2019 DSCC
+title: Professor Tomizuka Received the Soichiro Honda Medal
 date: '2019-10-10T11:00:00+00:00'
 permalink: /news/Soichiro-Honda-Medal.html
 author: Changhao Wang
