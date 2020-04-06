@@ -1,274 +1,137 @@
 ---
 layout: page-wide
-title: Autonomous Driving
+title: Autonomous Driving Group
 permalink: /research/autonomous-vehicle.html
 ---
 
-### Contents:
 
-* [Introduction](#id1)
-* [Research Topics](#id2)
-* [Publications](#pb)
-* [Researchers](#id3)
 
 
-## Autonomous Driving
 
-### <a name="id1"></a>Introduction
+## Introduction
 
-Our lab is focused on proposing novel methodologies and building corresponding facilities to solve the most challenging practical problems for full stack autonomous driving. We combine conventional control, planning and state estimation methods (optimal/robust control, optimization, graph search, Bayesian filtering, etc.) with state-of-the-art machine learning approaches (reinforcement learning, deep neural network, probabilistic graphical models, etc.) to exploit their advantages, and answer questions including but not limited to:
+The core focus of our research is to understand the interactive human (driving) behavior and the scene with proper representations, and to predict and emulate the behavior to enable safe and high-quality autonomy for various mobility. Our viewpoint is to exploit the synergies of model-based planning/control methods and state-of-the-art machine learning techniques to combine our prior and what we can learn from data. In order to sufficiently support the focus, our research scope also expands to the fundamental aspects such as validation/evaluation and dataset construction. We also dive into perception from different perspectives and control for various platforms, and incorporate our behavior-related research insights into these aspects.
 
-- How to combine conventional and learning-based methodologies for computationally efficient *planning and control* to achieve theoretical guarantee on stability, feasibility and safety, as well as flexibility to learn from trials and data?
 
-- How to enable *decision-making and planning* under uncertainty with social interactions to achieve non-conservatively defensive driving strategies and persuade others to behave as we expected?
 
-- What are good probabilistic predictions for reactions of other road users given our future decision, and how to provide accurate *probabilistic and reactive predictions* to enable safe decision-making and planning with desirable driving quality in a variety of highly interactive driving scenarios?
+The group lead is Dr. [Wei Zhan](https://scholar.google.com/citations?user=xVN3UxYAAAAJ&hl=en#). The research activities are conducted by 2 Postdocs (Dr. [Wei Zhan](https://scholar.google.com/citations?user=xVN3UxYAAAAJ&hl=en#) and Dr. [Liting Sun](https://scholar.google.com/citations?user=BitIg-YAAAAJ&hl=en)) and 13 Ph.D. students with over 10 visiting researchers. Our algorithms were tested on autonomous vehicles in test fields supported by our sponsors and collaborators. We collected raw data from onboard sensors (LiDARs/cameras) on our data-collection vehicle and other fixed sensors, as well as behavior data from two sets of driving simulators with mechanical interfaces. Two datasets ([INTERACTION](https://interaction-dataset.com/) and [UrbanLoco](https://advdataset2019.wixsite.com/urbanloco)) were published. Several recent publications on autonomous driving by laboratory members received Best Student Paper or Best Paper Finalist in flagship conferences on robotics and intelligent vehicle/transportation, such as *IROS*, *ITSC* and *IV*.
 
-- How to fuse the information from multiple sensors to enable robust 3D object *detection and tracking* (with LIDAR and camera) and accurate large-scale *mapping and localization* (with LIDAR, GPS, IMU and camera)?
 
-  <br>
 
-### <a name="id2"></a>Research Topics
+## Research Topics
 
-<!--  Edit -->
 
-<table style="position:relative;">
-<tr></tr>
-    <tr>
-<td>
-<div markdown="1">
-* <b> Motion Planning and Control </b> <br>
 
+### 1. Prediction, representation and emulation of interactive behavior 
 
-    1. Generic Environmental Representation and Planning  
-    2. [Planning with Constrained Iterative LQR]({{"/research/planning-cilqr.html" | prepend: site.baseurl}})  
-    3. Constrained Policy Net for Safe and Feasible Planning  
-    4. [Planning and Control via Imitation Learning]({{"/research/autonomous_driving_via_imitation_learning.html" | prepend: site.baseurl}})    
-    5. [Zero-Shot Deep Reinforcement Learning Policy Transfer based on Robust Control]({{"/research/control-transfer.html" | prepend: site.baseurl}})  
+**Application**: prediction, decision-making and behavior planning for autonomous vehicles, comprehension and modeling of interactive, social behavior, (scene/motion) representation learning and construction, imitation and generation of human (driving) behavior.
 
-</div>
+#### 1.1 Inverse optimal control (inverse reinforcement learning, IRL) and game theory
 
+- Social factors such as courtesy (*[IROS18](https://arxiv.org/abs/1808.02633)*) and irrationality (*[ITSC19](https://arxiv.org/abs/1907.08707)*) for interactive prediction and planning with IRL.
+- Interactive, probabilistic prediction with hierarchical IRL: *[ITSC18](https://arxiv.org/abs/1809.02926)*, *[ITSC19](https://arxiv.org/abs/1907.10170)*
+- Learning cost for planning by IRL: *[IV19](https://arxiv.org/abs/1905.00988)*, [*TechXplore*](https://techxplore.com/news/2019-05-social-perception-scheme-behavior-autonomous.html), *ICRA20*.
+- Game theory: papers to appear.
 
+#### 1.2 Decision and planning under uncertainty with interaction
 
-</td>
-<td>
+- Integrated decision/planning with interaction and negotiation: *[ITSC16](https://ieeexplore.ieee.org/abstract/document/7795595/)*, *[ACC16](https://www.researchgate.net/profile/Changliu_Liu/publication/305107862_Enabling_Safe_Freeway_Driving_for_Automated_Vehicles/links/5a7137810f7e9ba2e1cb1d90/Enabling-Safe-Freeway-Driving-for-Automated-Vehicles.pdf)*, [*SAE17*](https://www.sae.org/publications/technical-papers/content/2017-01-1406/), *[IV18-1](http://oss-cn-qingdao.aliyuncs.com/ccm-test/47d772fc485632f5b0e53977ffe59a0c.pdf)*, *[IV18-2](https://ieeexplore.ieee.org/abstract/document/8500702/)*, *[ACC19](https://arxiv.org/abs/1809.09735)*.
+- Safety and feasibility in imitation learning: *[IECON17](https://ieeexplore.ieee.org/abstract/document/8216790/)*, *[DSCC18](https://arxiv.org/abs/1707.02515)*, *[IROS19](https://arxiv.org/abs/1903.00640)*.
+- Reinforcement learning: *[IROS19](https://arxiv.org/abs/1904.06025)* *(**Best Paper Finalist**)*, *[IV18](https://www.researchgate.net/profile/Jianyu_Chen22/publication/328454880_Deep_Hierarchical_Reinforcement_Learning_for_Autonomous_Driving_with_Distinct_Behaviors/links/5be340a0299bf1124fc2dc59/Deep-Hierarchical-Reinforcement-Learning-for-Autonomous-Driving-with-Distinct-Behaviors.pdf)*, [*IV19*](https://ieeexplore.ieee.org/abstract/document/8813861), *[ITSC19](https://arxiv.org/abs/1904.09503)*, *[arxiv](https://arxiv.org/abs/2001.08726)*.
 
-<div style="position: relative; width: 100%; height: 0; padding-bottom: 56.3%;">
-<iframe style = "position: absolute; width: 100%; height: 100%; left: 0; top: 0;"
-  src="https://youtube.com/embed/RvjI4cpZAAE" frameborder="0" controls="controls" preload="auto" allowfullscreen></iframe>
-</div>
+#### 1.3 Interactive prediction with dynamics, semantic representation and reasoning
 
+- Semantic representation and prediction: *[IV18](https://arxiv.org/abs/1804.03629)* *(**Best Student Paper**)*, and papers to appear.
+- Incorporating vehicle kinematics into deep generative models: *[IV19](https://ieeexplore.ieee.org/abstract/document/8813783)*.
+- Probabilistic graphical model (*[ITSC18](https://arxiv.org/abs/1809.02927)*, *[ITSC19](https://ieeexplore.ieee.org/abstract/document/8917031)*)  and deep generative models (*[IV19](https://arxiv.org/abs/1905.00587)*, *[ICRA19-1](https://arxiv.org/abs/1904.02390)*, *[ICRA19-2](https://ieeexplore.ieee.org/abstract/document/8794130)*, *[IROS19](https://arxiv.org/abs/1905.01631)*)
+- Conditional variational auto-encoder (*[ITSC18](https://arxiv.org/abs/1810.12506)*) and its interpretability (*[IV19](https://arxiv.org/abs/1903.09381)*, [*TechXplore*](https://techxplore.com/news/2019-04-sequential-motions-interacting-agents.html)), as well as the combination with IRL (*[ITSC19](https://arxiv.org/abs/1907.10170)*).
+- Graph reasoning: *[arxiv-1](https://arxiv.org/pdf/2002.06241.pdf)*,  [*arxiv-2*](https://arxiv.org/abs/2003.13924), and papers to appear.
+- Heterogeneous road users (pedestrian-vehicle interaction): *[ITSC19](https://ieeexplore.ieee.org/abstract/document/8917031)*, [*arxiv*](https://arxiv.org/abs/2003.13924).
 
-</td>
+#### 1.4 Scene/motion representation learning and construction
 
-<!-- Edit -->
-<tr>
-<td>
+- Comprehensive scene and motion representation construction: *[IV17](https://ieeexplore.ieee.org/abstract/document/7995789/)*, and papers to appear.
+- Representation learning: [*arxiv*](http://arxiv.org/abs/2003.12464), and papers to appear.
 
-<div markdown="1">
-* <b> Decision-Making and Behavior Planning </b><br> 
-    1. Non-Conservatively Defensive Strategy with Integrated Decision-Making and Planning  
-    2. [Robustly-Safe Automated Driving (ROAD) System]({{"/research/robustly-safe-automated-driving.html" | prepend: site.baseurl}})  
-    3. [Deep Hierarchical Reinforcement Learning for Decision-Making and Planning]({{"/research/decision-hrl.html" | prepend: site.baseurl}})  
-    4. [Interaction-and-Uncertainty-Aware Joint Decision-Making and Planning]({{"/research/decision-planning.html" | prepend: site.baseurl}})  
-    5. [Baysian Persuasive Driving]({{"/research/bayesian-persuasive.html" | prepend: site.baseurl}})
-    6. [Inverse Reinforcement Learning for Social Interactions]({{"/research/social_interaction_IRL.html" | prepend: site.baseurl}})
 
 
+### 2. Data and perception for humans, vehicles and cities
 
+**Application**: dataset construction for human (driving) behavior and mapping/localization, detection/tracking/mapping with onboard sensors, traffic cameras/drones, connectivity, as well as occlusion inference via behavior of others.
 
+#### 2.1 INTERACTION Dataset: highly interactive driving behavior with semantic map
 
+- Dataset *[website](https://interaction-dataset.com/)*, prediction challenge [*website*](http://challenge.interaction-dataset.com/prediction-challenge/intro), dataset papers (*[arxiv](https://arxiv.org/abs/1910.03088)*, *[IROS19](https://ieeexplore.ieee.org/abstract/document/8967724)*).
 
-</div>
-</td>
+#### 2.2 UrbanLoco Dataset: localization and mapping in dense urban scenes
 
-<td>
+- Dataset *[website](https://advdataset2019.wixsite.com/urbanloco)*, dataset paper (*[ICRA20](https://arxiv.org/abs/1912.09513)*), [*blog*](https://medium.com/@ourxxbluesky/urbanloco-a-new-challenge-for-urban-mapping-and-localization-200742ea7629).
 
-<div style="position: relative; width: 100%; height: 0; padding-bottom: 56.3%;">
-<iframe style = "position: absolute; width: 100%; height: 100%; left: 0; top: 0;"
-  src="http://www.youtube.com/embed/pvHaYfN7Ciw" frameborder="0" controls="controls" preload="auto" allowfullscreen></iframe>
-</div>
+#### 2.3 3D detection/segmentation/reconstruction with LiDARs and cameras
 
-</td>
+- 3D segmentation and detection (with LiDAR-camera fusion): *arxiv20*, [*arxiv*](https://arxiv.org/abs/1910.04853), *[IV19](https://arxiv.org/abs/1811.03818)*, *[IV18](https://arxiv.org/abs/1711.06703)*.
+- 3D point cloud reconstruction and registration: *[IROS19](https://ieeexplore.ieee.org/abstract/document/8967589)*, [*IFAC20*](https://arxiv.org/abs/1912.05016).
+- Detection from bird's eye view: *[arxiv](https://arxiv.org/abs/1912.09632)*.
 
+#### 2.4 Occluded object tracking, social perception and cooperative perception
 
+- [*Trans-ITS*](https://arxiv.org/abs/1908.09031), *[IV18](https://arxiv.org/abs/1809.10237)*, *[IV19](https://arxiv.org/abs/1905.00988)*, [*TechXplore*](https://techxplore.com/news/2019-05-social-perception-scheme-behavior-autonomous.html).
 
-<!--  Edit -->
+  
 
-<tr>
-<td>
+### 3. Validation and simulation for autonomy and environments
 
-<div markdown="1">
-* <b> Prediction and Behavior Modeling </b><br>
-Predicting the probabilistic behavior of others in highly interactive scenarios is one of the most challenging problems for autonomous driving. We propose novel methodologies based on deep neural networks, probabilistic graphical models and inverse reinforcement learning for interactive and probabilistic prediction problems. We also address the fundamental but under-explored aspects in the area of prediction, namely, problem formulation, representation simplification and evaluation metrics. Then we propose to construct a unified framework and fatality-aware benchmark to evaluate a variety of probabilistic reaction prediction algorithms.
-    1. Fatality-Aware Benchmark for Probabilistic Reaction Prediction  
-    2. [Inverse Reinforcement Learning for Social Interactions]({{"/research/social_interaction_IRL.html" | prepend: site.baseurl}})  
-    3. [Hierarchical Inverse Reinforcement Learning for Probabilistic Prediction]({{"/research/HIRL_prediction.html" | prepend: site.baseurl}})  
-    4. [Deep Neural Network for Semantic Intention and Motion]({{"/research/prediction-simp.html" | prepend: site.baseurl}})  
-    5. [Situation Prediction based on Layered Hidden Markov Model]({{"/research/prediction-lhmm.html" | prepend: site.baseurl}})  
-    6. [Generative Adversarial Network for Probabilistic Prediction]({{"/research/prediction-gan.html" | prepend: site.baseurl}})
+**Application**: test and evaluation of prediction/planning/perception/localization modules by reconstructing the real world and utilizing high-quality data.
 
-</div>
+#### 3.1 Prediction benchmark and challenge
 
-</td>
-<td>
+- Fatality-aware evaluation: *[ITSC18](https://arxiv.org/abs/1809.03478)*, *[IV18](https://hal-mines-paristech.archives-ouvertes.fr/hal-01981612/document)*.
+- INTERPRET Challenge: [*website*](http://challenge.interaction-dataset.com).
 
-<div style="position: relative; width: 100%; height: 0; padding-bottom: 56.3%;"><iframe style = "position: absolute; width: 100%; height: 100%; left: 0; top: 0;"  src="https://www.youtube.com/embed/DQNjaNGoX2g" frameborder="0" controls="controls" preload="auto" allowfullscreen></iframe></div>
+#### 3.2 Uncertainty estimation and evaluation for perception and localization
 
+- Uncertainty-aware evaluation for 3D detection: *[arxiv](https://arxiv.org/abs/2003.03644)*.
+- Uncertainty estimation in LiDAR-base localization: *[IET EL Letter](https://digital-library.theiet.org/content/journals/10.1049/el.2018.8075)*.
 
-​			
+#### 3.3 Testing prediction/decision/planning in simulation
 
-<br>
+- papers to appear
 
-<div style="position: relative; width: 100%; height: 0; padding-bottom: 56.3%;">
-<iframe style = "position: absolute; width: 100%; height: 100%; left: 0; top: 0;"
-  src="https://www.youtube.com/embed/6A3Hl-mRhbI" frameborder="0" controls="controls" preload="auto" allowfullscreen></iframe>
-</div>
 
-</td>
 
-<tr>
-<td>
+### 4. Planning, dynamics and control for autonomous systems
 
-<div markdown="1">
-* <b> Detection, Tracking, Localization and Mapping</b><br>
-We are focused on LIDAR-Camera fusion for 3D object detection and tracking based on deep convolutional neural networks (CNN) for perception with onboard sensors. One of the models we proposed, RoarNet, was ranked **#2 on KITTI benchmark** for 3D car detection when submitted. When the object is partially or even fully occluded and the detection is noisy, we introduce learning-based behavioral prediction models combined with Bayesian filtering to achieve accurate tracking. We also investigate framework and methods to enable large-scale mapping and localization based on LIDAR, GPS, IMU and camera. 
-    1. [Sparse Non-Homogeneous Pooling for CNN-based LIDAR-Camera Fusion]({{"/research/perception-pooling.html" | prepend: site.baseurl}})  
-    2. [RoarNet: RegiOn Approximation Refinement for CNN-based LIDAR-Camera Fusion]({{"https://sites.google.com/berkeley.edu/roarnet"}})  
-    3. [Occluded Object Tracking based on Modiﬁed Mixture Particle Filter]({{"/research/perception-pftracking.html" | prepend: site.baseurl}})  
-    4. [Mapping and Localization based on Multi-Sensor Fusion]({{"/research/mapping-localization.html" | prepend: site.baseurl}})
+**Application**: Trajectory planning, dynamics modeling and controller design for passenger/delivery/racing vehicles (with connectivity).
 
+#### 4.1 Trajectory planning
 
+- Constrained iterative LQR and optimization: *[Trans-IV](https://ieeexplore.ieee.org/abstract/document/8671755)*, *[ITSC17](https://www.researchgate.net/profile/Jianyu_Chen22/publication/323789278_Constrained_iterative_LQR_for_on-road_autonomous_driving_motion_planning/links/5be33fd3a6fdcc3a8dc64b57/Constrained-iterative-LQR-for-on-road-autonomous-driving-motion-planning.pdf)*, *[ACC18](https://ieeexplore.ieee.org/abstract/document/8431104)*, *[IV17](https://www.researchgate.net/profile/Changliu_Liu/publication/318800685_Speed_profile_planning_in_dynamic_environments_via_temporal_optimization/links/599b6ec8a6fdcc500349c698/Speed-profile-planning-in-dynamic-environments-via-temporal-optimization.pdf)*.
+- Sample-based and graph search: *IFAC20*, *[IV17-1](https://ieeexplore.ieee.org/abstract/document/7995789/),* *[IV17-2](http://www.cs.cmu.edu/~cliu6/files/iv17-1.pdf)*.
 
+#### 4.2 Policy transfer and robust control
 
-</div>
+- *[Trans-ITS](https://ieeexplore.ieee.org/document/8924943)*, *[ITSC18](https://arxiv.org/abs/1812.03216)* *(**Best Student Paper**)*.
 
-</td>
-<td>
+#### 4.3 Vehicle dynamics, state estimation and control
 
-<div style="position: relative; width: 100%; height: 0; padding-bottom: 56.3%;">
-<iframe style = "position: absolute; width: 100%; height: 100%; left: 0; top: 0;"
-  src="https://www.youtube.com/embed/CDp6mocT6C4" frameborder="0" controls="controls" preload="auto" allowfullscreen></iframe>
-</div>
-<br>
+- System identification: *IV20*. 
+- Estimation and control with connectivity: *[Sensors](https://www.mdpi.com/1424-8220/19/13/2983)*.
+- Selective vehicle dynamics and control research in MSC Lab (in collaboration with California PATH) over a decade ago: 
+  - Heavy-duty vehicle (truck with trailer) control: [*PATH-report*](https://www.researchgate.net/publication/46439115_Lateral_Control_of_Heavy_Duty_Vehicles_for_Automated_Highway_System_Experimental_Study_on_a_Tractor_Semi-trailer).
+  - Automated highway systems: [*Trans-VT*](https://ieeexplore.ieee.org/abstract/document/69979), [*CSM*](https://ieeexplore.ieee.org/abstract/document/334412).
+  - Adaptive control: [*Trans-IE*](https://ieeexplore.ieee.org/document/1174058), [*ACC90*](https://ieeexplore.ieee.org/document/4791050).
+  - Preview control: [*JDSMC*](https://asmedigitalcollection.asme.org/dynamicsystems/article/115/4/679/417103/Preview-Control-for-Vehicle-Lateral-Guidance-in), [*ACC90*](https://ieeexplore.ieee.org/document/4790840).
+  - Adaptive cruise control: [*IJAT*](https://link.springer.com/article/10.1007/s12239-012-0007-6), [*IFAC*](https://www.sciencedirect.com/science/article/pii/S1474667016318390).
+  - Combined lateral and longitudinal control: [*SAE-IJPC*](https://saemobilus.sae.org/content/2015-01-0321), [*JDSMC*](https://asmedigitalcollection.asme.org/dynamicsystems/article/123/3/535/460331/Coordinated-Longitudinal-and-Lateral-Motion).
+  - Fault tolerant control: [*Trans-Mech*](https://ieeexplore.ieee.org/abstract/document/1395861), [*IFAC*](https://www.sciencedirect.com/science/article/pii/S1474667017339198).
 
-<div style="position: relative; width: 100%; height: 0; padding-bottom: 56.3%;">
-<iframe style = "position: absolute; width: 100%; height: 100%; left: 0; top: 0;"
-  src="https://www.youtube.com/embed/ZmnhvLlJ6qg" frameborder="0" controls="controls" preload="auto" allowfullscreen></iframe>
-</div>
-</td>
 
-<table></table>
 
-<div markdown="1">
 
-### <a name="id3"></a>Recent Publications
 
-C. Tang\*, Z. Xu\*, and M. Tomizuka, “Disturbance observer based tracking controller for neural network driving policy transfer,” submitted to IEEE Transaction on Intelligent Transportation System, 2019.
+## Contact
 
-C. Tang, J. Chen, and M. Tomizuka, “Adaptive probabilistic vehicle trajectory prediction through physically feasible Bayesian recurrent neural network,” in 2019 International Conference on Robotics and Automation (ICRA) pp. 3846–3852, IEEE, 2019.
+Please contact Dr. Wei Zhan (wzhan@berkeley.edu) and Professor Masayoshi Tomizuka (tomizuka@berkeley.edu) for more information if you are interested in the topics above by
 
-J. Li, W. Zhan, Y. Hu and M. Tomizuka, “[Generic Tracking and Prediction Framework and Its Application in Autonomous Driving](https://ieeexplore.ieee.org/document/8789525)”, IEEE Transactions on Intelligent Transportation Systems, early access, 2019.
-
-J. Li, H. Ma and M. Tomizuka, “[Conditional Generative Neural System for Probabilistic Trajectory Prediction](https://arxiv.org/abs/1905.01631)”, 2019 International Conference on Robotics and Automation (IROS), 2019.
-
-J. Li, H. Ma, W. Zhan and M. Tomizuka, “[Coordination and Trajectory Prediction for Vehicle Interactions via Bayesian Generative Modeling](https://ieeexplore.ieee.org/document/8813821)”, 2019 IEEE Intelligent Vehicles Sumposium (IV), 2019.
-
-H. Ma, J. Li, W. Zhan and M. Tomizuka, “[Wasserstein Generative Learning with Kinematic Constraints for Probabilistic Interactive Driving Behavior Prediction](https://ieeexplore.ieee.org/document/8813783)”, 2019 IEEE Intelligent Vehicles Sumposium (IV), 2019.
-
-J. Chen, W. Zhan, and M. Tomizuka, “Autonomous Driving Motion Planning with Constrained Iterative LQR”, submitted to *IEEE Transactions on Intelligent Vehicles*.
-
-J. Li, H. Ma and Masayoshi Tomizuka, "[Interaction-aware Multi-agent Tracking and Probabilistic Behavior Prediction via Adversarial Learning](https://ieeexplore.ieee.org/document/8793661)", 2019 International Conference on Robotics and Automation (ICRA), 2019.
-
-K. Shin, Y. P. Kwon and M.Tomizuka, "[RoarNet: A Robust 3D Object Detection based on RegiOn Approximation Refinement](https://arxiv.org/abs/1811.03818)", submitted on ICRA 2019.
-
-C. Peng and M. Tomizuka, "[Bayesian Persuasive Driving](https://arxiv.org/abs/1809.09735)", submitted to <i>American Control Conference (ACC), 2019</i>.
-
-W. Zhan, L. Sun, Y. Hu, J. Li, and M. Tomizuka, “[Towards a Fatality-Aware Benchmark of Probabilistic Reaction Prediction in Highly Interactive Driving Scenarios](https://arxiv.org/abs/1809.03478)”, in *2018 IEEE 21st International Conference on Intelligent Transportation Systems (ITSC)*, 2018.
-
-L. Sun, W. Zhan, and M. Tomizuka, “[Probabilistic Prediction of Interactive Driving Behavior via Hierarchical Inverse Reinforcement Learning](https://arxiv.org/abs/1809.02926)'', in *2018 IEEE 21st International Conference on Intelligent Transportation Systems (ITSC)*, 2018.
-
-Y. Hu, W. Zhan, and M. Tomizuka, “[A Framework for Probabilistic Generic Traffic Scene Prediction](https://arxiv.org/abs/1810.12506)”, in *2018 IEEE 21st International Conference on Intelligent Transportation Systems (ITSC)*, 2018.
-
-J. Li, H. Ma, W. Zhan, and M. Tomizuka, “[Generic Probabilistic Interactive Situation Recognition and Prediction: From Virtual to Real](https://arxiv.org/abs/1809.02927)”, in *2018 IEEE 21st International Conference on Intelligent Transportation Systems (ITSC)*, 2018.
-
-Z. Xu, C. Tang, and M. Tomizuka, "[Zero-shot Deep Reinforcement Learning Driving Policy Transfer for Autonomous Vehicles based on Robust Control](https://arxiv.org/abs/1812.03216v1)", in <i>IEEE International Conference on Intelligent Transportation Systems (ITSC), 2018</i>. (**Best Student Paper Award**)
-
-L. Sun, W. Zhan, M. Tomizuka, and A. Dragan, “[Courteous Autonomous Cars](https://arxiv.org/abs/1808.02633)”, in *2018 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)*, 2018.
-
-L. Sun, C. Peng, W. Zhan, and M. Tomizuka, “[A Fast Integrated Planning and Control Framework for Autonomous Driving](https://arxiv.org/pdf/1707.02515.pdf)”, in *ASME 2018 Dynamic System and Control Conference (DSCC)*, 2018.
-
-W. Zhan, A. de La Fortelle, Y.-T. Chen, C.-Y. Chan, and M. Tomizuka, “[Probabilistic Prediction from Planning Perspective: Problem Formulation, Representation Simplification and Evaluation Metric](https://ieeexplore.ieee.org/abstract/document/8500697)”, in *2018 IEEE Intelligent Vehicles Symposium (IV)*, 2018, pp. 1150-1156.
-
-Y. Hu, W. Zhan, and M. Tomizuka, “[Probabilistic Prediction of Vehicle Semantic Intention and Motion](https://arxiv.org/abs/1804.03629)”, in *2018 IEEE Intelligent Vehicles Symposium (IV)*, 2018, pp. 307-313. (**Best Student Paper Award**)
-
-J. Li, W. Zhan, and M. Tomizuka, “[Generic Vehicle Tracking Framework Capable of Handling Occlusions Based on Modified Mixture Particle Filter](https://arxiv.org/abs/1809.10237)”, in *2018 IEEE Intelligent Vehicles Symposium (IV)*, 2018, pp. 936-942.
-
-Z. Wang, W. Zhan, and M. Tomizuka, “[Fusing Bird-Eye View LIDAR Point Cloud and Front View Camera Image for 3D Object Detection](https://arxiv.org/abs/1711.06703)”, in *2018 IEEE Intelligent Vehicles Symposium (IV)*, 2018, pp. 834-839.
-
-J. Chen, C. Tang, L. Xin, S. Li and M. Tomizuka, “[Continuous Decision Making for On-road Autonomous Driving under Uncertain and Interactive Environments](https://ieeexplore.ieee.org/abstract/document/8500605)”, in *2018 IEEE Intelligent Vehicles Symposium (IV)*.
-
-J. Chen, Z. Wang and M. Tomizuka, “[Deep Hierarchical Reinforcement Learning for Autonomous Driving with Distinct Behaviors](https://ieeexplore.ieee.org/abstract/document/8500368)”, in *2018 IEEE Intelligent Vehicles Symposium (IV)*.
-
-C. Peng and M. Tomizuka, "[Cooperative Driving Based on Negotiation with Persuasion and Concession](https://ieeexplore.ieee.org/abstract/document/8500702)", in <i>IEEE Intelligent Vehicles Symposium (IV), 2018</i>.
-
-J. Chen, W. Zhan, and M. Tomizuka, “[Constrained Iterative LQR for On-Road Autonomous Driving Motion Planning](https://ieeexplore.ieee.org/abstract/document/8317745)”, in *2017 IEEE 20th International Conference on Intelligent Transportation Systems (ITSC)*, 2017, pp. 2232-2238.
-
-W. Zhan, J. Li, Y. Hu, and M. Tomizuka, "[Safe and Feasible Motion Generation for Autonomous Driving via Constrained Policy Net](https://berkeley.box.com/v/CPN)", in <i>Annual Conference on IEEE Industrial Electronics Society (IECON), 2017</i>. 
-
-C. Liu, W. Zhan, and M. Tomizuka, “[Speed profile planning in dynamic environments via temporal optimization](http://ieeexplore.ieee.org/document/7995713/)”,  in <i>IEEE Intelligent Vehicles Symposium (IV), 2017</i>. 
-
-W. Zhan, J. Chen, C.-Y. Chan, C. Liu and M. Tomizuka, “[Spatially-Partitioned Environmental Representation and Planning Architecture for On-Road Autonomous Driving](http://ieeexplore.ieee.org/document/7995789/)”,  in <i>IEEE Intelligent Vehicles Symposium (IV), 2017</i>. 
-
-C. Liu, J. Chen, T. Nguyen, and M. Tomizuka, "[The robustly-safe automated driving system for enhanced active safety](https://saemobilus.sae.org/content/2017-01-1406)", in <i>SAE World Congress, 2017</i>.
-
-C. Liu, and M. Tomizuka, "[Enabling Safe Freeway Driving for Automated Vehicles](http://me.berkeley.edu/~cliu/files/acc16-2.pdf)", in <i>American Control Conference, 2016</i>. 
-
-W. Zhan, C. Liu, Ching-Yao Chan, and M. Tomizuka, “[A Non-Conservatively Defensive Strategy for Urban Autonomous Driving](http://ieeexplore.ieee.org/abstract/document/7795595/)”, in <i>International IEEE Conference on Intelligent Transportation Systems (ITSC), 2016</i>. 
-
-### <a name="id4"></a>Researchers
-
-**Ph.D. Students**
-
- Wei Zhan | Graduate Student | [Email Link](mailto:wzhan@berkeley.edu) | 
-
-| Liting Sun | Graduate Student | [Email Link](mailto:litingsun@berkeley.edu) |
-
-| Jianyu Chen | Graduate Student | [Email Link](mailto:jianyuchen@berkeley.edu)  |
-
-| Zining Wang | Graduate Student | [Email Link](mailto:ziningwang@berkeley.edu) |
- 
-| Kiwoo Shin | Graduate Student | [Email Link](mailto:kiwoo.shi@berkeley.edu)  | 
-
-| Saman Fahandezhsaadi | Graduate Student| [Email Link](samanfahandej@berkeley.edu) |
-
-| Jiachen Li | Graduate Student | [Email Link](mailto:jiachen_li@berkeley.edu)| 
-
-| Yeping Hu | Graduate Student | [Email Link](mailto:yeping_hu@berkeley.edu)|
-
-| Chen Tang | Graduate Student | [Email Link](mailto:chen_tang@berkeley.edu)|  
-
-| Zhuo Xu | Graduate Student | [Email Link](mailto:zhuoxu@berkeley.edu)|  
-
-| Hengbo Ma | Graduate Student | [Email Link](mailto:hengbo_ma@berkeley.edu)|  
-
-| Lingfeng Sun | Graduate Student | [Email Link](mailto:lingfengsun@berkeley.edu)|  
-
-| Yiyang Zhou | Graduate Student | [Email Link](mailto:yiyang.zhou@berkeley.edu)|  
-
-**Recent Graduates**
-
-| Changliu Liu | Carnegie Mellon University | 
-| Shiying Zhou | Waymo | 
-| Cheng Peng | Kodiak Robotics |
-
-**Visiting Researchers**
-
-| Hiroyuki Okuda | Visiting Scholar |
-
-| Weisong Wen | Visiting Student Researcher | 
-
-| Di Wang | Visiting Student Researcher | 
-
-| Hyuntai Chin | Visiting Student Researcher | 
-
+- working with us (join/visit the group or collaborate) from academia, or
+- research collaboration from industry.

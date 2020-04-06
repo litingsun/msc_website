@@ -1,3 +1,12 @@
+Important Update:
+
+
+
+March 31st, 2020: Changed the home page and add a blog section. For any later blog update, you should manually update the index.html and the blog.md.
+
+March 30th, 2020: Change News section to Recent Awards.
+
+
 <!-- # Centrarium [![Circle CI](https://circleci.com/gh/bencentra/centrarium/tree/master.svg?style=svg)](https://circleci.com/gh/bencentra/centrarium/tree/master)
 
 A simple yet classy theme for your Jekyll website or blog. Customizable to fit your style or brand.

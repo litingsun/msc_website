@@ -13,10 +13,10 @@ permalink: /research/
 * [Intelligent Control of Robotic Manipulators]({{ "/research/intelligent-manipulation.html" | prepend: site.baseurl }})
 
 ## [Autonomous Driving]({{"/research/autonomous-vehicle.html" | prepend: site.baseurl }})
-* Motion Planning and Control  
-* Decision-Making and Behavior Planning  
-* Prediction and Behavior Modeling  
-* Detection, Tracking, Localization and Mapping
+* Prediction, Representation and Emulation of Interactive Behavior
+* Data and Perception for Humans, Vehicles and Cities  
+* Validation and Simulation for Autonomy and Environments  
+* Planning, dynamics and control for autonomous systems
 
 <div class="addendum">
 <div markdown="1">
