@@ -41,16 +41,16 @@ The group lead is Dr. [Wei Zhan](https://scholar.google.com/citations?user=xVN3U
 
 #### 1.3 Interactive prediction with dynamics, semantic representation and reasoning
 
-- Semantic representation and prediction: *[IV18](https://arxiv.org/abs/1804.03629)* *(**Best Student Paper**)*, and papers to appear.
+- Semantic representation and prediction: *[IV18](https://arxiv.org/abs/1804.03629)* *(**Best Student Paper**)*, [*arxiv*](https://arxiv.org/abs/2004.03053).
 - Incorporating vehicle kinematics into deep generative models: *[IV19](https://ieeexplore.ieee.org/abstract/document/8813783)*.
 - Probabilistic graphical model (*[ITSC18](https://arxiv.org/abs/1809.02927)*, *[ITSC19](https://ieeexplore.ieee.org/abstract/document/8917031)*)  and deep generative models (*[IV19](https://arxiv.org/abs/1905.00587)*, *[ICRA19-1](https://arxiv.org/abs/1904.02390)*, *[ICRA19-2](https://ieeexplore.ieee.org/abstract/document/8794130)*, *[IROS19](https://arxiv.org/abs/1905.01631)*)
 - Conditional variational auto-encoder (*[ITSC18](https://arxiv.org/abs/1810.12506)*) and its interpretability (*[IV19](https://arxiv.org/abs/1903.09381)*, [*TechXplore*](https://techxplore.com/news/2019-04-sequential-motions-interacting-agents.html)), as well as the combination with IRL (*[ITSC19](https://arxiv.org/abs/1907.10170)*).
-- Graph reasoning: *[arxiv-1](https://arxiv.org/pdf/2002.06241.pdf)*,  [*arxiv-2*](https://arxiv.org/abs/2003.13924), and papers to appear.
+- Graph reasoning: [*arxiv-1*](https://arxiv.org/abs/2004.03053), *[arxiv-2](https://arxiv.org/pdf/2002.06241.pdf)*,  [*arxiv-3*](https://arxiv.org/abs/2003.13924).
 - Heterogeneous road users (pedestrian-vehicle interaction): *[ITSC19](https://ieeexplore.ieee.org/abstract/document/8917031)*, [*arxiv*](https://arxiv.org/abs/2003.13924).
 
 #### 1.4 Scene/motion representation learning and construction
 
-- Comprehensive scene and motion representation construction: *[IV17](https://ieeexplore.ieee.org/abstract/document/7995789/)*, and papers to appear.
+- Comprehensive scene and motion representation construction: *[IV17](https://ieeexplore.ieee.org/abstract/document/7995789/)*, [*arxiv*](https://arxiv.org/abs/2004.03053).
 - Representation learning: [*arxiv*](http://arxiv.org/abs/2003.12464), and papers to appear.
 
 
@@ -69,7 +69,7 @@ The group lead is Dr. [Wei Zhan](https://scholar.google.com/citations?user=xVN3U
 
 #### 2.3 3D detection/segmentation/reconstruction with LiDARs and cameras
 
-- 3D segmentation and detection (with LiDAR-camera fusion): *arxiv20*, [*arxiv*](https://arxiv.org/abs/1910.04853), *[IV19](https://arxiv.org/abs/1811.03818)*, *[IV18](https://arxiv.org/abs/1711.06703)*.
+- 3D segmentation and detection (with LiDAR-camera fusion): [*arxiv-1*](https://arxiv.org/abs/2004.01803), [*arxiv-2*](https://arxiv.org/abs/1910.04853), *[IV19](https://arxiv.org/abs/1811.03818)*, *[IV18](https://arxiv.org/abs/1711.06703)*.
 - 3D point cloud reconstruction and registration: *[IROS19](https://ieeexplore.ieee.org/abstract/document/8967589)*, [*IFAC20*](https://arxiv.org/abs/1912.05016).
 - Detection from bird's eye view: *[arxiv](https://arxiv.org/abs/1912.09632)*.
 
