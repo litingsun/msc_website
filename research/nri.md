@@ -104,7 +104,7 @@ Co-robots works in dynamic environments, where human worker and other robots mov
 <td>
 <div style="position: relative; width: 100%; height: 0; padding-bottom: 56.3%;">
 <iframe style = "position: absolute; width: 100%; height: 100%; left: 0; top: 0;"
-  src="https://www.youtube.com/embed/4DlgnFjfwkY" frameborder="0" controls="controls" preload="auto" allowfullscreen></iframe>
+  src="https://www.youtube.com/embed/Ywwfg77dmB8" frameborder="0" controls="controls" preload="auto" allowfullscreen></iframe>
 </div>
 <!--<div class="image-caption">Zero Time Delay Input Shaping</div>-->
 </td>
@@ -125,7 +125,7 @@ In T4, we proposed several metrices to evaluate each module and the co-robot sys
 <td>
 <div style="position: relative; width: 100%; height: 0; padding-bottom: 56.3%;">
 <iframe style = "position: absolute; width: 100%; height: 100%; left: 0; top: 0;"
-  src="https://www.youtube.com/embed/4DlgnFjfwkY" frameborder="0" controls="controls" preload="auto" allowfullscreen></iframe>
+  src="https://www.youtube.com/embed/RFs9fatPLko" frameborder="0" controls="controls" preload="auto" allowfullscreen></iframe>
 </div>
 <!--<div class="image-caption">Zero Time Delay Input Shaping</div>-->
 </td>
