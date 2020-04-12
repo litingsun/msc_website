@@ -43,7 +43,7 @@ We also want to evaluate the overall performance of our system and provide some 
 <td>
 <div markdown="1">
 * <b>Task 1. Environment Monitoring with Human Motion Prediction using camera captured signals</b> <br>
-| [Brief](javascript:showhide("vib1")) | [More]({{ "/research/vibration-suppression.html" | prepend: site.baseurl }}) |
+| [Brief](javascript:showhide("vib1")) | [More](https://arxiv.org/abs/1903.02199) |
 
 </div>
 <div id="vib1" style="display:none;">
@@ -66,13 +66,13 @@ Co-robots can better assist the human worker by reasoning and predicting the wor
 * <b>Task 2. Task Planning with Skill Library that enables to co-robots to deal with difficult tasks</b>
 
 Subtopic 2.1. Skill library for intelligent co-robots
-| [Brief](javascript:showhide("skill")) | [More](javascript:toAppear()) |
+| [Brief](javascript:showhide("skill")) | [More](https://ieeexplore.ieee.org/abstract/document/8593668) |
 <div id="skill" style="display: none;">
 In task 2, we aim to expend the robot skill library. We teach the robot in many ways such as learning from human demostration and analogy learning. The goal is to teach the robot skills and allow the robot to generalize the skill to similer applications.  
 </div>
 
 Subtopic 2.2. Task planning for intelligent co-robots
-| [Brief](javascript:showhide("task_plan")) | [More](javascript:toAppear()) |
+| [Brief](javascript:showhide("task_plan")) |
 <div id="task_plan" style="display: none;">
 Coming soon.
 </div>
@@ -93,7 +93,7 @@ Coming soon.
 <td>
 <div markdown="1">
 * <b>Task 3. Safe and Efficient Motion Planning and Control in Real Time</b> <br>
-| [Brief](javascript:showhide("vib3")) | [More]({{ "/research/vibration-suppression.html" | prepend: site.baseurl }}) |
+| [Brief](javascript:showhide("vib3")) | [More](https://jessicaleu24.github.io/ACC2020.html) |
 
 </div>
 <div id="vib3" style="display:none;">
@@ -114,7 +114,7 @@ Co-robots works in dynamic environments, where human worker and other robots mov
 <td>
 <div markdown="1">
 * <b>Task 4. Evaluation of the SERoCS by Analyses, Simulations and Experiments</b> <br>
-| [Brief](javascript:showhide("vib4")) | [More]({{ "/research/vibration-suppression.html" | prepend: site.baseurl }}) |
+| [Brief](javascript:showhide("vib4")) | [More](https://arxiv.org/abs/2001.09550) |
 
 </div>
 <div id="vib4" style="display:none;">
