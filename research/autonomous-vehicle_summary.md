@@ -7,15 +7,22 @@ permalink: /research/autonomous-vehicle.html
 ### Contents:
 
 * [Introduction](#id1)
-* [Research Topics](#id2)
+* [Facilities and Datasets](#id2)
 * [Activities](#id3)
-* [Contact](#id4)
+* [Research Topics](#id4)
+* [Members and Contact](#id5)
 
 
 
 ## <a name="id1"></a>Introduction
 
-The core focus of our research is to understand the interactive human (driving) behavior and the scene with proper representations, and to predict and emulate the behavior to enable safe and high-quality autonomy for various mobility. Our viewpoint is to exploit the synergies of model-based planning/control methods and state-of-the-art machine learning techniques to combine our prior and what we can learn from data. In order to sufficiently support the focus, our research scope also expands to the fundamental aspects such as validation/evaluation and dataset construction. We also dive into perception from different perspectives and control for various platforms, and incorporate our behavior-related research insights into these aspects.
+The core focus of our research is to understand the interactive human (driving) behavior and the scene with proper representations, and to predict and emulate the behavior to enable safe and high-quality autonomy for various mobility. In order to sufficiently support the focus, our research scope also expands to the fundamental aspects such as validation/evaluation and dataset construction ([INTERACTION](https://interaction-dataset.com/) dataset for beahvior/prediction and [UrbanLoco](https://advdataset2019.wixsite.com/urbanloco) dataset for localization/mapping). We also dive into perception from different perspectives and control for various platforms, and incorporate our behavior-related research insights into these aspects. Our viewpoint is to exploit the synergies of model-based planning/control methods and state-of-the-art machine learning techniques to combine our prior and what we can learn from data. Several recent publications on prediction, decision-making, planning and control for autonomous driving by the group members received Best Student Paper or Best Paper Finalist in flagship conferences on robotics and intelligent vehicle/transportation, such as *IEEE/RSJ IROS*, *IEEE ITSC* and *IEEE IV*.
+
+
+
+## <a name="id2"></a>Facilities and Datasets
+
+### Facilities
 
 <table style="position:relative;">
 <tr>
@@ -41,13 +48,57 @@ The core focus of our research is to understand the interactive human (driving) 
 </td>
 </tr>  
 </table>
+### Datasets
+
+In addition to the hardware and software infrastructures, data is also a key asset for our research from perception and localization to prediction and planning. We published part of our internal datasets on driving behavior and localization in collaboration with our partners in Europe and Asia to facilitate the research community and accelerated industrial implementations. Please directly request the data via the websites for research purposes, or contact us if you are interested in commercial use.
+
+#### INTERACTION Dataset: highly interactive driving behavior with semantic map
+
+<table style="position:relative;">
+<tr>
+<td>
+<div markdown="1">
+- Dataset *[website](https://interaction-dataset.com/)*, prediction challenge [*website*](http://challenge.interaction-dataset.com/prediction-challenge/intro), dataset papers (*[arxiv](https://arxiv.org/abs/1910.03088)*, *[IROS19](https://ieeexplore.ieee.org/abstract/document/8967724)*).
+</div>
+</td>
+<td>
+<div style="position: relative; width: 100%; height: 0; padding-bottom: 56.3%;">
+<iframe style = "position: absolute; width: 100%; height: 100%; left: 0; top: 0;"
+  src="https://www.youtube.com/embed/6n6FkYwL08g" frameborder="0" controls="controls" preload="auto" allowfullscreen></iframe>
+</div>
+</td>
+</tr>
+</table>
+
+#### UrbanLoco Dataset: localization and mapping in dense urban scenes
+
+<table style="position:relative;">
+<tr>
+<td>
+<div markdown="1">
+- Dataset *[website](https://advdataset2019.wixsite.com/urbanloco)*, dataset paper (*[ICRA20](https://arxiv.org/abs/1912.09513)*), [*blog*](https://medium.com/@ourxxbluesky/urbanloco-a-new-challenge-for-urban-mapping-and-localization-200742ea7629).
+</div>
+</td>
+<td>
+<img style="width: 100%;" src="{{ site.baseurl }}/assets/images/research/autonomous/urbanloco.png">
+</td>
+</tr>
+</table>
 
 
-The group lead is Dr. [Wei Zhan](https://scholar.google.com/citations?user=xVN3UxYAAAAJ&hl=en#). The research activities are conducted by 2 Postdocs (Dr. [Wei Zhan](https://scholar.google.com/citations?user=xVN3UxYAAAAJ&hl=en#) and Dr. [Liting Sun](https://scholar.google.com/citations?user=BitIg-YAAAAJ&hl=en)) and 13 Ph.D. students with over 10 visiting researchers. Two datasets ([INTERACTION](https://interaction-dataset.com/) and [UrbanLoco](https://advdataset2019.wixsite.com/urbanloco)) were published. Several recent publications on autonomous driving by laboratory members received Best Student Paper or Best Paper Finalist in flagship conferences on robotics and intelligent vehicle/transportation, such as *IROS*, *ITSC* and *IV*.
+
+## <a name="id3"></a>Activities
+
+- **[ITSC 2020](https://www.ieee-itsc2020.org) Workshop** (Rhodes, Greece, September 2020): [Probabilistic Prediction and Comprehensible Motion Planning for Automated Vehicles – Approaches and Benchmarking](https://ieee-itsc2020.org/wp-content/uploads/2020/03/Probabilistic-Prediction-and-Comprehensible-Motion-Planning-for-Automated-Vehicles-–-Approaches-and-Benchmarking.pdf), organized by Maximilian Naumann, Martin Lauer, Liting Sun, Wei Zhan, Masayoshi Tomizuka, Arnaud de La Fortelle, Christoph Stiller.
+- **[RSS 2020](https://roboticsconference.org) Workshop** (virtual, June 2020): Interaction and Decision-Making in Autonomous-Driving, organized by Rowan McAllister, Liting Sun, Igor Gilitschenski, Daniela Rus.
+- The results of the first round [INTERPRET Challenge](http://challenge.interaction-dataset.com/prediction-challenge/intro) will be presented in **[CVPR 2020](http://cvpr2020.thecvf.com) Workshop** (Seattle, June 2020) organized by Waymo: [Scalability in Autonomous Driving](https://sites.google.com/view/cvpr20-scalability). 
+- **[IV 2020](https://2020.ieee-iv.org) Joint Workshops** (Las Vegas, postponed to October 2020): [From Benchmarking Behavior Prediction to Socially Compatible Behavior Generation in Autonomous Driving](https://sites.google.com/berkeley.edu/iv20-interaction/home), organized by Wei Zhan, Liting Sun, Maximilian Naumann. Jiachen Li and Masayoshi Tomizuka.
+- **[IROS 2019](https://www.iros2019.org) Workshop** (Macao, November 2019): [Benchmark and Dataset for Probabilistic Prediction of Interactive Human Behavior](https://sites.google.com/berkeley.edu/iros2019-ws-dataset-benmark/home), organized by Wei Zhan, Liting Sun and Masayoshi Tomizuka.
+- **[IV 2019](https://iv2019.org) Workshop** (Paris, June 2019): [Prediction and Decision Making for Socially Interactive Autonomous Driving](https://sites.google.com/berkeley.edu/iv19-interaction), organized by Wei Zhan, Jiachen Li, Liting Sun, Yeping Hu and Masayoshi Tomizuka.
 
 
 
-## <a name="id2"></a>Research Topics
+## <a name="id4"></a>Research Topics
 
 ### 1. Prediction, representation and emulation of interactive behavior 
 
@@ -79,7 +130,6 @@ The group lead is Dr. [Wei Zhan](https://scholar.google.com/citations?user=xVN3U
 <tr>
 <td>
 <div markdown="1">
-
 - Integrated decision/planning with interaction and negotiation: *[ITSC16](https://ieeexplore.ieee.org/abstract/document/7795595/)*, *[ACC16](https://www.researchgate.net/profile/Changliu_Liu/publication/305107862_Enabling_Safe_Freeway_Driving_for_Automated_Vehicles/links/5a7137810f7e9ba2e1cb1d90/Enabling-Safe-Freeway-Driving-for-Automated-Vehicles.pdf)*, [*SAE17*](https://www.sae.org/publications/technical-papers/content/2017-01-1406/), *[IV18-1](http://oss-cn-qingdao.aliyuncs.com/ccm-test/47d772fc485632f5b0e53977ffe59a0c.pdf)*, *[IV18-2](https://ieeexplore.ieee.org/abstract/document/8500702/)*, *[ACC19](https://arxiv.org/abs/1809.09735)*.
 - Safety and feasibility in imitation learning: *[IECON17](https://ieeexplore.ieee.org/abstract/document/8216790/)*, *[DSCC18](https://arxiv.org/abs/1707.02515)*, *[IROS19](https://arxiv.org/abs/1903.00640)*.
 - Reinforcement learning: *[IROS19](https://arxiv.org/abs/1904.06025)* *(**Best Paper Finalist**)*, *[IV18](https://www.researchgate.net/profile/Jianyu_Chen22/publication/328454880_Deep_Hierarchical_Reinforcement_Learning_for_Autonomous_Driving_with_Distinct_Behaviors/links/5be340a0299bf1124fc2dc59/Deep-Hierarchical-Reinforcement-Learning-for-Autonomous-Driving-with-Distinct-Behaviors.pdf)*, [*IV19*](https://ieeexplore.ieee.org/abstract/document/8813861), *[ITSC19](https://arxiv.org/abs/1904.09503)*, *[arxiv](https://arxiv.org/abs/2001.08726)*.
@@ -88,7 +138,7 @@ The group lead is Dr. [Wei Zhan](https://scholar.google.com/citations?user=xVN3U
 <td>
 <div style="position: relative; width: 100%; height: 0; padding-bottom: 56.3%;">
 <iframe style = "position: absolute; width: 100%; height: 100%; left: 0; top: 0;"
-  src="http://www.youtube.com/embed/pvHaYfN7Ciw" frameborder="0" controls="controls" preload="auto" allowfullscreen></iframe>
+  src="https://www.youtube.com/embed/eFEwedfJN94" frameborder="0" controls="controls" preload="auto" allowfullscreen></iframe>
 </div>
 </td>
 </tr>
@@ -100,13 +150,11 @@ The group lead is Dr. [Wei Zhan](https://scholar.google.com/citations?user=xVN3U
 <tr>
 <td>
 <div markdown="1">
-
 - Semantic representation and prediction: *[IV18](https://arxiv.org/abs/1804.03629)* *(**Best Student Paper**)*, [*arxiv*](https://arxiv.org/abs/2004.03053).
 - Incorporating vehicle kinematics into deep generative models: *[IV19](https://ieeexplore.ieee.org/abstract/document/8813783)*.
 - Probabilistic graphical model (*[ITSC18](https://arxiv.org/abs/1809.02927)*, *[ITSC19](https://ieeexplore.ieee.org/abstract/document/8917031)*)  and deep generative models (*[IV19](https://arxiv.org/abs/1905.00587)*, *[ICRA19-1](https://arxiv.org/abs/1904.02390)*, *[ICRA19-2](https://ieeexplore.ieee.org/abstract/document/8794130)*, *[IROS19](https://arxiv.org/abs/1905.01631)*)
 - Conditional variational auto-encoder (*[ITSC18](https://arxiv.org/abs/1810.12506)*) and its interpretability (*[IV19](https://arxiv.org/abs/1903.09381)*, [*TechXplore*](https://techxplore.com/news/2019-04-sequential-motions-interacting-agents.html)), as well as the combination with IRL (*[ITSC19](https://arxiv.org/abs/1907.10170)*).
 - Graph reasoning: [*arxiv-1*](https://arxiv.org/abs/2004.03053), *[arxiv-2](https://arxiv.org/pdf/2002.06241.pdf)*,  [*arxiv-3*](https://arxiv.org/abs/2003.13924).
-
 </div>
 </td>
 <td>
@@ -132,52 +180,67 @@ The group lead is Dr. [Wei Zhan](https://scholar.google.com/citations?user=xVN3U
 </table>
 
 
-### 2. Data and perception for humans, vehicles and cities
+### 2. Perception, mapping and localization for humans, vehicles and cities
 
-**Application**: dataset construction for human (driving) behavior and mapping/localization, detection/tracking/mapping with onboard sensors, traffic cameras/drones, connectivity, as well as occlusion inference via behavior of others.
+**Application**: detection/tracking/mapping/localization with onboard sensors, traffic cameras/drones, connectivity, as well as occlusion inference via behavior of others.
 
-#### 2.1 INTERACTION Dataset: highly interactive driving behavior with semantic map
+#### 2.1 3D detection and segmentation with LiDARs and cameras
 <table style="position:relative;">
 <tr>
 <td>
 <div markdown="1">
-- Dataset *[website](https://interaction-dataset.com/)*, prediction challenge [*website*](http://challenge.interaction-dataset.com/prediction-challenge/intro), dataset papers (*[arxiv](https://arxiv.org/abs/1910.03088)*, *[IROS19](https://ieeexplore.ieee.org/abstract/document/8967724)*).
-</div>
-</td>
-</tr>
-</table>
-#### 2.2 UrbanLoco Dataset: localization and mapping in dense urban scenes
-<table style="position:relative;">
-<tr>
-<td>
-<div markdown="1">
-- Dataset *[website](https://advdataset2019.wixsite.com/urbanloco)*, dataset paper (*[ICRA20](https://arxiv.org/abs/1912.09513)*), [*blog*](https://medium.com/@ourxxbluesky/urbanloco-a-new-challenge-for-urban-mapping-and-localization-200742ea7629).
-</div>
-</td>
-</tr>
-</table>
-#### 2.3 3D detection/segmentation/reconstruction with LiDARs and cameras
-<table style="position:relative;">
-<tr>
-<td>
-<div markdown="1">
-- 3D segmentation and detection (with LiDAR-camera fusion): [*arxiv-1*](https://arxiv.org/abs/2004.01803), [*arxiv-2*](https://arxiv.org/abs/1910.04853), *[IV19](https://arxiv.org/abs/1811.03818)*, *[IV18](https://arxiv.org/abs/1711.06703)*.
-- 3D point cloud reconstruction and registration: *[IROS19](https://ieeexplore.ieee.org/abstract/document/8967589)*, [*IFAC20*](https://arxiv.org/abs/1912.05016).
+- 3D point cloud segmentation: [*arxiv*](https://arxiv.org/abs/2004.01803).
+- 3D detection with LiDAR-camera fusion: [*arxiv*](https://arxiv.org/abs/1910.04853), *[IV19](https://arxiv.org/abs/1811.03818)*, *[IV18](https://arxiv.org/abs/1711.06703)*.
 - Detection from bird's eye view: *[arxiv](https://arxiv.org/abs/1912.09632)*.
 </div>
 </td>
-</tr>
-</table>
-#### 2.4 Occluded object tracking, social perception and cooperative perception
-<table style="position:relative;">
-<tr>
 <td>
-<div markdown="1">
-- [*Trans-ITS*](https://arxiv.org/abs/1908.09031), *[IV18](https://arxiv.org/abs/1809.10237)*, *[IV19](https://arxiv.org/abs/1905.00988)*, [*TechXplore*](https://techxplore.com/news/2019-05-social-perception-scheme-behavior-autonomous.html).
+<div style="position: relative; width: 100%; height: 0; padding-bottom: 56.3%;">
+<iframe style = "position: absolute; width: 100%; height: 100%; left: 0; top: 0;"
+  src="https://www.youtube.com/embed/7q-GKPVHosU" frameborder="0" controls="controls" preload="auto" allowfullscreen></iframe>
 </div>
 </td>
 </tr>
 </table>
+
+#### 2.2 Mapping, localization and 3D reconstruction
+
+<table style="position:relative;">
+<tr>
+<td>
+<div markdown="1">
+- 3D point cloud reconstruction and registration: *[IROS19](https://ieeexplore.ieee.org/abstract/document/8967589)*, [*IFAC20*](https://arxiv.org/abs/1912.05016).
+- Automatic HD map generation with semantics.
+- City-scale mapping and localization.
+- Object removal for better mapping and localization.
+</div>
+</td>
+<td>
+<div style="position: relative; width: 100%; height: 0; padding-bottom: 56.3%;">
+<iframe style = "position: absolute; width: 100%; height: 100%; left: 0; top: 0;"
+  src="https://www.youtube.com/embed/CDp6mocT6C4" frameborder="0" controls="controls" preload="auto" allowfullscreen></iframe>
+</div>
+</td>
+</tr>
+</table>
+
+#### 2.3 Occluded object detection and tracking via social/cooperative perception
+
+<table style="position:relative;">
+<tr>
+<td>
+<div markdown="1">
+- Occluded object tracking by inferring from motions of its surrounding objects: [*Trans-ITS*](https://arxiv.org/abs/1908.09031), *[IV18](https://arxiv.org/abs/1809.10237)*. 
+- Social perception to infer existence of occluded objects from behavior of others: *[IV19](https://arxiv.org/abs/1905.00988)*, [*TechXplore*](https://techxplore.com/news/2019-05-social-perception-scheme-behavior-autonomous.html).
+- Cooperative perception to achieve better detection and tracking of occluded object via connectivity.
+</div>
+</td>
+<td>
+<img style="width: 100%;" src="{{ site.baseurl }}/assets/images/research/autonomous/urbanloco.png">
+</td>
+</tr>
+</table>
+
   
 
 ### 3. Validation and simulation for autonomy and environments
@@ -193,8 +256,12 @@ The group lead is Dr. [Wei Zhan](https://scholar.google.com/citations?user=xVN3U
 - INTERPRET Challenge: [*website*](http://challenge.interaction-dataset.com).
 </div>
 </td>
+<td>
+<img style="width: 100%;" src="{{ site.baseurl }}/assets/images/research/autonomous/INTERPRET.png">
+</td>
 </tr>
 </table>
+
 #### 3.2 Uncertainty estimation and evaluation for perception and localization
 <table style="position:relative;">
 <tr>
@@ -204,8 +271,15 @@ The group lead is Dr. [Wei Zhan](https://scholar.google.com/citations?user=xVN3U
 - Uncertainty estimation in LiDAR-base localization: *[IET EL Letter](https://digital-library.theiet.org/content/journals/10.1049/el.2018.8075)*.
 </div>
 </td>
+<td>
+<div style="position: relative; width: 100%; height: 0; padding-bottom: 56.3%;">
+<iframe style = "position: absolute; width: 100%; height: 100%; left: 0; top: 0;"
+  src="https://www.youtube.com/embed/pH5qT11vmyM" frameborder="0" controls="controls" preload="auto" allowfullscreen></iframe>
+</div>
+</td>
 </tr>
 </table>
+
 #### 3.3 Testing prediction/decision/planning in simulation
 <table style="position:relative;">
 <tr>
@@ -240,8 +314,15 @@ The group lead is Dr. [Wei Zhan](https://scholar.google.com/citations?user=xVN3U
 - *[Trans-ITS](https://ieeexplore.ieee.org/document/8924943)*, *[ITSC18](https://arxiv.org/abs/1812.03216)* *(**Best Student Paper**)*.
 </div>
 </td>
+<td>
+<div style="position: relative; width: 100%; height: 0; padding-bottom: 56.3%;">
+<iframe style = "position: absolute; width: 100%; height: 100%; left: 0; top: 0;"
+  src="https://www.youtube.com/embed/fFKJu2jeHm4" frameborder="0" controls="controls" preload="auto" allowfullscreen></iframe>
+</div>
+</td>
 </tr>
 </table>
+
 #### 4.3 Vehicle dynamics, state estimation and control
 <table style="position:relative;">
 <tr>
@@ -259,28 +340,28 @@ The group lead is Dr. [Wei Zhan](https://scholar.google.com/citations?user=xVN3U
   - Fault tolerant control: [*Trans-Mech*](https://ieeexplore.ieee.org/abstract/document/1395861), [*IFAC*](https://www.sciencedirect.com/science/article/pii/S1474667017339198).
 </div>
 </td>
+<td>
+<div style="position: relative; width: 100%; height: 0; padding-bottom: 56.3%;">
+<iframe style = "position: absolute; width: 100%; height: 100%; left: 0; top: 0;"
+  src="https://www.youtube.com/embed/RvjI4cpZAAE" frameborder="0" controls="controls" preload="auto" allowfullscreen></iframe>
+</div>
+</td>
 </tr>
 </table>
 
 
-## <a name="id3"></a>Activities
 
-- **[ITSC 2020](https://www.ieee-itsc2020.org) Workshop** (Rhodes, Greece, September 2020): [Probabilistic Prediction and Comprehensible Motion Planning for Automated Vehicles – Approaches and Benchmarking](https://ieee-itsc2020.org/wp-content/uploads/2020/03/Probabilistic-Prediction-and-Comprehensible-Motion-Planning-for-Automated-Vehicles-–-Approaches-and-Benchmarking.pdf), organized by Maximilian Naumann, Martin Lauer, Liting Sun, Wei Zhan, Masayoshi Tomizuka, Arnaud de La Fortelle, Christoph Stiller.
-- **[RSS 2020](https://roboticsconference.org) Workshop** (virtual, June 2020): Interaction and Decision-Making in Autonomous-Driving, organized by Rowan McAllister, Liting Sun, Igor Gilitschenski, Daniela Rus.
-- The results of the first round [INTERPRET Challenge](http://challenge.interaction-dataset.com/prediction-challenge/intro) will be presented in **[CVPR 2020](http://cvpr2020.thecvf.com) Workshop** (Seattle, June 2020) organized by Waymo: [Scalability in Autonomous Driving](https://sites.google.com/view/cvpr20-scalability). 
-- **[IV 2020](https://2020.ieee-iv.org) Joint Workshops** (Las Vegas, postponed to October 2020): [From Benchmarking Behavior Prediction to Socially Compatible Behavior Generation in Autonomous Driving](https://sites.google.com/berkeley.edu/iv20-interaction/home), organized by Wei Zhan, Liting Sun, Maximilian Naumann. Jiachen Li and Masayoshi Tomizuka.
-- **[IROS 2019](https://www.iros2019.org) Workshop** (Macao, November 2019): [Benchmark and Dataset for Probabilistic Prediction of Interactive Human Behavior](https://sites.google.com/berkeley.edu/iros2019-ws-dataset-benmark/home), organized by Wei Zhan, Liting Sun and Masayoshi Tomizuka.
-- **[IV 2019](https://iv2019.org) Workshop** (Paris, June 2019): [Prediction and Decision Making for Socially Interactive Autonomous Driving](https://sites.google.com/berkeley.edu/iv19-interaction), organized by Wei Zhan, Jiachen Li, Liting Sun, Yeping Hu and Masayoshi Tomizuka.
+## <a name="id5"></a>Members and Contact
 
+The group lead is Dr. [Wei Zhan](https://scholar.google.com/citations?user=xVN3UxYAAAAJ&hl=en#). The research activities are conducted by 2 Postdocs (Dr. [Wei Zhan](https://scholar.google.com/citations?user=xVN3UxYAAAAJ&hl=en#) and Dr. [Liting Sun](https://scholar.google.com/citations?user=BitIg-YAAAAJ&hl=en)) and 13 Ph.D. students (following headshots) with over 10 visiting researchers. 
 
-
-## <a name="id4"></a>Contact
+<img width = "100%" src="{{ site.baseurl }}/assets/images/research/autonomous/headshots.jpg">
 
 Please contact Dr. Wei Zhan (wzhan@berkeley.edu) and Professor Masayoshi Tomizuka (tomizuka@berkeley.edu) for more information if you are interested in the topics above by
 
 - working with us (join/visit the group or collaborate) from academia, or
 - research collaboration from industry.
 
-<img width = "100%" src="{{ site.baseurl }}/assets/images/research/autonomous/headshots.jpg">
+
 
 
