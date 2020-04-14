@@ -16,7 +16,7 @@ permalink: /research/autonomous-vehicle.html
 
 ## <a name="id1"></a>Introduction
 
-The core focus of our research is to understand the interactive human (driving) behavior and the scene with proper representations, and to predict and emulate the behavior to enable safe and high-quality autonomy for various mobility. In order to sufficiently support the focus, our research scope also expands to the fundamental aspects such as validation/evaluation and dataset construction ([INTERACTION](https://interaction-dataset.com/) dataset for beahvior/prediction and [UrbanLoco](https://advdataset2019.wixsite.com/urbanloco) dataset for localization/mapping). We also dive into perception from different perspectives and control for various platforms, and incorporate our behavior-related research insights into these aspects. Our viewpoint is to exploit the synergies of model-based planning/control methods and state-of-the-art machine learning techniques to combine our prior and what we can learn from data. Several recent publications on prediction, decision-making, planning and control for autonomous driving by the group members received Best Student Paper or Best Paper Finalist in flagship conferences on robotics and intelligent vehicle/transportation, such as *IEEE/RSJ IROS*, *IEEE ITSC* and *IEEE IV*.
+The core focus of our research is to understand the interactive human (driving) behavior and the scene with proper representations, and to predict and emulate the behavior to enable safe and high-quality autonomy for various mobility. In order to sufficiently support the focus, our research scope also expands to the fundamental aspects such as validation/evaluation and dataset construction ([INTERACTION](https://interaction-dataset.com/) dataset for beahvior/prediction and [UrbanLoco](https://advdataset2019.wixsite.com/urbanloco) dataset for localization/mapping). We also dive into perception from different perspectives and control for various platforms, and incorporate our behavior-related research insights into these aspects. Our viewpoint is to exploit the synergies of model-based planning/control methods and state-of-the-art machine learning techniques to combine our prior and what we can learn from data. Several recent publications on prediction, decision-making, planning and control for autonomous driving by the group members have received Best Student Paper or Best Paper Finalist in flagship conferences on robotics and intelligent vehicle/transportation, such as *IEEE/RSJ IROS*, *IEEE ITSC* and *IEEE IV*.
 
 
 
@@ -41,16 +41,17 @@ The core focus of our research is to understand the interactive human (driving) 
 <b>Data-collection vehicle</b>: with a high-end navigation system, and a LiDAR calibrated and synchronized with 6 cameras.
 </td>
 <td>
-<b>Data collection and tests in simulation</b>: 2 sets of driving simulator interfaces composed with parts from real vehicles.
+<b>Data collection and tests in simulation</b>: Two sets of driving simulator interfaces composed with parts from real vehicles.
 </td>
 <td>
 <b>Autonomous vehicles</b>: Our algorithms were tested on autonomous vehicles in test fields supported by our sponsors.
 </td>
 </tr>  
 </table>
+
 ### Datasets
 
-In addition to the hardware and software infrastructures, data is also a key asset for our research from perception and localization to prediction and planning. We published part of our internal datasets on driving behavior and localization in collaboration with our partners in Europe and Asia to facilitate the research community and accelerated industrial implementations. Please directly request the data via the websites for research purposes, or contact us if you are interested in commercial use.
+In addition to the hardware and software infrastructures, data is another key asset for research spanning from perception and localization to prediction and planning. We published part of our internal datasets on driving behavior and localization in collaboration with our partners in Europe and Asia to facilitate the research community and accelerate industrial implementations. Please directly request the data via the websites for research purposes, or contact us if you are interested in commercial use.
 
 #### INTERACTION Dataset: highly interactive driving behavior with semantic map
 
@@ -86,14 +87,39 @@ In addition to the hardware and software infrastructures, data is also a key ass
 </table>
 
 
-
 ## <a name="id3"></a>Activities
 
-- **[ITSC 2020](https://www.ieee-itsc2020.org) Workshop** (Rhodes, Greece, September 2020): [Probabilistic Prediction and Comprehensible Motion Planning for Automated Vehicles – Approaches and Benchmarking](https://ieee-itsc2020.org/wp-content/uploads/2020/03/Probabilistic-Prediction-and-Comprehensible-Motion-Planning-for-Automated-Vehicles-–-Approaches-and-Benchmarking.pdf), organized by Maximilian Naumann, Martin Lauer, Liting Sun, Wei Zhan, Masayoshi Tomizuka, Arnaud de La Fortelle, Christoph Stiller.
-- **[RSS 2020](https://roboticsconference.org) Workshop** (virtual, June 2020): Interaction and Decision-Making in Autonomous-Driving, organized by Rowan McAllister, Liting Sun, Igor Gilitschenski, Daniela Rus.
-- The results of the first round [INTERPRET Challenge](http://challenge.interaction-dataset.com/prediction-challenge/intro) will be presented in **[CVPR 2020](http://cvpr2020.thecvf.com) Workshop** (Seattle, June 2020) organized by Waymo: [Scalability in Autonomous Driving](https://sites.google.com/view/cvpr20-scalability). 
-- **[IV 2020](https://2020.ieee-iv.org) Joint Workshops** (Las Vegas, postponed to October 2020): [From Benchmarking Behavior Prediction to Socially Compatible Behavior Generation in Autonomous Driving](https://sites.google.com/berkeley.edu/iv20-interaction/home), organized by Wei Zhan, Liting Sun, Maximilian Naumann. Jiachen Li and Masayoshi Tomizuka.
+#### [INTERPRET: INTERACTION-Dataset-based PREdicTion Challenge](http://challenge.interaction-dataset.com)
+
+<table style="position:relative;">
+<tr>
+<td>
+<div markdown="1">
+In the field of autonomous driving, it is a consensus in both academia and industry that behavior prediction (e.g., trajectories, actions, intentions) is one of the most challenging problems blocking the realization of full autonomy. Unfortunately, there are yet no benchmark to fairly compare the performance of different prediction models/algorithms, particularly when the influence of prediction performance in a closed-loop format (integrated with different planners) is considered. To expedite research and inspire discussions on the evaluation of prediction models/algorithms, we present the [INTERACTION-dataset](https://interaction-dataset.com/)-based PREdicTion [(INTERPRET) Challenge](http://challenge.interaction-dataset.com). This is a step towards the construction of effective and valuable predictors for the development of autonomous driving.
+</div>
+</td>
+<td>
+<img style="width: 100%;" src="{{ site.baseurl }}/assets/images/research/autonomous/INTERPRET.png">
+</td>
+</tr>
+</table>
+
+#### Workshops & competitions in flagship conferences
+
+##### Machine learning community
+
+- **[Competition at NeurIPS 2020]** (December 2020) We will organize a behavior prediction challenge in highly interactive driving scenarios, i.e., the  [INTERPRET Challenge](http://challenge.interaction-dataset.com/prediction-challenge/intro), as a regular competition at NeurIPS 2020! The [INTERACTION Dataset](https://interaction-dataset.com/) will be used in the challenge. Details will be announced soon.
+- **[CVPR 2020] Workshop** (Seattle, June 2020) The results of the first round [INTERPRET Challenge](http://challenge.interaction-dataset.com/prediction-challenge/intro) will also be presented in **[CVPR 2020](http://cvpr2020.thecvf.com) Workshop** organized by Waymo: [Scalability in Autonomous Driving](https://sites.google.com/view/cvpr20-scalability). 
+
+##### Robotics community
+
+- **[RSS 2020](https://roboticsconference.org) Workshop** (virtual, June 2020): Interaction and Decision-Making in Autonomous-Driving, organized by Rowan McAllister, Liting Sun, Igor Gilitschenski, and Daniela Rus.
 - **[IROS 2019](https://www.iros2019.org) Workshop** (Macao, November 2019): [Benchmark and Dataset for Probabilistic Prediction of Interactive Human Behavior](https://sites.google.com/berkeley.edu/iros2019-ws-dataset-benmark/home), organized by Wei Zhan, Liting Sun and Masayoshi Tomizuka.
+
+##### Intelligent transportation/vehicle community
+
+- **[IV 2020](https://2020.ieee-iv.org) Joint Workshops** (Las Vegas, postponed to October 2020): [From Benchmarking Behavior Prediction to Socially Compatible Behavior Generation in Autonomous Driving](https://sites.google.com/berkeley.edu/iv20-interaction/home), organized by Wei Zhan, Liting Sun, Maximilian Naumann, Jiachen Li and Masayoshi Tomizuka.
+- **[ITSC 2020](https://www.ieee-itsc2020.org) Workshop** (Rhodes, Greece, September 2020): [Probabilistic Prediction and Comprehensible Motion Planning for Automated Vehicles – Approaches and Benchmarking](https://ieee-itsc2020.org/wp-content/uploads/2020/03/Probabilistic-Prediction-and-Comprehensible-Motion-Planning-for-Automated-Vehicles-–-Approaches-and-Benchmarking.pdf), organized by Maximilian Naumann, Martin Lauer, Liting Sun, Wei Zhan, Masayoshi Tomizuka, Arnaud de La Fortelle, Christoph Stiller.
 - **[IV 2019](https://iv2019.org) Workshop** (Paris, June 2019): [Prediction and Decision Making for Socially Interactive Autonomous Driving](https://sites.google.com/berkeley.edu/iv19-interaction), organized by Wei Zhan, Jiachen Li, Liting Sun, Yeping Hu and Masayoshi Tomizuka.
 
 
@@ -104,16 +130,18 @@ In addition to the hardware and software infrastructures, data is also a key ass
 
 **Application**: prediction, decision-making and behavior planning for autonomous vehicles, comprehension and modeling of interactive, social behavior, (scene/motion) representation learning and construction, imitation and generation of human (driving) behavior.
 
-#### 1.1 Inverse optimal control (inverse reinforcement learning, IRL) and game theory
+#### 1.1 Inverse reinforcement learning (IRL, also inverse optimal control) and game theory for human-like behavior generation
 
 <table style="position:relative;">
 <tr>
 <td>
 <div markdown="1">
-- Social factors such as courtesy (*[IROS18](https://arxiv.org/abs/1808.02633)*) and irrationality (*[ITSC19](https://arxiv.org/abs/1907.08707)*) for interactive prediction and planning with IRL.
-- Interactive, probabilistic prediction with hierarchical IRL: *[ITSC18](https://arxiv.org/abs/1809.02926)*, *[ITSC19](https://arxiv.org/abs/1907.10170)*
-- Learning cost for planning by IRL: *[IV19](https://arxiv.org/abs/1905.00988)*, [*TechXplore*](https://techxplore.com/news/2019-05-social-perception-scheme-behavior-autonomous.html), *ICRA20*.
-- Game theory: papers to appear.
+- Modeling, learning and imitating social behaviors from humans, from planning behavior to perception behavior: (*[IROS18](https://arxiv.org/abs/1808.02633)*, *[IV19](https://arxiv.org/abs/1905.00988)*, [*TechXplore*](https://techxplore.com/news/2019-05-social-perception-scheme-behavior-autonomous.html))
+- A hierarchical IRL algorithm to capture the hierarchical structure of human decision-making process: *[ITSC18](https://arxiv.org/abs/1809.02926)*
+- Exploring and expressing the irrationality of human behaviors via a risk-sensitivity IRL algorithm: (*[ITSC19](https://arxiv.org/abs/1907.08707)*) 
+- A better prediction model by online combination of deep learning models with IRL models: *[ITSC19](https://arxiv.org/abs/1907.10170)*
+- Learning generic and suitable cost functions for driving: *ICRA20*.
+- Modeling the multi-agent interaction based on Game Theory: papers to appear.
 </div>
 </td>
 <td>
@@ -124,6 +152,7 @@ In addition to the hardware and software infrastructures, data is also a key ass
 </td>
 </tr>
 </table>
+
 #### 1.2 Decision and planning under uncertainty with interaction
 
 <table style="position:relative;">
@@ -151,10 +180,10 @@ In addition to the hardware and software infrastructures, data is also a key ass
 <td>
 <div markdown="1">
 - Semantic representation and prediction: *[IV18](https://arxiv.org/abs/1804.03629)* *(**Best Student Paper**)*, [*arxiv*](https://arxiv.org/abs/2004.03053).
-- Incorporating vehicle kinematics into deep generative models: *[IV19](https://ieeexplore.ieee.org/abstract/document/8813783)*.
-- Probabilistic graphical model (*[ITSC18](https://arxiv.org/abs/1809.02927)*, *[ITSC19](https://ieeexplore.ieee.org/abstract/document/8917031)*)  and deep generative models (*[IV19](https://arxiv.org/abs/1905.00587)*, *[ICRA19-1](https://arxiv.org/abs/1904.02390)*, *[ICRA19-2](https://ieeexplore.ieee.org/abstract/document/8794130)*, *[IROS19](https://arxiv.org/abs/1905.01631)*)
+- Probabilistic graphical model (*[ITSC18](https://arxiv.org/abs/1809.02927)*, *[ITSC19](https://ieeexplore.ieee.org/abstract/document/8917031)*) and deep generative models (*[IV19](https://arxiv.org/abs/1905.00587)*, *[ICRA19-1](https://arxiv.org/abs/1904.02390)*, *[ICRA19-2](https://ieeexplore.ieee.org/abstract/document/8794130)*, *[IROS19](https://arxiv.org/abs/1905.01631)*) incorporating vehicle kinematics (*[IV19](https://ieeexplore.ieee.org/abstract/document/8813783)*)
 - Conditional variational auto-encoder (*[ITSC18](https://arxiv.org/abs/1810.12506)*) and its interpretability (*[IV19](https://arxiv.org/abs/1903.09381)*, [*TechXplore*](https://techxplore.com/news/2019-04-sequential-motions-interacting-agents.html)), as well as the combination with IRL (*[ITSC19](https://arxiv.org/abs/1907.10170)*).
-- Graph reasoning: [*arxiv-1*](https://arxiv.org/abs/2004.03053), *[arxiv-2](https://arxiv.org/pdf/2002.06241.pdf)*,  [*arxiv-3*](https://arxiv.org/abs/2003.13924).
+- Graph reasoning (graph neural network): [*arxiv-1*](https://arxiv.org/abs/2004.03053), *[arxiv-2](https://arxiv.org/pdf/2002.06241.pdf)*,  [*arxiv-3*](https://arxiv.org/abs/2003.13924).
+- Heterogeneous road users (pedestrian-vehicle interaction): *[ITSC19](https://ieeexplore.ieee.org/abstract/document/8917031)*, [*arxiv*](https://arxiv.org/abs/2003.13924).
 </div>
 </td>
 <td>
@@ -166,6 +195,7 @@ In addition to the hardware and software infrastructures, data is also a key ass
 </tr>
 </table>
 
+
 #### 1.4 Scene/motion representation learning and construction
 
 <table style="position:relative;">
@@ -176,8 +206,15 @@ In addition to the hardware and software infrastructures, data is also a key ass
 - Representation learning: [*arxiv*](http://arxiv.org/abs/2003.12464), and papers to appear.
 </div>
 </td>
+<td>
+<div style="position: relative; width: 100%; height: 0; padding-bottom: 56.3%;">
+<iframe style = "position: absolute; width: 100%; height: 100%; left: 0; top: 0;"
+  src="https://www.youtube.com/embed/HZJVxYPBUbk" frameborder="0" controls="controls" preload="auto" allowfullscreen></iframe>
+</div>
+</td>
 </tr>
 </table>
+
 
 
 ### 2. Perception, mapping and localization for humans, vehicles and cities
@@ -236,14 +273,15 @@ In addition to the hardware and software infrastructures, data is also a key ass
 </div>
 </td>
 <td>
-<img style="width: 100%;" src="{{ site.baseurl }}/assets/images/research/autonomous/urbanloco.png">
+<img style="width: 100%;" src="{{ site.baseurl }}/assets/images/research/autonomous/social-perception.png">
 </td>
 </tr>
 </table>
 
-  
 
-### 3. Validation and simulation for autonomy and environments
+
+
+### 3. Validation/test and simulation for autonomy and environments
 
 **Application**: test and evaluation of prediction/planning/perception/localization modules by reconstructing the real world and utilizing high-quality data.
 
@@ -257,10 +295,11 @@ In addition to the hardware and software infrastructures, data is also a key ass
 </div>
 </td>
 <td>
-<img style="width: 100%;" src="{{ site.baseurl }}/assets/images/research/autonomous/INTERPRET.png">
+<img style="width: 100%;" src="{{ site.baseurl }}/assets/images/research/autonomous/fatality-metric.png">
 </td>
 </tr>
 </table>
+
 
 #### 3.2 Uncertainty estimation and evaluation for perception and localization
 <table style="position:relative;">
@@ -274,11 +313,12 @@ In addition to the hardware and software infrastructures, data is also a key ass
 <td>
 <div style="position: relative; width: 100%; height: 0; padding-bottom: 56.3%;">
 <iframe style = "position: absolute; width: 100%; height: 100%; left: 0; top: 0;"
-  src="https://www.youtube.com/embed/pH5qT11vmyM" frameborder="0" controls="controls" preload="auto" allowfullscreen></iframe>
+  src="https://www.youtube.com/embed/aA3pdscot-o" frameborder="0" controls="controls" preload="auto" allowfullscreen></iframe>
 </div>
 </td>
 </tr>
 </table>
+
 
 #### 3.3 Testing prediction/decision/planning in simulation
 <table style="position:relative;">
@@ -304,14 +344,22 @@ In addition to the hardware and software infrastructures, data is also a key ass
 - Sample-based and graph search: *IFAC20*, *[IV17-1](https://ieeexplore.ieee.org/abstract/document/7995789/),* *[IV17-2](http://www.cs.cmu.edu/~cliu6/files/iv17-1.pdf)*.
 </div>
 </td>
+<td>
+<div style="position: relative; width: 100%; height: 0; padding-bottom: 56.3%;">
+<iframe style = "position: absolute; width: 100%; height: 100%; left: 0; top: 0;"
+  src="https://www.youtube.com/embed/-VA_6LmLi4U" frameborder="0" controls="controls" preload="auto" allowfullscreen></iframe>
+</div>
+</td>
 </tr>
 </table>
-#### 4.2 Policy transfer and robust control
+
+#### 4.2 Policy transfer, safe learning and control
 <table style="position:relative;">
 <tr>
 <td>
 <div markdown="1">
-- *[Trans-ITS](https://ieeexplore.ieee.org/document/8924943)*, *[ITSC18](https://arxiv.org/abs/1812.03216)* *(**Best Student Paper**)*.
+- Policy transfer with robust control: *[Trans-ITS](https://ieeexplore.ieee.org/document/8924943)*, *[ITSC18](https://arxiv.org/abs/1812.03216)* *(**Best Student Paper**)*.
+- Safe learning and control.
 </div>
 </td>
 <td>
@@ -323,12 +371,14 @@ In addition to the hardware and software infrastructures, data is also a key ass
 </tr>
 </table>
 
+
 #### 4.3 Vehicle dynamics, state estimation and control
 <table style="position:relative;">
 <tr>
 <td>
 <div markdown="1">
 - System identification: *IV20*. 
+- Adaptive and robust control: papers to appear.
 - Estimation and control with connectivity: *[Sensors](https://www.mdpi.com/1424-8220/19/13/2983)*.
 - Selective vehicle dynamics and control research in MSC Lab (in collaboration with California PATH) over a decade ago: 
   - Heavy-duty vehicle (truck with trailer) control: [*PATH-report*](https://www.researchgate.net/publication/46439115_Lateral_Control_of_Heavy_Duty_Vehicles_for_Automated_Highway_System_Experimental_Study_on_a_Tractor_Semi-trailer).
@@ -351,9 +401,10 @@ In addition to the hardware and software infrastructures, data is also a key ass
 
 
 
+
 ## <a name="id5"></a>Members and Contact
 
-The group lead is Dr. [Wei Zhan](https://scholar.google.com/citations?user=xVN3UxYAAAAJ&hl=en#). The research activities are conducted by 2 Postdocs (Dr. [Wei Zhan](https://scholar.google.com/citations?user=xVN3UxYAAAAJ&hl=en#) and Dr. [Liting Sun](https://scholar.google.com/citations?user=BitIg-YAAAAJ&hl=en)) and 13 Ph.D. students (following headshots) with over 10 visiting researchers. 
+The group lead is Dr. [Wei Zhan](https://scholar.google.com/citations?user=xVN3UxYAAAAJ&hl=en#). The research activities are coordinated by 2 Postdocs (Dr. [Wei Zhan](https://scholar.google.com/citations?user=xVN3UxYAAAAJ&hl=en#) and Dr. [Liting Sun](https://scholar.google.com/citations?user=BitIg-YAAAAJ&hl=en)) and conducted by 13 Ph.D. students (following headshots) with over 10 visiting researchers. 
 
 <img width = "100%" src="{{ site.baseurl }}/assets/images/research/autonomous/headshots.jpg">
 
