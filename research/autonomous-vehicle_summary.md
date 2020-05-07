@@ -7,6 +7,7 @@ permalink: /research/autonomous-vehicle.html
 ### Contents:
 
 * [Introduction](#id1)
+* [Joining Our Group](#join)
 * [Facilities and Datasets](#id2)
 * [Activities](#id3)
 * [Research Topics](#id4)
@@ -16,7 +17,23 @@ permalink: /research/autonomous-vehicle.html
 
 ## <a name="id1"></a>Introduction
 
-The core focus of our research is to understand the interactive human (driving) behavior and the scene with proper representations, and to predict and emulate the behavior to enable safe and high-quality autonomy for various mobility. In order to sufficiently support the focus, our research scope also expands to the fundamental aspects such as validation/evaluation and dataset construction ([INTERACTION](https://interaction-dataset.com/) dataset for beahvior/prediction and [UrbanLoco](https://advdataset2019.wixsite.com/urbanloco) dataset for localization/mapping). We also dive into perception from different perspectives and control for various platforms, and incorporate our behavior-related research insights into these aspects. Our viewpoint is to exploit the synergies of model-based planning/control methods and state-of-the-art machine learning techniques to combine our prior and what we can learn from data. Several recent publications on prediction, decision-making, planning and control for autonomous driving by the group members have received Best Student Paper or Best Paper Finalist in flagship conferences on robotics and intelligent vehicle/transportation, such as *IEEE/RSJ IROS*, *IEEE ITSC* and *IEEE IV*.
+The core focus of our research is to understand the interactive human (driving) behavior and the scene with proper representations, and to predict and emulate the behavior to enable safe and high-quality autonomy for various mobility. In order to sufficiently support the focus, our research scope also expands to the fundamental aspects such as validation/evaluation and dataset construction ([INTERACTION](https://interaction-dataset.com/) dataset for behavior/prediction and [UrbanLoco](https://advdataset2019.wixsite.com/urbanloco) dataset for localization/mapping). We also dive into perception from different perspectives and control for various platforms, and incorporate our behavior-related research insights into these aspects. Our viewpoint is to exploit the synergies of model-based planning/control methods and state-of-the-art machine learning techniques to combine our prior and what we can learn from data. Several recent publications on prediction, decision-making, planning and control for autonomous driving by the group members have received Best Student Paper or Best Paper Finalist in flagship conferences on robotics and intelligent vehicle/transportation, such as *IEEE/RSJ IROS*, *IEEE ITSC* and *IEEE IV*.
+
+
+
+## <a name="join"></a>Joining Our Group
+
+Please send an email to Professor Masayoshi Tomizuka (tomizuka@berkeley.edu) and Dr. Wei Zhan (wzhan@berkeley.edu) if you are interested in our [Research Topics](#id4) and joining our group. 
+
+- We are welcoming Berkeley students to directly work with us, or students out of Berkeley to visit us. We also accept virtual visit to work with us remotely for those with difficulties to conduct a physical visit. Please note that an experience will not be recognized without a formal interview and approval by the faculty and postdocs.
+- For prospective Ph.D. students, please apply to the Mechanical Engineering Department of UC Berkeley by December 1st and send an email to address your strengths and interests.
+
+Please make sure that the following aspects are well covered in your application email. 
+
+- Indicate in the email about your 1) primary goal of the research experience and particular interests; 2) start and end dates for working with us; 3) uniqueness and strength on research experiences/publications and/or skills and knowledge; 4) long-term/career goals.
+- Attach a CV including your 1) home university, major, GPA and ranking; 2) research/working experiences; 3) publications/patents (if any); 4) skill set on coding/software/hardware and corresponding proficiency; 5) knowledge set on methods/algorithms.
+- Attach a brief introduction (within 5 pages of slides) showing the core methods/algorithms and main results and demos of your previous research or working experiences. Links to cloud storage are welcome for large files.
+- Attach all publications (including submitted paper) or well-formatted project final reports if any. Links to cloud storage or online publications are welcome.
 
 
 
@@ -108,8 +125,8 @@ In the field of autonomous driving, it is a consensus in both academia and indus
 
 ##### Machine learning community
 
-- **[Competition at NeurIPS 2020]** (December 2020) We will organize a behavior prediction challenge in highly interactive driving scenarios, i.e., the  [INTERPRET Challenge](http://challenge.interaction-dataset.com/prediction-challenge/intro), as a regular competition at NeurIPS 2020! The [INTERACTION Dataset](https://interaction-dataset.com/) will be used in the challenge. Details will be announced soon.
-- **[CVPR 2020] Workshop** (Seattle, June 2020) The results of the first round [INTERPRET Challenge](http://challenge.interaction-dataset.com/prediction-challenge/intro) will also be presented in **[CVPR 2020](http://cvpr2020.thecvf.com) Workshop** organized by Waymo: [Scalability in Autonomous Driving](https://sites.google.com/view/cvpr20-scalability). 
+- **NeurIPS 2020 Competition** (December 2020) We will organize a behavior prediction challenge in highly interactive driving scenarios, i.e., the  [INTERPRET Challenge](http://challenge.interaction-dataset.com/prediction-challenge/intro), as a regular competition at NeurIPS 2020! The [INTERACTION Dataset](https://interaction-dataset.com/) will be used in the challenge. Details will be announced soon.
+- **CVPR 2020 Workshop** (Seattle, June 2020) The results of the first round [INTERPRET Challenge](http://challenge.interaction-dataset.com/prediction-challenge/intro) will also be presented in **[CVPR 2020](http://cvpr2020.thecvf.com) Workshop** organized by Waymo: [Scalability in Autonomous Driving](https://sites.google.com/view/cvpr20-scalability). 
 
 ##### Robotics community
 
@@ -217,6 +234,7 @@ In the field of autonomous driving, it is a consensus in both academia and indus
 
 
 
+
 ### 2. Perception, mapping and localization for humans, vehicles and cities
 
 **Application**: detection/tracking/mapping/localization with onboard sensors, traffic cameras/drones, connectivity, as well as occlusion inference via behavior of others.
@@ -320,6 +338,7 @@ In the field of autonomous driving, it is a consensus in both academia and indus
 </table>
 
 
+
 #### 3.3 Testing prediction/decision/planning in simulation
 <table style="position:relative;">
 <tr>
@@ -352,6 +371,7 @@ In the field of autonomous driving, it is a consensus in both academia and indus
 </td>
 </tr>
 </table>
+
 
 #### 4.2 Policy transfer, safe learning and control
 <table style="position:relative;">

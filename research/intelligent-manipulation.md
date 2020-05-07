@@ -12,6 +12,7 @@ permalink: /research/intelligent-manipulation.html
 * [Researchers](#id3)
 * [Recent Graduates](#id4)
 * [Sponsors](#id5)
+* [Join Our Group](#join)
 
 <!-- Title your work here -->
 
@@ -277,4 +278,19 @@ In the second stage, a robust manipulation controller using robust control and f
 ### <a name="id5"></a>Sponsors
 
 * [FANUC](http://www.fanuc.co.jp/eindex.htm)
+
+### <a name="join"></a>Join Our Group
+
+Please send an email to Professor Masayoshi Tomizuka (tomizuka@berkeley.edu) and Dr. Liting Sun (litingsun@berkeley.edu) if you are interested in our [Research Topics](#id2) in intelligent manipulation and joining our group. 
+
+- We are welcoming Berkeley students to directly work with us, or students out of Berkeley to visit us. We also accept virtual visit to work with us remotely for those with difficulties to conduct a physical visit. Please note that an experience will not be recognized without a formal interview and approval by the faculty and postdocs.
+- For prospective Ph.D. students, please apply to the Mechanical Engineering Department of UC Berkeley by December 1st and send an email to address your strengths and interests.
+
+Please make sure that the following aspects are well covered in your application email. 
+
+- Indicate in the email about your 1) primary goal of the research experience and particular interests; 2) start and end dates for working with us; 3) uniqueness and strength on research experiences/publications and/or skills and knowledge; 4) long-term/career goals.
+- Attach a CV including your 1) home university, major, GPA and ranking; 2) research/working experiences; 3) publications/patents (if any); 4) skill set on coding/software/hardware and corresponding proficiency; 5) knowledge set on methods/algorithms.
+- Attach a brief introduction (within 5 pages of slides) showing the core methods/algorithms and main results and demos of your previous research or working experiences. Links to cloud storage are welcome for large files.
+- Attach all publications (including submitted paper) or well-formatted project final reports if any. Links to cloud storage or online publications are welcome.
+
 </div>
