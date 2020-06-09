@@ -7,10 +7,10 @@ permalink: /research/autonomous-vehicle.html
 ### Contents:
 
 * [Introduction](#id1)
-* [Joining Our Group](#join)
 * [Facilities and Datasets](#id2)
 * [Activities](#id3)
 * [Research Topics](#id4)
+* [Joining Our Group](#join)
 * [Members and Contact](#id5)
 
 
@@ -18,22 +18,6 @@ permalink: /research/autonomous-vehicle.html
 ## <a name="id1"></a>Introduction
 
 The core focus of our research is to understand the interactive human (driving) behavior and the scene with proper representations, and to predict and emulate the behavior to enable safe and high-quality autonomy for various mobility. In order to sufficiently support the focus, our research scope also expands to the fundamental aspects such as validation/evaluation and dataset construction ([INTERACTION](https://interaction-dataset.com/) dataset for behavior/prediction and [UrbanLoco](https://advdataset2019.wixsite.com/urbanloco) dataset for localization/mapping). We also dive into perception from different perspectives and control for various platforms, and incorporate our behavior-related research insights into these aspects. Our viewpoint is to exploit the synergies of model-based planning/control methods and state-of-the-art machine learning techniques to combine our prior and what we can learn from data. Several recent publications on prediction, decision-making, planning and control for autonomous driving by the group members have received Best Student Paper or Best Paper Finalist in flagship conferences on robotics and intelligent vehicle/transportation, such as *IEEE/RSJ IROS*, *IEEE ITSC* and *IEEE IV*.
-
-
-
-## <a name="join"></a>Joining Our Group
-
-Please send an email to Professor Masayoshi Tomizuka (tomizuka@berkeley.edu) and Dr. Wei Zhan (wzhan@berkeley.edu) if you are interested in our [Research Topics](#id4) and joining our group. 
-
-- We are welcoming Berkeley students to directly work with us, or students out of Berkeley to visit us. We also accept virtual visit to work with us remotely for those with difficulties to conduct a physical visit. Please note that an experience will not be recognized without a formal interview and approval by the faculty and postdocs.
-- For prospective Ph.D. students, please apply to the Mechanical Engineering Department of UC Berkeley by December 1st and send an email to address your strengths and interests.
-
-Please make sure that the following aspects are well covered in your application email. 
-
-- Indicate in the email about your 1) primary goal of the research experience and particular interests; 2) start and end dates for working with us; 3) uniqueness and strength on research experiences/publications and/or skills and knowledge; 4) long-term/career goals.
-- Attach a CV including your 1) home university, major, GPA and ranking; 2) research/working experiences; 3) publications/patents (if any); 4) skill set on coding/software/hardware and corresponding proficiency; 5) knowledge set on methods/algorithms.
-- Attach a brief introduction (within 5 pages of slides) showing the core methods/algorithms and main results and demos of your previous research or working experiences. Links to cloud storage are welcome for large files.
-- Attach all publications (including submitted paper) or well-formatted project final reports if any. Links to cloud storage or online publications are welcome.
 
 
 
@@ -98,10 +82,14 @@ In addition to the hardware and software infrastructures, data is another key as
 </div>
 </td>
 <td>
-<img style="width: 100%;" src="{{ site.baseurl }}/assets/images/research/autonomous/urbanloco.png">
+<div style="position: relative; width: 100%; height: 0; padding-bottom: 56.3%;">
+<iframe style = "position: absolute; width: 100%; height: 100%; left: 0; top: 0;"
+  src="https://www.youtube.com/embed/3axr7ICggRw" frameborder="0" controls="controls" preload="auto" allowfullscreen></iframe>
+</div>
 </td>
 </tr>
 </table>
+
 
 
 ## <a name="id3"></a>Activities
@@ -157,7 +145,8 @@ In the field of autonomous driving, it is a consensus in both academia and indus
 - A hierarchical IRL algorithm to capture the hierarchical structure of human decision-making process: *[ITSC18](https://arxiv.org/abs/1809.02926)*
 - Exploring and expressing the irrationality of human behaviors via a risk-sensitivity IRL algorithm: (*[ITSC19](https://arxiv.org/abs/1907.08707)*) 
 - A better prediction model by online combination of deep learning models with IRL models: *[ITSC19](https://arxiv.org/abs/1907.10170)*
-- Learning generic and suitable cost functions for driving: *ICRA20*.
+- Learning generic and suitable cost functions for driving: *[ICRA20](https://ras.papercept.net/proceedings/ICRA20/0320.pdf)*.
+- Efficient sampling-based Maximum Entropy IRL: to appear in RAL.
 - Modeling the multi-agent interaction based on Game Theory: papers to appear.
 </div>
 </td>
@@ -169,6 +158,7 @@ In the field of autonomous driving, it is a consensus in both academia and indus
 </td>
 </tr>
 </table>
+
 
 #### 1.2 Decision and planning under uncertainty with interaction
 
@@ -206,11 +196,12 @@ In the field of autonomous driving, it is a consensus in both academia and indus
 <td>
 <div style="position: relative; width: 100%; height: 0; padding-bottom: 56.3%;">
 <iframe style = "position: absolute; width: 100%; height: 100%; left: 0; top: 0;"
-  src="https://www.youtube.com/embed/6A3Hl-mRhbI" frameborder="0" controls="controls" preload="auto" allowfullscreen></iframe>
+  src="https://www.youtube.com/embed/ku_UWa86nYQ" frameborder="0" controls="controls" preload="auto" allowfullscreen></iframe>
 </div>
 </td>
 </tr>
 </table>
+
 
 
 #### 1.4 Scene/motion representation learning and construction
@@ -231,7 +222,6 @@ In the field of autonomous driving, it is a consensus in both academia and indus
 </td>
 </tr>
 </table>
-
 
 
 
@@ -338,7 +328,6 @@ In the field of autonomous driving, it is a consensus in both academia and indus
 </table>
 
 
-
 #### 3.3 Testing prediction/decision/planning in simulation
 <table style="position:relative;">
 <tr>
@@ -371,7 +360,6 @@ In the field of autonomous driving, it is a consensus in both academia and indus
 </td>
 </tr>
 </table>
-
 
 #### 4.2 Policy transfer, safe learning and control
 <table style="position:relative;">
@@ -420,13 +408,27 @@ In the field of autonomous driving, it is a consensus in both academia and indus
 </table>
 
 
+## <a name="join"></a>Joining Our Group
+
+Please send an email to Professor Masayoshi Tomizuka (tomizuka@berkeley.edu) and Dr. Wei Zhan (wzhan@berkeley.edu) if you are interested in our [Research Topics](#id4) and joining our group. 
+
+- We are welcoming Berkeley students to directly work with us, or students out of Berkeley to visit us. We also accept virtual visit to work with us remotely for those with difficulties to conduct a physical visit. Please note that an experience will not be recognized without a formal interview and approval by the faculty and postdocs.
+- For prospective Ph.D. students, please apply to the Mechanical Engineering Department of UC Berkeley by December 1st and send an email to address your strength and interest.
+
+Please make sure that the following aspects are well covered in your application email. 
+
+- Indicate in the email on your 1) primary goal of the research experience and particular interests; 2) start and end dates for working with us; 3) uniqueness and strength on research experiences/publications and/or skills and knowledge; 4) long-term/career goals.
+- Attach a CV including your 1) home university, major, GPA and ranking; 2) research/working experiences; 3) publications/patents (if any); 4) skill set on coding/software/hardware and corresponding proficiency; 5) knowledge set on methods/algorithms.
+- Attach a brief introduction (within 5 pages of slides) showing the core methods/algorithms and main results and demos of your previous research or working experiences. Links to cloud storage are welcome for large files.
+- Attach all publications (including submitted paper) or well-formatted project final reports if any. Links to cloud storage or online publications are welcome.
+
 
 
 ## <a name="id5"></a>Members and Contact
 
-The group lead is Dr. [Wei Zhan](https://scholar.google.com/citations?user=xVN3UxYAAAAJ&hl=en#). The research activities are coordinated by 2 Postdocs (Dr. [Wei Zhan](https://scholar.google.com/citations?user=xVN3UxYAAAAJ&hl=en#) and Dr. [Liting Sun](https://scholar.google.com/citations?user=BitIg-YAAAAJ&hl=en)) and conducted by 13 Ph.D. students (following headshots) with over 10 visiting researchers. 
+The group lead is Dr. [Wei Zhan](https://scholar.google.com/citations?user=xVN3UxYAAAAJ&hl=en#). The research activities are coordinated by 2 Postdocs (Dr. [Wei Zhan](https://scholar.google.com/citations?user=xVN3UxYAAAAJ&hl=en#) and Dr. [Liting Sun](https://scholar.google.com/citations?user=BitIg-YAAAAJ&hl=en)) and conducted by 14 Ph.D. students (following headshots) with over 10 visiting researchers. 
 
-<img width = "100%" src="{{ site.baseurl }}/assets/images/research/autonomous/headshots.jpg">
+<img width = "100%" src="{{ site.baseurl }}/assets/images/research/autonomous/headshots.png">
 
 Please contact Dr. Wei Zhan (wzhan@berkeley.edu) and Professor Masayoshi Tomizuka (tomizuka@berkeley.edu) for more information if you are interested in the topics above by
 
