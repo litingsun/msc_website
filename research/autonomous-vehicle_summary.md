@@ -60,7 +60,12 @@ In addition to the hardware and software infrastructures, data is another key as
 <tr>
 <td>
 <div markdown="1">
-- Dataset *[website](https://interaction-dataset.com/)*, prediction challenge [*website*](http://challenge.interaction-dataset.com/prediction-challenge/intro), dataset papers (*[arxiv](https://arxiv.org/abs/1910.03088)*, *[IROS19](https://ieeexplore.ieee.org/abstract/document/8967724)*).
+- Densely interactive beahvior and critical situations in complex scenarios: negotiations, inexplicit right-of-way, irrational behavior, near-collision situations, violation of traffic rules.
+- Highly accurate trajectories and complete information of surroundings.
+- HD maps with full semantics required by prediction and planning algorithms.
+- International locations (US, Germany, China) with diversified scenarios (roundabouts, signalized/unsignalized intersections, highway/urban merging and lane change).
+- Dataset *[website](https://interaction-dataset.com/)*, and papers (*[arxiv](https://arxiv.org/abs/1910.03088)*, *[IROS19](https://ieeexplore.ieee.org/abstract/document/8967724)*).
+- Prediction challenge [*website*](http://challenge.interaction-dataset.com/prediction-challenge/intro)
 </div>
 </td>
 <td>
@@ -71,6 +76,7 @@ In addition to the hardware and software infrastructures, data is another key as
 </td>
 </tr>
 </table>
+
 
 #### UrbanLoco Dataset: localization and mapping in dense urban scenes
 
@@ -113,18 +119,19 @@ In the field of autonomous driving, it is a consensus in both academia and indus
 
 ##### Machine learning community
 
-- **NeurIPS 2020 Competition** (December 2020) We will organize a behavior prediction challenge in highly interactive driving scenarios, i.e., the  [INTERPRET Challenge](http://challenge.interaction-dataset.com/prediction-challenge/intro), as a regular competition at NeurIPS 2020! The [INTERACTION Dataset](https://interaction-dataset.com/) will be used in the challenge. Details will be announced soon.
-- **CVPR 2020 Workshop** (Seattle, June 2020) The results of the first round [INTERPRET Challenge](http://challenge.interaction-dataset.com/prediction-challenge/intro) will also be presented in **[CVPR 2020](http://cvpr2020.thecvf.com) Workshop** organized by Waymo: [Scalability in Autonomous Driving](https://sites.google.com/view/cvpr20-scalability). 
+- **[NeurIPS 2020](https://neurips.cc/) Competition** (December 2020) We will organize a behavior prediction challenge in highly interactive driving scenarios, i.e., the  [INTERPRET Challenge](http://challenge.interaction-dataset.com/prediction-challenge/intro), as a regular competition at NeurIPS 2020! The [INTERACTION Dataset](https://interaction-dataset.com/) will be used in the challenge. Details will be announced soon.
+- **[CVPR 2020](http://cvpr2020.thecvf.com) Workshop** (June 2020) The results of the first round [INTERPRET Challenge](http://challenge.interaction-dataset.com/prediction-challenge/intro) will also be presented in CVPR 2020 Workshop organized by Waymo: [Scalability in Autonomous Driving](https://sites.google.com/view/cvpr20-scalability).
+- **[ICML 2020](https://icml.cc/) Workshop** (July 2020) Wei Zhan was invited as a speaker to present the [INTERACTION Dataset](https://interaction-dataset.com/) and [INTERPRET Challenge](http://challenge.interaction-dataset.com/prediction-challenge/intro) in the ICML 2020 Workshop on [AI for Autonomous Driving](https://sites.google.com/view/aiad2020).
 
 ##### Robotics community
 
-- **[RSS 2020](https://roboticsconference.org) Workshop** (virtual, June 2020): Interaction and Decision-Making in Autonomous-Driving, organized by Rowan McAllister, Liting Sun, Igor Gilitschenski, and Daniela Rus.
+- **[RSS 2020](https://roboticsconference.org) Workshop** (June 2020): Interaction and Decision-Making in Autonomous-Driving, organized by Rowan McAllister, Liting Sun, Igor Gilitschenski, and Daniela Rus.
 - **[IROS 2019](https://www.iros2019.org) Workshop** (Macao, November 2019): [Benchmark and Dataset for Probabilistic Prediction of Interactive Human Behavior](https://sites.google.com/berkeley.edu/iros2019-ws-dataset-benmark/home), organized by Wei Zhan, Liting Sun and Masayoshi Tomizuka.
 
 ##### Intelligent transportation/vehicle community
 
 - **[IV 2020](https://2020.ieee-iv.org) Joint Workshops** (Las Vegas, postponed to October 2020): [From Benchmarking Behavior Prediction to Socially Compatible Behavior Generation in Autonomous Driving](https://sites.google.com/berkeley.edu/iv20-interaction/home), organized by Wei Zhan, Liting Sun, Maximilian Naumann, Jiachen Li and Masayoshi Tomizuka.
-- **[ITSC 2020](https://www.ieee-itsc2020.org) Workshop** (Rhodes, Greece, September 2020): [Probabilistic Prediction and Comprehensible Motion Planning for Automated Vehicles – Approaches and Benchmarking](https://ieee-itsc2020.org/wp-content/uploads/2020/03/Probabilistic-Prediction-and-Comprehensible-Motion-Planning-for-Automated-Vehicles-–-Approaches-and-Benchmarking.pdf), organized by Maximilian Naumann, Martin Lauer, Liting Sun, Wei Zhan, Masayoshi Tomizuka, Arnaud de La Fortelle, Christoph Stiller.
+- **[ITSC 2020](https://www.ieee-itsc2020.org) Workshop** (September 2020): [Probabilistic Prediction and Comprehensible Motion Planning for Automated Vehicles – Approaches and Benchmarking](https://ieee-itsc2020.org/wp-content/uploads/2020/03/Probabilistic-Prediction-and-Comprehensible-Motion-Planning-for-Automated-Vehicles-–-Approaches-and-Benchmarking.pdf), organized by Maximilian Naumann, Martin Lauer, Liting Sun, Wei Zhan, Masayoshi Tomizuka, Arnaud de La Fortelle, Christoph Stiller.
 - **[IV 2019](https://iv2019.org) Workshop** (Paris, June 2019): [Prediction and Decision Making for Socially Interactive Autonomous Driving](https://sites.google.com/berkeley.edu/iv19-interaction), organized by Wei Zhan, Jiachen Li, Liting Sun, Yeping Hu and Masayoshi Tomizuka.
 
 
@@ -141,12 +148,12 @@ In the field of autonomous driving, it is a consensus in both academia and indus
 <tr>
 <td>
 <div markdown="1">
-- Modeling, learning and imitating social behaviors from humans, from planning behavior to perception behavior: (*[IROS18](https://arxiv.org/abs/1808.02633)*, *[IV19](https://arxiv.org/abs/1905.00988)*, [*TechXplore*](https://techxplore.com/news/2019-05-social-perception-scheme-behavior-autonomous.html))
+- Modeling, learning and imitating social behaviors from humans, from planning behavior to perception behavior: *[IROS18](https://arxiv.org/abs/1808.02633)*, *[IV19](https://arxiv.org/abs/1905.00988)*, [*TechXplore*](https://techxplore.com/news/2019-05-social-perception-scheme-behavior-autonomous.html)
 - A hierarchical IRL algorithm to capture the hierarchical structure of human decision-making process: *[ITSC18](https://arxiv.org/abs/1809.02926)*
-- Exploring and expressing the irrationality of human behaviors via a risk-sensitivity IRL algorithm: (*[ITSC19](https://arxiv.org/abs/1907.08707)*) 
+- Exploring and expressing the irrationality of human behaviors via a risk-sensitivity IRL algorithm: *[ITSC19](https://arxiv.org/abs/1907.08707)*
 - A better prediction model by online combination of deep learning models with IRL models: *[ITSC19](https://arxiv.org/abs/1907.10170)*
 - Learning generic and suitable cost functions for driving: *[ICRA20](https://ras.papercept.net/proceedings/ICRA20/0320.pdf)*.
-- Efficient sampling-based Maximum Entropy IRL: to appear in RAL.
+- Efficient sampling-based Maximum Entropy IRL: *[RAL](https://arxiv.org/abs/2006.13704)*.
 - Modeling the multi-agent interaction based on Game Theory: papers to appear.
 </div>
 </td>
@@ -158,6 +165,7 @@ In the field of autonomous driving, it is a consensus in both academia and indus
 </td>
 </tr>
 </table>
+
 
 
 #### 1.2 Decision and planning under uncertainty with interaction
@@ -234,9 +242,11 @@ In the field of autonomous driving, it is a consensus in both academia and indus
 <tr>
 <td>
 <div markdown="1">
-- 3D point cloud segmentation: [*arxiv*](https://arxiv.org/abs/2004.01803).
-- 3D detection with LiDAR-camera fusion: [*arxiv*](https://arxiv.org/abs/1910.04853), *[IV19](https://arxiv.org/abs/1811.03818)*, *[IV18](https://arxiv.org/abs/1711.06703)*.
+- 3D point cloud segmentation: *[ECCV20](https://arxiv.org/abs/2004.01803)*.
+- 3D detection with LiDAR-camera fusion: *[IV18](https://arxiv.org/abs/1711.06703)*, *[IV19](https://arxiv.org/abs/1811.03818)*, [*arxiv*](https://arxiv.org/abs/1910.04853).
+- Uncertainty-aware 3D detection: *[ITSC20](https://arxiv.org/abs/2006.12015)*
 - Detection from bird's eye view: *[arxiv](https://arxiv.org/abs/1912.09632)*.
+- Visual transformers: *[arxiv](https://arxiv.org/abs/2006.03677)*
 </div>
 </td>
 <td>
@@ -247,6 +257,7 @@ In the field of autonomous driving, it is a consensus in both academia and indus
 </td>
 </tr>
 </table>
+
 
 #### 2.2 Mapping, localization and 3D reconstruction
 
@@ -314,7 +325,7 @@ In the field of autonomous driving, it is a consensus in both academia and indus
 <tr>
 <td>
 <div markdown="1">
-- Uncertainty-aware evaluation for 3D detection: *[arxiv](https://arxiv.org/abs/2003.03644)*.
+- Uncertainty-aware evaluation and labeling analysis for 3D detection: *[IROS20](https://arxiv.org/abs/2003.03644)*.
 - Uncertainty estimation in LiDAR-base localization: *[IET EL Letter](https://digital-library.theiet.org/content/journals/10.1049/el.2018.8075)*.
 </div>
 </td>
@@ -326,6 +337,7 @@ In the field of autonomous driving, it is a consensus in both academia and indus
 </td>
 </tr>
 </table>
+
 
 
 #### 3.3 Testing prediction/decision/planning in simulation
@@ -434,7 +446,3 @@ Please contact Dr. Wei Zhan (wzhan@berkeley.edu) and Professor Masayoshi Tomizuk
 
 - working with us (join/visit the group or collaborate) from academia, or
 - research collaboration from industry.
-
-
-
-
