@@ -136,8 +136,8 @@ In T4, we proposed several metrices to evaluate each module and the co-robot sys
 <div markdown="1">
 
 ### <a name="id4"></a>Videos
-<img width = "60%" src="{{ site.baseurl }}/assets/images/research/nri/T3.gif" title="Architecture">
-
+<!-- <img width = "60%" src="{{ site.baseurl }}/assets/images/research/nri/T3.gif" title="Architecture"> -->
+<iframe width="560" height="315" src="https://www.youtube.com/embed/wfle8Ry7z54" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### <a name="id5"></a>Publications
 * H.-C. Lin, C. Liu, and M. Tomizuka, “Fast robot motion planning with collision avoidance and temporal optimization,” in <i>2018 15th International Conference on Control, Automation, Robotics and
