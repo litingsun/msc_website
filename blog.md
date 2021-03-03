@@ -5,6 +5,24 @@ permalink: /blog/
 ---
 
 ## Recent Blogs
+* [Safe OnGO-VIC: Online Gain Optimization for Variable Impedance Control with Control Barrier Functions](https://msc.berkeley.edu/research/safe-ongo-vic.html)
+
+<table style="position:relative;">
+<tr>
+<td>
+<div markdown="1">
+We present a safe gain optimization algorithm for variable impedance control with control barrier functions. The algorithm is able to obtain the optimal impedance gain without manully tuning and avoid unwanted collisions in real-time. Check out our webiste page [here](https://msc.berkeley.edu/research/safe-ongo-vic.html).
+</div>
+</td>
+<td>
+<div style="position: relative; width: 100%; height: 0; padding-bottom: 56.3%;">
+<iframe style = "position: absolute; width: 100%; height: 100%; left: 0; top: 0;"
+  src="https://www.youtube.com/embed/CXpVS5jvlLs" frameborder="0" controls="controls" preload="auto" allowfullscreen></iframe>
+</div>
+</td>
+</tr>
+</table>
+
 * [UrbanLoco: A New Challenge for Urban Mapping and Localization](https://medium.com/@ourxxbluesky/urbanloco-a-new-challenge-for-urban-mapping-and-localization-200742ea7629)
 
 <a href="{{ site.baseurl }}/assets/images/blog/2020_03_29_cover_urbanloco.png" data-lightbox="UrbanLoco" data-title="UrbanLoco">

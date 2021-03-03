@@ -4,9 +4,6 @@ title: Research
 permalink: /research/
 ---
 
-
-
-
 ## Robotics
 * [Safe and Efficient Robot Collaboration System]({{ "/research/serocs.html" | prepend: site.baseurl }})
 
