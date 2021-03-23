@@ -42,12 +42,24 @@
       "image":"ShiyuJin",
       "email":"jsy@berkeley.edu"
    },
+   {  
+      "name":"Kodaira, Akio",
+      "title":"Autonomous Driving",
+      "image":"akio",
+      "email":"akio.kodaira@berkeley.edu"
+    },
    {
       "name":"Leu, Jessica",
       "title":"Robotics",
       "image":"jessica",
       "email":"jess.leu24@berkeley.edu",
       "homepage":"https://jessicaleu24.github.io/Home.html"
+   },
+   {
+      "name":"Li, Chenran",
+      "title":"Autonomous Driving",
+      "image":"chenran",
+      "email":"chenran_li@berkeley.edu"
    },
    {
       "name":"Li, Jiachen",
@@ -87,6 +99,13 @@
       "email":"chen_tang@berkeley.edu"
    },
    {
+      "name":"Tian, Ran",
+      "title":"Autonomous Driving",
+      "image":"ran",
+      "email":"rantian@berkeley.edu",
+      "homepage":"https://thomasrantian.github.io"
+   },
+   {
       "name":"Wang, Changhao",
       "title":"Robotics",
       "image":"Changhao",
@@ -105,6 +124,12 @@
       "image":"Zheng",
       "email":"zheng_wu@berkeley.edu",
       "homepage":"https://zhengwu.us/"
+   },
+   {
+      "name":"Xu, Chenfeng",
+      "title":"Autonomous Driving",
+      "image":"chenfeng",
+      "email":"xuchenfeng@berkeley.edu"
    },
    {
       "name":"Xu, Zhuo",
