@@ -13,6 +13,8 @@ permalink: /research/autonomous-vehicle.html
 * [Joining Our Group](#join)
 * [Members and Contact](#id5)
 
+
+
 ## <a name="intro"></a>Introduction
 
 Our research covers full-stack autonomous driving, including the onboard modules such as perception, prediction, planning and control, as well as key offline components such as simulation/test, and automatic construction of HD maps and data. The efforts have been greatly supported and intensively verified by the facilities including autonomous vehicles, data-collection vehicles, and driving simulators. We also constructed datasets by our own, such as [INTERACTION](https://interaction-dataset.com/) dataset for behavior/prediction and [UrbanLoco](https://advdataset2019.wixsite.com/urbanloco) dataset for localization/mapping. Our recent progress has been published in flagship conferences in the fields of robotics (*ICRA, IROS*), computer vision (*CVPR, ECCV*), machine learning and AI (*NeurIPS, AAAI*), intelligent transportation (*ITSC, IV*) and control (*ACC, IFAC*) and corresponding top-notch journals. We received several Best (Student) Paper Awards/Finalists from *IROS*, *ITSC* and *IV*.
@@ -57,19 +59,19 @@ Our research covers full-stack autonomous driving, including the onboard modules
 <td>
 <div style="position: relative; width: 100%; height: 0; padding-bottom: 56.3%;">
 <iframe style = "position: absolute; width: 100%; height: 100%; left: 0; top: 0;"
-  src="https://www.youtube.com/embed/OLtPAmrfUkE?playlist=OLtPAmrfUkE&autoplay=1&mute=1&loop=1&playlist=GRonxog5mbw" frameborder="0" allow="autoplay" controls="controls" preload="auto" allowfullscreen></iframe>
+  src="https://www.youtube.com/embed/OLtPAmrfUkE?playlist=OLtPAmrfUkE&autoplay=1&mute=1&loop=1" frameborder="0" allow="autoplay" controls="controls" preload="auto" allowfullscreen></iframe>
 </div>
 </td>
 <td>
 <div style="position: relative; width: 100%; height: 0; padding-bottom: 56.3%;">
 <iframe style = "position: absolute; width: 100%; height: 100%; left: 0; top: 0;"
-  src="https://www.youtube.com/embed/fHcGzx1eh-Y?playlist=fHcGzx1eh-Y&autoplay=1&mute=1&loop=1&playlist=GRonxog5mbw" frameborder="0" allow="autoplay" controls="controls" preload="auto" allowfullscreen></iframe>
+  src="https://www.youtube.com/embed/fHcGzx1eh-Y?playlist=fHcGzx1eh-Y&autoplay=1&mute=1&loop=1" frameborder="0" allow="autoplay" controls="controls" preload="auto" allowfullscreen></iframe>
 </div>
 </td>
 <td>
 <div style="position: relative; width: 100%; height: 0; padding-bottom: 56.3%;">
 <iframe style = "position: absolute; width: 100%; height: 100%; left: 0; top: 0;"
-  src="https://www.youtube.com/embed/sLV49jbJOP4?playlist=sLV49jbJOP4&autoplay=1&mute=1&loop=1&playlist=GRonxog5mbw" frameborder="0" allow="autoplay" controls="controls" preload="auto" allowfullscreen></iframe>
+  src="https://www.youtube.com/embed/sLV49jbJOP4?playlist=sLV49jbJOP4&autoplay=1&mute=1&loop=1" frameborder="0" allow="autoplay" controls="controls" preload="auto" allowfullscreen></iframe>
 </div>
 </td>
 </tr>  
@@ -111,7 +113,6 @@ Our research covers full-stack autonomous driving, including the onboard modules
 </tr>  
 </table>
 
-
 ## <a name="research"></a>Research Topics
 
 ### 1. Perception
@@ -128,8 +129,28 @@ Perception is a prerequisite for autonomy. 3D perception based on LiDAR (and cam
 
 #### 1.2 2D perception
 
-- Crowd counting and localization from bird's eye view: AutoScale (*[arxiv](https://arxiv.org/abs/1912.09632)*).
-- Sparse R-CNN ([*CVPR21*](https://arxiv.org/abs/2011.12450)) and Visual Transformers (*[arxiv](https://arxiv.org/abs/2006.03677)*)
+<table style="position:relative;">
+<tr>
+<td>
+<img style="width: 100%;" src="{{ site.baseurl }}/assets/images/research/autonomous/2Dperception_AutoScale.pdf">
+</td>
+<td>
+<img style="width: 100%;" src="{{ site.baseurl }}/assets/images/research/autonomous/2Dperception_SparceRCNN.pdf">
+</td>
+</tr>
+<tr>
+<td>
+<div markdown="1">
+Crowd counting and localization from bird's eye view: AutoScale [arxiv](https://arxiv.org/abs/1912.09632).
+</div>
+</td>
+<td>
+<div markdown="1">
+Sparse R-CNN ([*CVPR21*](https://arxiv.org/abs/2011.12450)) and Visual Transformers (*[arxiv](https://arxiv.org/abs/2006.03677)*)
+</div>
+</td>
+</tr>  
+</table>
 
 #### 1.3 Occluded object tracking and inference
 
@@ -267,7 +288,30 @@ Safe and high-quality trajectory planning is crucial for autonomy. We proposed v
 - State estimation and control with connectivity: *[Sensors](https://www.mdpi.com/1424-8220/19/13/2983)*.
 - Our lab also published dozens of papers on vehicle dynamics and control over a decade ago, such as adaptive control ([*Trans-IE*](https://ieeexplore.ieee.org/document/1174058), [*ACC90*](https://ieeexplore.ieee.org/document/4791050)), adaptive cruise control ([*IJAT*](https://link.springer.com/article/10.1007/s12239-012-0007-6), [*IFAC*](https://www.sciencedirect.com/science/article/pii/S1474667016318390)), and control of truck with trailer ([*PATH-report*](https://www.researchgate.net/publication/46439115_Lateral_Control_of_Heavy_Duty_Vehicles_for_Automated_Highway_System_Experimental_Study_on_a_Tractor_Semi-trailer)).
 
-
+<table style="position:relative;">
+<tr>
+<td>
+<div style="position: relative; width: 100%; height: 0; padding-bottom: 56.3%;">
+<iframe style = "position: absolute; width: 100%; height: 100%; left: 0; top: 0;"
+  src="https://www.youtube.com/embed/RvjI4cpZAAE?playlist=RvjI4cpZAAE&autoplay=1&mute=1&loop=1" frameborder="0" controls="controls" preload="auto" allowfullscreen></iframe>
+</div>
+</td>
+<td>
+<div style="position: relative; width: 100%; height: 0; padding-bottom: 56.3%;">
+<iframe style = "position: absolute; width: 100%; height: 100%; left: 0; top: 0;"
+  src="https://www.youtube.com/embed/WV4hSKUA3uY?playlist=WV4hSKUA3uY&autoplay=1&mute=1&loop=1" frameborder="0" controls="controls" preload="auto" allowfullscreen></iframe>
+</div>
+</td>
+</tr>  
+<tr>
+<td>
+<b>Cooperative adaptive cruise control (CACC)</b>: Two autonomous vehicles and a leading vehicle driven by human communicating with each other and maintaining proper gaps.
+</td>
+<td>
+<b>Autonomous racing</b>: Planning and control with sophisticated dynamics of racing vehicles, and the time trial beats expert human racers.
+</td>
+</tr>  
+</table>
 
 
 
@@ -322,7 +366,6 @@ Please contact Dr. Wei Zhan (wzhan@berkeley.edu) and Professor Masayoshi Tomizuk
 
 - working with us (join/visit the group or collaborate) from academia, or
 - research collaboration from industry.
-
 
 
 
