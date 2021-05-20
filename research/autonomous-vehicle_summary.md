@@ -138,13 +138,19 @@ Perception is a prerequisite for autonomy. 3D perception based on LiDAR (and cam
 </tr>  
 <tr>
 <td>
+<div markdown="1">
 - <b>3D segmentation</b> for point cloud with spatially adaptive convolution: *[ECCV20](https://arxiv.org/abs/2004.01803)*.
+</div>
 </td>
 <td>
+<div markdown="1">
 - <b>Uncertainty-aware 3D detection</b>: evaluation, labeling analysis and performance improvement (*[Trans-ITS](https://arxiv.org/abs/2012.12195)*, *[IROS20](https://arxiv.org/abs/2003.03644)*, *[ITSC20](https://arxiv.org/abs/2006.12015)*).
+</div>
 </td>
 <td>
+<div markdown="1">
   - <b>LiDAR-camera fusion</b> for 3D detection: *[IV18](https://arxiv.org/abs/1711.06703)*, *[IV19](https://arxiv.org/abs/1811.03818)*, [*IV20*](https://arxiv.org/abs/1910.04853).
+</div>
 </td>
 </tr>  
 </table>
@@ -163,13 +169,19 @@ Perception is a prerequisite for autonomy. 3D perception based on LiDAR (and cam
 </tr>  
 <tr>
 <td>
+<div markdown="1">
 - <b>Multi-task learning</b> for efficient 3D detection and road understanding ([*arxiv*)](https://arxiv.org/abs/2103.04056).
+</div>
 </td>
 <td>
+<div markdown="1">
 - <b>Token representation</b> for efficient point cloud processing (*[arxiv](https://arxiv.org/abs/2103.09975)*).
+</div>
 </td>
 <td>
+<div markdown="1">
 - <b>Reconstruction and registration</b> for 3D point cloud: *[IROS19](https://ieeexplore.ieee.org/abstract/document/8967589)*, [*IFAC20*](https://arxiv.org/abs/1912.05016).
+</div>
 </td>
 </tr>  
 </table>
@@ -382,7 +394,7 @@ Safe and high-quality trajectory planning is crucial for autonomy. We proposed v
 <td>
 <div style="position: relative; width: 100%; height: 0; padding-bottom: 56.3%;">
 <iframe style = "position: absolute; width: 100%; height: 100%; left: 0; top: 0;"
-  src="https://www.youtube.com/embed/-VA_6LmLi4U&autoplay=1&mute=1&loop=1" frameborder="0" controls="controls" preload="auto" allowfullscreen></iframe>
+  src="https://www.youtube.com/embed/-VA_6LmLi4U?playlist=-VA_6LmLi4U&autoplay=1&mute=1&loop=1" frameborder="0" controls="controls" preload="auto" allowfullscreen></iframe>
 </div>
 </td>
 <td>
