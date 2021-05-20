@@ -121,36 +121,84 @@ Perception is a prerequisite for autonomy. 3D perception based on LiDAR (and cam
 
 #### 1.1 3D perception
 
-- 3D point cloud segmentation with spatially adaptive convolution: *[ECCV20](https://arxiv.org/abs/2004.01803)*.
-- Uncertainty-aware evaluation, labeling analysis and performance improvement for 3D detection: *[Trans-ITS](https://arxiv.org/abs/2012.12195)*, *[IROS20](https://arxiv.org/abs/2003.03644)*, *[ITSC20](https://arxiv.org/abs/2006.12015)*.
-- 3D detection with LiDAR-camera fusion: *[IV18](https://arxiv.org/abs/1711.06703)*, *[IV19](https://arxiv.org/abs/1811.03818)*, [*IV20*](https://arxiv.org/abs/1910.04853).
-- Efficient point cloud processing with multi-task learning ([*arxiv*)](https://arxiv.org/abs/2103.04056) and token representation (*[arxiv](https://arxiv.org/abs/2103.09975)*)
-- 3D point cloud reconstruction and registration: *[IROS19](https://ieeexplore.ieee.org/abstract/document/8967589)*, [*IFAC20*](https://arxiv.org/abs/1912.05016).
+<table style="position:relative;">
+<tr>
+<td>
+<div style="position: relative; width: 100%; height: 0; padding-bottom: 56.3%;">
+<iframe style = "position: absolute; width: 100%; height: 100%; left: 0; top: 0;"
+  src="https://www.youtube.com/embed/v__zuUw3GZI?playlist=v__zuUw3GZI&autoplay=1&mute=1&loop=1&playlist=8HSr8BjcufM&amp" frameborder="0" allow="autoplay; encrypted-media" controls="controls" preload="auto" allowfullscreen></iframe>
+</div>
+</td>
+<td>
+<img style="width: 100%;" src="{{ site.baseurl }}/assets/images/research/autonomous/3Dperception_uncertainty.png">
+</td>
+<td>
+<img style="width: 100%;" src="{{ site.baseurl }}/assets/images/research/autonomous/3Dperception_fusion.png">
+</td>
+</tr>  
+<tr>
+<td>
+- <b>3D segmentation</b> for point cloud with spatially adaptive convolution: *[ECCV20](https://arxiv.org/abs/2004.01803)*.
+</td>
+<td>
+- <b>Uncertainty-aware 3D detection</b>: evaluation, labeling analysis and performance improvement (*[Trans-ITS](https://arxiv.org/abs/2012.12195)*, *[IROS20](https://arxiv.org/abs/2003.03644)*, *[ITSC20](https://arxiv.org/abs/2006.12015)*).
+</td>
+<td>
+  - <b>LiDAR-camera fusion</b> for 3D detection: *[IV18](https://arxiv.org/abs/1711.06703)*, *[IV19](https://arxiv.org/abs/1811.03818)*, [*IV20*](https://arxiv.org/abs/1910.04853).
+</td>
+</tr>  
+</table>
+
+<table style="position:relative;">
+<tr>
+<td>
+<img style="width: 100%;" src="{{ site.baseurl }}/assets/images/research/autonomous/3Dperception_multitask.png">
+</td>
+<td>
+<img style="width: 100%;" src="{{ site.baseurl }}/assets/images/research/autonomous/3Dperception_YOGO.png">
+</td>
+<td>
+<img style="width: 100%;" src="{{ site.baseurl }}/assets/images/research/autonomous/3Dperception_registration.png">
+</td>
+</tr>  
+<tr>
+<td>
+- <b>Multi-task learning</b> for efficient 3D detection and road understanding ([*arxiv*)](https://arxiv.org/abs/2103.04056).
+</td>
+<td>
+- <b>Token representation</b> for efficient point cloud processing (*[arxiv](https://arxiv.org/abs/2103.09975)*).
+</td>
+<td>
+- <b>Reconstruction and registration</b> for 3D point cloud: *[IROS19](https://ieeexplore.ieee.org/abstract/document/8967589)*, [*IFAC20*](https://arxiv.org/abs/1912.05016).
+</td>
+</tr>  
+</table>
 
 #### 1.2 2D perception
 
 <table style="position:relative;">
 <tr>
 <td>
-<img style="width: 100%;" src="{{ site.baseurl }}/assets/images/research/autonomous/2Dperception_AutoScale.pdf">
+<img style="width: 100%;" src="{{ site.baseurl }}/assets/images/research/autonomous/2Dperception_AutoScale.jpg">
 </td>
 <td>
-<img style="width: 100%;" src="{{ site.baseurl }}/assets/images/research/autonomous/2Dperception_SparceRCNN.pdf">
+<img style="width: 100%;" src="{{ site.baseurl }}/assets/images/research/autonomous/2Dperception_SparceRCNN.jpg">
 </td>
 </tr>
 <tr>
 <td>
 <div markdown="1">
-Crowd counting and localization from bird's eye view: AutoScale [arxiv](https://arxiv.org/abs/1912.09632).
+<b>AutoScale</b> [*arxiv*](https://arxiv.org/abs/1912.09632): crowd counting and localization.
 </div>
 </td>
 <td>
 <div markdown="1">
-Sparse R-CNN ([*CVPR21*](https://arxiv.org/abs/2011.12450)) and Visual Transformers (*[arxiv](https://arxiv.org/abs/2006.03677)*)
+<b>Sparse R-CNN</b> ([*CVPR21*](https://arxiv.org/abs/2011.12450)) and Visual Transformers (*[arxiv](https://arxiv.org/abs/2006.03677)*).
 </div>
 </td>
 </tr>  
 </table>
+
 
 #### 1.3 Occluded object tracking and inference
 
@@ -166,12 +214,46 @@ We consider two aspects in mapping/localization research, namely, localization-o
 
 #### 2.1 Automatic HD map construction and scene understanding
 
+<table style="position:relative;">
+<tr>
+<td>
+<img style="width: 100%;" src="{{ site.baseurl }}/assets/images/research/autonomous/mapping.png">
+</td>
+</tr> 
+</table>
+
 - Automatic construction of semantic HD map utilizing rough navigation map: paper to appear.
 - Road and scene understanding.
 
 #### 2.2 Localization and point cloud map construction
 
+<table style="position:relative;">
+<tr>
+<td>
+<img style="width: 100%;" src="{{ site.baseurl }}/assets/images/research/autonomous/localization_urbanloco.png">
+</td>
+</tr> 
+</table>
+
 - Mapping and localization dataset in highly urbanized scenes -- UrbanLoco dataset: [website](https://advdataset2019.wixsite.com/urbanloco), dataset paper (*[ICRA20](https://arxiv.org/abs/1912.09513)*), [blog](https://medium.com/@ourxxbluesky/urbanloco-a-new-challenge-for-urban-mapping-and-localization-200742ea7629), [video](https://youtu.be/3axr7ICggRw).
+
+<table style="position:relative;">
+<tr>
+<td>
+<div style="position: relative; width: 100%; height: 0; padding-bottom: 56.3%;">
+<iframe style = "position: absolute; width: 100%; height: 100%; left: 0; top: 0;"
+  src="https://www.youtube.com/embed/CDp6mocT6C4?playlist=CDp6mocT6C4&autoplay=1&mute=1&loop=1" frameborder="0" controls="controls" preload="auto" allowfullscreen></iframe>
+</div>
+</td>
+<td>
+<img style="width: 100%;" src="{{ site.baseurl }}/assets/images/research/autonomous/localization_EP.png">
+</td>
+<td>
+<img style="width: 100%;" src="{{ site.baseurl }}/assets/images/research/autonomous/localization_downtown.png">
+</td>
+</tr> 
+</table>
+
 - Uncertainty estimation in LiDAR-base localization: *[IET Electronics Letters](https://digital-library.theiet.org/content/journals/10.1049/el.2018.8075)*.
 - City-scale mapping and localization with object removal.
 
@@ -183,7 +265,26 @@ One of the most challenging tasks in autonomous driving is to understand, predic
 
 #### 3.1 Behavior dataset construction
 
-- Dataset containing highly interactive scenarios and densely critical behavior with semantic HD maps -- INTERACTION dataset: [website](https://interaction-dataset.com/), dataset papers (*[arxiv](https://arxiv.org/abs/1910.03088)*, *[IROS19](https://ieeexplore.ieee.org/abstract/document/8967724)*), [video](https://www.youtube.com/embed/6n6FkYwL08g).
+<table style="position:relative;">
+<tr>
+<td>
+<div markdown="1">
+- Densely interactive beahvior and critical situations in complex scenarios: negotiations, inexplicit right-of-way, irrational behavior, near-collision situations, violation of traffic rules.
+- Highly accurate trajectories and complete information of surroundings.
+- HD maps with full semantics required by prediction and planning algorithms.
+- International locations (US, Germany, China) with diversified scenarios (roundabouts, signalized/unsignalized intersections, highway/urban merging and lane change).
+- Dataset *[website](https://interaction-dataset.com/)*, and papers (*[arxiv](https://arxiv.org/abs/1910.03088)*, *[IROS19](https://ieeexplore.ieee.org/abstract/document/8967724)*).
+- Prediction challenge [*website*](http://challenge.interaction-dataset.com/prediction-challenge/intro)
+</div>
+</td>
+<td>
+<div style="position: relative; width: 100%; height: 0; padding-bottom: 56.3%;">
+<iframe style = "position: absolute; width: 100%; height: 100%; left: 0; top: 0;"
+  src="https://www.youtube.com/embed/6n6FkYwL08g" frameborder="0" controls="controls" preload="auto" allowfullscreen></iframe>
+</div>
+</td>
+</tr>
+</table>
 
 #### 3.2 Closed-loop evaluation of prediction
 
@@ -275,6 +376,24 @@ Autonomous vehicles need to make decisions and plan behavior interactively, whic
 Safe and high-quality trajectory planning is crucial for autonomy. We proposed various approaches based on optimal control, optimization, sampling and graph search to enable such capabilities. Generic scene representation with novel partition of the spatiotemporal domain for planning is also proposed to cover a wide variety of scenarios. In addition to the conventional vehicle dynamics and control research, we also combine  it with learning-based methods to enable policy transfer over different vehicle platforms and environments. Moreover, autonomous racing becomes a major application for our planning and control related research due to the sophisticated vehicle dynamics and complex interaction, and we build autonomous racers beating human expert drivers. Autonomous delivery is another focus of our dynamics and control research with significantly varying environments.
 
 #### 7.1 Trajectory planning
+
+<table style="position:relative;">
+<tr>
+<td>
+<div style="position: relative; width: 100%; height: 0; padding-bottom: 56.3%;">
+<iframe style = "position: absolute; width: 100%; height: 100%; left: 0; top: 0;"
+  src="https://www.youtube.com/embed/-VA_6LmLi4U&autoplay=1&mute=1&loop=1" frameborder="0" controls="controls" preload="auto" allowfullscreen></iframe>
+</div>
+</td>
+<td>
+<img style="width: 100%;" src="{{ site.baseurl }}/assets/images/research/autonomous/planning_generic.png">
+</td>
+<td>
+<img style="width: 100%;" src="{{ site.baseurl }}/assets/images/research/autonomous/planning_sample.png">
+</td>
+</tr>   
+</table>
+
 - Generic scene representation and spatiotemporal domain patition: [*IV17*](https://ieeexplore.ieee.org/abstract/document/7995789/).
 - Optimal-control-based method -- constrained iterative LQR: *[Trans-IV](https://ieeexplore.ieee.org/abstract/document/8671755)*, *[ITSC17](https://www.researchgate.net/profile/Jianyu_Chen22/publication/323789278_Constrained_iterative_LQR_for_on-road_autonomous_driving_motion_planning/links/5be33fd3a6fdcc3a8dc64b57/Constrained-iterative-LQR-for-on-road-autonomous-driving-motion-planning.pdf)*, [*DSCC20*](https://asmedigitalcollection.asme.org/DSCC/proceedings-abstract/DSCC2020/1096470).
 - Temporal optimization for speed planning (*[IV17](https://www.researchgate.net/profile/Changliu_Liu/publication/318800685_Speed_profile_planning_in_dynamic_environments_via_temporal_optimization/links/599b6ec8a6fdcc500349c698/Speed-profile-planning-in-dynamic-environments-via-temporal-optimization.pdf)*) and optimization-based planning (*[ACC18](https://ieeexplore.ieee.org/abstract/document/8431104)*)
@@ -282,37 +401,57 @@ Safe and high-quality trajectory planning is crucial for autonomy. We proposed v
 
 #### 7.2 Vehicle dynamics and control
 
-- Policy transfer for reinforcement learning with robust control: *[Trans-ITS](https://ieeexplore.ieee.org/document/8924943)*, *[ITSC18](https://arxiv.org/abs/1812.03216)* *(**Best Student Paper**)*.
-- Planning and control for autonomous racing tackling sophisticated vehicle dynamics, beating human expert drivers: paper to appear.
-- System identification (*[IV20](https://ieeexplore.ieee.org/abstract/document/9304586)*), joint estimation of state and model parameters (paper to appear) and adaptive control addressing autonomous delivery.
-- State estimation and control with connectivity: *[Sensors](https://www.mdpi.com/1424-8220/19/13/2983)*.
-- Our lab also published dozens of papers on vehicle dynamics and control over a decade ago, such as adaptive control ([*Trans-IE*](https://ieeexplore.ieee.org/document/1174058), [*ACC90*](https://ieeexplore.ieee.org/document/4791050)), adaptive cruise control ([*IJAT*](https://link.springer.com/article/10.1007/s12239-012-0007-6), [*IFAC*](https://www.sciencedirect.com/science/article/pii/S1474667016318390)), and control of truck with trailer ([*PATH-report*](https://www.researchgate.net/publication/46439115_Lateral_Control_of_Heavy_Duty_Vehicles_for_Automated_Highway_System_Experimental_Study_on_a_Tractor_Semi-trailer)).
-
 <table style="position:relative;">
 <tr>
-<td>
-<div style="position: relative; width: 100%; height: 0; padding-bottom: 56.3%;">
-<iframe style = "position: absolute; width: 100%; height: 100%; left: 0; top: 0;"
-  src="https://www.youtube.com/embed/RvjI4cpZAAE?playlist=RvjI4cpZAAE&autoplay=1&mute=1&loop=1" frameborder="0" controls="controls" preload="auto" allowfullscreen></iframe>
-</div>
-</td>
 <td>
 <div style="position: relative; width: 100%; height: 0; padding-bottom: 56.3%;">
 <iframe style = "position: absolute; width: 100%; height: 100%; left: 0; top: 0;"
   src="https://www.youtube.com/embed/WV4hSKUA3uY?playlist=WV4hSKUA3uY&autoplay=1&mute=1&loop=1" frameborder="0" controls="controls" preload="auto" allowfullscreen></iframe>
 </div>
 </td>
+<td>
+<div style="position: relative; width: 100%; height: 0; padding-bottom: 56.3%;">
+<iframe style = "position: absolute; width: 100%; height: 100%; left: 0; top: 0;"
+  src="https://www.youtube.com/embed/RvjI4cpZAAE?playlist=RvjI4cpZAAE&autoplay=1&mute=1&loop=1" frameborder="0" controls="controls" preload="auto" allowfullscreen></iframe>
+</div>
+</td>
 </tr>  
 <tr>
 <td>
-<b>Cooperative adaptive cruise control (CACC)</b>: Two autonomous vehicles and a leading vehicle driven by human communicating with each other and maintaining proper gaps.
+<div markdown="1">
+<b>Autonomous racing</b>: Planning and control tackling sophisticated vehicle dynamics, beating human expert drivers: paper to appear.
+</div>
 </td>
 <td>
-<b>Autonomous racing</b>: Planning and control with sophisticated dynamics of racing vehicles, and the time trial beats expert human racers.
+<div markdown="1">
+<b>State estimation and control (with connectivity)</b>: cooperative adaptive cruise control (CACC), remote control (*[Sensors](https://www.mdpi.com/1424-8220/19/13/2983)*), system identification (*[IV20](https://ieeexplore.ieee.org/abstract/document/9304586)*), joint estimation of state and model parameters (paper to appear).
+</div>
 </td>
 </tr>  
 </table>
 
+<table style="position:relative;">
+<tr>
+<td>
+<img style="width: 100%;" src="{{ site.baseurl }}/assets/images/research/autonomous/control_transfer.png">
+</td>
+<td>
+<img style="width: 100%;" src="{{ site.baseurl }}/assets/images/research/autonomous/control_traditional.png">
+</td>
+</tr>  
+<tr>
+<td>
+<div markdown="1">
+- <b>Policy transfer</b> for reinforcement learning with robust control: *[Trans-ITS](https://ieeexplore.ieee.org/document/8924943)*, *[ITSC18](https://arxiv.org/abs/1812.03216)* *(**Best Student Paper**)*.
+</div>
+</td>
+<td>
+<div markdown="1">
+- Our lab also published dozens of papers on vehicle dynamics and control over a decade ago, such as adaptive control ([*Trans-IE*](https://ieeexplore.ieee.org/document/1174058), [*ACC90*](https://ieeexplore.ieee.org/document/4791050)), adaptive cruise control ([*IJAT*](https://link.springer.com/article/10.1007/s12239-012-0007-6), [*IFAC*](https://www.sciencedirect.com/science/article/pii/S1474667016318390)), and control of truck with trailer ([*PATH-report*](https://www.researchgate.net/publication/46439115_Lateral_Control_of_Heavy_Duty_Vehicles_for_Automated_Highway_System_Experimental_Study_on_a_Tractor_Semi-trailer)).
+</div>
+</td>
+</tr>  
+</table>
 
 
 
