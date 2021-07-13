@@ -154,14 +154,13 @@ Perception is a prerequisite for autonomy. 3D perception based on LiDAR (and cam
 </td>
 </tr>  
 </table>
-
 <table style="position:relative;">
 <tr>
 <td>
 <img style="width: 100%;" src="{{ site.baseurl }}/assets/images/research/autonomous/3Dperception_multitask.png">
 </td>
 <td>
-<img style="width: 100%;" src="{{ site.baseurl }}/assets/images/research/autonomous/3Dperception_YOGO.png">
+<img style="width: 100%;" src="{{ site.baseurl }}/assets/images/research/autonomous/3Dperception_image2point.png">
 </td>
 <td>
 <img style="width: 100%;" src="{{ site.baseurl }}/assets/images/research/autonomous/3Dperception_registration.png">
@@ -170,12 +169,12 @@ Perception is a prerequisite for autonomy. 3D perception based on LiDAR (and cam
 <tr>
 <td>
 <div markdown="1">
-- <b>Multi-task learning</b> for efficient 3D detection and road understanding ([*arxiv*)](https://arxiv.org/abs/2103.04056).
+- <b>efficient 3D perception</b> with token representation (*[IROS21](https://arxiv.org/abs/2103.09975)*) and multi-task learning ([*IROS21*)](https://arxiv.org/abs/2103.04056).
 </div>
 </td>
 <td>
 <div markdown="1">
-- <b>Token representation</b> for efficient point cloud processing (*[arxiv](https://arxiv.org/abs/2103.09975)*).
+- <b>Image2Point</b> 3D perception facilitated by pretrained 2D ConvNets: ([*arxiv*)](https://arxiv.org/abs/2106.04180).
 </div>
 </td>
 <td>
@@ -185,6 +184,7 @@ Perception is a prerequisite for autonomy. 3D perception based on LiDAR (and cam
 </td>
 </tr>  
 </table>
+
 
 #### 1.2 2D perception
 
@@ -306,7 +306,7 @@ One of the most challenging tasks in autonomous driving is to understand, predic
 
 #### 3.3 Scenario/behavior generation in simulation and test
 
-- Critical and natural behavior generation of agents in simulation: *[arxiv](https://arxiv.org/abs/2103.00906)*.
+- Critical and natural behavior generation of agents in simulation: *[IROS21](https://arxiv.org/abs/2103.00906)*.
 - Scenario generation with genetic algorithms: paper to appear.
 - Human-in-loop simulation and test.
 
@@ -326,7 +326,7 @@ To enable accurate prediction of interactive behavior, or human-like, safe and h
 - Human-like behavior generation based on game theoretic strategies: *[IROS20](https://ras.papercept.net/proceedings/IROS20/2174.pdf)*.
 - Expressing irrationality of human behaviors via a risk-sensitive inverse reinforcement learning: *[ITSC19](https://arxiv.org/abs/1907.08707)*.
 - Bounded risk-sensitive Markov games considering irrationality for both policy design and reward learning: *[AAAI21](https://www.aaai.org/AAAI21Papers/AAAI-10238.TianR.pdf)*.
-- Multi-agent inverse reinforcement learning by inferring latent intelligence levels of game: *[arxiv](https://arxiv.org/abs/2103.04289)*.
+- Multi-agent inverse reinforcement learning by inferring latent intelligence levels of game: *[IROS21](https://arxiv.org/abs/2103.04289)*.
 
 #### 4.3 Reward learning
 
@@ -407,7 +407,7 @@ Safe and high-quality trajectory planning is crucial for autonomy. We proposed v
 </table>
 
 - Generic scene representation and spatiotemporal domain patition: [*IV17*](https://ieeexplore.ieee.org/abstract/document/7995789/).
-- Optimal-control-based method -- constrained iterative LQR: *[Trans-IV](https://ieeexplore.ieee.org/abstract/document/8671755)*, *[ITSC17](https://www.researchgate.net/profile/Jianyu_Chen22/publication/323789278_Constrained_iterative_LQR_for_on-road_autonomous_driving_motion_planning/links/5be33fd3a6fdcc3a8dc64b57/Constrained-iterative-LQR-for-on-road-autonomous-driving-motion-planning.pdf)*, [*DSCC20*](https://asmedigitalcollection.asme.org/DSCC/proceedings-abstract/DSCC2020/1096470).
+- Optimal-control-based method -- constrained iterative LQR: *[Trans-IV](https://ieeexplore.ieee.org/abstract/document/8671755)*, *[ITSC17](https://www.researchgate.net/profile/Jianyu_Chen22/publication/323789278_Constrained_iterative_LQR_for_on-road_autonomous_driving_motion_planning/links/5be33fd3a6fdcc3a8dc64b57/Constrained-iterative-LQR-for-on-road-autonomous-driving-motion-planning.pdf)*, [*DSCC20*](https://asmedigitalcollection.asme.org/DSCC/proceedings-abstract/DSCC2020/1096470), *IROS21*.
 - Temporal optimization for speed planning (*[IV17](https://www.researchgate.net/profile/Changliu_Liu/publication/318800685_Speed_profile_planning_in_dynamic_environments_via_temporal_optimization/links/599b6ec8a6fdcc500349c698/Speed-profile-planning-in-dynamic-environments-via-temporal-optimization.pdf)*) and optimization-based planning (*[ACC18](https://ieeexplore.ieee.org/abstract/document/8431104)*)
 - Planning based on adaptive sampling ([*IFAC20*](https://www.sciencedirect.com/science/article/pii/S2405896320332237)) and graph search (*[IV17](http://www.cs.cmu.edu/~cliu6/files/iv17-1.pdf)*).
 
@@ -436,11 +436,12 @@ Safe and high-quality trajectory planning is crucial for autonomy. We proposed v
 </td>
 <td>
 <div markdown="1">
-<b>State estimation and control (with connectivity)</b>: cooperative adaptive cruise control (CACC), remote control (*[Sensors](https://www.mdpi.com/1424-8220/19/13/2983)*), system identification (*[IV20](https://ieeexplore.ieee.org/abstract/document/9304586)*), joint estimation of state and model parameters (paper to appear).
+<b>State estimation and control (with connectivity)</b>: cooperative adaptive cruise control (CACC), remote control (*[Sensors](https://www.mdpi.com/1424-8220/19/13/2983)*), system identification (*[IV20](https://ieeexplore.ieee.org/abstract/document/9304586)*), joint estimation of state and model parameters (*ITSC21*).
 </div>
 </td>
 </tr>  
 </table>
+
 
 <table style="position:relative;">
 <tr>
